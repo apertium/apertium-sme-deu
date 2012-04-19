@@ -1,0 +1,14 @@
+<dictionary> 
+  <alphabet/>
+  <sdefs>
+    <sdef n="Adv" c="Adverb"/>
+
+  </sdefs>
+  <section id="main" type="standard">
+  
+    <!-- SECTION: Noun -->
+    
+    <e><p><l>ikte<s n="Adv"/></l><r>gestern<s n="Adv"/></r></p></e>
+
+  </section>
+</dictionary>
