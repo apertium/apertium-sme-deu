@@ -25,7 +25,6 @@ TARGETS_COMMON =		\
 	$(PREFIX2).autobil.bin	\
 	$(PREFIX2).autolex.bin	\
 	$(PREFIX2).autogen.hfst	\
-	$(PREFIX).autopgen.bin	\
 	$(PREFIX2).rtx.bin
 
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
@@ -147,9 +146,6 @@ $(PREFIX2).rtx.bin: $(BASENAME).$(PREFIX2).rtx
 $(PREFIX1).autopgen.bin: $(AP_SRC2)/$(LANG2).autopgen.bin
 	cp $< $@
 
-$(PREFIX2).autopgen.bin: $(AP_SRC1)/$(LANG1).autopgen.bin
-	cp $< $@
-
 ###############################################################################
 ## Distribution
 ###############################################################################
@@ -175,7 +171,7 @@ apertium_sme_deu_DATA=	\
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode \
-	.deps/$(LANG1).automorf.bin \
+	.deps/$(LANG1).automorf.hfst \
 	.deps/$(LANG2).automorf.bin
 
 install-data-local: install-modes
