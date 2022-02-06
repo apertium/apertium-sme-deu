@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <!-- sme → deu -->
+
+  <mode name="sme-deu" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="hfst-proc --weight-classes 1 -w -e">
+	<file name="sme-deu.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="sme-deu.mor.rlx.bin"/>
+      </program>
+      <program name="cg-proc -n -1 -w">
+        <file name="sme-deu.syn.rlx.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="sme-deu.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="sme-deu.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="sme-deu.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="sme-deu.autolex.bin"/>
+      </program>
+
+
+      <program name="rtx-proc">
+        <file name="sme-deu.rtx.bin"/>
+      </program>
+
+      <program name="lt-proc $1">
+        <file name="sme-deu.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="sme-deu.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- deu → sme -->
+
+  <mode name="deu-sme" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="lt-proc -w">
+        <file name="deu-sme.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="deu-sme.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="deu-sme.prob"/>
+      </program>
+
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="deu-sme.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="deu-sme.autolex.bin"/>
+      </program>
+
+
+      <program name="rtx-proc">
+        <file name="deu-sme.rtx.bin"/>
+      </program>
+
+      <program name="hfst-proc $1">
+	<file name="deu-sme.autogen.hfst"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="deu-sme.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+</modes>
+

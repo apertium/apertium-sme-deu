@@ -1,0 +1,10 @@
+{
+    "sme-deu": {
+        "input": "sme-deu-input.txt",
+        "mode": "sme-deu"
+    },
+    "deu-sme": {
+        "input": "deu-sme-input.txt",
+        "mode": "deu-sme"
+    }
+}
