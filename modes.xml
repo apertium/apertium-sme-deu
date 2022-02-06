@@ -17,12 +17,6 @@
       </program>
 
 
-      <program name="cg-proc -w">
-        <file name="sme-deu.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="sme-deu.prob"/>
-      </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="sme-deu.autobil.bin"/>
@@ -77,9 +71,6 @@
 
       <program name="hfst-proc $1">
 	<file name="deu-sme.autogen.hfst"/>
-      </program>
-      <program name="lt-proc -p">
-        <file name="deu-sme.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
