@@ -1,24 +1,24 @@
-<dictionary> 
+<dictionary>
   <alphabet/>
   <sdefs>
-    <sdef n="Adv"   c="Adverb"/>
-    <sdef n="N"     c="Noun"/>
-    <sdef n="V"     c="Verb"/>
+    <sdef n="adv"   c="adverb"/>
+    <sdef n="n"     c="Noun"/>
+    <sdef n="v"     c="Verb"/>
 
   </sdefs>
   <section id="main" type="standard">
-  
-    <!-- SECTION: Adverb -->
-    
-    <e><p><l>bures<s n="Adv"/></l><r>gut<s n="Adv"/></r></p></e>
-    <e><p><l>ikte<s n="Adv"/></l><r>gestern<s n="Adv"/></r></p></e>
-    <e><p><l>odne<s n="Adv"/></l><r>heute<s n="Adv"/></r></p></e>
-    
+
+    <!-- SECTION: adverb -->
+
+    <e><p><l>bures<s n="adv"/></l><r>gut<s n="adv"/></r></p></e>
+    <e><p><l>ikte<s n="adv"/></l><r>gestern<s n="adv"/></r></p></e>
+    <e><p><l>odne<s n="adv"/></l><r>heute<s n="adv"/></r></p></e>
+
     <!-- SECTION: Noun -->
-    
-    <e><p><l>muohta<s n="Adv"/></l><r>Schnee<s n="Adv"/></r></p></e>
-    <e><p><l>beana<s n="Adv"/></l><r>Hund<s n="Adv"/></r></p></e>
-    <e><p><l>čáhci<s n="Adv"/></l><r>Wasser<s n="Adv"/></r></p></e>
+
+    <e><p><l>muohta<s n="n"/></l><r>Schnee<s n="n"/></r></p></e>
+    <e><p><l>beana<s n="n"/></l><r>Hund<s n="n"/></r></p></e>
+    <e><p><l>čáhci<s n="n"/></l><r>Wasser<s n="n"/></r></p></e>
 
   </section>
 </dictionary>
