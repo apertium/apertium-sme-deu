@@ -2,42 +2,96 @@
 !! ATTRIBUTE CATEGORIES
 !!!!!!!!!!!!!!!
 
-number = (ND sg) sg pl sp ND;
-gender = (GD m) m f mf GD;
+number = sg pl sp du ;
+gender = m f mf nt mfn ;
+case = nom acc dat gen ill loc com ess;
 det_type = def ind dem itg;
-tense = pres past fut ifi pri fti;
+tense = pres fut pret pii imp;
+person = p1 p2 p3 ;
+npclass = ant org al top geo;
+prntype = pers ind itg;
+sep = sep ;
+fs = fs ;
+advtype = itg ;
+inf = inf actio ;
+pcp = pp pprs prfprc ;
+conneg = conneg ;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
 !!!!!!!!!!!!!!!
 
-n: _.gender.number;
+n: _.gender.number.case;
+np: _.npclass.gender.number.case;
 adj: _.gender.number;
 det_default: _.det_type;
 det_def: _.det_type.number;
+vblex: _.inf.pcp.sep.fs.tense.person.number;
+vbser: _.tense.person.number;
+vbmod: _.tense.person.number;
+cnjcoo: _;
+cnjsub: _;
+prn: _.prntype.person.gender.number.case;
+det: _.prntype.person.gender.number.case;
+adv: _.advtype;
+post: _;
+pr: _;
+adj: _.<sint>;
+num: _.number;
+pcle: _;
 
-NP: _.number;
+V: _;
+C: _;
+NP: _;
+PRNP: _;
+ADV: _;
+ADP: _;
+A: _ ;
+NUM: _ ;
+VP: _ ;
+NEG: _ ;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
 
-tense > tense : ifi past, pri pres, fti fut;
+tense > tense : pret pii, pres pri, fti fut;
+case > case : ill dat, loc dat, com dat, ess nom;
+number > number : du pl ;
+inf > inf : actio inf ;
+pcp > pcp : prfprc pp ;
+conneg > person : conneg p3 ;
+conneg > number : conneg sg ;
 
 !!!!!!!!!!!!!!!
 !! MACROS
 !!!!!!!!!!!!!!!
 
-det: (if (1.det_type = def or 1.det_type = ind)
-         1(det_def)
-      else
-         1(det_default));
+maybe_art: (if (1.number = sg) [der@det.def.m.sg.nom _] else [der@det.def.mfn.pl.nom]) ;
+maybe_adp: (if (1.case = loc) [in@pr.acc _] elif (1.case/sl = acc) [zu@pr.dat _] else []) ;
 
 !!!!!!!!!!!!!!!
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
-NP -> n.$number adj { 2[gender=1.gender, number=1.number] _ 1 } ;
+NEG -> ii@vblex { nicht@adv } ;
+VP -> ii@vblex vblex { 2[person=1.person, number=1.number] _ nicht@adv } |
+      ii@vblex prn vblex { 2 _ 3[person=1.person, number=1.number] _ nicht@adv } ;
+V -> vblex {1[person = (if (1.tense = imp) "" else 1.person)]} |
+     vbser {1} |
+     vbmod {1} ;
+NP -> n {(if (1.case/sl1 = loc) [in@pr.acc _] else []) *(maybe_art)[number=1.number, case=1.case] 1} |
+      np {1} ;
+C -> cnjcoo {1} |
+     cnjsub {1} ;
+PRNP -> prn {1} |
+        det {1} ;
+ADV -> adv {1} |
+       pcle {1} ;
+ADP -> post {1} |
+       pr {1} ;
+A -> adj {1} ;
+NUM -> num {1[number = (if (1.lem/sl = "okta") sg else pl)] } ;
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Apertium-recursive

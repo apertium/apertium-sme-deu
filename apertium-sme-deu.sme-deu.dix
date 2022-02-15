@@ -1,24 +1,283 @@
+<?xml version="1.0"?>
 <dictionary>
   <alphabet/>
   <sdefs>
-    <sdef n="adv"   c="adverb"/>
-    <sdef n="n"     c="Noun"/>
-    <sdef n="v"     c="Verb"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="pr"      c="Preposit"/>
+    <sdef n="post"    c="Postposit"/>
+    <sdef n="pcle"    c="Particle"/>
+    <sdef n="adj"     c="Adject"/>
+    <sdef n="n"       c="Improper Noun"/>
+    <sdef n="num"     c="Number"/>
+    <sdef n="prn"     c="Pronoun"/>
+    <sdef n="det"     c="Determiner"/>
+    <sdef n="pers"    c="Personal"/>
+    <sdef n="np"      c="Proper Noun"/>
+    <sdef n="vblex"   c="Verb lexeme"/>
+    <sdef n="vbser"   c="Verb serial"/>
+    <sdef n="vbmod"   c="Verb modal"/>
+    <sdef n="vbhaver" c="Verb haver"/>
+    <sdef n="cnjcoo"  c="conjuncting coordination"/>
+    <sdef n="cnjsub"  c="conjuncting subordination"/>
+    <sdef n="cnjadv"  c="conjuncting adverb"/>
+    <sdef n="sent"    c="Sentence"/>
+    <sdef n="punct"   c="Punction"/>
+    <sdef n="quot"    c="Quotation"/>
+    <sdef n="cm"      c="Comma"/>
+    <sdef n="clb"     c="Clause boundary"/>
+    <sdef n="m"       c="Man"/>
+    <sdef n="f"       c="Woman"/>
+    <sdef n="mf"      c="Man-Woman"/>
+    <sdef n="nt"      c="Neuter"/>
+    <sdef n="mfn"     c="Man-Woman-Neuter"/>
+
+
+    <sdef n="sg"      c="singular"/>
+    <sdef n="pl"      c="plural"/>
+    <sdef n="du"      c="dual"/>
+    <sdef n="sp"      c="singular plural"/>
+    <sdef n="p3"      c="person 3"/>
+    <sdef n="sep"     c="separable"/>
+    <sdef n="fs"      c="f#*@ separable"/>
+    <sdef n="itg"     c="interrogative"/>
+    <sdef n="ind"     c="indefinite"/>
+
+    <sdef n="nom"     c="nominative"/>
+
 
   </sdefs>
   <section id="main" type="standard">
 
-    <!-- SECTION: adverb -->
+    <!-- problematic stuff -->
+
+    <e><p><l>makkár<s n="prn"/></l><r>solch<s n="adv"/></r></p></e>
+
+    <!-- negation -->
+
+    <e><p><l>ii<s n="vblex"/></l><r>nicht<s n="adv"/></r></p></e>
+    <e><p><l>mihkke<s n="prn"/></l><r>kein<s n="det"/><s n="ind"/><s n="m"/></r></p></e>
+    <e><p><l>mihkke<s n="prn"/></l><r>kein<s n="det"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <!-- }}}
+         {{{ SECTION: Numerals numerals -->
+
+    <!-- cardinals -->
+
+    <e><p><l>okta<s n="num"/></l><r>ein<s n="num"/></r></p></e>
+    <e><p><l>guokte<s n="num"/></l><r>zwei<s n="num"/></r></p></e>
+    <e><p><l>vihtta<s n="num"/></l><r>fünf<s n="num"/></r></p></e>
+    <e><p><l>guhtta<s n="num"/></l><r>sechs<s n="num"/></r></p></e>
+
+    <!-- }}}
+         {{{ SECTION: Pronouns pronouns -->
+
+    <!-- personal pronouns -->
+
+    <e><p><l>mun<s n="prn"/></l><r>ich<s n="prn"/><s n="pers"/><s n="mf"/></r></p></e>
+    <e><p><l>don<s n="prn"/></l><r>du<s n="prn"/><s n="pers"/><s n="mf"/></r></p></e>
+    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>er<s n="prn"/><s n="pers"/><s n="m"/></r></p></e>
+    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>sie<s n="prn"/><s n="pers"/><s n="f"/></r></p></e>
+    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/></l><r>sie<s n="prn"/><s n="pers"/><s n="mf"/></r></p></e>
+
+    <!-- others -->
+
+    <e><p><l>dat<s n="prn"/></l><r>es<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/></r></p></e>
+    <e><p><l>mii<s n="prn"/></l><r>was<s n="prn"/><s n="itg"/><s n="nt"/><s n="sp"/><s n="nom"/></r></p></e>
+    <e><p><l>gii<s n="prn"/><s n="itg"/></l><r>wer<s n="prn"/></r></p></e>
+    <e><p><l>gii<s n="prn"/><s n="ind"/></l><r>jemand<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e><p><l>gii<s n="prn"/><s n="ind"/></l><r>jemand<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+    <e><p><l>eará<s n="prn"/></l><r>andere<s n="prn"/></r></p></e>
+    <e><p><l>goappašagat<s n="prn"/></l><r>beide<s n="det"/><s n="ind"/><s n="mfn"/></r></p></e>
+    <e><p><l>juoga<s n="prn"/></l><r>irgendetwas<s n="prn"/><s n="ind"/><s n="p3"/><s n="nt"/><s n="nom"/></r></p></e>
+    <e><p><l>juohke<s n="prn"/></l><r>jede<s n="prn"/></r></p></e>
+
+
+    <!-- }}}
+         {{{ SECTION: Conjunctions conjunctions -->
+
+    <!-- coordinating coordination co-ord coörd -->
+
+    <e><p><l>ja<s n="cnjcoo"/></l><r>und<s n="cnjcoo"/></r></p></e>
+    <e><p><l>muhte<s n="cnjcoo"/></l><r>aber<s n="cnjcoo"/></r></p></e>
+
+    <!-- subordinating subordination subord -->
+
+    <e><p><l c="toktokens??">ja<b/>go<s n="cnjsub"/></l><r>wann<s n="cnjsub"/></r></p></e>
+    <e><p><l>go<s n="cnjsub"/></l><r>wann<s n="cnjsub"/></r></p></e>
+    <e><p><l>ahte<s n="cnjsub"/></l><r>dass<s n="cnjsub"/></r></p></e>
+    <e><p><l>vaikko<s n="cnjsub"/></l><r>obwohl<s n="cnjsub"/></r></p></e>
+
+    <!-- }}}
+         {{{ SECTION: Adpositions adpositions prepositions postpositions -->
+
+    <e><p><l>lusa<s n="post"/></l><r>bei<s n="pr"/></r></p></e>
+    <e><p><l>luhtte<s n="post"/></l><r>bei<s n="pr"/></r></p></e>
+    <e><p><l>ovddas<s n="post"/></l><r>vor<s n="pr"/></r></p></e>
+    <e><p><l>duohken<s n="post"/></l><r>hinter<s n="pr"/></r></p></e>
+    <e><p><l>čađa<s n="post"/></l><r>durch<s n="pr"/></r></p></e>
+    <e><p><l>vuolde<s n="post"/></l><r>unter<s n="pr"/></r></p></e>
+
+    <!-- FIXME: not sure if adv in deu or how? -->
+
+    <e><p><l>olggobealde<s n="pr"/></l><r>draußen<s n="adv"/></r></p></e>
+    <e><p><l>olggobealde<s n="post"/></l><r>draußen<s n="adv"/></r></p></e>
+    <e><p><l>siste<s n="post"/></l><r>drinnen<s n="adv"/></r></p></e>
+
+
+    <!-- }}}
+         {{{ SECTION: Adverb adverbs -->
+
 
     <e><p><l>bures<s n="adv"/></l><r>gut<s n="adv"/></r></p></e>
+    <e><p><l>hui<s n="adv"/></l><r>sehr<s n="adv"/></r></p></e>
     <e><p><l>ikte<s n="adv"/></l><r>gestern<s n="adv"/></r></p></e>
     <e><p><l>odne<s n="adv"/></l><r>heute<s n="adv"/></r></p></e>
+    <e><p><l>dalle<s n="adv"/></l><r>dann<s n="adv"/></r></p></e>
+    <e><p><l>olgun<s n="adv"/></l><r>draußen<s n="adv"/></r></p></e>
+    <e><p><l>álo<s n="adv"/></l><r>immer<s n="adv"/></r></p></e>
+    <e><p><l>ovttas<s n="adv"/></l><r>zusammen<s n="adv"/></r></p></e>
+    <e><p><l>dál<s n="adv"/></l><r>jetzt<s n="adv"/></r></p></e>
+    <e><p><l>maid<s n="adv"/></l><r>auch<s n="adv"/></r></p></e>
+    <e><p><l>olggos<s n="adv"/></l><r>raus<s n="adv"/></r></p></e>
+    <e><p><l>johtilit<s n="adv"/></l><r>schnell<s n="adv"/></r></p></e>
+    <e><p><l>manne<s n="adv"/></l><r>warum<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>nu<s n="adv"/></l><r>so<s n="adv"/></r></p></e>
+    <e><p><l>gosa<s n="adv"/></l><r>wohin<s n="adv"/></r></p></e>
+    <e><p><l>gos<s n="adv"/></l><r>wo<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>dieđusge<s n="adv"/></l><r>natürlich<s n="adv"/></r></p></e>
+    <e><p><l>várra<s n="adv"/></l><r>sicher<s n="adv"/></r></p></e>
+    <e><p><l>hihtásit<s n="adv"/></l><r>langsam<s n="adv"/></r></p></e>
+    <e><p><l>ain<s n="adv"/></l><r>noch<s n="adv"/></r></p></e>
+    <e><p><l>dieppe<s n="adv"/></l><r>dort<s n="adv"/></r></p></e>
+    <e><p><l>de<s n="adv"/></l><r>dann<s n="adv"/></r></p></e>
+    <e><p><l>die<s n="adv"/></l><r>da<s n="adv"/></r></p></e>
+    <e><p><l>fas<s n="adv"/></l><r>nochmal<s n="adv"/></r></p></e>
+    <e><p><l>dárkilit<s n="adv"/></l><r>genau<s n="adv"/></r></p></e>
+    <e><p><l>birra<s n="adv"/></l><r>herum<s n="adv"/></r></p></e>
+    <e><p><l>lagabui<s n="adv"/></l><r>näherhin<s n="adv"/></r></p></e>
+    <e><p><l>ilus<s n="adv"/></l><r>glücklich<s n="adv"/></r></p></e>
+    <e><p><l>veaháš<s n="adv"/></l><r>bisschen<s n="adv"/></r></p></e>
 
-    <!-- SECTION: Noun -->
+    <e><p><l>nai<s n="pcle"/></l><r>auch<s n="adv"/></r></p></e>
 
-    <e><p><l>muohta<s n="n"/></l><r>Schnee<s n="n"/></r></p></e>
-    <e><p><l>beana<s n="n"/></l><r>Hund<s n="n"/></r></p></e>
-    <e><p><l>čáhci<s n="n"/></l><r>Wasser<s n="n"/></r></p></e>
+    <e><p><l c="tokens?">juohke<b/>sajis<s n="adv"/></l><r>stattdessen<s n="adv"/></r></p></e>
+
+    <!-- }}}
+         {{{ SECTION: Adjectives adjectives -->
+
+    <e><p><l>buorre<s n="adj"/></l><r>gut<s n="adj"/></r></p></e>
+    <e><p><l>liekkas<s n="adj"/></l><r>warm<s n="adj"/></r></p></e>
+    <e><p><l>galmmas<s n="adj"/></l><r>kalt<s n="adj"/></r></p></e>
+    <e><p><l>stuoris<s n="adj"/></l><r>groß<s n="adj"/></r></p></e>
+    <e><p><l>unni<s n="adj"/></l><r>jung<s n="adj"/></r></p></e>
+    <e><p><l>boaris<s n="adj"/></l><r>alt<s n="adj"/></r></p></e>
+    <e><p><l>ilolaš<s n="adj"/></l><r>glücklich<s n="adj"/></r></p></e>
+
+    <!-- }}}
+         {{{ SECTION: Nouns nouns -->
+
+    <e><p><l>muohta<s n="n"/></l><r>Schnee<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>beana<s n="n"/></l><r>Hund<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>beatnagaš<s n="n"/></l><r>Hundchen<s n="n"/></r></p></e>
+    <e><p><l>čáhci<s n="n"/></l><r>Wasser<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>gárdin<s n="n"/></l><r>Garten<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dálki<s n="n"/></l><r>Wetter<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>stohkka<s n="n"/></l><r>Spiel<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>dállu<s n="n"/></l><r>Haus<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>jahki<s n="n"/></l><r>Jahr<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>nieiddaš<s n="n"/></l><r>Mädchen<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>gánda<s n="n"/></l><r>Junge<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bárdni<s n="n"/></l><r>Junge<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>oappáš<s n="n"/></l><r>Schwester<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mánná<s n="n"/></l><r>Kind<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>bussá<s n="n"/></l><r>Katze<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>eadni<s n="n"/></l><r>Mutter<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>láseráigi<s n="n"/></l><r>Fenster<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>láse<s n="n"/></l><r>Fenster<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>muorra<s n="n"/></l><r>Baum<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>giehta<s n="n"/></l><r>Hand<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>čalbmi<s n="n"/></l><r>Auge<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>stoagus<s n="n"/></l><r>Spiel<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>vástádus<s n="n"/></l><r>Antwort<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gažaldat<s n="n"/></l><r>Frage<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>beavdi<s n="n"/></l><r>Tisch<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>stuollu<s n="n"/></l><r>Stuhl<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>jietna<s n="n"/></l><r>Geräusch<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>loddi<s n="n"/></l><r>Vogel<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ealli<s n="n"/></l><r>Tier<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>oaivi<s n="n"/></l><r>Kopf<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>áigi<s n="n"/></l><r>Zeit<s n="n"/><s n="f"/></r></p></e>
+
+    <!-- }}}
+         {{{ SECTION: Verbs verbs -->
+
+    <!-- modals, aux etc -->
+
+    <e><p><l>leat<s n="vblex"/></l><r>sein<s n="vbser"/></r></p></e>
+    <e><p><l>leat<s n="vblex"/></l><r>haben<s n="vbhaver"/></r></p></e>
+    <e><p><l>sáhttit<s n="vblex"/></l><r>können<s n="vbmod"/></r></p></e>
+    <e><p><l>máhttit<s n="vblex"/></l><r>können<s n="vbmod"/></r></p></e>
+    <e><p><l>liikot<s n="vblex"/></l><r>mögen<s n="vbmod"/></r></p></e>
+    <e><p><l>sihtat<s n="vblex"/></l><r>wollen<s n="vbmod"/></r></p></e>
+    <e><p><l>fertet<s n="vblex"/></l><r>müssen<s n="vbmod"/></r></p></e>
+
+
+    <!-- rest -->
+
+    <e><p><l>stoahkat<s n="vblex"/></l><r>spielen<s n="vblex"/></r></p></e>
+    <e><p><l>oađđit<s n="vblex"/></l><r>schlafen<s n="vblex"/></r></p></e>
+    <e><p><l>oaidnit<s n="vblex"/></l><r>sehen<s n="vblex"/></r></p></e>
+    <e><p><l>geahččat<s n="vblex"/></l><r>gucken<s n="vblex"/></r></p></e>
+    <e><p><l>viehkat<s n="vblex"/></l><r>laufen<s n="vblex"/></r></p></e>
+    <e><p><l>čiehkádit<s n="vblex"/></l><r>verstecken<s n="vblex"/></r></p></e>
+    <e><p><l>diehtit<s n="vblex"/></l><r>wissen<s n="vblex"/></r></p></e>
+    <e><p><l>čohkkát<s n="vblex"/></l><r>setzen<s n="vblex"/></r></p></e>
+    <e><p><l>lohkat<s n="vblex"/></l><r>zählen<s n="vblex"/></r></p></e>
+    <e><p><l>dahkat<s n="vblex"/></l><r>tun<s n="vblex"/></r></p></e>
+    <e><p><l>geargat<s n="vblex"/></l><r>abschließen<s n="vblex"/><s n="sep"/><s n="fs"/></r></p></e>
+    <e><p><l>ohcat<s n="vblex"/></l><r>suchen<s n="vblex"/></r></p></e>
+    <e><p><l>mannat<s n="vblex"/></l><r>gehen<s n="vblex"/></r></p></e>
+    <e><p><l>jearrat<s n="vblex"/></l><r>fragen<s n="vblex"/></r></p></e>
+    <e><p><l>hállat<s n="vblex"/></l><r>sprechen<s n="vblex"/></r></p></e>
+    <e><p><l>hállet<s n="vblex"/></l><r>neigen<s n="vblex"/></r></p></e>
+    <e><p><l>oažžut<s n="vblex"/></l><r>bekommen<s n="vblex"/></r></p></e>
+    <e><p><l>čaibmat<s n="vblex"/></l><r>lachen<s n="vblex"/></r></p></e>
+    <e><p><l>smiehttat<s n="vblex"/></l><r>denken<s n="vblex"/></r></p></e>
+    <e><p><l>muitalit<s n="vblex"/></l><r>sagen<s n="vblex"/></r></p></e>
+    <e><p><l>dadjat<s n="vblex"/></l><r>sagen<s n="vblex"/></r></p></e>
+    <e><p><l>vástidit<s n="vblex"/></l><r>antworten<s n="vblex"/></r></p></e>
+    <e><p><l>vázzit<s n="vblex"/></l><r>gehen<s n="vblex"/></r></p></e>
+    <e><p><l>geahččalit<s n="vblex"/></l><r>versuchen<s n="vblex"/></r></p></e>
+    <e><p><l>gávdnat<s n="vblex"/></l><r>finden<s n="vblex"/></r></p></e>
+    <e><p><l>gullat<s n="vblex"/></l><r>hören<s n="vblex"/></r></p></e>
+    <e><p><l>boahtit<s n="vblex"/></l><r>kommen<s n="vblex"/></r></p></e>
+    <e><p><l>guldalit<s n="vblex"/></l><r>zuhören<s n="vblex"/><s n="sep"/><s n="fs"/></r></p></e>
+    <e><p><l>borrat<s n="vblex"/></l><r>essen<s n="vblex"/></r></p></e>
+    <e><p><l>juhkat<s n="vblex"/></l><r>trinken<s n="vblex"/></r></p></e>
+
+
+
+    <!-- }}}
+    {{{ SECTION: Proper Nouns propers nouns Props -->
+
+    <!-- non-translated with matching semantics -->
+
+    <e><i>GOS<s n="np"/></i></e>
+    <e><i>Duommá<s n="np"/></i></e>
+    <e><i>Duomis<s n="np"/></i></e>
+    <e><i>Máret<s n="np"/></i></e>
+
+    <!-- }}}
+    {{{ SECTION: Punctuation punctuation puncts -->
+
+    <e><p><l>.<s n="sent"/></l><r>.<s n="sent"/></r></p></e>
+    <e><p><l>?<s n="sent"/></l><r>?<s n="sent"/></r></p></e>
+    <e><p><l>!<s n="sent"/></l><r>!<s n="sent"/></r></p></e>
+    <e><p><l>:<s n="clb"/></l><r>:<s n="sent"/></r></p></e>
+    <e><p><l>;<s n="sent"/></l><r>;<s n="sent"/></r></p></e>
+    <e><p><l>"<s n="punct"/></l><r>"<s n="quot"/></r></p></e>
+    <e><p><l>"<s n="quot"/></l><r>"<s n="quot"/></r></p></e>
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
 
   </section>
 </dictionary>
