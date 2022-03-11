@@ -1,5 +1,4 @@
-Northern Sami and German: `apertium-sme-deu`
-===============================================================================
+# Northern Sami and German: `apertium-sme-deu`
 
 This is an Apertium language pair for translating between Northern Sami and
 German. What you can use this language package for:
@@ -11,8 +10,7 @@ German. What you can use this language package for:
 For information on the latter two points, see subheading "For more
 information" below.
 
-Requirements
--------------------------------------------------------------------------------
+## Requirements
 
 You will need the following software installed:
 
@@ -28,8 +26,7 @@ You will need the following software installed:
 
 If this does not make any sense, we recommend you look at: apertium.org.
 
-Compiling
--------------------------------------------------------------------------------
+## Compiling
 
 Given the requirements being installed, you should be able to just run:
 
@@ -40,15 +37,15 @@ $ make
 # make install
 ```
 
-You can use `./autogen.sh` instead of `autoreconf` and `./configure` in case you're compiling
-from source. If you installed any prerequisite language packages using a
-`--prefix` with `./configure`, make sure to use the same `--prefix` when running
-`./configure` here.
+You can use `./autogen.sh` instead of `autoreconf` and `./configure` in case
+you're compiling from source. If you installed any prerequisite language
+packages using a `--prefix` with `./configure`, make sure to use the same
+`--prefix` when running `./configure` here.
 
-If any of this doesn't make sense or doesn't work, see https://wiki.apertium.org/wiki/Install_language_data_by_compiling
+If any of this doesn't make sense or doesn't work, see
+<https://wiki.apertium.org/wiki/Install_language_data_by_compiling>
 
-Testing
--------------------------------------------------------------------------------
+## Testing
 
 If you are in the source directory after running make, the following
 commands should work:
@@ -68,29 +65,32 @@ $ echo "TODO test sentence 1" | apertium sme-deu
 TODO test translated sentence 1
 ```
 
-Files and data
+## Files and data
 -------------------------------------------------------------------------------
 
-* [`apertium-sme-deu.sme-deu.dix`](apertium-sme-deu.sme-deu.dix) - Bilingual dictionary
-* [`apertium-sme-deu.sme-deu.rtx`](apertium-sme-deu.sme-deu.rtx) - Structural transfer rules for translating into German
-* [`apertium-sme-deu.deu-sme.rtx`](apertium-sme-deu.deu-sme.rtx) - Structural transfer rules for translating into Northern Sami
-* [`apertium-sme-deu.sme-deu.lrx`](apertium-sme-deu.sme-deu.lrx) - Lexical selection rules for translating into German
-* [`apertium-sme-deu.deu-sme.lrx`](apertium-sme-deu.deu-sme.lrx) - Lexical selection rules for translating into Northern Sami
+* [`apertium-sme-deu.sme-deu.dix`](apertium-sme-deu.sme-deu.dix) - Bilingual
+  dictionary
+* [`apertium-sme-deu.sme-deu.rtx`](apertium-sme-deu.sme-deu.rtx) - Structural
+  transfer rules for translating into German
+* [`apertium-sme-deu.deu-sme.rtx`](apertium-sme-deu.deu-sme.rtx) - Structural
+  transfer rules for translating into Northern Sami
+* [`apertium-sme-deu.sme-deu.lrx`](apertium-sme-deu.sme-deu.lrx) - Lexical
+  selection rules for translating into German
+* [`apertium-sme-deu.deu-sme.lrx`](apertium-sme-deu.deu-sme.lrx) - Lexical
+  selection rules for translating into Northern Sami
 * [`modes.xml`](modes.xml) - Translation modes
 
-For more information
--------------------------------------------------------------------------------
+## For more information
 
-* https://wiki.apertium.org/wiki/Installation
-* https://wiki.apertium.org/wiki/apertium-sme-deu
-* https://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
+* <https://wiki.apertium.org/wiki/Installation>
+* <https://wiki.apertium.org/wiki/apertium-sme-deu>
+* <https://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary>
 
-Help and support
--------------------------------------------------------------------------------
+## Help and support
 
 If you need help using this language pair or data, you can contact:
 
-* Mailing list: apertium-stuff@lists.sourceforge.net
-* IRC: `#apertium` on irc.oftc.net (irc://irc.oftc.net/#apertium)
+* Mailing list: <apertium-stuff@lists.sourceforge.net>
+* IRC: `#apertium` on irc.oftc.net <irc://irc.oftc.net/#apertium>
 
 See also the file [`AUTHORS`](AUTHORS), included in this distribution.
