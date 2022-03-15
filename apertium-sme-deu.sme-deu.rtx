@@ -67,7 +67,7 @@ conneg > number : conneg sg ;
 !! MACROS
 !!!!!!!!!!!!!!!
 
-maybe_art: (if (1.number = sg) [der@det.def.m.sg.nom _] else [der@det.def.mfn.pl.nom]) ;
+maybe_art: (if (1.number = sg) [der@det.def.m.sg.nom _] else [der@det.def.mfn.pl.nom _]) ;
 maybe_adp: (if (1.case = loc) [in@pr.acc _] elif (1.case/sl = acc) [zu@pr.dat _] else []) ;
 
 !!!!!!!!!!!!!!!
