@@ -20,6 +20,7 @@ TARGETS_COMMON =		\
 	$(PREFIX1).autopgen.bin	\
 	$(PREFIX1).rtx.bin	\
 	$(PREFIX2).automorf.bin	\
+	$(PREFIX2).automorf-untrimmed.bin	\
 	$(PREFIX2).prob		\
 	$(PREFIX2).rlx.bin	\
 	$(PREFIX2).autobil.bin	\
@@ -73,6 +74,9 @@ $(PREFIX2).autogen.hfst: .deps/$(LANG1).autogen.hfst
 
 $(PREFIX2).automorf.bin: .deps/$(LANG2).automorf.bin $(PREFIX2).autobil.bin
 	lt-trim $^ $@
+
+$(PREFIX2).automorf-untrimmed.bin: .deps/$(LANG2).automorf.bin
+	cp -v $< $@
 
 # -------------------
 # German generation:
