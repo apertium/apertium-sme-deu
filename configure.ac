@@ -1,6 +1,6 @@
-AC_PREREQ(2.52)
+AC_PREREQ([2.52])
 
-AC_INIT([Apertium Northern Sami-German], [0.1.0], [flammie@iki.fi], [apertium-sme-deu], [https://wiki.apertium.org/wiki/Apertium-sme-deu])
+AC_INIT([Apertium Northern Sami-German],[0.1.0],[https://github.com/apertium/apertium-sme-deu/issues],[apertium-sme-deu],[https://wiki.apertium.org/wiki/Apertium-sme-deu])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
@@ -32,4 +32,5 @@ PKG_CHECK_MODULES(REGTEST, apertium-regtest >= 0.0.1, [],
 
 AP_MKINCLUDE
 
-AC_OUTPUT([Makefile])
+AC_CONFIG_FILES([Makefile])
+AC_OUTPUT
