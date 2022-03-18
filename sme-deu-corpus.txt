@@ -127,44 +127,44 @@ Juohke guovllu gávttis lea sierralágan holbi.
 Mus leat boares sabehat.	Ich habe alte Skier.
 Nieiddain leat ođđa buvssat.	Die Mädchen haben neue Hosen.
 Olbmuin lea ollu ruhta.	Die Menschen haben viel Geld.
-Min bussás leat alit čalmmit.
-Mus eai leat girjjit mielde.
-Mis lea varas láibi odne.
-Mus leat ustibat dáppe Londonis.
-Beana lea olbmo buoremus ustit.
-Son šaddá buorrin oahpaheaddjin.
-Din viessu šaddá oppa stuoris.
-Dat orru buorre fanas.
-Su sohkanamma lea Grape.
-Gal giđđa lea suohtas áigi.
+Min bussás leat alit čalmmit.	Unsere Katze hat blaue Augen.
+Mus eai leat girjjit mielde.	Ich habe die Bücher nicht dabei.
+Mis lea varas láibi odne.	Wir haben heute frisches Brot.
+Mus leat ustibat dáppe Londonis.	Ich habe Freunde hier in London.
+Beana lea olbmo buoremus ustit.	Der Hund ist der beste Freund des Menschen.
+Son šaddá buorrin oahpaheaddjin.	Er wird ein guter Lehrer.
+Din viessu šaddá oppa stuoris.	Euer Haus wird ziemlich groß.
+Dat orru buorre fanas.	Das scheint ein gutes Boot zu sein.
+Su sohkanamma lea Grape.	Sein Nachname ist Grape.
+Gal giđđa lea suohtas áigi.	Der Frühling ist schon eine lustige Zeit.
 Boaššu lea lávu gievkkan.
 Njiŋŋelasheasta lea dámmá.
 Varisheasta lea ore.
-Heasta lea luohttevaš ustit.
+Heasta lea luohttevaš ustit.	Das Pferd ist ein vertrauenswürdiger Freund.
 Heastta čivga lea vársá.
 Mii rievidit ja hearjidit jávohaga.
 Loaiddus olbmot veallájit ja ođđet.
 Maid moarsi ja irgi leaba čiŋadan gávttiiguin.
-Mun máhtán láibut sihke šuhkoládagáhku ja lákcagáhku.
+Mun máhtán láibut sihke šuhkoládagáhku ja lákcagáhku.	Ich kann sowohl Schokoladenkuchen als  auch Sahnetorte backen.
 Mii bivdit dorskiid ja juvssuid.
 Ullus nissonat gođđet biktasiid ja ránuid.
 Mii bidjat dávviriid skáhpiide ja lođáide.
 Mun lasihan rušppiid ja buđehiid mállásii.
 Dohko mii bidjat borramušaid ja lihtiid.
-Sihtabehtet go mielkki ja sohkkara?
+Sihtabehtet go mielkki ja sohkkara?	Wollt ihr Milch und Zucker?
 Juovlastállu lea čalmmeheapme ja juolggeheapme.
-Mus leat fuolkkit ja buorit ustibat Londonis.
+Mus leat fuolkkit ja buorit ustibat Londonis.	Ich habe Verwandte und gute Freunde in London.
 Gáivuonas su áhčis leat guokte oambeali ja okta vilbealli.
-Dáppe leat ollu olbmot ja biillat.
+Dáppe leat ollu olbmot ja biillat.	Hier sind viele Leute und Autos.
 Do boahtiba Niillas ja Ánde.
 Bárdni lea rikkis sogas.
-Uksa galgá leat gitta.
-Mun orun stuora vilges viesus.
+Uksa galgá leat gitta.	Die Tür soll zu sein.
+Mun orun stuora vilges viesus.	Ich wohne in einem großen weißen Haus.
 Mii vuolgit Troanddimii heajaide boahtte vahkkoloahpa.
 Don leat dál Čáhppes Bearralis!
 Doaluide servet juohkelágan olbmot.
 Lávvui gullá maid uvssot.
-Maid Máret áigu oastit?
+Maid Máret áigu oastit?	Was will Máret kaufen?
 Mun áiggun oastit ođđa sihkkeliid.
 Doai leahppi áŋgirit lohkan sámegiela olles dálvvi.
 Skuvllas mun lean čoavdán ollu cealkagiid maŋimuš áiggi.
@@ -224,7 +224,7 @@ Dárbbašehpet go veahki?	Braucht ihr Hilfe?
 Geahččabeahtti go TV?	Schaut ihr fern?
 Soai čáliiga muitalusaid ruovttusiidui.
 Eahkedis mun bargen leavssuid.
-Mun čállen reivve sámegillii.
+Mun čállen reivve sámegillii.	Ich schreibe den Brief auf samisch.
 Bidjet dámmá hiŋgalii!
 Váldde munnjege gáfe.
 Mánás gollot gieđat.
