@@ -1,24 +1,24 @@
-Čájet!  Zeig!
-Máhtte boahtá.  Máhtte kommt.
-Goabbá vuoitá?  Wer gewinnt.
-Biret čállá.    Biret schreibt.
-In. Nein.
-Arvigoahtá. Es fängt an zu regnen.
-Boađát go dál?  Kommst du jetzt?
-Boađe deike!    Komm her!
-Balat go beatnagis? Hast du Angst vor dem Hund?
-Vuolgibeahtti go girdiin?   Fliegt ihr beide mit dem Flugzeug?
-Odne arvá.  Heute regnet es.
-Romssas arvá.   In Tromsö regnet es.
-Moai bohte maŋŋeleappos.    Wir kommen später.
-Mun heahpanan jámas!    Ich schäme mich zu Tode!
-Vilbealit vudjet biillaiguin.   Die Cousins fuhren mit die Autos.
-Moai čohkkájetne láhttis.   Wir setzen uns auf den Boden.
-Doppe boahtá áhčči. Dort kommt Pappa.
-Son ballá guovžžas. Er hat Angst vor dem Bären.
-Son liiko guollái.  Er mag Fisch.
-Báze dearvan!   Mach es gut.
-Dovddat go su?  Kennst du ihn?
+Čájet!	Zeig!
+Máhtte boahtá.	Máhtte kommt.
+Goabbá vuoitá?	Wer gewinnt?
+Biret čállá.	Biret schreibt.
+In.	Nein.
+Arvigoahtá.	Es fängt an zu regnen.
+Boađát go dál?	Kommst du jetzt?
+Boađe deike!	Komm her!
+Balat go beatnagis?	Hast du Angst vor dem Hund?
+Vuolgibeahtti go girdiin?	Fliegt ihr beide mit dem Flugzeug?
+Odne arvá.	Heute regnet es.
+Romssas arvá.	In Tromsö regnet es.
+Moai bohte maŋŋeleappos.	Wir kommen später.
+Mun heahpanan jámas!	Ich schäme mich zu Tode!
+Vilbealit vudjet biillaiguin.	Die Cousins fuhren mit die Autos.
+Moai čohkkájetne láhttis.	Wir setzen uns auf den Boden.
+Doppe boahtá áhčči.	Dort kommt Pappa.
+Son ballá guovžžas.	Er hat Angst vor dem Bären.
+Son liiko guollái.	Er mag Fisch.
+Báze dearvan!	Mach es gut.
+Dovddat go su?	Kennst du ihn?
 Veahkehastte mu!	Hilf mir bitte!
 Bálkes birccu!
 Govčča uvssa!
