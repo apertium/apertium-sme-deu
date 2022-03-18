@@ -220,8 +220,8 @@ Eadni goarru gávtti.
 Áhčči lohká áviissa.
 Juvvá-eanu borrá gáhkuid.
 Nillá-mága gasttihišgođii.
-Dárbbašehpet go veahki?
-Geahččabeahtti go TV?
+Dárbbašehpet go veahki?	Braucht ihr Hilfe?
+Geahččabeahtti go TV?	Schaut ihr fern?
 Soai čáliiga muitalusaid ruovttusiidui.
 Eahkedis mun bargen leavssuid.
 Mun čállen reivve sámegillii.
@@ -230,10 +230,10 @@ Váldde munnjege gáfe.
 Mánás gollot gieđat.
 Ellii šattai hoahppu.
 Mii dus lea?
-Lea go dus e-boasta?
-Jeakkis leat luopmánat.
-Lea buolaš.
-Goađis lea árran.
+Lea go dus e-boasta?	Hast du eine E-mail?
+Jeakkis leat luopmánat.	Im Moor gibt es Moltebeeren.
+Lea buolaš.	Es ist kalt.
+Goađis lea árran.	In der Hütte ist eine Feuerstelle.
 Stálles lea ivguheasta.
 Bealddus leat eatnanmuorjjit.
 Čoarvebeallječiŋat leat bivnnuhat.
@@ -247,7 +247,7 @@ Soai oruiga Divttasvuonas.
 Rievvárat báhtaredje bolesiin.
 Filbma álgá čiežas.
 Dii vázzibehtet skuvlii.
-Vástit!
+Vástit!	Antworte!
 Verrošeidde go?
 Vázzilit go?
 Mii bovdehalaimet heajaide.
@@ -263,32 +263,32 @@ Dan eadni attii munnje.
 Sarridiin olbmot ráhkadit sávtta.
 Maid Máret siđai goarrumis?
 Nieida lea čeahppi.
-Geasseidja lea čuovgat.
-Dat lea áhči.
+Geasseidja lea čuovgat.	Die Sommernacht ist hell.
+Dat lea áhči.	Das ist Pappa.
 Lestadiánalaččain leat čoakkalmasat.
-Lea go dudnos mátkedihtor?
-Mana dearvan!
-Báhcet dearvan!
-Dáiddán boahtit.
+Lea go dudnos mátkedihtor?	Habt ihr einen Laptop?
+Mana dearvan!	Mach es gut!
+Báhcet dearvan!	Macht es gut!
+Dáiddán boahtit.	Ich komme vielleicht.
 Máhttibehtet go duddjot?
 Máhtte ii sáhttán boahtit ovdal.
 Áddjágo duo lea boahtime?
 Nuvttohat leat gorrojuvvon bohcconáhkis.
-Moai letne heaitán borgguheames.
-Áhkku ii leat dáppe.
-Mun lávejin árrat lihkkat.
-Lea go mu vuorru dál?
-Dál lea du vuorru!
+Moai letne heaitán borgguheames.	Wir haben aufgehört zu rauchen.
+Áhkku ii leat dáppe.	Oma ist nicht hier.
+Mun lávejin árrat lihkkat.	Ich stehe normalerweise früh auf.
+Lea go mu vuorru dál?	Bin ich jetzt an der Reihe?
+Dál lea du vuorru!	Jetzt bin ich an der Reihe!
 Soai šaddaba ganjaldallat.
-Nieiddat orro váibagoahtán.
-It go sáhte muitalit?
-Áddjá lea boahtán.
+Nieiddat orro váibagoahtán.	Die Mädchen scheinen müde zu werden.
+It go sáhte muitalit?	Kannst du es nicht erzählen?
+Áddjá lea boahtán.	Opa ist gekommen.
 Lea go arván diehko?
-Eahppi go boađe?
-Ale vuordde luksushotealla.
+Eahppi go boađe?	Kommt ihr nicht?
+Ale vuordde luksushotealla.	Erwarte kein Luxushotel.
 Lehpet go dárbbašan ollu veahki?
 Allet geahča dárogiel teavstta!
-Máhtát go ollu sámegiela?
+Máhtát go ollu sámegiela?	Kannst du viel samisch?
 Máhtte-vilbealle duddjui ođđa fatnasa.
 Mun oidnen Ándde-guovtto Ristiinnáin.
 Mii eat ipmir maidege.
