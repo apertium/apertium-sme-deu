@@ -51,11 +51,11 @@ Mánná čohkána láhttái.	Das Kind setzt sich auf den Boden.
 Áhčči liiko suovasbirgui.	Pappa mag Räucherfleisch.
 Mun luohtán dutnje.	Ich vertraue dir.
 Sevnnjoda.	Es wird dunkel.
-De lean.
+De lean.	Ja.
 Mun lean illávejiid.	Ich fühle mich krank.
-Son lea čalbmebeale.
+Son lea čalbmebeale.	Sie ist blind.
 Mun lean morrašis.	Ich bin traurig.
-Niibi lea stális.
+Niibi lea stális.	Das Messer ist scharf.
 Áddjá lea ruovttus.	Opa ist zu hause.
 Čoahkkin lea eahkedis.	Das Treffen ist am Abend.
 Ánne niegada Áillu.
@@ -73,7 +73,7 @@ Soai leaba čeahpit.	Sie sind gut.
 Áilu-máhka lea duojár.
 Sus leat sávzzat.	Sie hat Schafe.
 Mii vuolgit fávlái.
-Gal máilbmi oahpaha.
+Gal máilbmi oahpaha.	Die Welt wird schon lehren.
 Juhán-gázzi báhcet gáddái.
 Ale bala!	Hab keine Angst.
 Ean dáidde boahtit.	Wir kommen vielleicht nicht.
@@ -87,14 +87,14 @@ Eat šat gille!	Wir haben keine Lust mehr.
 Ollu ustibat bohtet.	Viele Freunde kommen.
 Ale mana!	Geh nicht!
 In dieđe.	Ich weiß nicht.
-Eat leat.
-Mu čeahci duddjo čáppa niibbi.
+Eat leat.	Nein.
+Mu čeahci duddjo čáppa niibbi.	Mein Onkel schnitzt ein schönes Messer.
 Juhán oastá ođđa biilla.	Juhán kauft ein neues Auto.
 Oahppit leat lohkan ollu girjjiid.	Die  Schüler haben viele Bücher gelesen.
 Eadni lea bassame vuovttaid.	Mamma  wäscht sich gerade die Haare.
 De son ohcá stálu silbbaid.	Dann sucht sie den Silberschmuck von Stállo.
 It go sáhte muitalit midjiide?	Kannst du es uns nicht erzählen?
-Niehku buktá dieđuid veardádusaid mielde.
+Niehku buktá dieđuid veardádusaid mielde.	Der Traum bringt Nachrichten durch Vergleiche.
 Muhtumin niehku sáhttá rávvet du.	Manchmal kann ein Traum dir einen Rat geben.
 Don sáhtát maid ráhkadit ruovttusiiddu.	Du kannst auch die Internetseite machen.
 Dovdet go William Turnera?	Kanntest du William Turner?
@@ -103,7 +103,7 @@ Oainnán ollu olbmuid.	Ich sehe viele Menschen.
 Arvá oppa áigge.	Es regnet die ganze Zeit.
 Heasta čuožžu golmma juolggi nalde.	Das Pferd steht auf drei Beinen.
 Son váldá mu gihtii.	Er nimmt mich an die Hand.
-Vanca lea káija guoras.
+Vanca lea káija guoras.	Das Boot ist neben dem Kai.
 Dá lea dutnje biebmu!	Hier ist Essen für dich.
 Soai leaba fitnan meahcis.	Sie waren in der Natur.
 Mánná ii leat mannan olggos.	Das Kind ist nicht nach draußen gegangen.
@@ -117,7 +117,7 @@ Son čállá girjji nuoraid birra.	Sie schreibt ein Buch über Jugendliche.
 Moai oste bileahta Harry Potter-filbmii.	Wir kaufen ein Ticket für den Harry Potter Film.
 Soai lohkaba Harry Potter-girjji eŋgelasgillii.	Sie lesen Harry Potter auf Englisch.
 Mun láven basadanlanja bassat juohke bearjadaga.	Ich wasche das Badezimmer jeden Freitag.
-Don vieččat boaldinmuoraid dárbbu mielde.
+Don vieččat boaldinmuoraid dárbbu mielde.	Du holst das Brennholz nach Bedarf.
 Silje lasiha 3-0 nuppi vuorus.
 Dál boahtiba borramušain!	Jetzt kommen sie mit dem Essen!
 Gal manná bures.
@@ -156,8 +156,8 @@ Juovlastállu lea čalmmeheapme ja juolggeheapme.
 Mus leat fuolkkit ja buorit ustibat Londonis.	Ich habe Verwandte und gute Freunde in London.
 Gáivuonas su áhčis leat guokte oambeali ja okta vilbealli.
 Dáppe leat ollu olbmot ja biillat.	Hier sind viele Leute und Autos.
-Do boahtiba Niillas ja Ánde.
-Bárdni lea rikkis sogas.
+Do boahtiba Niillas ja Ánde.	Dort kommen Niillas und Ánde.
+Bárdni lea rikkis sogas.	Der Junge kommt aus einer reichen Familie.
 Uksa galgá leat gitta.	Die Tür soll zu sein.
 Mun orun stuora vilges viesus.	Ich wohne in einem großen weißen Haus.
 Mii vuolgit Troanddimii heajaide boahtte vahkkoloahpa.
@@ -165,8 +165,8 @@ Don leat dál Čáhppes Bearralis!
 Doaluide servet juohkelágan olbmot.
 Lávvui gullá maid uvssot.
 Maid Máret áigu oastit?	Was will Máret kaufen?
-Mun áiggun oastit ođđa sihkkeliid.
-Doai leahppi áŋgirit lohkan sámegiela olles dálvvi.
+Mun áiggun oastit ođđa sihkkeliid.	Ich will neue Fahrräder kaufen.
+Doai leahppi áŋgirit lohkan sámegiela olles dálvvi.	Ihr hattet den ganzen Winter lang Lust samisch zu lernen.
 Skuvllas mun lean čoavdán ollu cealkagiid maŋimuš áiggi.
 Dan gal juohkehaš fuobmá dakkaviđe.
 Máhtte vuolgá Ohcejogas čuoigamiidda.
@@ -175,35 +175,35 @@ Gáhkuid mii goikadit geađggi nalde goardagis.
 Buvtte deike su pistovlla!
 Muhtun sajis sáhttá gávdnat jierehiid.
 Lávvomuoraid nala bidjat loavdaga.
-Áiggun geahččat dušše moadde filmma.
+Áiggun geahččat dušše moadde filmma.	Ich will nur ein paar Filme schauen.
 Don leat Jack Sparrow!
-Son lea mu buorre olmmái.
+Son lea mu buorre olmmái.	Er ist ein guter Freund.
 Mu namma lea Elizabeth Swann.
 Spider-Man gal lea albma ruovdi.
-Dat ii leat gal nu váttis.
-Odne lea hui buolaš.
+Dat ii leat gal nu váttis.	Das ist doch nicht so schwer.
+Odne lea hui buolaš.	Heute ist es sehr kalt.
 Jávregáttis leat guokte olbmá.
-Jeakkis leat ollu luopmánat.
+Jeakkis leat ollu luopmánat.	Im Moor gibt es viele Moltebeeren.
 Beassážiid leat ollu doalut.
 Divrras ii leat gal barggu ektui.
-Dalle leat čuvges, liegga geasseijat.
+Dalle leat čuvges, liegga geasseijat.	Jetzt gibt es helle, warme Sommernächte.
 Ránus lea álo leamaš buorre haddi.
-Lea go nieida vai bárdni?
+Lea go nieida vai bárdni?	Ist es ein Mädchen oder ein Junge.
 Mánát eai láve jávkat skuvllas.
-Juhán áigu fárret Gárasavvonii.
+Juhán áigu fárret Gárasavvonii.	Juhán will nach Gárasavvon ziehen.
 Girjjit gahččet láhttái.
 Lihtti lea ravddaid dási.
 
-Boađán.
-Gerget go?
-Arvá.		
-Beana ruohttá.
-Gii bođii?
-Boahtá go Biret?
-Lei soahti.
-Boađát go mielde?
-Gerget go barggus?
-Oro jaska!
+Boađán.	Ich komme.
+Gerget go?	Bist du fertig?
+Arvá.	Es regnet.
+Beana ruohttá.	Der Hund rennt.
+Gii bođii?	Wer ist gekommen?
+Boahtá go Biret?	Kommt Biret?
+Lei soahti.	Es war Krieg.
+Boađát go mielde?	Kommst du mit?
+Gerget go barggus?	Bist du fertig mit der Arbeit?
+Oro jaska!	Sei still!
 Heaitte eret!
 Beroštit go mus?
 Liikojit go guollái?
