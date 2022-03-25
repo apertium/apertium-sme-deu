@@ -120,7 +120,7 @@ Mun láven basadanlanja bassat juohke bearjadaga.	Ich wasche das Badezimmer jede
 Don vieččat boaldinmuoraid dárbbu mielde.	Du holst das Brennholz nach Bedarf.
 Silje lasiha 3-0 nuppi vuorus.
 Dál boahtiba borramušain!	Jetzt kommen sie mit dem Essen!
-Gal manná bures.
+Gal manná bures.	In Ordnung.
 Boahtibehtet go skuvllas dál?	Kommt ihr jetzt aus der Schule?
 Juohke guovllu gávttis lea sierralágan holbi.
 Ádjás lea ođđa gákti.	Opa hat eine neue Kufte.
@@ -191,7 +191,7 @@ Ránus lea álo leamaš buorre haddi.
 Lea go nieida vai bárdni?	Ist es ein Mädchen oder ein Junge.
 Mánát eai láve jávkat skuvllas.
 Juhán áigu fárret Gárasavvonii.	Juhán will nach Gárasavvon ziehen.
-Girjjit gahččet láhttái.
+Girjjit gahččet láhttái.	Die Bücher fallen auf den Boden.
 Lihtti lea ravddaid dási.
 
 Boađán.	Ich komme.
@@ -205,10 +205,10 @@ Boađát go mielde?	Kommst du mit?
 Gerget go barggus?	Bist du fertig mit der Arbeit?
 Oro jaska!	Sei still!
 Heaitte eret!
-Beroštit go mus?
+Beroštit go mus?	Hast du an mich gedacht?
 Liikojit go guollái?	Mochtest du den Fisch?
-Dál moai boradetne.
-Biret manai meahccái.
+Dál moai boradetne.	Jetzt essen wir.
+Biret manai meahccái.	Biret ging in den Wald.
 Mun boađán bearjadaga.	Ich komme am Freitag.
 Oahpaheaddji čilgii vuđolaččat.	Der Lehrer hat es gründlich erklärt.
 Gii do boahtá?	Wer kommt da?
@@ -218,7 +218,7 @@ Eadni boraha máná.	Mamma füttert das Kind.
 Eadni goarru gávtti.
 Áhkku goarui láđđegávtti.
 Áhčči lohká áviissa.	Pappa ließt Zeitung.
-Juvvá-eanu borrá gáhkuid.
+Juvvá-eanu borrá gáhkuid.	Onkel Juvvá ißt die Kuchen.
 Nillá-mága gasttihišgođii.
 Dárbbašehpet go veahki?	Braucht ihr Hilfe?
 Geahččabeahtti go TV?	Schaut ihr fern?
