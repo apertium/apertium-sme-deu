@@ -206,18 +206,18 @@ Gerget go barggus?	Bist du fertig mit der Arbeit?
 Oro jaska!	Sei still!
 Heaitte eret!
 Beroštit go mus?
-Liikojit go guollái?
+Liikojit go guollái?	Mochtest du den Fisch?
 Dál moai boradetne.
 Biret manai meahccái.
-Mun boađán bearjadaga.
-Oahpaheaddji čilgii vuđolaččat.
-Gii do boahtá?
-Goas heajat leat?
-Ikte lei duorastat.
-Eadni boraha máná.
+Mun boađán bearjadaga.	Ich komme am Freitag.
+Oahpaheaddji čilgii vuđolaččat.	Der Lehrer hat es gründlich erklärt.
+Gii do boahtá?	Wer kommt da?
+Goas heajat leat?	Wann ist die Hochzeit?
+Ikte lei duorastat.	Gestern war Donnerstag.
+Eadni boraha máná.	Mamma füttert das Kind.
 Eadni goarru gávtti.
 Áhkku goarui láđđegávtti.
-Áhčči lohká áviissa.
+Áhčči lohká áviissa.	Pappa ließt Zeitung.
 Juvvá-eanu borrá gáhkuid.
 Nillá-mága gasttihišgođii.
 Dárbbašehpet go veahki?	Braucht ihr Hilfe?
@@ -226,9 +226,9 @@ Soai čáliiga muitalusaid ruovttusiidui.
 Eahkedis mun bargen leavssuid.
 Mun čállen reivve sámegillii.	Ich schreibe den Brief auf samisch.
 Bidjet dámmá hiŋgalii!
-Váldde munnjege gáfe.
-Mánás gollot gieđat.
-Ellii šattai hoahppu.
+Váldde munnjege gáfe.	Bring mir auch einen Kaffee mit.
+Mánás gollot gieđat.	Das Kind hat kalte Hände.
+Ellii šattai hoahppu.	Elli hat es eilig.
 Mii dus lea?
 Lea go dus e-boasta?	Hast du eine E-mail?
 Jeakkis leat luopmánat.	Im Moor gibt es Moltebeeren.
@@ -238,31 +238,31 @@ Stálles lea ivguheasta.
 Bealddus leat eatnanmuorjjit.
 Čoarvebeallječiŋat leat bivnnuhat.
 Don han leat árgi!
-Dii leiddet viđas.
+Dii leiddet viđas.	Ihr wart zu fünft.
 Ledje go hilbadat mánát?
-Máret lea oahpaheaddji.
-Ánde bargá boasttas.
-Soai oruiga Divttasvuonas.
-Áhkku lea ruovttus.
+Máret lea oahpaheaddji.	Máret ist Lehrerin.
+Ánde bargá boasttas.	Ánde arbeitet bei der Post.
+Soai oruiga Divttasvuonas.	Sie wohnten in Tysfjord.
+Áhkku lea ruovttus.	Oma ist zu hause.
 Rievvárat báhtaredje bolesiin.
-Filbma álgá čiežas.
-Dii vázzibehtet skuvlii.
+Filbma álgá čiežas.	Der Film fängt um sieben an.
+Dii vázzibehtet skuvlii.	Ihr geht zur Schule.
 Vástit!	Antworte!
 Verrošeidde go?
 Vázzilit go?
 Mii bovdehalaimet heajaide.
 Mánná lea gahperahttá.
-Lihkohisvuohta dáhpáhuvai bearjadaga.
+Lihkohisvuohta dáhpáhuvai bearjadaga.	Das Unglück passierte am Freitag.
 Báđis duoldá bohccobiergu.
 Buot lei varran.
-Mánát fillejedje stálu.
+Mánát fillejedje stálu.	Die Kinder führten Stallo an der Nase herum.
 Soai čokkiiga eatnanmurjjiid.
 Mii cahkkeheimmet dola fiervái.
 Mon gevrejin eret Spider-Man.
-Dan eadni attii munnje.
+Dan eadni attii munnje.	Das hat Mamma mir gegeben.
 Sarridiin olbmot ráhkadit sávtta.
 Maid Máret siđai goarrumis?
-Nieida lea čeahppi.
+Nieida lea čeahppi.	Das Mädchen ist gut.
 Geasseidja lea čuovgat.	Die Sommernacht ist hell.
 Dat lea áhči.	Das ist Pappa.
 Lestadiánalaččain leat čoakkalmasat.
@@ -291,19 +291,19 @@ Allet geahča dárogiel teavstta!
 Máhtát go ollu sámegiela?	Kannst du viel samisch?
 Máhtte-vilbealle duddjui ođđa fatnasa.
 Mun oidnen Ándde-guovtto Ristiinnáin.
-Mii eat ipmir maidege.
+Mii eat ipmir maidege.	Wir verstehen nichts.
 Stuora fámut buktet stuora ovddasvástádusa.
-Moai hálidetne oahppat sámegiela universitehtas.
-Son mu nama ipmirdii boastut.
+Moai hálidetne oahppat sámegiela universitehtas.	Wir wollen samisch an der Uni lernen.
+Son mu nama ipmirdii boastut.	Sie hat meinen Namen falsch verstanden.
 Máŋga gávpeolbmo lonuhedje fáhcaid gálvvuiguin.
 Fertebeahtti jáhkkigoahtit dakkár balddonasmuitalusaide.
-Vuolgi mu mielde!
+Vuolgi mu mielde!	Komm mit mir mit.
 Manin don leat heittohit nohkkan?
-Boađán dábálaččat ruoktot árrat.
+Boađán dábálaččat ruoktot árrat.	Ich komme normalerweise früh nach Hause.
 Beaskkain gal bivvá buolašin.
 Heaika álggii ođđa bargui.
-Juohke beaivvi dáhpáhuvvá nu ollu.
-Nieida lea Ohcejogas eret.
+Juohke beaivvi dáhpáhuvvá nu ollu.	Jeden Tag passiert so viel.
+Nieida lea Ohcejogas eret.	Das Mädchen ist aus Utsjok.
 Gápmagat leat dábálaččat gorrojuvvon gusanáhkis.
 Reahpenráiggi bokte suovva beassá olggos.
 Mánát ledje čierastallame eahkedis mánoheahpin.
@@ -315,7 +315,7 @@ Ovdal soađi badjeolbmot álge atnit fabrihkkaránuid.
 Eat go sáhttán vuolgit?
 Mánás orru leamen borranmiella.
 Ádjás go lea ođđa fanas?
-Oahpaheddjiin lea ollu bargu.
+Oahpaheddjiin lea ollu bargu.	Die Lehrer haben viel Arbeit.
 Ii buot olbmuin leat biila.
 Dus gal leat fiinna Heavdne-Mánnegárvvut.
 Gal mis leat guhkes skuvlabeaivvit.
@@ -329,24 +329,24 @@ Dudno mielas lea suohtas.
 Diet lea mu.
 Girjji namma lea Kátjá.
 Su namma lea Harry Potter.
-Son ii leat olmmoš.
+Son ii leat olmmoš.	Er ist kein Mensch.
 Dan guovtto dat leat.
-Dát ášši lea dehálaš.
-Máreha čállin girji lei hui buorre.
-Diet gápmagat leat áhči.
-Divtta temá lea ráhkisvuohta.
-Gean láhkái son lea?
-Son lea áhčis láhkái.
+Dát ášši lea dehálaš.	Diese Sache ist wichtig.
+Máreha čállin girji lei hui buorre.	Das von Máret geschriebene Buch ist sehr gut.
+Diet gápmagat leat áhči.	Diese Schuhe gehören Pappa.
+Divtta temá lea ráhkisvuohta.	Das Thema des Gedichtes ist Liebe.
+Gean láhkái son lea?	Wem ähnelt er.
+Son lea áhčis láhkái.	Er ähnelt Pappa.
 Miehkki lea guovtti ávjui.
 Dat fiilu lea golmma borrái.
 Dakkár gákti geavahuvvo Guovdageainnus, Álttás ja Heahtás Suomas.
 Dorka gorrojuvvui sávzzanáhkis dahje bohcconáhkis.
 Mun máhtán láibut šuhkoládagáhku ja lákcagáhku.
-Dii oahppabehtet lohkat ja čállit sámegillii.
+Dii oahppabehtet lohkat ja čállit sámegillii.	Ihr lernt Samisch zu lesen und zu schreiben.
 Doppe moai sáhtiime oastit gáfe, deaja, sávtta dahje bruvssa.
 Liepmasii olbmot bidje guolleoivviid, dáraid, debbuid, buđeittaid, boares rásiid ja rohkajáffuid.
 Juohke giđa sii lávejedje bassat dáhki ja seinniid.
-Bidjet uvssa ja lásaid gitta!
+Bidjet uvssa ja lásaid gitta!	Macht die Tür und die Fenster zu.
 Nemi ja Pondus leaba sárgojuvvon hámit.
 Mis leat šuhkoládagáhkku ja lákcagáhkku.
 Munnos leat golbma máná, guokte nieidda ja okta bárdni.
