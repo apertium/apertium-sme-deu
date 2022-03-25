@@ -176,15 +176,15 @@ Buvtte deike su pistovlla!
 Muhtun sajis sáhttá gávdnat jierehiid.
 Lávvomuoraid nala bidjat loavdaga.
 Áiggun geahččat dušše moadde filmma.	Ich will nur ein paar Filme schauen.
-Don leat Jack Sparrow!
+Don leat Jack Sparrow!	Du bist Jack Sparrow!
 Son lea mu buorre olmmái.	Er ist ein guter Freund.
 Mu namma lea Elizabeth Swann.
 Spider-Man gal lea albma ruovdi.
 Dat ii leat gal nu váttis.	Das ist doch nicht so schwer.
 Odne lea hui buolaš.	Heute ist es sehr kalt.
-Jávregáttis leat guokte olbmá.
+Jávregáttis leat guokte olbmá.	Am See sind zwei Männer.
 Jeakkis leat ollu luopmánat.	Im Moor gibt es viele Moltebeeren.
-Beassážiid leat ollu doalut.
+Beassážiid leat ollu doalut.	An Ostern gibt es viele Veranstaltungen.
 Divrras ii leat gal barggu ektui.
 Dalle leat čuvges, liegga geasseijat.	Jetzt gibt es helle, warme Sommernächte.
 Ránus lea álo leamaš buorre haddi.
@@ -348,32 +348,32 @@ Liepmasii olbmot bidje guolleoivviid, dáraid, debbuid, buđeittaid, boares rás
 Juohke giđa sii lávejedje bassat dáhki ja seinniid.
 Bidjet uvssa ja lásaid gitta!	Macht die Tür und die Fenster zu.
 Nemi ja Pondus leaba sárgojuvvon hámit.
-Mis leat šuhkoládagáhkku ja lákcagáhkku.
-Munnos leat golbma máná, guokte nieidda ja okta bárdni.
+Mis leat šuhkoládagáhkku ja lákcagáhkku.	Wir haben Schokoladenkuchen und Sahnetorte.
+Munnos leat golbma máná, guokte nieidda ja okta bárdni.	Wir haben drei Kinder, zwei Mädchen und einen Jungen.
 Mis lea stuora beana ja bahás gáhttu.
-Sus leat guokte vielja ja okta oabbá.
+Sus leat guokte vielja ja okta oabbá.	Er hat zwei Brüder und eine Schwester.
 Dorskis sáhttet leat vuoivvas ja meađđemat.
 Vuovdimassii leat maid gáhkut ja láibevajahasat.
 Universitehtain ja allaskuvllain leat ollu studeanttat.
-Norggas ja Ruoŧas leat julevsápmelaččat.
+Norggas ja Ruoŧas leat julevsápmelaččat.	In Norwegen und Schweden gibt es Lulesamen.
 Návsttis leat máŋggalágan fierpmit, ja maid liidna ja eará bivdosat.
-Bearjadaga ja lávvordaga leat feasttat.
-Boahtágo eadni vai áhčči?
-Eadni ja áhčči boahtiba.
-Sii barget sihke Kárášjogas ja Guovdageainnus.
+Bearjadaga ja lávvordaga leat feasttat.	Am Freitag und Samstag sind Parties.
+Boahtágo eadni vai áhčči?	Kommt Mamma oder Pappa?
+Eadni ja áhčči boahtiba.	Mamma und Pappa kommen.
+Sii barget sihke Kárášjogas ja Guovdageainnus.	Sie arbeiten sowohl in Karasjok als auch in Kautokeino.
 Sámit ledje doloža rájes eallán meahcástemiin ja mearrabivdduin.
 Mii čuoiggaimet gitta don dievás.
 Lásse, Iŋgá ja mun leimmet Romssas.
 Ándde-guovttos Rihtáin gávnnadeigga gávpogis.
 Iŋgá bođii mánáidisguin deike.
-Unna mánáš gahčai johkii.
+Unna mánáš gahčai johkii.	Das kleine Kind ist in den Fluß gefallen.
 Dii vujiidet duon luotta.
 Munno mánát eai láve jávkat skuvllas.
 Min márkanii lea ráhkaduvvon ođđa skuvla.
 Miss Swanna rivvema dihte sii leat dáppe!
 Ollu nuorat čoahkkanit dáidda meassuide.
 Dat bahkkejit min jurdagiidda.
-Mun maid ferten málestit guktii vahkus.
+Mun maid ferten málestit guktii vahkus.	Ich muß auch zwei Mal die Woche kochen.
 Doai soaitibeahtti boahtit Gáivutnii boahtte geasi.
 Moai orro hálbbes hoteallas Hyde Park lahka.
 Odne áigo mannat Madame Tussauda kabinehttii.
@@ -381,7 +381,7 @@ Diet gal lea beare unnán.
 Dat gal lea boastut.
 Gal diet šattai botnjut.
 Mun áiggun geahččat TV-ođđasiid.
-Doai fertebeahtti viežžat čázi.
+Doai fertebeahtti viežžat čázi.	Ihr müßt Wasser holen.
 Dakkár stuora gávpogis olmmoš sáhttá bargat vaikko maid.
 Guovdageaidnu čájehii fámuid vuosttaš minuvtta rájes.
 Nissonat dat eanaš duddjojit sámi biktasiid.
@@ -397,16 +397,16 @@ Ean gille láibut gáhku odne.
 Dál de viimmat asttan čállit reivve.
 In háliit duinna doarrut.
 Stállu lea hui rikkis.
-Dat ii leat nu váttis.
+Dat ii leat nu váttis.	Das ist nicht so schwer.
 Ii dat leat bahá.
 Diet lea lohkkis mánná.
 Deatnojohtin sáhttá leat váralaš.
 Galgá go buot bivttasráhkadeapmi leat nissoniid bargu?
 Spider-Man gal lea measta vuoitemeahttun.
 Márjjás leat ođđa sabehat.
-Doppe ledje ollu olbmot.
+Doppe ledje ollu olbmot.	Dort sind viele Leute.
 Dán báhkis šaddá čáppa gohppu.
-Dán jagi eai leat luopmánat.
+Dán jagi eai leat luopmánat.	In diesem Jahr gibt es keine Moltebeeren.
 Min miestagis leat ollu váramat.
 Ovddeš áiggiid čoakkalmasviesut ledje nuoraid áidna deaivvadansajit.
 Gal dat lea njalkkas odne.
@@ -641,8 +641,8 @@ Ostot borramuša dál juo!
 Muhtun guovlluid gávttiin eai leat nu ollu čiŋat oskku geažil.
 Min mánáin leat ollu stohkosat.
 Makkár gáhkut dis leat?
-Sudnos leat guokte máná.
-Máhtes leat ođđa sabehat.
+Sudnos leat guokte máná.	Sie haben zwei Kinder.
+Máhtes leat ođđa sabehat.	Máhtte hat neue Skier.
 Amma odne lea duorastat?
 Mu mielas lei buorre dálki ikte.
 Reahpenráiggis heaŋgá riggi.
@@ -652,7 +652,7 @@ Lea go dihtor dušše ođđaáigásaš čállinmášiidna?
 Diet girji lea mu.
 Munnje lei lossat lohkat girjji eŋgelasgillii.
 Ánne lea munno nuoramus nieida.
-Mii du namma lea?
+Mii du namma lea?	Was ist dein Name.
 Gii dat Spider-Man lea?
 Áddjá elii hui boarisin.
 Máret beasai dálu eamidin.
