@@ -168,7 +168,7 @@ Maid Máret áigu oastit?	Was will Máret kaufen?
 Mun áiggun oastit ođđa sihkkeliid.	Ich will neue Fahrräder kaufen.
 Doai leahppi áŋgirit lohkan sámegiela olles dálvvi.	Ihr hattet den ganzen Winter lang Lust samisch zu lernen.
 Skuvllas mun lean čoavdán ollu cealkagiid maŋimuš áiggi.
-Dan gal juohkehaš fuobmá dakkaviđe.
+Dan gal juohkehaš fuobmá dakkaviđe.	Das findet jeder sofort heraus.
 Máhtte vuolgá Ohcejogas čuoigamiidda.
 Gáhkuid mii goikadit geađggi nalde goardagis.
 Čuoikan olmmoš bálle rággasa siste oađđit ráfis.
@@ -178,7 +178,7 @@ Lávvomuoraid nala bidjat loavdaga.
 Áiggun geahččat dušše moadde filmma.	Ich will nur ein paar Filme schauen.
 Don leat Jack Sparrow!	Du bist Jack Sparrow!
 Son lea mu buorre olmmái.	Er ist ein guter Freund.
-Mu namma lea Elizabeth Swann.
+Mu namma lea Elizabeth Swann.	Mein Name ist Elizabeth Swann.
 Spider-Man gal lea albma ruovdi.
 Dat ii leat gal nu váttis.	Das ist doch nicht so schwer.
 Odne lea hui buolaš.	Heute ist es sehr kalt.
@@ -204,7 +204,7 @@ Lei soahti.	Es war Krieg.
 Boađát go mielde?	Kommst du mit?
 Gerget go barggus?	Bist du fertig mit der Arbeit?
 Oro jaska!	Sei still!
-Heaitte eret!
+Heaitte eret!	Hör auf§
 Beroštit go mus?	Hast du an mich gedacht?
 Liikojit go guollái?	Mochtest du den Fisch?
 Dál moai boradetne.	Jetzt essen wir.
@@ -215,21 +215,21 @@ Gii do boahtá?	Wer kommt da?
 Goas heajat leat?	Wann ist die Hochzeit?
 Ikte lei duorastat.	Gestern war Donnerstag.
 Eadni boraha máná.	Mamma füttert das Kind.
-Eadni goarru gávtti.
+Eadni goarru gávtti.	Mamma näht eine Tracht.
 Áhkku goarui láđđegávtti.
 Áhčči lohká áviissa.	Pappa ließt Zeitung.
 Juvvá-eanu borrá gáhkuid.	Onkel Juvvá ißt die Kuchen.
 Nillá-mága gasttihišgođii.
 Dárbbašehpet go veahki?	Braucht ihr Hilfe?
 Geahččabeahtti go TV?	Schaut ihr fern?
-Soai čáliiga muitalusaid ruovttusiidui.
-Eahkedis mun bargen leavssuid.
+Soai čáliiga muitalusaid ruovttusiidui.	Sie schreiben Geschichten für die Homepage.
+Eahkedis mun bargen leavssuid.	Abends mache ich Hausaufgaben.
 Mun čállen reivve sámegillii.	Ich schreibe den Brief auf samisch.
 Bidjet dámmá hiŋgalii!
 Váldde munnjege gáfe.	Bring mir auch einen Kaffee mit.
 Mánás gollot gieđat.	Das Kind hat kalte Hände.
 Ellii šattai hoahppu.	Elli hat es eilig.
-Mii dus lea?
+Mii dus lea?	Was ist mit dir los?	Was hast du?
 Lea go dus e-boasta?	Hast du eine E-mail?
 Jeakkis leat luopmánat.	Im Moor gibt es Moltebeeren.
 Lea buolaš.	Es ist kalt.
@@ -244,23 +244,23 @@ Máret lea oahpaheaddji.	Máret ist Lehrerin.
 Ánde bargá boasttas.	Ánde arbeitet bei der Post.
 Soai oruiga Divttasvuonas.	Sie wohnten in Tysfjord.
 Áhkku lea ruovttus.	Oma ist zu hause.
-Rievvárat báhtaredje bolesiin.
+Rievvárat báhtaredje bolesiin.	Die Diebe sind vor der Polizei geflüchtet.
 Filbma álgá čiežas.	Der Film fängt um sieben an.
 Dii vázzibehtet skuvlii.	Ihr geht zur Schule.
 Vástit!	Antworte!
 Verrošeidde go?
 Vázzilit go?
-Mii bovdehalaimet heajaide.
+Mii bovdehalaimet heajaide.	Wir wurden zur Hochzeit eingeladen.
 Mánná lea gahperahttá.
 Lihkohisvuohta dáhpáhuvai bearjadaga.	Das Unglück passierte am Freitag.
 Báđis duoldá bohccobiergu.
 Buot lei varran.
 Mánát fillejedje stálu.	Die Kinder führten Stallo an der Nase herum.
-Soai čokkiiga eatnanmurjjiid.
+Soai čokkiiga eatnanmurjjiid.	Wir pflückten Erdbeeren.
 Mii cahkkeheimmet dola fiervái.
 Mon gevrejin eret Spider-Man.
 Dan eadni attii munnje.	Das hat Mamma mir gegeben.
-Sarridiin olbmot ráhkadit sávtta.
+Sarridiin olbmot ráhkadit sávtta.	Aus den Blaubeeren machen die Leute Saft.
 Maid Máret siđai goarrumis?
 Nieida lea čeahppi.	Das Mädchen ist gut.
 Geasseidja lea čuovgat.	Die Sommernacht ist hell.
@@ -271,7 +271,7 @@ Mana dearvan!	Mach es gut!
 Báhcet dearvan!	Macht es gut!
 Dáiddán boahtit.	Ich komme vielleicht.
 Máhttibehtet go duddjot?
-Máhtte ii sáhttán boahtit ovdal.
+Máhtte ii sáhttán boahtit ovdal.	Máhtte konnte nicht früher kommen.
 Áddjágo duo lea boahtime?
 Nuvttohat leat gorrojuvvon bohcconáhkis.
 Moai letne heaitán borgguheames.	Wir haben aufgehört zu rauchen.
@@ -286,8 +286,8 @@ It go sáhte muitalit?	Kannst du es nicht erzählen?
 Lea go arván diehko?
 Eahppi go boađe?	Kommt ihr nicht?
 Ale vuordde luksushotealla.	Erwarte kein Luxushotel.
-Lehpet go dárbbašan ollu veahki?
-Allet geahča dárogiel teavstta!
+Lehpet go dárbbašan ollu veahki?	Habt ihr viel Hilfe gebraucht?
+Allet geahča dárogiel teavstta!	Kuckt nicht auf den norwegischen Text!	Schaut nicht auf den norwegischen Text!
 Máhtát go ollu sámegiela?	Kannst du viel samisch?
 Máhtte-vilbealle duddjui ođđa fatnasa.
 Mun oidnen Ándde-guovtto Ristiinnáin.
@@ -298,37 +298,37 @@ Son mu nama ipmirdii boastut.	Sie hat meinen Namen falsch verstanden.
 Máŋga gávpeolbmo lonuhedje fáhcaid gálvvuiguin.
 Fertebeahtti jáhkkigoahtit dakkár balddonasmuitalusaide.
 Vuolgi mu mielde!	Komm mit mir mit.
-Manin don leat heittohit nohkkan?
+Manin don leat heittohit nohkkan?	Warum hast du schlecht geschlafen?
 Boađán dábálaččat ruoktot árrat.	Ich komme normalerweise früh nach Hause.
 Beaskkain gal bivvá buolašin.
 Heaika álggii ođđa bargui.
 Juohke beaivvi dáhpáhuvvá nu ollu.	Jeden Tag passiert so viel.
 Nieida lea Ohcejogas eret.	Das Mädchen ist aus Utsjok.
 Gápmagat leat dábálaččat gorrojuvvon gusanáhkis.
-Reahpenráiggi bokte suovva beassá olggos.
+Reahpenráiggi bokte suovva beassá olggos.	Durch den Schornstein kommt der Rauch nach draußen.	Durch den Schornstein gelangt der Rauch nach draußen.
 Mánát ledje čierastallame eahkedis mánoheahpin.
-Soađi maŋŋil olbmot vuvde joŋaid rámbuvrriide.
+Soađi maŋŋil olbmot vuvde joŋaid rámbuvrriide.	Nach dem Krieg verkauften die Leute Preiselbeeren an die Geschäfte.
 Son lea almmuhan eanemus girjjiid buot sámi čálliin.
 Olmmái háma duohken hehtte suoládeami.
-Mun lean lohkan ollu girjjiid dán dálvvi.
+Mun lean lohkan ollu girjjiid dán dálvvi.	Ich habe viele Bücher gelesen diesen Winter.
 Ovdal soađi badjeolbmot álge atnit fabrihkkaránuid.
-Eat go sáhttán vuolgit?
-Mánás orru leamen borranmiella.
-Ádjás go lea ođđa fanas?
+Eat go sáhttán vuolgit?	Konnten wir nicht gehen?
+Mánás orru leamen borranmiella.	Das Kind scheint großen Hunger zu haben.
+Ádjás go lea ođđa fanas?	Hat Opa ein neues Boot?
 Oahpaheddjiin lea ollu bargu.	Die Lehrer haben viel Arbeit.
-Ii buot olbmuin leat biila.
+Ii buot olbmuin leat biila.	Nicht alle Leute haben ein Auto.
 Dus gal leat fiinna Heavdne-Mánnegárvvut.
-Gal mis leat guhkes skuvlabeaivvit.
+Gal mis leat guhkes skuvlabeaivvit.	Wir haben lange Schultage.
 Ii dus leat gávdni masage.
 Lea go duohtavuohta sukcasiin Jack Sparrow birra?
-Dáid juovllaid lei issoras buolaš.
+Dáid juovllaid lei issoras buolaš.	An diesen Weihnachten ist es schrecklich kalt.
 Badjin vákkis leat meahccelájut.
-Lávus leat guokte amas olbmo.
-Do bohtet guokte olbmo.
-Dudno mielas lea suohtas.
-Diet lea mu.
-Girjji namma lea Kátjá.
-Su namma lea Harry Potter.
+Lávus leat guokte amas olbmo.	Im Lavo sind zwei fremde Leute.
+Do bohtet guokte olbmo.	Da kommen zwei Leute.
+Dudno mielas lea suohtas.	Ihr findet es lustig.
+Diet lea mu.	Dies ist meins.
+Girjji namma lea Kátjá.	Der Name des Buches ist Kátjá.
+Su namma lea Harry Potter.	Sein Name is Harry Potter.	Er heißt Harry Potter.
 Son ii leat olmmoš.	Er ist kein Mensch.
 Dan guovtto dat leat.
 Dát ášši lea dehálaš.	Diese Sache ist wichtig.
@@ -339,22 +339,22 @@ Gean láhkái son lea?	Wem ähnelt er.
 Son lea áhčis láhkái.	Er ähnelt Pappa.
 Miehkki lea guovtti ávjui.
 Dat fiilu lea golmma borrái.
-Dakkár gákti geavahuvvo Guovdageainnus, Álttás ja Heahtás Suomas.
+Dakkár gákti geavahuvvo Guovdageainnus, Álttás ja Heahtás Suomas.	Solch eine Tracht verwendet man in Kautokeino, Alta und Heatta in Finnland.
 Dorka gorrojuvvui sávzzanáhkis dahje bohcconáhkis.
-Mun máhtán láibut šuhkoládagáhku ja lákcagáhku.
+Mun máhtán láibut šuhkoládagáhku ja lákcagáhku.	Ich kann Schokoladenkuchen und Sahnetorte backen.
 Dii oahppabehtet lohkat ja čállit sámegillii.	Ihr lernt Samisch zu lesen und zu schreiben.
-Doppe moai sáhtiime oastit gáfe, deaja, sávtta dahje bruvssa.
+Doppe moai sáhtiime oastit gáfe, deaja, sávtta dahje bruvssa.	Dort konnten wir Kaffee, Tee, Saft oder Soda kaufen.
 Liepmasii olbmot bidje guolleoivviid, dáraid, debbuid, buđeittaid, boares rásiid ja rohkajáffuid.
 Juohke giđa sii lávejedje bassat dáhki ja seinniid.
 Bidjet uvssa ja lásaid gitta!	Macht die Tür und die Fenster zu.
 Nemi ja Pondus leaba sárgojuvvon hámit.
 Mis leat šuhkoládagáhkku ja lákcagáhkku.	Wir haben Schokoladenkuchen und Sahnetorte.
 Munnos leat golbma máná, guokte nieidda ja okta bárdni.	Wir haben drei Kinder, zwei Mädchen und einen Jungen.
-Mis lea stuora beana ja bahás gáhttu.
+Mis lea stuora beana ja bahás gáhttu.	Wir haben einen großen Hund und eine böse Katze.
 Sus leat guokte vielja ja okta oabbá.	Er hat zwei Brüder und eine Schwester.
 Dorskis sáhttet leat vuoivvas ja meađđemat.
 Vuovdimassii leat maid gáhkut ja láibevajahasat.
-Universitehtain ja allaskuvllain leat ollu studeanttat.
+Universitehtain ja allaskuvllain leat ollu studeanttat.	An den Universitäten und den Fachhochschulen sind viele Studenten.
 Norggas ja Ruoŧas leat julevsápmelaččat.	In Norwegen und Schweden gibt es Lulesamen.
 Návsttis leat máŋggalágan fierpmit, ja maid liidna ja eará bivdosat.
 Bearjadaga ja lávvordaga leat feasttat.	Am Freitag und Samstag sind Parties.
@@ -365,7 +365,7 @@ Sámit ledje doloža rájes eallán meahcástemiin ja mearrabivdduin.
 Mii čuoiggaimet gitta don dievás.
 Lásse, Iŋgá ja mun leimmet Romssas.
 Ándde-guovttos Rihtáin gávnnadeigga gávpogis.
-Iŋgá bođii mánáidisguin deike.
+Iŋgá bođii mánáidisguin deike.	Iŋgá kam mit ihren Kindern hier hin.
 Unna mánáš gahčai johkii.	Das kleine Kind ist in den Fluß gefallen.
 Dii vujiidet duon luotta.
 Munno mánát eai láve jávkat skuvllas.
@@ -378,27 +378,27 @@ Doai soaitibeahtti boahtit Gáivutnii boahtte geasi.
 Moai orro hálbbes hoteallas Hyde Park lahka.
 Odne áigo mannat Madame Tussauda kabinehttii.
 Diet gal lea beare unnán.
-Dat gal lea boastut.
+Dat gal lea boastut.	Das ist falsch.
 Gal diet šattai botnjut.
-Mun áiggun geahččat TV-ođđasiid.
+Mun áiggun geahččat TV-ođđasiid.	Ich will die Nachrichten schauen.
 Doai fertebeahtti viežžat čázi.	Ihr müßt Wasser holen.
 Dakkár stuora gávpogis olmmoš sáhttá bargat vaikko maid.
 Guovdageaidnu čájehii fámuid vuosttaš minuvtta rájes.
 Nissonat dat eanaš duddjojit sámi biktasiid.
 Mánnodagaid gehčče vel Sámi mánáid-TV ovttas mánáiguin.
-Muhtumin moai geahčaime filmma eahkedis.
+Muhtumin moai geahčaime filmma eahkedis.	Manchmal schauten wir abends Filme an.
 Son aiddo bidjalii spáppa rabas mollii.
 Flash gal suige ánssáhii dien.
 Gos daid lehpet goldán?
 Beaskka geavahedje gávtti badjel.
 Dorkka geavahedje gávtti vuolde.
 Leahppi go oahppan suomagiela skuvllas?
-Ean gille láibut gáhku odne.
-Dál de viimmat asttan čállit reivve.
+Ean gille láibut gáhku odne.	Wir haben keine Lust heute einen Kuchen zu backen.
+Dál de viimmat asttan čállit reivve.	Jetzt habe ich endlich Zeit einen Brief zu schreiben.
 In háliit duinna doarrut.
 Stállu lea hui rikkis.
 Dat ii leat nu váttis.	Das ist nicht so schwer.
-Ii dat leat bahá.
+Ii dat leat bahá.	Das ist nicht schlimm.
 Diet lea lohkkis mánná.
 Deatnojohtin sáhttá leat váralaš.
 Galgá go buot bivttasráhkadeapmi leat nissoniid bargu?
@@ -411,42 +411,42 @@ Min miestagis leat ollu váramat.
 Ovddeš áiggiid čoakkalmasviesut ledje nuoraid áidna deaivvadansajit.
 Gal dat lea njalkkas odne.
 Beassážiid leat dábálaččat heargevuodjingilvvut, sihke Kárášjogas ja Guovdageainnus.
-Gerge go vuolgit ihttin?
-In leat diehtán maidege.
+Gerge go vuolgit ihttin?	Schaffen wir es morgen zu fahren.
+In leat diehtán maidege.	Ich wußte nichts.
 Dolin, ovdal soađi, olbmot lávejedje vuovdit joŋaid.
 Oinniide go Mihkkala, munno nuoramus bártni?
 Dan mun muitalan dušše dutnje, iežan buoremus olbmái.
-Ánde orru Oslos, Norgga oaivegávpogis.
+Ánde orru Oslos, Norgga oaivegávpogis.	Ánde wohnt in Oslo, in der Hauptstadt von Norwegen.
 Mun hupmen Máhte-Iŋggáin, Niillas-Máhte eamidiin.
-Vuolggán ihttin, bearjadaga.
+Vuolggán ihttin, bearjadaga.	Ich fahre morgen, am Freitag.
 Do boahtá Lemet Niillas, min ođđa oahpaheaddji.
-Mu viellja, Tore, sáhttá boahtit deike.
+Mu viellja, Tore, sáhttá boahtit deike.	Mein Bruder Tore kann hier hin kommen.
 Romssas, Davvi-Norgga stuorimus gávpogis, leat vaikko man ollu studeanttat.
 Elizabeth, gal don juo leat čáppat.
 Vuoi, doai leahppi nu čeahpit!
 Gea, son boahtá dál juo!
 Njiŋŋelasheasta lea dámmá ja varrisheasta lea ore.
-Boahtá go eadni, vai ii go boađe?
+Boahtá go eadni, vai ii go boađe?	Kommt Mamma, oder kommt sie nicht?
 Munnos lea válmmas dáigi gáhkkogáris ja moai njuzzo das jorba gáhkuid.
 Vuolgge dál mu mielde, dus ii galgga leat heahti.
 Nieidda eadni ii sihtan vuolgit, muhto nisu hásttii.
 Čálii gal, muhto ii gártan sáddet.
 Elle lávllui ja Biret juoiggai.
-Mun lean náitalan, ja mu eamit bargá girdišiljus.
+Mun lean náitalan, ja mu eamit bargá girdišiljus.	Ich bin verheiratet, und meine Frau arbeitet am Flughafen.
 Mun orun gávpogis, muhto lean unna gilážis eret.
 Son doalai seahkkanjálmmi rabas ja duosttui mánáid sehkkii.
 De bođii stállu, ja sus lei seahkka mielde.
-Mun lean doavttir ja barggan buohcceviesus.
-Son lea mu oabbá, ja lea 35 jagi boaris.
+Mun lean doavttir ja barggan buohcceviesus.	Ich bin Arzt und arbeite im Krankenhaus.
+Son lea mu oabbá, ja lea 35 jagi boaris.	Sie ist meine Schwester, und sie ist 35 Jahreee alt.
 Soai vácciiga ovtta gaskka, ja doppe lei stuora bovdna.
 Dál lea boddu, ja bargit leat gáffádagas.
-Dáppe lea kino, muhto kinobileahtta lea divrras.
+Dáppe lea kino, muhto kinobileahtta lea divrras.	Hier gibt es ein Kino, aber das Kinoticket ist teuer.
 In mannan galmmas, muhto veallájin guhká.
 Áibbas dolin nissonat botne láiggi snálduin, dál sii botnet dorttiin.
 Gáivuonas eai leat stuora jeakkit, ja dan dihte eai leat ollu láttagat.
 Olmmáivuovddis ledje badjeolbmot, ja Čorrogiettis sis lei geasseorohat.
 Dárbbahat go dálkasa vai hálidat go doaktáriin sárdnut?
-Bures dat manná, muhto mun lean heittohit oađđán.
+Bures dat manná, muhto mun lean heittohit oađđán.	Es geht mir gut, aber ich habe schlecht geschlafen.
 Bovnnas lei viessu, ja viesus lei nuorra nisu mánnáváivvis.
 Bovnnas rahpasii uksa, ja soai manaiga sisa.
 Spábba guoskkai ovtta Snøgga čiekčái ja manai mollii.
@@ -460,23 +460,23 @@ Heasta dárbbaša ollu suinniid, ja dasa ferte maid oastit heastabiergasiid.
 Mu isidis lea rukses persovdnabiila, ja son vuodjá bargui juohke iđida.
 Ollugat lávejit jearahit, velgo váldet oahpahalliid.
 Go olbmot jaskkodit, de sáhpánat álget jurdit.
-Son muitalii ahte son boahtá ihttin.
+Son muitalii ahte son boahtá ihttin.	Sie sagte, daß sie morgen kommt.	Er sagte, daß er morgen kommt.
 Mun oainnán ahte dii lehpet boahtán.
 Olbmot mat dohko bohtet, eai leat Ruoŧas eret. 
-Moai bohte go gerge.
+Moai bohte go gerge.	Wir kommen, wenn wir fertig sind.
 Viellja veahkeha du, go astá.
 Go mii leat goikadan gáhkuid, de álgit málestit.
 Go biergu lea giksan, de bidjat buđehiid mállásii.
 Vákkiin leat ollu váramat, jus lea buorre geassi.
 Ránut liggejedje bures reagas jus eai lean roavggut.
 Dat, guhte vuoitá, oažžu silbabastte.
-Sii eai liiko, go mii hárdit sin.
+Sii eai liiko, go mii hárdit sin.	Sie mögen es nicht, wenn wir sie ärgern.
 Muital eadnásat, gean lusa don manat!
 Oahpaheaddji dadjá ahte mii galgat dan bargat ruovttus.
 Son čájeha midjiide mo galgat guliid čoallut.
 Mii leat sullii diimmu fávllis ovdalgo suhkat gáddái.
 Muiti ahte stuora fámut buktet stuora ovddasvástádusa.
-Áhčči vulggii, ovdalgo mun bohten.
+Áhčči vulggii, ovdalgo mun bohten.	Pappa ist gegangen bevor ich gekommen bin.
 Soagŋu-girji, mas leat noveallat, bođii jagi 1971.
 Olmmoš gean lusa stállu lea vuolgán, ii oaččo šat ráfi.
 Go son boahtá goađi lahka, de son huiká eammái.
@@ -486,8 +486,8 @@ Go stállu boahtá, de njurgugoahtá.
 Jus in leat váiban, de manan nohkkat easkka gaskaija.
 Dii geargabehtet justa ovdal go Sámi ođđasat álget.
 Láiki bargagoahtá go beaivváš luoitáda.
-Buorre lei go bohtet.
-Mánná lei balus go galggai skuvlii.
+Buorre lei go bohtet.	Gut, daß du gekommen bist.
+Mánná lei balus go galggai skuvlii.	Das Kind hatte Angst als es in die Schule gehen sollte.
 Biekkastii.
 Gillešeiddet go?
 Guldalehket!
