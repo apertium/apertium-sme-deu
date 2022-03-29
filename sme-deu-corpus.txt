@@ -840,7 +840,7 @@ Mun in oastte báiddi inge buvssaid.	Ich kaufe weder ein T-Shirt noch eine Hose.
 Mus ii leat biila iige mopeda.	Ich habe weder ein Auto noch ein Moped.
 Mánná ii hálit borrat iige juhkat.	Das Kind will weder essen, noch trinken.
 In máhte lávlut inge juoigat.	Ich kann weder singen, noch joiken.
-Ahte gielistii lea vissis.
+Ahte gielistii lea vissis.	Es war sicher, daß er log.
 Mun geahčastin áigetávvalii go jovden mollii.
 In mun gal oba oaidnánge stoalppu ovdalgo beaškkehii.
 C U L8R máksá ahte oaidnaletne maŋŋelaš.
@@ -848,36 +848,36 @@ Go cegget lávu, de mii dárbbašit lávvomuoraid.
 Muitaleastte fal munnje goas doavttir sáhttá boahtit.
 Nieidda eadni lei okto siiddas dalle go amas nisu bođii sisa goahtái.
 De dáhpáhuvai, ahte rievvár bođii.
-Mun mannen maŋŋilgo mii leimmet čorgen.
+Mun mannen maŋŋilgo mii leimmet čorgen.	Ich ging, nachdem wir aufgeräumt hatten.
 Bora vai ealát.
-Mii leimmet jaska, amaset mánát gullat!
+Mii leimmet jaska, amaset mánát gullat!	Wir waren still, so daß die Kinder hören konnten!
 Mađe losit siivu, dađe njoazebut manná mátki.
 Dat dáidá riggát go mii jáhkkit.
 Don it beasa ruoktot jus don borat mis.
 Don fertet vuolgit vai it báze busses.
-Mun dieđán, ahte mis lea ođđa oahpaheaddji.
+Mun dieđán, ahte mis lea ođđa oahpaheaddji.	Ich weiß, daß wir einen neuen Lehrer haben.
 Buohkat, geat áigot bileahtaid oastit, fertejit boahtit deike.
-Ledje ollu joŋat doppe, gos mii ikte finaimet.
-Eat dieđe, bođeža go Elle ihttin.
-Go don gearggat čállimis, de moai vulge ruoktot.
-Fertet vuolgit ovdalgo sevnnjoda.
+Ledje ollu joŋat doppe, gos mii ikte finaimet.	Es gab viele Preiselbeeren dort, wo wir gestern waren.
+Eat dieđe, bođeža go Elle ihttin.	Wir wissen nicht, ob Elle morgen kommt.
+Go don gearggat čállimis, de moai vulge ruoktot.	Wenn du fertig geschrieben hast, gehen wir nach hause.
+Fertet vuolgit ovdalgo sevnnjoda.	Du mußt gehen bevor es anfängt dunkel zu werden.
 In dieđe, vaikko leažžá mannan olggos.
 Ánne, geasa Mihkkal lei liikostan, lei hui čeavlái.
 Olbmot, geat dávjá vihket, leat sávrrit.
 Fertet vázzilit vai it báze duoin earáin.
 Harry diehtá buori báikki gos mii sáhttit bivdit guliid.
 Árranis sii vušše liepmasa ealuide vai sestet goikerásiid.
-Son lea dakkár mii ii beroš lága čuovvut!
-Son lea duođaid čuorbbimus rievvár maid lean oaidnán.
+Son lea dakkár mii ii beroš lága čuovvut!	Er ist jemand, dem es egal ist, ob er den Gesetzen folgt!
+Son lea duođaid čuorbbimus rievvár maid lean oaidnán.	Er ist wirklich der ungeschickteste Dieb, den ich je gesehen habe.
 Sáppatbáddi ii liikon dasa maid barggaimet Jack Sparrowiin.
-Manin eat daga nugo Mr. Sparrow logai?
+Manin eat daga nugo Mr. Sparrow logai?	Warum machen wir es nicht so, wie Mr. Sparrow sagte?
 Danne lei buorre mearrasámiide ahte ealut bohte dan sadjái.
 Gii buori hilgu, son bahá gávdná.
 Go geađggit gahčče báhtái, de báhti cuovkanii.
-De álge doaivut ahte sis lea jápmindávda.
-Eat mii sáhte vuolgit go ii leat dilli.
+De álge doaivut ahte sis lea jápmindávda.	Dann fingen wir an zu glauben, daß sie eine tödliche Krankheit haben.
+Eat mii sáhte vuolgit go ii leat dilli.	Wir können nicht gehen, wenn wir nicht die Gelegenheit dazu haben.
 Sii eai diehtán ahte mánnu šaddá.
-Son lea náitalan Robertiin, gii lea Irlánddas eret.
+Son lea náitalan Robertiin, gii lea Irlánddas eret.	Er ist mit Robert verheiratet, der aus Irland ist.
 Láđđi fertejedje oastit, nu ahte láđđegákti lei divraseabbo.
 Go náittosbárra vuolgá girkus, de čuovvolit mielvázzit.
 Sus leat hervejuvvon gálssohat main heaŋgájit čáppa diehpit.
@@ -886,8 +886,8 @@ Go don leat čađahan álgogurssa, de sáhtát álgit joatkkagursii.
 Soai liikoba hui bures bargat heasttaiguin, vaikko dasa mannáge ollu áigi.
 Dakkaviđe go rahpat uvssa suoidnelatnjii, de heasttat šaddet muoseheamit.
 Niegus silbaruđat muitalit ahte šaddet fierttut.
-Oahpaheaddji čilge govt mii galgat sojahit sániid.
-Dalle mun ferten iskat lea go dus feber.
+Oahpaheaddji čilge govt mii galgat sojahit sániid.	Der Lehrer erklärt wie wir die Wörter beugen müßen.
+Dalle mun ferten iskat lea go dus feber.	Dann muß ich nachschauen, ob du Fieber hast.
 Dihkkádeaddji rávve skohtervuddjiid várrugasat mátkkoštit, go dán jagi lea erenoamán heajos jiekŋa jogain.
 Son rávve olbmuid čuovvut skohtermáđii dárkilit go sáhttá leat suddi goappašiid beale luotta.
 Vuolgu gávpogii, ovdalgo girjerádju manná gitta.
@@ -895,7 +895,7 @@ Heasta vuoiŋŋastahttá juolggi go čuožžu golmma juolggi nalde.
 Heasta ruoidná ja šaddá bahá jus lea heajos dilli.
 Jus olmmoš suhtai nuppi olbmui, de sáhtii vuolggahit stálu su lusa.
 Jus mánát leat olgun čierastallame juovlabasiid, de sáhttet čierastit njuolgga stálu sehkkii.
-Vulgot gávpogii, ovdalgo girjerádju manná gitta.
+Vulgot gávpogii, ovdalgo girjerádju manná gitta.	Lasst uns in die Stadt gehen, bevor die Bibliothek zu macht.
 Dát lea dat beaivi go meastui válddiide gitta Jack Sparrowa!
 Mii gávdnat mađi vihtaiguin maid Harry lea oahppan áhčistis.
 Boarráseamos oahppit bivdet guliid vai ohppet sániid guliid ja bivddu birra.
