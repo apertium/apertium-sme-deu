@@ -42,7 +42,7 @@ num: _.number;
 pcle: _;
 
 ! smaller phrases
-PROPN: _ ;
+PROPN: _.case ;
 N: _.gender.number.case ;
 V: _;
 C: _;
@@ -79,7 +79,10 @@ conneg > number : conneg sg ;
 
 maybe_art: (if (1.number = sg) [der@det.def.[1.gender].sg.[1.case] _]
             else [der@det.def.mfn.pl.[1.case] _]) ;
-maybe_adp: (if (1.case = loc) [in@pr.acc _] elif (1.case/sl = acc) [zu@pr.dat _] else []) ;
+maybe_adp: (if (1.case/sl = loc) [in@pr.acc _]
+            elif (1.case = acc) [auf@pr.dat _]
+            elif (1.case = dat) [in@pr.dat _] 
+            else []) ;
 
 !!!!!!!!!!!!!!!
 !! REDUCTION RULES
@@ -92,7 +95,10 @@ S -> VP NP { 1 _
      NP {
      *(maybe_adp)[case=1.case]
      *(maybe_art)[number=1.number,case=1.case,gender=1.gender]
-     1 } ; ! stray NP
+     1 } |
+     PROPN {
+     *(maybe_adp)[case=1.case]
+     1 } ; ! stray PROPN (no article)
 NEG -> ii@vblex { nicht@adv } ; ! stray NEG
 VP -> NP.loc leat@vblex {
         *(maybe_adp)[case=nom]
@@ -109,11 +115,12 @@ V -> vblex {1[person = (if (1.tense = imp) "" else 1.person)]} |
      vbser {1} |
      vbmod {1} ;
 PP -> NUMP post { 2 _ 1 } ;
-NUMP -> num N { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
-                2[number=(if (1.lem/sl = "okta") sg else pl)] } ;
-NP -> %N { 1 } ;
+NUMP -> num NP { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
+                 2[number=(if (1.lem/sl = "okta") sg else pl)] } ;
+NP -> A %N { 1 _ 2 }|
+      %N { 1 } ;
 N -> %n { 1 } ;
-PROPN -> np {1} ;
+PROPN -> %np {1} ;
 C -> cnjcoo {1} |
      cnjsub {1} ;
 PRNP -> prn {1} |
