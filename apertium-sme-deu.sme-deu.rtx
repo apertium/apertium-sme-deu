@@ -21,6 +21,7 @@ conneg = conneg ;
 !! OUTPUT PATTERNS
 !!!!!!!!!!!!!!!
 
+! single words
 n: _.gender.number.case;
 np: _.npclass.gender.number.case;
 adj: _.gender.number;
@@ -40,9 +41,11 @@ adj: _.<sint>;
 num: _.number;
 pcle: _;
 
+! smaller phrases
+PROPN: _ ;
+N: _.gender.number.case ;
 V: _;
 C: _;
-NP: _;
 PRNP: _;
 ADV: _;
 ADP: _;
@@ -50,6 +53,13 @@ A: _ ;
 NUM: _ ;
 VP: _ ;
 NEG: _ ;
+S: _ ;
+
+! phrases
+
+PP: _ ;
+NUMP: _ ;
+NP: _.case;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
@@ -67,21 +77,43 @@ conneg > number : conneg sg ;
 !! MACROS
 !!!!!!!!!!!!!!!
 
-maybe_art: (if (1.number = sg) [der@det.def.m.sg.nom _] else [der@det.def.mfn.pl.nom _]) ;
+maybe_art: (if (1.number = sg) [der@det.def.[1.gender].sg.[1.case] _]
+            else [der@det.def.mfn.pl.[1.case] _]) ;
 maybe_adp: (if (1.case = loc) [in@pr.acc _] elif (1.case/sl = acc) [zu@pr.dat _] else []) ;
 
 !!!!!!!!!!!!!!!
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
-
-NEG -> ii@vblex { nicht@adv } ;
-VP -> ii@vblex vblex { 2[person=1.person, number=1.number] _ nicht@adv } |
-      ii@vblex prn vblex { 2 _ 3[person=1.person, number=1.number] _ nicht@adv } ;
+S -> VP NP { 1 _
+        *(maybe_adp)[case=2.case]
+        *(maybe_art)[number=2.number, case=2.case, gender=2.gender]
+        2 } |
+     VP { 1 } |  ! stray VP
+     NP {
+     *(maybe_adp)[case=1.case]
+     *(maybe_art)[number=1.number,case=1.case,gender=1.gender]
+     1 } ; ! stray NP
+NEG -> ii@vblex { nicht@adv } ; ! stray NEG
+VP -> NP.loc leat@vblex {
+        *(maybe_adp)[case=nom]
+        *(maybe_art)[number=1.number, case=nom, gender=1.gender] 
+        1 _ haben@vbhaver.pri.[2.person].[2.number] } |
+      NP V {
+      *(maybe_adp)[case=1.case]
+      *(maybe_art)[number=1.number, case=1.case, gender=1.gender]
+      1 _ 2 } |
+      ii@vblex vblex { 2[person=1.person, number=1.number] _ nicht@adv } |
+      ii@vblex prn vblex { 2 _ 3[person=1.person, number=1.number] _ nicht@adv } |
+      V { 1 } ;  ! stray V
 V -> vblex {1[person = (if (1.tense = imp) "" else 1.person)]} |
      vbser {1} |
      vbmod {1} ;
-NP -> n {(if (1.case/sl1 = loc) [in@pr.acc _] else []) *(maybe_art)[number=1.number, case=1.case] 1} |
-      np {1} ;
+PP -> NUMP post { 2 _ 1 } ;
+NUMP -> num N { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
+                2[number=(if (1.lem/sl = "okta") sg else pl)] } ;
+NP -> %N { 1 } ;
+N -> %n { 1 } ;
+PROPN -> np {1} ;
 C -> cnjcoo {1} |
      cnjsub {1} ;
 PRNP -> prn {1} |
@@ -91,7 +123,8 @@ ADV -> adv {1} |
 ADP -> post {1} |
        pr {1} ;
 A -> adj {1} ;
-NUM -> num {1[number = (if (1.lem/sl = "okta") sg else pl)] } ;
+NUM -> num {1[number = (if (1.lem/sl = "okta") sg else pl)] } ; 
+    ! IE numerals have no morphological num so they assume semantic num
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Apertium-recursive
