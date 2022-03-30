@@ -335,7 +335,7 @@ Dát ášši lea dehálaš.	Diese Sache ist wichtig.
 Máreha čállin girji lei hui buorre.	Das von Máret geschriebene Buch ist sehr gut.
 Diet gápmagat leat áhči.	Diese Schuhe gehören Pappa.
 Divtta temá lea ráhkisvuohta.	Das Thema des Gedichtes ist Liebe.
-Gean láhkái son lea?	Wem ähnelt er.
+Gean láhkái son lea?	Wem ähnelt er?
 Son lea áhčis láhkái.	Er ähnelt Pappa.
 Miehkki lea guovtti ávjui.
 Dat fiilu lea golmma borrái.
@@ -363,7 +363,7 @@ Eadni ja áhčči boahtiba.	Mamma und Pappa kommen.
 Sii barget sihke Kárášjogas ja Guovdageainnus.	Sie arbeiten sowohl in Karasjok als auch in Kautokeino.
 Sámit ledje doloža rájes eallán meahcástemiin ja mearrabivdduin.
 Mii čuoiggaimet gitta don dievás.
-Lásse, Iŋgá ja mun leimmet Romssas.
+Lásse, Iŋgá ja mun leimmet Romssas.	Lásse, Iŋgá und ich waren in Tromsø.
 Ándde-guovttos Rihtáin gávnnadeigga gávpogis.
 Iŋgá bođii mánáidisguin deike.	Iŋgá kam mit ihren Kindern hier hin.
 Unna mánáš gahčai johkii.	Das kleine Kind ist in den Fluß gefallen.
@@ -396,7 +396,7 @@ Leahppi go oahppan suomagiela skuvllas?
 Ean gille láibut gáhku odne.	Wir haben keine Lust heute einen Kuchen zu backen.
 Dál de viimmat asttan čállit reivve.	Jetzt habe ich endlich Zeit einen Brief zu schreiben.
 In háliit duinna doarrut.
-Stállu lea hui rikkis.
+Stállu lea hui rikkis.	Stallo ist sehr reich.
 Dat ii leat nu váttis.	Das ist nicht so schwer.
 Ii dat leat bahá.	Das ist nicht schlimm.
 Diet lea lohkkis mánná.
@@ -461,19 +461,19 @@ Mu isidis lea rukses persovdnabiila, ja son vuodjá bargui juohke iđida.
 Ollugat lávejit jearahit, velgo váldet oahpahalliid.
 Go olbmot jaskkodit, de sáhpánat álget jurdit.
 Son muitalii ahte son boahtá ihttin.	Sie sagte, daß sie morgen kommt.	Er sagte, daß er morgen kommt.
-Mun oainnán ahte dii lehpet boahtán.
-Olbmot mat dohko bohtet, eai leat Ruoŧas eret. 
+Mun oainnán ahte dii lehpet boahtán.	Ich sehe, daß ihr gekommen seid.
+Olbmot mat dohko bohtet, eai leat Ruoŧas eret. 	Leute, die dorthin kommen, sind nicht aus Schweden.
 Moai bohte go gerge.	Wir kommen, wenn wir fertig sind.
-Viellja veahkeha du, go astá.
+Viellja veahkeha du, go astá.	Mein Bruder hilft dir, wenn er Zeit hat.
 Go mii leat goikadan gáhkuid, de álgit málestit.
 Go biergu lea giksan, de bidjat buđehiid mállásii.
 Vákkiin leat ollu váramat, jus lea buorre geassi.
 Ránut liggejedje bures reagas jus eai lean roavggut.
 Dat, guhte vuoitá, oažžu silbabastte.
 Sii eai liiko, go mii hárdit sin.	Sie mögen es nicht, wenn wir sie ärgern.
-Muital eadnásat, gean lusa don manat!
-Oahpaheaddji dadjá ahte mii galgat dan bargat ruovttus.
-Son čájeha midjiide mo galgat guliid čoallut.
+Muital eadnásat, gean lusa don manat!	Erzähl deiner Mutter, zu wem du gehst.
+Oahpaheaddji dadjá ahte mii galgat dan bargat ruovttus.	Der Lehrer sagt, daß wir das zu Hause machen sollt.
+Son čájeha midjiide mo galgat guliid čoallut.	Er zeigt uns, wie wir die Fische ausnehmen sollen.
 Mii leat sullii diimmu fávllis ovdalgo suhkat gáddái.
 Muiti ahte stuora fámut buktet stuora ovddasvástádusa.
 Áhčči vulggii, ovdalgo mun bohten.	Pappa ist gegangen bevor ich gekommen bin.
@@ -491,12 +491,12 @@ Mánná lei balus go galggai skuvlii.	Das Kind hatte Angst als es in die Schule 
 Biekkastii.
 Gillešeiddet go?
 Guldalehket!
-Son čálligođii.
+Son čálligođii.	Er fing an zu schreiben.
 Gákti gorrojuvvo.
 Viehkaleadnu dohko!
 De vulggiiga.
 Čájeheahkki munnje!
-Muital midjiide!
+Muital midjiide!	Erzähl es uns!
 Áilu vujii skohteriin.
 Mii fillehalaimet sidjiide.
 Elle beahtahalai gávpeolbmái.
@@ -504,19 +504,19 @@ Miessi borahalai gumpii.
 Mun bovdejuvvojin heajaide.
 Manni doai dohko!
 Dánsejeadnu dál!
-Máhtát go sámegiela?
+Máhtát go sámegiela?	Kannst du samisch?
 Mu gasttiha.
 Mu vuovssihii.
 Bijai muohttaga.
 Sarridiid mii gal borašeimmet.
-Gean don oidnet?
+Gean don oidnet?	Wen hast du gesehen?
 Gii oasttášii biilla?
 Oahpai go Sire sámegiela?
 Mun ohppen čállit eŋgelasgillii.
 Duopmár bosádii vuoru johtui.
 Son nahkehivččii spáppa mollii.
 Loahpas son bážii moala.
-Máhtát go suomagiela maid?
+Máhtát go suomagiela maid?	Kannst du auch finnisch?
 Maid siđat odne?
 Bija gahpira oaivái.
 Muhto Parkera gal deavččastetne.
@@ -524,8 +524,8 @@ Livččii go dus CD-čuojanas?
 Sus jámii áhčči.
 Gárttai go divrrasin?
 Dat lea juhkki.
-Lea go nieida?
-Diibmu lea vihtta.
+Lea go nieida?	Ist es ein Mädchen?
+Diibmu lea vihtta.	Es sind fünf Uhr.
 Leat go don cyber-sápmelaš?
 Boađus šattai 3-2.
 Son lea boarráseamos.
