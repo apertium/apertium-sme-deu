@@ -27,7 +27,7 @@ np: _.npclass.gender.number.case;
 adj: _.gender.number;
 det_default: _.det_type;
 det_def: _.det_type.number;
-vblex: _.inf.pcp.sep.fs.tense.person.number;
+vblex: _.sep.inf.pcp.fs.tense.person.number;
 vbser: _.tense.person.number;
 vbmod: _.tense.person.number;
 cnjcoo: _;
