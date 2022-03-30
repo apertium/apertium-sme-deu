@@ -409,22 +409,22 @@ Dán báhkis šaddá čáppa gohppu.
 Dán jagi eai leat luopmánat.	In diesem Jahr gibt es keine Moltebeeren.
 Min miestagis leat ollu váramat.
 Ovddeš áiggiid čoakkalmasviesut ledje nuoraid áidna deaivvadansajit.
-Gal dat lea njalkkas odne.
+Gal dat lea njalkkas odne.	Heute ist es echt glatt.
 Beassážiid leat dábálaččat heargevuodjingilvvut, sihke Kárášjogas ja Guovdageainnus.
 Gerge go vuolgit ihttin?	Schaffen wir es morgen zu fahren.
 In leat diehtán maidege.	Ich wußte nichts.
-Dolin, ovdal soađi, olbmot lávejedje vuovdit joŋaid.
-Oinniide go Mihkkala, munno nuoramus bártni?
-Dan mun muitalan dušše dutnje, iežan buoremus olbmái.
+Dolin, ovdal soađi, olbmot lávejedje vuovdit joŋaid.	Früher, vor dem Krieg, verkauften die Leute Preiselbeeren.
+Oinniide go Mihkkala, munno nuoramus bártni?	Habt ihr Mihkkal, unseren jüngsten Sohn, gesehen?
+Dan mun muitalan dušše dutnje, iežan buoremus olbmái.	Das habe ich nur dir, meinem besten Freund, erzählt.
 Ánde orru Oslos, Norgga oaivegávpogis.	Ánde wohnt in Oslo, in der Hauptstadt von Norwegen.
 Mun hupmen Máhte-Iŋggáin, Niillas-Máhte eamidiin.
 Vuolggán ihttin, bearjadaga.	Ich fahre morgen, am Freitag.
-Do boahtá Lemet Niillas, min ođđa oahpaheaddji.
+Do boahtá Lemet Niillas, min ođđa oahpaheaddji.	Dort kommt Lemet Niillas, unser neuer Lehrer.
 Mu viellja, Tore, sáhttá boahtit deike.	Mein Bruder Tore kann hier hin kommen.
-Romssas, Davvi-Norgga stuorimus gávpogis, leat vaikko man ollu studeanttat.
+Romssas, Davvi-Norgga stuorimus gávpogis, leat vaikko man ollu studeanttat.	In Tromsø, der größten Stadt Nordnorwegens, sind   ganz viele Studenten.
 Elizabeth, gal don juo leat čáppat.
 Vuoi, doai leahppi nu čeahpit!
-Gea, son boahtá dál juo!
+Gea, son boahtá dál juo!	Kuck mal, sie kommt schon jetzt!	Kuck mal, er kommt schon jetzt!
 Njiŋŋelasheasta lea dámmá ja varrisheasta lea ore.
 Boahtá go eadni, vai ii go boađe?	Kommt Mamma, oder kommt sie nicht?
 Munnos lea válmmas dáigi gáhkkogáris ja moai njuzzo das jorba gáhkuid.
@@ -437,9 +437,9 @@ Mun orun gávpogis, muhto lean unna gilážis eret.
 Son doalai seahkkanjálmmi rabas ja duosttui mánáid sehkkii.
 De bođii stállu, ja sus lei seahkka mielde.
 Mun lean doavttir ja barggan buohcceviesus.	Ich bin Arzt und arbeite im Krankenhaus.
-Son lea mu oabbá, ja lea 35 jagi boaris.	Sie ist meine Schwester, und sie ist 35 Jahreee alt.
+Son lea mu oabbá, ja lea 35 jagi boaris.	Sie ist meine Schwester, und sie ist 35 Jahre alt.
 Soai vácciiga ovtta gaskka, ja doppe lei stuora bovdna.
-Dál lea boddu, ja bargit leat gáffádagas.
+Dál lea boddu, ja bargit leat gáffádagas.	Jetzt ist Pause, und die Arbeiter sind in der Kantine.
 Dáppe lea kino, muhto kinobileahtta lea divrras.	Hier gibt es ein Kino, aber das Kinoticket ist teuer.
 In mannan galmmas, muhto veallájin guhká.
 Áibbas dolin nissonat botne láiggi snálduin, dál sii botnet dorttiin.
@@ -447,11 +447,11 @@ Gáivuonas eai leat stuora jeakkit, ja dan dihte eai leat ollu láttagat.
 Olmmáivuovddis ledje badjeolbmot, ja Čorrogiettis sis lei geasseorohat.
 Dárbbahat go dálkasa vai hálidat go doaktáriin sárdnut?
 Bures dat manná, muhto mun lean heittohit oađđán.	Es geht mir gut, aber ich habe schlecht geschlafen.
-Bovnnas lei viessu, ja viesus lei nuorra nisu mánnáváivvis.
-Bovnnas rahpasii uksa, ja soai manaiga sisa.
+Bovnnas lei viessu, ja viesus lei nuorra nisu mánnáváivvis.	Bovnna hatte ein Haus, und im Haus war eine 
+Bovnnas rahpasii uksa, ja soai manaiga sisa.	Die Tür öffnete sich für Bovnna, und sie gingen hinein.
 Spábba guoskkai ovtta Snøgga čiekčái ja manai mollii.
 Kulihkka lea hui dábálaš, ja heasttas sáhttá maid leat nuorvu.
-Mun orun Romssas, muhto lean Vuošvákkis eret.
+Mun orun Romssas, muhto lean Vuošvákkis eret.	Ich wohne in Tromsø, aber ich bin aus Vuošvággi.
 Ollu turisttat leat boahtán Kárášjohkii, ja sisge soapmásat servet heargevuodjimii.
 Gal leat ollu muorttut, muhto moai darveheimme maiddái moadde dorski.
 Mii suhkat dohko ja bivdigoahtit sáiddiid.
