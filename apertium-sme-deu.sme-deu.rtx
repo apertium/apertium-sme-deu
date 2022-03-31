@@ -59,14 +59,14 @@ S: _ ;
 
 PP: _ ;
 NUMP: _ ;
-NP: _.case;
+NP: _.gender.number.case;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
 
 tense > tense : pret pii, pres pri, fti fut;
-case > case : ill dat, loc dat, com dat, ess nom;
+! case > case : ill dat, loc dat, com dat, ess nom;
 number > number : du pl ;
 inf > inf : actio inf ;
 pcp > pcp : prfprc pp ;
@@ -77,19 +77,50 @@ conneg > number : conneg sg ;
 !! MACROS
 !!!!!!!!!!!!!!!
 
-maybe_art: (if (1.number = sg) [der@det.def.[1.gender].sg.[1.case] _]
-            else [der@det.def.mfn.pl.[1.case] _]) ;
-maybe_adp: (if (1.case/sl = loc) [in@pr.acc _]
-            elif (1.case = acc) [auf@pr.dat _]
-            elif (1.case = dat) [in@pr.dat _] 
+maybe_art: (if (1.number = sg) 
+                (if (1.case = com) [der@det.def.[1.gender].sg.dat _]
+                 elif (1.case = ill) [der@det.def.[1.gender].sg.dat _]
+                 elif (1.case = loc) [der@det.def.[1.gender].sg.acc _]
+                 elif (1.case = ess) [der@det.def.[1.gender].sg.nom _]
+                 elif (1.case = acc) [der@det.def.[1.gender].sg.acc _]
+                 else [der@det.def.[1.gender].sg.nom _ ])
+            else 
+                (if (1.case = com) [der@det.def.mfn.pl.dat _]
+                 elif (1.case = ill) [der@det.def.mfn.pl.dat _]
+                 elif (1.case = loc) [der@det.def.mfn.pl.acc _]
+                 elif (1.case = ess) [der@det.def.mfn.pl.nom _]
+                 elif (1.case = acc) [der@det.def.mfn.pl.acc _]
+                 else [der@det.def.mfn.pl.[1.case] _])
+            );
+maybe_adp: (if (1.case = loc) [in@pr.acc _]
+            elif (1.case = ill) [auf@pr.dat _]
+            elif (1.case = com) [mit@pr.dat _]
+            elif (1.case = ess) [wie@pr.nom _]  !! als?
+            elif (1.case = dat) [zu@pr.dat _] 
             else []) ;
+pro_undrop: (if (1.number = sg) 
+                (if (1.person = p1) [ich@prn.pers.p1.mf.sg.nom _]
+                 elif (1.person = p2) [du@prn.pers.p2.mf.sg.nom _]
+                 elif (1.person = p3) [sie@prn.pers.p3.mf.sg.nom _]
+                 else [])
+             elif (1.number = pl)
+                (if (1.person = p1) [wir@prn.pers.p1.mf.pl.nom _]
+                 elif (1.person = p2) [ihr@prn.pers.p2.mf.pl.nom _]
+                 elif (1.person = p3) [sie@prn.pers.p3.mf.pl.nom _]
+                 else [])
+             elif (1.number = du)
+                (if (1.person = p1) [wir@prn.pers.p1.mf.pl.nom _ beide@det.ind.mfn.pl.nom _]
+                 elif (1.person = p2) [ihr@prn.pers.p2.mf.pl.nom _ beide@det.ind.mfn.pl.nom _]
+                 elif (1.person = p3) [sie@prn.pers.p3.mf.pl.nom _ beide@det.ind.mfn.pl.nom _]
+                 else [])
+             else []) ;
 
 !!!!!!!!!!!!!!!
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 S -> VP NP { 1 _
         *(maybe_adp)[case=2.case]
-        *(maybe_art)[number=2.number, case=2.case, gender=2.gender]
+        *(maybe_art)[number=2.number,case=2.case,gender=2.gender]
         2 } |
      VP { 1 } |  ! stray VP
      NP {
@@ -100,7 +131,7 @@ S -> VP NP { 1 _
      *(maybe_adp)[case=1.case]
      1 } ; ! stray PROPN (no article)
 NEG -> ii@vblex { nicht@adv } ; ! stray NEG
-VP -> NP.loc leat@vblex {
+VP -> NP.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
         *(maybe_art)[number=1.number, case=nom, gender=1.gender] 
         1 _ haben@vbhaver.pri.[2.person].[2.number] } |
@@ -110,7 +141,7 @@ VP -> NP.loc leat@vblex {
       1 _ 2 } |
       ii@vblex vblex { 2[person=1.person, number=1.number] _ nicht@adv } |
       ii@vblex prn vblex { 2 _ 3[person=1.person, number=1.number] _ nicht@adv } |
-      V { 1 } ;  ! stray V
+      V { *(pro_undrop)[number=1.number,person=1.person] 1 } ;  ! stray V
 V -> vblex {1[person = (if (1.tense = imp) "" else 1.person)]} |
      vbser {1} |
      vbmod {1} ;
@@ -119,11 +150,26 @@ NUMP -> num NP { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
                  2[number=(if (1.lem/sl = "okta") sg else pl)] } ;
 NP -> A %N { 1 _ 2 }|
       %N { 1 } ;
-N -> %n { 1 } ;
-PROPN -> %np {1} ;
+N -> n.$case/sl.$number.$gender/tl {1[case=(if (1.case = loc) acc
+                                         elif (1.case = ill) dat
+                                         elif (1.case = ess) nom
+                                         elif (1.case = com) dat
+                                         elif (1.case = acc) acc
+                                         elif (1.case = dat) dat
+                                         else nom),
+                                   number=(if (1.number = du) pl
+                                           elif (1.number =pl) pl
+                                           else sg)] } ;
+PROPN -> np.$case.$number.$gender {1} ;
 C -> cnjcoo {1} |
      cnjsub {1} ;
-PRNP -> prn {1} |
+PRNP -> prn { 1[case=(if (1.case = loc) acc
+                     elif (1.case = ill) dat
+                     elif (1.case = ess) nom
+                     elif (1.case = com) dat
+                     elif (1.case = acc) acc
+                     elif (1.case = dat) dat
+                     else nom)] } |
         det {1} ;
 ADV -> adv {1} |
        pcle {1} ;
