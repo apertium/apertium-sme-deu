@@ -1,6 +1,6 @@
 Čájet!	Zeig!
 Máhtte boahtá.	Máhtte kommt.
-Goabbá vuoitá?	Wer gewinnt?
+Goabbá vuoitá?	Welcher von beiden gewinnt?
 Biret čállá.	Biret schreibt.
 In.	Nein.
 Arvigoahtá.	Es fängt an zu regnen.
@@ -12,8 +12,8 @@ Odne arvá.	Heute regnet es.
 Romssas arvá.	In Tromsö regnet es.
 Moai bohte maŋŋeleappos.	Wir kommen später.
 Mun heahpanan jámas!	Ich schäme mich zu Tode!
-Vilbealit vudjet biillaiguin.	Die Cousins fuhren mit die Autos.
-Moai čohkkájetne láhttis.	Wir setzen uns auf den Boden.
+Vilbealit vudjet biillaiguin.	Die Cousins fahren mit den Autos.
+Moai čohkkájetne láhttis.	Wir sitzen auf dem Boden.
 Doppe boahtá áhčči.	Dort kommt Pappa.
 Son ballá guovžžas.	Er hat Angst vor dem Bären.
 Son liiko guollái.	Er mag Fisch.
