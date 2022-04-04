@@ -20,20 +20,20 @@ Son liiko guollái.	Er mag Fisch.
 Báze dearvan!	Mach es gut.
 Dovddat go su?	Kennst du ihn?
 Veahkehastte mu!	Hilf mir bitte!
-Bálkes birccu!
-Govčča uvssa!
-Mun ráhkistan su.	Ich liebe sie/ihn.
+Bálkes birccu!	Wirf den Würfel!
+Govčča uvssa!	Mach die Tür zu!
+Mun ráhkistan su.	Ich liebe sie.	Ich liebe ihn.
 Áhčči čállá reivve.	Pappa schreibt einen Brief.
-Boanda goddá vuovssá.
-Vuovssá goddá boanda.
+Boanda goddá vuovssá.	Der Bauer tötet/schlachtet das Rind.
+Vuovssá goddá boanda.	Das Rind tötet der Bauer.
 Moai bivde guoli vanccas.	Wir angeln im Boot.
 Moai oste mielkki gávppis.	Wir kaufen Milch im Geschäft.
 Muhtumin son dulko nieguid.	Manchmal deutet er/sie Träume.
-Eadni ráhkada johtilit ruovttusiiddu.	Mamma mach schnell eine Homepage.
+Eadni ráhkada johtilit ruovttusiiddu.	Mamma macht schnell eine Homepage.
 Attes munnje cummá!	Gib mir einen Kuss.
 Maid sihtabeahtti odne?	Was möchtet ihr heute?
 Bija uvssa gitta!	Mach die Tür zu!
-Oahpa lávlaga bajil!
+Oahpa lávlaga bajil!	Lern das Lied auswendig!
 Máhtes lea beana.	Máhtte hat einen Hund.
 Áhkus leat sávzzat.	Oma hat Schafe.
 Lea go dis ruhta?	Habt ihr Geld?
@@ -58,12 +58,12 @@ Mun lean morrašis.	Ich bin traurig.
 Niibi lea stális.	Das Messer ist scharf.
 Áddjá lea ruovttus.	Opa ist zu hause.
 Čoahkkin lea eahkedis.	Das Treffen ist am Abend.
-Ánne niegada Áillu.
-Son gáhtte olbmuid.
+Ánne niegada Áillu.	Ánne träumt von Áilu.
+Son gáhtte olbmuid.	Sie passt auf die Menschen auf.
 Áhčči oastá munnje sabehiid.	Pappa kauft mir Skier.
 Son vázzá skuvlla Oulus.	Sie geht in Oulu in die Schule.
 Maid don barggat odne?	Was machst du heute?
-Dat geahččá mus borramuša.	
+Dat geahččá mus borramuša.	Sie kuckt mir auf das Essen.
 Biret addá skeaŋkka Lemehii.	Biret gibt Lemet ein Geschenk.
 Áilu sádde reivve Ellii.	Áilu schickt Elli einen Brief.
 Biera oahpaha munnje matematihka.	Biera bringt mir Mathematik bei.
