@@ -53,7 +53,7 @@ Mun luohtán dutnje.	Ich vertraue dir.
 Sevnnjoda.	Es wird dunkel.
 De lean.	Ja.
 Mun lean illávejiid.	Ich fühle mich krank.
-Son lea čalbmebeale.	Sie ist blind.
+Son lea čalbmebeale.	Sie ist einäugig.
 Mun lean morrašis.	Ich bin traurig.
 Niibi lea stális.	Das Messer ist scharf.
 Áddjá lea ruovttus.	Opa ist zu hause.
@@ -70,11 +70,11 @@ Biera oahpaha munnje matematihka.	Biera bringt mir Mathematik bei.
 Áddjá lea boaris.	Opa ist alt.
 Nieiddat leat viššalat.	Die Mädchen sind fleissig.
 Soai leaba čeahpit.	Sie sind gut.
-Áilu-máhka lea duojár.
+Áilu-máhka lea duojár.	Schwager Áilu ist Handwerker.
 Sus leat sávzzat.	Sie hat Schafe.
 Mii vuolgit fávlái.
 Gal máilbmi oahpaha.	Die Welt wird schon lehren.
-Juhán-gázzi báhcet gáddái.
+Juhán-gázzi báhcet gáddái.	Juhán und die anderen bleiben am Rand.
 Ale bala!	Hab keine Angst.
 Ean dáidde boahtit.	Wir kommen vielleicht nicht.
 Biret lea čállime.	Biret schreibt gerade.
