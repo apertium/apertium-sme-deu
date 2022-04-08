@@ -44,7 +44,7 @@ pcle: _;
 ! smaller phrases
 PROPN: _.case ;
 N: _.gender.number.case ;
-V: _ ;
+V: _.number.person ;
 C: _;
 PRNP: _.case.number.person;
 ADV: _;
@@ -79,8 +79,8 @@ conneg > number : conneg sg ;
 
 maybe_art: (if (1.number = sg)
                 (if (1.case = com) [der@det.def.[1.gender].sg.dat _]
-                 elif (1.case = ill) [der@det.def.[1.gender].sg.dat _]
-                 elif (1.case = loc) [der@det.def.[1.gender].sg.acc _]
+                 elif (1.case = ill) [der@det.def.[1.gender].sg.acc _]
+                 elif (1.case = loc) [der@det.def.[1.gender].sg.dat _]
                  elif (1.case = ess) [der@det.def.[1.gender].sg.nom _]
                  elif (1.case = acc) [der@det.def.[1.gender].sg.acc _]
                  else [der@det.def.[1.gender].sg.nom _ ])
@@ -92,8 +92,8 @@ maybe_art: (if (1.number = sg)
                  elif (1.case = acc) [der@det.def.mfn.pl.acc _]
                  else [der@det.def.mfn.pl.[1.case] _])
             );
-maybe_adp: (if (1.case = loc) [in@pr.acc _]
-            elif (1.case = ill) [auf@pr.dat _]
+maybe_adp: (if (1.case = loc) [in@pr.dat _]
+            elif (1.case = ill) [in@pr.acc _]
             elif (1.case = com) [mit@pr.dat _]
             elif (1.case = ess) [wie@pr.nom _]  !! als?
             elif (1.case = dat) [zu@pr.dat _]
@@ -102,17 +102,17 @@ pro_undrop: (if (1.number = sg)
                 (if (1.person = p1) [ich@prn.pers.p1.mf.sg.nom _]
                  elif (1.person = p2) [du@prn.pers.p2.mf.sg.nom _]
                  elif (1.person = p3) [sie@prn.pers.p3.mf.sg.nom _]
-                 else [])
+                 else [$$expletive _])
              elif (1.number = pl)
                 (if (1.person = p1) [wir@prn.pers.p1.mf.pl.nom _]
                  elif (1.person = p2) [ihr@prn.pers.p2.mf.pl.nom _]
                  elif (1.person = p3) [sie@prn.pers.p3.mf.pl.nom _]
-                 else [])
+                 else [$$expletive _])
              elif (1.number = du)
                 (if (1.person = p1) [wir@prn.pers.p1.mf.pl.nom _ beide@det.ind.mfn.pl.nom _]
                  elif (1.person = p2) [ihr@prn.pers.p2.mf.pl.nom _ beide@det.ind.mfn.pl.nom _]
                  elif (1.person = p3) [sie@prn.pers.p3.mf.pl.nom _ beide@det.ind.mfn.pl.nom _]
-                 else [])
+                 else [$$expletive _])
              else [$$expletive _]) ;
 
 !!!!!!!!!!!!!!!
@@ -142,19 +142,29 @@ VP -> NP.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
         1[case=nom] _ haben@vbhaver.pri.[1.person].[1.number] } |
       NP V {
-      *(maybe_adp)[case=1.case]
-      *(maybe_art)[number=1.number, case=1.case, gender=1.gender]
-      1 _ 2 } |
+        *(maybe_adp)[case=1.case]
+        *(maybe_art)[number=1.number, case=1.case, gender=1.gender]
+        1 _ 2 } |
+      PRNP V {
+        *(maybe_adp)[case=1.case]
+        1 _ 2 } |
+      PROPN V {
+        *(maybe_adp)[case=1.case]
+        1 _ 2 } |
       ii@vblex vblex {
         2[person=1.person, number=1.number] _ nicht@adv } |
       ii@vblex prn vblex {
         2 _ 3[person=1.person, number=1.number] _ nicht@adv } |
-      V { *(pro_undrop)[number=1.number,person=1.person,lem=1.lem] 1 } ;  ! stray V
-V -> vblex [$$expletive=(if (1.lem = "arvit") es@prn.pers.p3.nt.sg.nom
-                         elif (1.lem = "regnen") es@prn.pers.p3.nt.sg.nom)]
+      V go@pcle { 
+      1 _ *(pro_undrop)[number=1.number,person=1.person] } |  ! stray V + qst
+      V { *(pro_undrop)[number=1.number,person=1.person] 1 } ;  ! stray V
+V -> %vblex [$$expletive=(if (1.lem = "regnen") es@prn.pers.p3.nt.sg.nom),
+             $person = (if (1.tense = imp) ""
+                         elif (1.lem = "regnen") ""
+                         else 1.person)]
             {1[person = (if (1.tense = imp) "" else 1.person)] } |
-     vbser {1} |
-     vbmod {1} ;
+     %vbser {1} |
+     %vbmod {1} ;
 PP -> NUMP post { 2 _ 1 } ;
 NUMP -> num NP { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
                  2[number=(if (1.lem/sl = "okta") sg else pl)] } ;
