@@ -160,7 +160,7 @@
     <e><p><l>goappašagat<s n="prn"/></l><r>beide<s n="det"/><s n="ind"/><s n="mfn"/></r></p></e>
     <e><p><l>juoga<s n="prn"/></l><r>irgendetwas<s n="prn"/><s n="ind"/><s n="p3"/><s n="nt"/><s n="nom"/></r></p></e>
     <e><p><l>juohke<s n="prn"/></l><r>jede<s n="prn"/></r></p></e>
-    <e><p><l>buot<s n="prn"/></l><r>alle<s n="prn"/></r></p></e>
+    <e><p><l>buot<s n="prn"/></l><r>alles<s n="prn"/></r></p></e>
     <e><p><l>buohkat<s n="prn"/></l><r>alle<s n="prn"/></r></p></e>
     <e><p><l>goabbá<s n="prn"/></l><r>welche<s n="prn"/></r></p></e>
     <e><p><l>muhtun<s n="prn"/></l><r>irgendjemand<s n="prn"/></r></p></e>
@@ -350,7 +350,7 @@
     <e><p><l>galbmasit<s n="adv"/></l><r>kalt<s n="adv"/></r></p></e>
     <e><p><l>gallás<s n="adv"/></l><r>genug<s n="adv"/></r></p></e>
     <e><p><l>galmmas<s n="adv"/></l><r>getäubt<s n="adv"/></r></p></e>
-    <e><p><l>gal<s n="adv"/></l><r>sicher<s n="adv"/></r></p></e>
+    <e><p><l>gal<s n="adv"/></l><r>schon<s n="adv"/></r></p></e>
     <e><p><l>gánske<s n="adv"/></l><r>vielleicht<s n="adv"/></r></p></e>
     <e><p><l>garrasit<s n="adv"/></l><r>hart<s n="adv"/></r></p></e>
     <e><p><l>geassit<s n="adv"/></l><r>am<b/>Sommer<s n="adv"/></r></p></e>
@@ -507,7 +507,8 @@
     <e><p><l>čába<s n="adj"/></l><r>schön<s n="adj"/></r></p></e>
     <e><p><l>čáhppat<s n="adj"/></l><r>schwarz<s n="adj"/></r></p></e>
     <e><p><l>čalmmeheapme<s n="adj"/></l><r>blind<s n="adj"/></r></p></e>
-    <e><p><l>čáppat<s n="adj"/></l><r>schwarz<s n="adj"/></r></p></e>
+    <e><p><l>čáppat<s n="adj"/></l><r>schön<s n="adj"/></r></p></e>
+    <e><p><l>čáhppat<s n="adj"/></l><r>schwarz<s n="adj"/></r></p></e>
     <e><p><l>čeahppi<s n="adj"/></l><r>gut<s n="adj"/></r></p></e>
     <e><p><l>čeavlái<s n="adj"/></l><r>stolt<s n="adj"/></r></p></e>
     <e><p><l>čielggas<s n="adj"/></l><r>klar<s n="adj"/></r></p></e>
@@ -828,7 +829,7 @@
     <e><p><l>čikŋa<s n="n"/></l><r>Schmuck<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>čivga<s n="n"/></l><r>Kind<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l c="kg">kilo<s n="n"/></l><r>Kilo<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>čoahkkin<s n="n"/></l><r>Treff<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>čoahkkin<s n="n"/></l><r>Treffen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>čoakkalmasat<s n="n"/></l><r>Gottesdienst<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>čoakkalmasviessu<s n="n"/></l><r>Versamlungsomrade<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>čoarvi<s n="n"/></l><r>Horn<s n="n"/><s n="nt"/></r></p></e>
@@ -1105,7 +1106,7 @@
     <e><p><l>latnja<s n="n"/></l><r>Zimmer<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>láttat<s n="n"/></l><r>Moltebeere<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>lávka<s n="n"/></l><r>Tasche<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>lávlla<s n="n"/></l><r>Sang<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lávlla<s n="n"/></l><r>Lied<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lávvordat<s n="n"/></l><r>Samstag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>leaksu<s n="n"/></l><r>Hausarbeit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>leaska<s n="n"/></l><r>Witwe<s n="n"/><s n="f"/></r></p></e>
@@ -1134,6 +1135,7 @@
     <e><p><l>máđidja<s n="n"/></l><r>Straße<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>máđidja<s n="n"/></l><r>Straße<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>máhka<s n="n"/></l><r>Schwiegerbruder<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>máhka<s n="n"/></l><r>Scwager<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>máhttu<s n="n"/></l><r>Fähigkeit<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>máilbmi<s n="n"/></l><r>Welt<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>máilmmicupgilvu<s n="n"/></l><r>WM-cup<s n="n"/><s n="m"/></r></p></e>
@@ -1238,7 +1240,7 @@
     <e><p><l>oahpaheaddji<s n="n"/></l><r>Lehrerin<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>oahpaheaddji<s n="n"/></l><r>Lehrer<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>oahpahus<s n="n"/></l><r>Lehre<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>oahppi<s n="n"/></l><r>Student<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>oahppi<s n="n"/></l><r>Schüler<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>oahppogirji<s n="n"/></l><r>Lehrbuch<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>oahpponeavvu<s n="n"/></l><r>Lehrmaterial<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>oaivebávccas<s n="n"/></l><r>Kopfschmerz<s n="n"/><s n="m"/></r></p></e>
@@ -1510,10 +1512,11 @@
     <e><p><l>ballat<s n="vblex"/></l><r>fürchten<s n="vblex"/></r></p></e>
     <e><p><l>bállet<s n="vblex"/></l><r>freilassen<s n="vblex"/></r></p></e>
     <e><p><l>bargat<s n="vblex"/></l><r>arbeiten<s n="vblex"/></r></p></e>
+    <e><p><l>bargat<s n="vblex"/></l><r>machen<s n="vblex"/></r></p></e>
     <e><p><l>barggahit<s n="vblex"/></l><r>anstellen<s n="vblex"/></r></p></e>
     <e><p><l>barggahit<s n="vblex"/></l><r>arbeitgeben<s n="vblex"/></r></p></e>
     <e><p><l>bassalit<s n="vblex"/></l><r>wäschen<s n="vblex"/></r></p></e>
-    <e><p><l>bassat<s n="vblex"/></l><r>waschen<s n="vblex"/></r></p></e>
+    <e><p><l>bassat<s n="vblex"/></l><r>waschen<g><b/>sich</g><s n="vblex"/></r></p></e>
     <e><p><l>bázahallat<s n="vblex"/></l><r>vernachlässigen<s n="vblex"/></r></p></e>
     <e><p><l>beahtahallat<s n="vblex"/></l><r>enttäuschen<s n="vblex"/></r></p></e>
     <e><p><l>beaškkehit<s n="vblex"/></l><r>kollidieren<s n="vblex"/></r></p></e>
@@ -1526,6 +1529,7 @@
     <e><p><l>bissehit<s n="vblex"/></l><r>anhalten<s n="vblex"/></r></p></e>
     <e><p><l>bistit<s n="vblex"/></l><r>dauern<s n="vblex"/></r></p></e>
     <e><p><l>bivdit<s n="vblex"/></l><r>jagen<s n="vblex"/></r></p></e>
+    <e><p><l>bivdit<s n="vblex"/></l><r c="fish">angeln<s n="vblex"/></r></p></e>
     <e><p><l>boahtit<s n="vblex"/></l><r>kommen<s n="vblex"/></r></p></e>
     <e><p><l>boaldit<s n="vblex"/></l><r>verbrennen<s n="vblex"/></r></p></e>
     <e><p><l>boradit<s n="vblex"/></l><r>essen<s n="vblex"/></r></p></e>
@@ -1566,7 +1570,7 @@
     <e><p><l>čoavdit<s n="vblex"/></l><r>freigeben<s n="vblex"/></r></p></e>
     <e><p><l>coggalit<s n="vblex"/></l><r>stellen<s n="vblex"/></r></p></e>
     <e><p><l>coggat<s n="vblex"/></l><r>stellen<s n="vblex"/></r></p></e>
-    <e><p><l>čohkánit<s n="vblex"/></l><r>sitzen<s n="vblex"/></r></p></e>
+    <e><p><l>čohkánit<s n="vblex"/></l><r>setzen<g><b/>sich</g><s n="vblex"/></r></p></e>
     <e><p><l>čohkkát<s n="vblex"/></l><r>sitzen<s n="vblex"/></r></p></e>
     <e><p><l>čorget<s n="vblex"/></l><r>reinigen<s n="vblex"/></r></p></e>
     <e><p><l>čujuhit<s n="vblex"/></l><r>bedeuten<s n="vblex"/></r></p></e>
@@ -1653,7 +1657,7 @@
     <e><p><l>goddit<s n="vblex"/></l><r>töten<s n="vblex"/></r></p></e>
     <e><p><l>goikadit<s n="vblex"/></l><r>braten<s n="vblex"/></r></p></e>
     <e><p><l>goivet<s n="vblex"/></l><r>schaufeln<s n="vblex"/></r></p></e>
-    <e><p><l>gokčat<s n="vblex"/></l><r>decken<s n="vblex"/></r></p></e>
+    <e><p><l>gokčat<s n="vblex"/></l><r>zumachen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>gollat<s n="vblex"/></l><r>vergehen<s n="vblex"/></r></p></e>
     <e><p><l>gudnejahttit<s n="vblex"/></l><r>ehren<s n="vblex"/></r></p></e>
     <e><p><l>guldalit<s n="vblex"/></l><r>zuhören<s n="vblex"/><s n="sep"/></r></p></e>
@@ -1711,7 +1715,8 @@
     <e><p><l>ligget<s n="vblex"/></l><r>wärmen<s n="vblex"/></r></p></e>
     <e><p><l>lihkkat<s n="vblex"/></l><r>bewegen<s n="vblex"/></r></p></e>
     <e><p><l>liikostit<s n="vblex"/></l><r>lieben<s n="vblex"/></r></p></e>
-    <e><p><l>liikot<s n="vblex"/></l><r>freuen<s n="vblex"/></r></p></e>
+    <e><p><l>liikot<s n="vblex"/></l><r>mögen<s n="vblex"/></r></p></e>
+    <e><p><l>lohkat<s n="vblex"/></l><r>lesen<s n="vblex"/></r></p></e>
     <e><p><l>lohkat<s n="vblex"/></l><r>zählen<s n="vblex"/></r></p></e>
     <e><p><l>loktet<s n="vblex"/></l><r>ausweichen<s n="vblex"/></r></p></e>
     <e><p><l>lonuhit<s n="vblex"/></l><r>wechseln<s n="vblex"/></r></p></e>
