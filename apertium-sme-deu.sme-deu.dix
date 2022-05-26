@@ -187,7 +187,8 @@
     <e><p><l>goappašat<s n="prn"/></l><r>beide<s n="prn"/></r></p></e>
     <e><p><l>goappaš<s n="prn"/></l><r>beide<s n="prn"/></r></p></e>
     <e><p><l>guhte<s n="prn"/></l><r>wer<s n="prn"/></r></p></e>
-    <e><p><l>iešguhtet<s n="prn"/></l><r>jeder<s n="prn"/></r></p></e>
+    <e r="LR"><p><l>iešguhtet<s n="prn"/></l><r>jeder<s n="prn"/></r></p></e>
+    <e r="LR"><p><l>iešguhte<s n="prn"/></l><r>jeder<s n="prn"/></r></p></e>
     <e><p><l>ieš<s n="prn"/></l><r>selbe<s n="prn"/></r></p></e>
     <e><p><l>iežá<s n="prn"/></l><r>andere<s n="prn"/></r></p></e>
     <e><p><l>juoga<s n="prn"/></l><r>irgendetwas<s n="prn"/><s n="ind"/><s n="p3"/><s n="nt"/><s n="nom"/></r></p></e>
@@ -216,6 +217,7 @@
     <e><p><l>vai<s n="cnjcoo"/></l><r>oder<s n="cnjcoo"/></r></p></e>
     <e><p><l>muhte<s n="cnjcoo"/></l><r>aber<s n="cnjcoo"/></r></p></e>
     <e><p><l>muhto<s n="cnjcoo"/></l><r>aber<s n="cnjcoo"/></r></p></e>
+    <e><p><l>earret<s n="cnjcoo"/></l><r>ausgenommen<s n="cnjcoo"/></r></p></e>
 
     <!-- subordinating subordination subord -->
 
@@ -291,7 +293,11 @@
     <e><p><l>haga<s n="post"/></l><r>ohne<s n="pr"/></r></p></e>
     <e><p><l>lassin<s n="post"/></l><r>dazu<s n="pr"/></r></p></e>
     <e><p><l>siskkobealde<s n="post"/></l><r>in<s n="pr"/></r></p></e>
+    <e><p><l>ovdii<s n="post"/></l><r>vor<s n="pr"/></r></p></e>
+    <e><p><l>fárus<s n="post"/></l><r>mit<s n="pr"/></r></p></e>
+    <e><p><l>váste<s n="post"/></l><r>für<s n="pr"/></r></p></e>
 
+    <e><p><l>maŋŋá<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
     <e><p><l>geažil<s n="pr"/></l><r>wegen<s n="pr"/></r></p></e>
     <e><p><l>beale<s n="pr"/></l><r>seitens<s n="pr"/></r></p></e>
     <e><p><l>birra<s n="pr"/></l><r>herum<s n="pr"/></r></p></e>
@@ -553,6 +559,14 @@
     <e><p><l>vuos<s n="adv"/></l><r>erstens<s n="adv"/></r></p></e>
     <e><p><l>vuosttažettiin<s n="adv"/></l><r>erstmal<s n="adv"/></r></p></e>
     <e><p><l>vuovdimassii<s n="adv"/></l><r>verkaufbar<s n="adv"/></r></p></e>
+    <e><p><l>buoret<s n="adv"/></l><r>besser<s n="adv"/></r></p></e>
+    <e><p><l>unnán<s n="adv"/></l><r>bischen<s n="adv"/></r></p></e>
+    <e><p><l>dainna<b/>lágiin<s n="adv"/></l><r>so<s n="adv"/></r></p></e>
+    <e><p><l>ovtta<b/>oaivilis<s n="adv"/></l><r>einig<s n="adv"/></r></p></e>
+    <e><p><l>ovttasráđiid<s n="adv"/></l><r>zusammen<s n="adv"/></r></p></e>
+    <e><p><l>duođas<s n="adv"/></l><r>ernst<s n="adv"/></r></p></e>
+    <e><p><l>máŋgii<s n="adv"/></l><r>häufig<s n="adv"/></r></p></e>
+    <e><p><l>báhcán<s n="adv"/></l><r>nochmal<s n="adv"/></r></p></e>
 
 
 
@@ -774,6 +788,10 @@
     <e><p><l>vuoitemeahttun<s n="adj"/></l><r>unschlagbar<s n="adj"/></r></p></e>
     <e><p><l>vuosttas<s n="adj"/></l><r>erste<s n="adj"/></r></p></e>
     <e><p><l>vuosttaš<s n="adj"/></l><r>erste<s n="adj"/></r></p></e>
+    <e><p><l>sámegielat<s n="adj"/></l><r>samisch<s n="adj"/></r></p></e>
+    <e><p><l>guovddáš<s n="adj"/></l><r>zentral<s n="adj"/></r></p></e>
+    <e><p><l>digitála<s n="adj"/></l><r>digital<s n="adj"/></r></p></e>
+    <e><p><l>siskkáldas<s n="adj"/></l><r>innere<s n="adj"/></r></p></e>
 
 
 
@@ -830,6 +848,7 @@
     <e c="TODO"><p><l>gaskka<s n="n"/></l><r>Ildfeuer<s n="n"/><s n="m"/></r></p></e>
     <e c="TODO"><p><l>oppal<s n="n"/></l><r>Eisspitze<s n="n"/><s n="m"/></r></p></e>
     <e c="TODO"><p><l>buktá<s n="n"/></l><r>Bukta<s n="n"/><s n="m"/></r></p></e>
+    <e c="TODO"><p><l>namuhuvvon<s n="n"/></l><r>Genannt<s n="n"/><s n="m"/></r></p></e>
     <e c="Fixme"><p><l>Jos<s n="n"/></l><r>ob<s n="n"/><s n="m"/></r></p></e>
     <e c="Fixme"><p><l>nr<s n="n"/></l><r>Nr<s n="n"/><s n="m"/></r></p></e>
     <e c="Fixme"><p><l>a<s n="n"/></l><r>a<s n="n"/><s n="m"/></r></p></e>
@@ -839,6 +858,7 @@
     <e c="Fixme"><p><l>km<s n="n"/></l><r>km<s n="n"/><s n="m"/></r></p></e>
     <e c="Fixme"><p><l>%<s n="n"/></l><r>%<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sámediggeráđđi<s n="n"/></l><r>Samenrat<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sámediggejoavku<s n="n"/></l><r>Samenmannschaft<s n="n"/><s n="m"/></r></p></e>
 
 
     <e><p><l>ađa<s n="n"/></l><r>Knöchelkern<s n="n"/><s n="m"/></r></p></e>
@@ -1750,6 +1770,7 @@
     <e><p><l>vuostá<s n="n"/></l><r>Käse<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vuotta<s n="n"/></l><r>Schuchband<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vuovdi<s n="n"/></l><r>Wald<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gollu<s n="n"/></l><r>Kosten<s n="n"/><s n="m"/></r></p></e>
 
     <e c="?"><p><l>nieidda<b/>guovttis<s n="n"/></l><r>nieidda<b/>guovttis<s n="n"/><s n="m"/></r></p></e>
     <e c="?"><p><l>ándde<b/>guovttos<s n="n"/></l><r>ándde<b/>guovttos<s n="n"/><s n="m"/></r></p></e>
@@ -2235,6 +2256,8 @@
     <e><p><l>vuovdit<s n="vblex"/></l><r>verkaufen<s n="vblex"/></r></p></e>
     <e><p><l>vuovssihit<s n="vblex"/></l><r>kotzen<s n="vblex"/></r></p></e>
     <e><p><l>vurket<s n="vblex"/></l><r>lagern<s n="vblex"/></r></p></e>
+    <e><p><l>ollet<s n="vblex"/></l><r>erreichen<s n="vblex"/></r></p></e>
+    <e><p><l>háhkat<s n="vblex"/></l><r>schaffen<s n="vblex"/></r></p></e>
 
     <e><p><l>gč<s n="vblex"/></l><r>cf<s n="vblex"/></r></p></e>
 
@@ -2451,6 +2474,8 @@
     <e><i>Vuošvággi<s n="np"/></i></e>
     <e><i>William<s n="np"/></i></e>
     <e><i>Will<s n="np"/></i></e>
+    <e><i>Henriksen<s n="np"/></i></e>
+    <e><i>Hans<s n="np"/></i></e>
 
     <!-- translated props -->
 
@@ -2484,13 +2509,22 @@
     <e><p><l>!<s n="sent"/></l><r>!<s n="sent"/></r></p></e>
     <e><p><l>:<s n="clb"/></l><r>:<s n="sent"/></r></p></e>
     <e><p><l>;<s n="sent"/></l><r>;<s n="sent"/></r></p></e>
+    <e><p><l>&amp;<s n="sent"/></l><r>&amp;<s n="sent"/></r></p></e>
+    <e><p><l>=<s n="sent"/></l><r>=<s n="sent"/></r></p></e>
+    <e><p><l>·<s n="punct"/></l><r>·<s n="quot"/></r></p></e>
+    <e><p><l>`<s n="punct"/></l><r>`<s n="quot"/></r></p></e>
+    <e><p><l>'<s n="punct"/></l><r>'<s n="quot"/></r></p></e>
+    <e><p><l>’<s n="punct"/></l><r>’<s n="quot"/></r></p></e>
     <e><p><l>"<s n="punct"/></l><r>"<s n="quot"/></r></p></e>
     <e><p><l>"<s n="quot"/></l><r>"<s n="quot"/></r></p></e>
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
     <e><p><l c="conversion?">(<s n="lquot"/></l><r>(<s n="sent"/></r></p></e>
     <e><p><l c="conversion?">)<s n="rquot"/></l><r>)<s n="sent"/></r></p></e>
+    <e><p><l c="conversion?">[<s n="lquot"/></l><r>[<s n="sent"/></r></p></e>
+    <e><p><l c="conversion?">]<s n="rquot"/></l><r>]<s n="sent"/></r></p></e>
     <e><p><l>)<s n="punct"/></l><r>)<s n="sent"/></r></p></e>
     <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+    <e><p><l>--<s n="guio"/></l><r>–<s n="guio"/></r></p></e>
     <e><p><l>–<s n="guio"/></l><r>–<s n="guio"/></r></p></e>
     <e><p><l>…<s n="sent"/></l><r>…<s n="sent"/></r></p></e>
     <e><p><l>...<s n="sent"/></l><r>...<s n="sent"/></r></p></e>

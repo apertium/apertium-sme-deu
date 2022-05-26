@@ -5,7 +5,7 @@
 number = sg pl sp du ;
 gender = m f mf nt mfn ;
 case = nom acc dat gen ill loc com ess;
-det_type = def ind dem itg;
+det_type = def ind dem itg pos;
 tense = pres fut pret pii imp;
 person = p1 p2 p3 ;
 npclass = ant org al top geo;
@@ -33,7 +33,7 @@ vbmod: _.tense.person.number;
 cnjcoo: _;
 cnjsub: _;
 prn: _.prntype.person.gender.number.case;
-det: _.prntype.person.gender.number.case;
+det: _.det_type.person.gender.number.case;
 adv: _.advtype;
 post: _;
 pr: _;
@@ -67,7 +67,7 @@ NP: _.gender.number.case;
 
 tense > tense : pret pii, pres pri, fti fut;
 ! case > case : ill dat, loc dat, com dat, ess nom;
-number > number : du pl ;
+! number > number : du pl ;
 inf > inf : actio inf ;
 pcp > pcp : prfprc pp ;
 conneg > person : conneg p3 ;
@@ -101,7 +101,7 @@ maybe_adp: (if (1.case = loc) [in@pr.dat _]
 pro_undrop: (if (1.number = sg)
                 (if (1.person = p1) [ich@prn.pers.p1.mf.sg.nom _]
                  elif (1.person = p2) [du@prn.pers.p2.mf.sg.nom _]
-                 elif (1.person = p3) [sie@prn.pers.p3.mf.sg.nom _]
+                 elif (1.person = p3) []  !! no undrop 3.sg?
                  else [$$expletive _])
              elif (1.number = pl)
                 (if (1.person = p1) [wir@prn.pers.p1.mf.pl.nom _]
@@ -134,10 +134,10 @@ NEG -> ii@vblex { nicht@adv[lemcase=1.lemcase] } ; ! stray NEG
 VP -> NP.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
         *(maybe_art)[number=1.number, case=nom, gender=1.gender] 
-        1[case=nom] _ haben@vbhaver.pri.[2.person].[2.number] } |
+        1[case=nom] _ haben@vbhaver.pri.p3.sg } |
       PROPN.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
-        1[case=nom] _ haben@vbhaver.pri.[2.person].[2.number] } |
+        1[case=nom] _ haben@vbhaver.pri.p3.sg } |
       PRNP.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
         1[case=nom] _ haben@vbhaver.pri.[1.person].[1.number] } |
@@ -162,13 +162,16 @@ V -> %vblex [$$expletive=(if (1.lem = "regnen") es@prn.pers.p3.nt.sg.nom),
              $person = (if (1.tense = imp) ""
                          elif (1.lem = "regnen") ""
                          else 1.person)]
-            {1[person = (if (1.tense = imp) "" else 1.person)] } |
+            {1[person = (if (1.tense = imp) "" else 1.person),
+               number = (if (1.number = du) pl else 1.number)] } |
      %vbser {1} |
      %vbmod {1} ;
-PP -> NUMP post { 2 _ 1 } ;
+PP -> NUMP post { 2 _ 1 } |
+      PRNP post { 2 _ 1 } |
+      NP post { 2 _ 1 } ;
 NUMP -> num NP { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
                  2[number=(if (1.lem/sl = "okta") sg else pl)] } ;
-NP -> A %N { 1 _ 2 }|
+NP -> A %N { 1[ _ 2 } | ! make A agree in def gender case
       %N { 1 } ;
 N -> n.$case/sl.$number.$gender/tl {1[case=(if (1.case = loc) acc
                                          elif (1.case = ill) dat
@@ -176,11 +179,12 @@ N -> n.$case/sl.$number.$gender/tl {1[case=(if (1.case = loc) acc
                                          elif (1.case = com) dat
                                          elif (1.case = acc) acc
                                          elif (1.case = dat) dat
+                                         elif (1.case = gen) gen
                                          else nom),
                                    number=(if (1.number = du) pl
                                            elif (1.number =pl) pl
                                            else sg)] } ;
-PROPN -> np.$case/sl.$number.$gender {1} ;
+PROPN -> np.*.$case/sl.$number.$gender {1} ;
 C -> cnjcoo {1} |
      cnjsub {1} ;
 PRNP -> %prn { 1[case=(if (1.case = loc) acc
@@ -189,6 +193,7 @@ PRNP -> %prn { 1[case=(if (1.case = loc) acc
                      elif (1.case = com) dat
                      elif (1.case = acc) acc
                      elif (1.case = dat) dat
+                     elif (1.case = gen) gen
                      else nom)] } |
         %det {1} ;
 ADV -> adv {1} |
