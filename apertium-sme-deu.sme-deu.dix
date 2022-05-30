@@ -47,6 +47,7 @@
     <sdef n="sep"     c="separable"/>
     <sdef n="itg"     c="interrogative"/>
     <sdef n="subqst"     c="interrogative"/>
+    <sdef n="dem"     c="demonstrative"/>
     <sdef n="rel"     c="relative"/>
     <sdef n="ind"     c="indefinite"/>
 
@@ -168,7 +169,7 @@
     <e><p><l>áidna<s n="prn"/></l><r>einige<s n="prn"/></r></p></e>
     <e><p><l>buohkat<s n="prn"/></l><r>alle<s n="prn"/></r></p></e>
     <e><p><l>buot<s n="prn"/></l><r>alles<s n="prn"/></r></p></e>
-    <e><p><l>dát<s n="prn"/></l><r>dies<s n="prn"/></r></p></e>
+    <e><p><l>dát<s n="prn"/></l><r>dies<s n="prn"/><s n="dem"/><s n="mfn"/></r></p></e>
     <e><p><l>dat<s n="prn"/></l><r>es<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/></r></p></e>
     <e><p><l>diet<s n="prn"/></l><r>das<s n="prn"/></r></p></e>
     <e><p><l>dot<s n="prn"/></l><r>das<s n="prn"/></r></p></e>
@@ -319,7 +320,7 @@
 
 
     <e><p><l>áibbas<s n="adv"/></l><r>komplett<s n="adv"/></r></p></e>
-    <e><p><l>áibbas<s n="adv"/></l><r>vollig<s n="adv"/></r></p></e>
+    <e><p><l>áibbas<s n="adv"/></l><r>völlig<s n="adv"/></r></p></e>
     <e><p><l>aiddo<s n="adv"/></l><r>genau<s n="adv"/></r></p></e>
     <e><p><l>áinnas<s n="adv"/></l><r>gerne<s n="adv"/></r></p></e>
     <e><p><l>ain<s n="adv"/></l><r>noch<s n="adv"/></r></p></e>
@@ -1333,7 +1334,7 @@
     <e><p><l>juss<s n="n"/></l><r>Fürze<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kabineahtta<s n="n"/></l><r>Kabinet<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>káija<s n="n"/></l><r>Kai<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>kantuvra<s n="n"/></l><r>Buro<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kantuvra<s n="n"/></l><r>Büro<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kássa<s n="n"/></l><r>Kasse<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kino<s n="n"/></l><r>Kino<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>konfirmašuvdna<s n="n"/></l><r>Konfirmation<s n="n"/><s n="f"/></r></p></e>
