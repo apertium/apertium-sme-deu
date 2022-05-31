@@ -4,7 +4,7 @@
 
 number = (ND sg) sg pl sp du ND ;
 gender = (GD m) m f mf nt mfn GD ;
-case = nom acc dat gen ill loc com ess;
+case = (CD nom) nom acc dat gen ill loc com ess CD ;
 det_type = def ind dem itg pos;
 tense = pres fut pret pii imp;
 person = p1 p2 p3 ;
@@ -174,10 +174,11 @@ VP -> NP.*.loc leat@vblex {
         *(maybe_adp)[case=1.case]
         1 _ 2 } |
       ii@vblex vblex {
+        *(pro_undrop)[number=1.number,person=1.person]
         2[person=1.person, number=1.number] _ nicht@adv } |
       ii@vblex prn vblex {
         2 _ 3[person=1.person, number=1.number] _ nicht@adv } |
-      V go@pcle { 
+      V go@pcle {
       1 _ *(pro_undrop)[number=1.number,person=1.person] } |  ! stray V + qst
       V { *(pro_undrop)[number=1.number,person=1.person] 1 } ;  ! stray V
 V -> %vblex [$$expletive=(if (1.lem = "regnen") es@prn.pers.p3.nt.sg.nom),
