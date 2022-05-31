@@ -60,6 +60,8 @@
     <sdef n="ex_np"                 c="Proper Noun conversion bug"/>
     <sdef n="sem_org_prod-vis"      c="Semantics conversion bug"/>
 
+    <sdef n="GD"      c="undefined gender"/>
+
   </sdefs>
   <section id="main" type="standard">
 
@@ -169,7 +171,7 @@
     <e><p><l>áidna<s n="prn"/></l><r>einige<s n="prn"/></r></p></e>
     <e><p><l>buohkat<s n="prn"/></l><r>alle<s n="prn"/></r></p></e>
     <e><p><l>buot<s n="prn"/></l><r>alles<s n="prn"/></r></p></e>
-    <e><p><l>dát<s n="prn"/></l><r>dies<s n="prn"/><s n="dem"/><s n="mfn"/></r></p></e>
+    <e><p><l>dát<s n="prn"/></l><r>dies<s n="prn"/><s n="dem"/><s n="GD"/></r></p></e>
     <e><p><l>dat<s n="prn"/></l><r>es<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/></r></p></e>
     <e><p><l>diet<s n="prn"/></l><r>das<s n="prn"/></r></p></e>
     <e><p><l>dot<s n="prn"/></l><r>das<s n="prn"/></r></p></e>

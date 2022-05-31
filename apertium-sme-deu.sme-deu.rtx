@@ -2,8 +2,8 @@
 !! ATTRIBUTE CATEGORIES
 !!!!!!!!!!!!!!!
 
-number = sg pl sp du ;
-gender = m f mf nt mfn ;
+number = (ND sg) sg pl sp du ND ;
+gender = (GD m) m f mf nt mfn GD ;
 case = nom acc dat gen ill loc com ess;
 det_type = def ind dem itg pos;
 tense = pres fut pret pii imp;
@@ -25,8 +25,6 @@ conneg = conneg ;
 n: _.gender.number.case;
 np: _.npclass.gender.number.case;
 adj: _.gender.number;
-det_default: _.det_type;
-det_def: _.det_type.number;
 vblex: _.sep.inf.pcp.fs.tense.person.number;
 vbser: _.tense.person.number;
 vbmod: _.tense.person.number;
@@ -46,7 +44,8 @@ PROPN: _.case ;
 N: _.gender.number.case ;
 V: _.number.person ;
 C: _;
-PRNP: _.case.number.person;
+PRN: _.case.number.person;
+DET: _.gender.case.number.person;
 ADV: _;
 ADP: _;
 A: _ ;
@@ -60,6 +59,7 @@ S: _ ;
 PP: _ ;
 NUMP: _ ;
 NP: _.gender.number.case;
+DP: _.gender.number.case;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
@@ -122,11 +122,17 @@ S -> VP NP { 1 _
         *(maybe_adp)[case=2.case]
         *(maybe_art)[number=2.number,case=2.case,gender=2.gender]
         2 } |
+     VP DP { 1 _ 
+        *(maybe_adp)[case=2.case]
+        2 } |
      VP { 1 } |  ! stray VP
      NP {
         *(maybe_adp)[case=1.case]
         *(maybe_art)[number=1.number,case=1.case,gender=1.gender]
      1 } |
+     DP {
+        *(maybe_adp)[case=1.case]
+        1 } |
      PROPN {
         *(maybe_adp)[case=1.case]
         1 } ; ! stray PROPN (no article)
@@ -138,17 +144,20 @@ VP -> NP.*.loc leat@vblex {
       PROPN.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
         1[case=nom] _ haben@vbhaver.pri.p3.sg } |
-      PRNP.*.loc leat@vblex {
+      PRN.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
         1[case=nom] _ haben@vbhaver.pri.[1.person].[1.number] } |
       NP V {
         *(maybe_adp)[case=1.case]
         *(maybe_art)[number=1.number, case=1.case, gender=1.gender]
         1 _ 2 } |
-      PRNP V {
+      PRN V {
         *(maybe_adp)[case=1.case]
         1 _ 2 } |
       PROPN V {
+        *(maybe_adp)[case=1.case]
+        1 _ 2 } |
+      DP V {
         *(maybe_adp)[case=1.case]
         1 _ 2 } |
       ii@vblex vblex {
@@ -167,12 +176,13 @@ V -> %vblex [$$expletive=(if (1.lem = "regnen") es@prn.pers.p3.nt.sg.nom),
      %vbser {1} |
      %vbmod {1} ;
 PP -> NUMP post { 2 _ 1 } |
-      PRNP post { 2 _ 1 } |
+      PRN post { 2 _ 1 } |
       NP post { 2 _ 1 } ;
 NUMP -> num NP { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
                  2[number=(if (1.lem/sl = "okta") sg else pl)] } ;
-NP -> A %N { 1 _ 2 } | ! make A agree in def gender case
+NP -> A %N { 1[gender=2.gender] _ 2 } | ! make A agree in def gender case
       %N { 1 } ;
+DP -> DET %N { 1[gender=2.gender] _ 2 } ;
 N -> n.$case/sl.$number.$gender/tl {1[case=(if (1.case = loc) acc
                                          elif (1.case = ill) dat
                                          elif (1.case = ess) nom
@@ -187,15 +197,31 @@ N -> n.$case/sl.$number.$gender/tl {1[case=(if (1.case = loc) acc
 PROPN -> np.*.$case/sl.$number.$gender {1} ;
 C -> cnjcoo {1} |
      cnjsub {1} ;
-PRNP -> %prn { 1[case=(if (1.case = loc) acc
+DET -> %prn.pers.*.gen."@→N" { 1 } |  ! Obs: list from sme-nob
+       %prn.pers.*.gen."@→A" { 1 } |
+       %prn.pers.*.gen.*."@→N" { 1 } |
+       %prn.pers.*.gen.*."@→A" { 1 } |
+       %prn.ref.gen.*."@→N" { 1 } |
+       %prn.ref.gen.*."@→A" { 1 } |
+       %prn.ref.gen."@→N" { 1 } |
+       %prn.ref.gen."@→A" { 1 } |
+       %prn.dem.*."@→N" { 1 } |
+       %prn.dem.*."@→A" { 1 } |
+       %prn.ind.*."@→N" { 1 } |
+       %prn.ind.*."@→A" { 1 } |
+       %prn.itg.*."@→N" { 1 } |
+       %prn.itg.*."@→A" { 1 } |
+       %prn.ind."@→N" { 1 } |
+       %prn.ind."@→A" { 1 } |
+       %det {1} ;
+PRN -> %prn { 1[case=(if (1.case = loc) acc
                      elif (1.case = ill) dat
                      elif (1.case = ess) nom
                      elif (1.case = com) dat
                      elif (1.case = acc) acc
                      elif (1.case = dat) dat
                      elif (1.case = gen) gen
-                     else nom)] } |
-        %det {1} ;
+                     else nom)] } ;
 ADV -> adv {1} |
        pcle {1} ;
 ADP -> post {1} |
