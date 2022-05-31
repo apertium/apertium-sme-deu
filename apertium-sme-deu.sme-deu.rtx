@@ -36,7 +36,7 @@ det: _.det_type.person.gender.number.case;
 adv: _.advtype;
 post: _;
 pr: _;
-adj: _.<sint>;
+adj: _.<sint>.gender.number.case.<st>;
 num: _.number;
 pcle: _;
 
@@ -193,9 +193,11 @@ PP -> NUMP post { 2 _ 1 } |
       NP post { 2 _ 1 } ;
 NUMP -> num NP { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
                  2[number=(if (1.lem/sl = "okta") sg else pl)] } ;
-NP -> adj %N { 1[gender=2.gender] _ 2 } | ! make A agree in def gender case
+NP -> adj %N { 1[gender=2.gender,
+                 number=2.number,case=2.case] _ 2 } |
       %N { 1 } ;
-DP -> DET %N { 1[gender=2.gender] _ 2 } ;
+DP -> DET %N { 1[gender=(if (2.number = pl) mfn else 2.gender),
+                 number=2.number,case=2.case] _ 2 } ;
 N -> n.$case/sl.$number.$gender/tl {1[case=(if (1.case = loc) acc
                                          elif (1.case = ill) dat
                                          elif (1.case = ess) nom
