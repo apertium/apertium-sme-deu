@@ -193,7 +193,7 @@ PP -> NUMP post { 2 _ 1 } |
       NP post { 2 _ 1 } ;
 NUMP -> num NP { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
                  2[number=(if (1.lem/sl = "okta") sg else pl)] } ;
-NP -> adj %N { 1[gender=2.gender,
+NP -> A %N { 1[gender=2.gender,
                  number=2.number,case=2.case] _ 2 } |
       %N { 1 } ;
 DP -> DET %N { 1[gender=(if (2.number = pl) mfn else 2.gender),
@@ -212,23 +212,23 @@ N -> n.$case/sl.$number.$gender/tl {1[case=(if (1.case = loc) acc
 PROPN -> np.*.$case/sl.$number.$gender {1} ;
 C -> cnjcoo {1} |
      cnjsub {1} ;
-DET -> %prn.pers.*.gen."@→N" { 1 } |  ! Obs: list from sme-nob
-       %prn.pers.*.gen."@→A" { 1 } |
-       %prn.pers.*.gen.*."@→N" { 1 } |
-       %prn.pers.*.gen.*."@→A" { 1 } |
-       %prn.ref.gen.*."@→N" { 1 } |
-       %prn.ref.gen.*."@→A" { 1 } |
-       %prn.ref.gen."@→N" { 1 } |
-       %prn.ref.gen."@→A" { 1 } |
-       %prn.dem.*."@→N" { 1[gender=(if (1.number = pl) mfn)] } |
-       %prn.dem.*."@→A" { 1 } |
-       %prn.ind.*."@→N" { 1 } |
-       %prn.ind.*."@→A" { 1 } |
-       %prn.itg.*."@→N" { 1 } |
-       %prn.itg.*."@→A" { 1 } |
-       %prn.ind."@→N" { 1 } |
-       %prn.ind."@→A" { 1 } |
-       %det {1} ;
+DET -> %prn.pers.*.gen."@→N" { %1 } |  ! Obs: list from sme-nob
+       %prn.pers.*.gen."@→A" { %1 } |
+       %prn.pers.*.gen.*."@→N" { %1 } |
+       %prn.pers.*.gen.*."@→A" { %1 } |
+       %prn.ref.gen.*."@→N" { %1 } |
+       %prn.ref.gen.*."@→A" { %1 } |
+       %prn.ref.gen."@→N" { %1 } |
+       %prn.ref.gen."@→A" { %1 } |
+       %prn.dem.*."@→N" { %1 } |
+       %prn.dem.*."@→A" { %1 } |
+       %prn.ind.*."@→N" { %1 } |
+       %prn.ind.*."@→A" { %1 } |
+       %prn.itg.*."@→N" { %1 } |
+       %prn.itg.*."@→A" { %1 } |
+       %prn.ind."@→N" { %1 } |
+       %prn.ind."@→A" { %1 } |
+       %det { %1 } ;
 PRN -> %prn { 1[case=(if (1.case = loc) acc
                      elif (1.case = ill) dat
                      elif (1.case = ess) nom
@@ -241,7 +241,7 @@ ADV -> adv {1} |
        pcle {1} ;
 ADP -> post {1} |
        pr {1} ;
-!A -> adj {1} ;
+A -> %adj { %1 } ;
 NUM -> num {1[number = (if (1.lem/sl = "okta") sg else pl)] } ; 
     ! IE numerals have no morphological num so they assume semantic num
 
