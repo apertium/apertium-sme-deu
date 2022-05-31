@@ -16,6 +16,7 @@ advtype = itg ;
 inf = inf actio ;
 pcp = pp pprs prfprc ;
 conneg = conneg ;
+def = ind def ;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -78,19 +79,31 @@ conneg > number : conneg sg ;
 !!!!!!!!!!!!!!!
 
 maybe_art: (if (1.number = sg)
-                (if (1.case = com) [der@det.def.[1.gender].sg.dat _]
-                 elif (1.case = ill) [der@det.def.[1.gender].sg.acc _]
-                 elif (1.case = loc) [der@det.def.[1.gender].sg.dat _]
-                 elif (1.case = ess) [der@det.def.[1.gender].sg.nom _]
-                 elif (1.case = acc) [der@det.def.[1.gender].sg.acc _]
-                 else [der@det.def.[1.gender].sg.nom _ ])
-            else 
-                (if (1.case = com) [der@det.def.mfn.pl.dat _]
-                 elif (1.case = ill) [der@det.def.mfn.pl.dat _]
-                 elif (1.case = loc) [der@det.def.mfn.pl.acc _]
-                 elif (1.case = ess) [der@det.def.mfn.pl.nom _]
-                 elif (1.case = acc) [der@det.def.mfn.pl.acc _]
-                 else [der@det.def.mfn.pl.[1.case] _])
+                (if (1.def = def)
+                    (if (1.case = com) [der@det.def.[1.gender].sg.dat _]
+                     elif (1.case = ill) [der@det.def.[1.gender].sg.acc _]
+                     elif (1.case = loc) [der@det.def.[1.gender].sg.dat _]
+                     elif (1.case = ess) [der@det.def.[1.gender].sg.nom _]
+                     elif (1.case = acc) [der@det.def.[1.gender].sg.acc _]
+                     else [der@det.def.[1.gender].sg.nom _ ])
+                else
+                    (if (1.case = com) [ein@det.ind.[1.gender].sg.dat _]
+                     elif (1.case = ill) [ein@det.ind.[1.gender].sg.acc _]
+                     elif (1.case = loc) [ein@det.ind.[1.gender].sg.dat _]
+                     elif (1.case = ess) [ein@det.ind.[1.gender].sg.nom _]
+                     elif (1.case = acc) [ein@det.ind.[1.gender].sg.acc _]
+                     else [ein@det.ind.[1.gender].sg.nom _ ])
+                )
+            else
+                (if (1.def = def) 
+                    (if (1.case = com) [der@det.def.mfn.pl.dat _]
+                     elif (1.case = ill) [der@det.def.mfn.pl.dat _]
+                     elif (1.case = loc) [der@det.def.mfn.pl.acc _]
+                     elif (1.case = ess) [der@det.def.mfn.pl.nom _]
+                     elif (1.case = acc) [der@det.def.mfn.pl.acc _]
+                     else [der@det.def.mfn.pl.[1.case] _])
+                else []
+                )
             );
 maybe_adp: (if (1.case = loc) [in@pr.dat _]
             elif (1.case = ill) [in@pr.acc _]
@@ -120,7 +133,7 @@ pro_undrop: (if (1.number = sg)
 !!!!!!!!!!!!!!!
 S -> VP NP { 1 _
         *(maybe_adp)[case=2.case]
-        *(maybe_art)[number=2.number,case=2.case,gender=2.gender]
+        *(maybe_art)[number=2.number,case=2.case,gender=2.gender,def=ind]
         2 } |
      VP DP { 1 _ 
         *(maybe_adp)[case=2.case]
@@ -128,7 +141,7 @@ S -> VP NP { 1 _
      VP { 1 } |  ! stray VP
      NP {
         *(maybe_adp)[case=1.case]
-        *(maybe_art)[number=1.number,case=1.case,gender=1.gender]
+        *(maybe_art)[number=1.number,case=1.case,gender=1.gender,def=def]
      1 } |
      DP {
         *(maybe_adp)[case=1.case]
@@ -139,7 +152,7 @@ S -> VP NP { 1 _
 NEG -> ii@vblex { nicht@adv[lemcase=1.lemcase] } ; ! stray NEG
 VP -> NP.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
-        *(maybe_art)[number=1.number, case=nom, gender=1.gender] 
+        *(maybe_art)[number=1.number, case=nom, gender=1.gender,def=def] 
         1[case=nom] _ haben@vbhaver.pri.p3.sg } |
       PROPN.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
@@ -149,7 +162,7 @@ VP -> NP.*.loc leat@vblex {
         1[case=nom] _ haben@vbhaver.pri.[1.person].[1.number] } |
       NP V {
         *(maybe_adp)[case=1.case]
-        *(maybe_art)[number=1.number, case=1.case, gender=1.gender]
+        *(maybe_art)[number=1.number, case=1.case, gender=1.gender,def=def]
         1 _ 2 } |
       PRN V {
         *(maybe_adp)[case=1.case]
@@ -180,7 +193,7 @@ PP -> NUMP post { 2 _ 1 } |
       NP post { 2 _ 1 } ;
 NUMP -> num NP { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
                  2[number=(if (1.lem/sl = "okta") sg else pl)] } ;
-NP -> A %N { 1[gender=2.gender] _ 2 } | ! make A agree in def gender case
+NP -> adj %N { 1[gender=2.gender] _ 2 } | ! make A agree in def gender case
       %N { 1 } ;
 DP -> DET %N { 1[gender=2.gender] _ 2 } ;
 N -> n.$case/sl.$number.$gender/tl {1[case=(if (1.case = loc) acc
@@ -192,7 +205,7 @@ N -> n.$case/sl.$number.$gender/tl {1[case=(if (1.case = loc) acc
                                          elif (1.case = gen) gen
                                          else nom),
                                    number=(if (1.number = du) pl
-                                           elif (1.number =pl) pl
+                                           elif (1.number = pl) pl
                                            else sg)] } ;
 PROPN -> np.*.$case/sl.$number.$gender {1} ;
 C -> cnjcoo {1} |
@@ -205,7 +218,7 @@ DET -> %prn.pers.*.gen."@→N" { 1 } |  ! Obs: list from sme-nob
        %prn.ref.gen.*."@→A" { 1 } |
        %prn.ref.gen."@→N" { 1 } |
        %prn.ref.gen."@→A" { 1 } |
-       %prn.dem.*."@→N" { 1 } |
+       %prn.dem.*."@→N" { 1[gender=(if (1.number = pl) mfn)] } |
        %prn.dem.*."@→A" { 1 } |
        %prn.ind.*."@→N" { 1 } |
        %prn.ind.*."@→A" { 1 } |
@@ -226,7 +239,7 @@ ADV -> adv {1} |
        pcle {1} ;
 ADP -> post {1} |
        pr {1} ;
-A -> adj {1} ;
+!A -> adj {1} ;
 NUM -> num {1[number = (if (1.lem/sl = "okta") sg else pl)] } ; 
     ! IE numerals have no morphological num so they assume semantic num
 
