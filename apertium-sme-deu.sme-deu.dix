@@ -801,13 +801,13 @@
     <!-- }}}
          {{{ SECTION: Nouns nouns -->
 
-    <e c="check"><p><l>dilli<s n="n"/></l><r>Zeit<s n="n"/><s n="f"/></r></p></e>
-    <e c="fixme"><p><l>báhkki<s n="n"/></l><r>Baumteil<s n="n"/><s n="m"/></r></p></e>
-    <e c="fixme"><p><l>bearpmet<s n="n"/></l><r>Holzstangel<s n="n"/><s n="m"/></r></p></e>
+    <e"><p><l>dilli<s n="n"/></l><r>Gelegenheit<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>báhkki<s n="n"/></l><r>Auswuchs<s n="n"/><s n="m"/></r></p></e>
+    <e c="fixme"><p><l>bearpmet<s n="n"/></l><r>Bodenbalken<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>buođđogeahči<s n="n"/></l><r>Dammspitze<s n="n"/><s n="m"/></r></p></e>
-    <e c="fixme"><p><l>cizáš<s n="n"/></l><r>Vöglchen<s n="n"/><s n="m"/></r></p></e>
-    <e c="FIXME"><p><l>čuoika<s n="n"/></l><r>Mütze<s n="n"/><s n="f"/></r></p></e>
-    <e c="fixme"><p><l>dahkan<s n="n"/></l><r>Machung<s n="n"/><s n="m"/></r></p></e>
+    <e c="fixme"><p><l>cizáš<s n="n"/></l><r>Vögelchen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>čuoika<s n="n"/></l><r>Mücke<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dahkan<s n="n"/></l><r>Tun<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>deatnojohtin<s n="n"/></l><r>Eisschmeltung<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>divššohasbearráigeahčči<s n="n"/></l><r>Kundenüberwachung<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>dorka<s n="n"/></l><r>Mantel<s n="n"/><s n="m"/></r></p></e>
@@ -830,7 +830,7 @@
     <e c="fixme"><p><l>riggi<s n="n"/></l><r>Zeltholz<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>salla<s n="n"/></l><r>Arm<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>seahkkanjálbmi<s n="n"/></l><r>Sacköffnung<s n="n"/><s n="m"/></r></p></e>
-    <e c="fixme"><p><l>siida<s n="n"/></l><r>Samedorf<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>siida<s n="n"/></l><r>Samendorf<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>siseana<s n="n"/></l><r>Einland<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>šlárvaságat<s n="n"/></l><r>Faulnachricht<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>soggi<s n="n"/></l><r>Wandside<s n="n"/><s n="m"/></r></p></e>
@@ -846,12 +846,12 @@
     <e c="TODO"><p><l>lávvomuorra<s n="n"/></l><r>Zeltstängel<s n="n"/><s n="m"/></r></p></e>
     <e c="TODO"><p><l>lávvu<s n="n"/></l><r>Lavu<s n="n"/><s n="m"/></r></p></e>
     <e c="TODO"><p><l>loaidu<s n="n"/></l><r>Laitu<s n="n"/><s n="m"/></r></p></e>
-    <e c="TODO"><p><l>loavdda<s n="n"/></l><r>Zeltdingsda<s n="n"/><s n="m"/></r></p></e>
-    <e c="TODO"><p><l>várá<s n="n"/></l><r>Wandgerät<s n="n"/><s n="m"/></r></p></e>
+    <e c="TODO"><p><l>loavdda<s n="n"/></l><r>Zeltdecke<s n="n"/><s n="m"/></r></p></e>
+    <e c="TODO"><p><l>várá<s n="n"/></l><r>Gefahr<s n="n"/><s n="m"/></r></p></e>
     <e c="TODO"><p><l>gaskka<s n="n"/></l><r>Ildfeuer<s n="n"/><s n="m"/></r></p></e>
     <e c="TODO"><p><l>oppal<s n="n"/></l><r>Eisspitze<s n="n"/><s n="m"/></r></p></e>
     <e c="TODO"><p><l>buktá<s n="n"/></l><r>Bukta<s n="n"/><s n="m"/></r></p></e>
-    <e c="TODO"><p><l>namuhuvvon<s n="n"/></l><r>Genannt<s n="n"/><s n="m"/></r></p></e>
+    <e c="TODO"><p><l>namuhuvvon<s n="n"/></l><r>genannt<s n="n"/><s n="m"/></r></p></e>
     <e c="Fixme"><p><l>Jos<s n="n"/></l><r>ob<s n="n"/><s n="m"/></r></p></e>
     <e c="Fixme"><p><l>nr<s n="n"/></l><r>Nr<s n="n"/><s n="m"/></r></p></e>
     <e c="Fixme"><p><l>a<s n="n"/></l><r>a<s n="n"/><s n="m"/></r></p></e>
@@ -872,8 +872,8 @@
     <e><p><l>áigetávval<s n="n"/></l><r>Zeitplan<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>áigi<s n="n"/></l><r>Zeit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>áigodat<s n="n"/></l><r>Ära<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>áirras<s n="n"/></l><r>Räpresentant<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>álbmotallaskuvla<s n="n"/></l><r>Volkuniversität<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>áirras<s n="n"/></l><r>Repräsentant<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>álbmotallaskuvla<s n="n"/></l><r>Volksuniversität<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>álbmot<s n="n"/></l><r>Leute<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>álgoálbmot<s n="n"/></l><r>Urfolk<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>álgokursa<s n="n"/></l><r>Anfängerkurs<s n="n"/><s n="m"/></r></p></e>
@@ -883,7 +883,7 @@
     <e><p><l>árgabivttas<s n="n"/></l><r>Alltagskleidung<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>árran<s n="n"/></l><r>Feuerstelle<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>artihkal<s n="n"/></l><r>Artikel<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>árvu<s n="n"/></l><r>Status<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>árvu<s n="n"/></l><r>Wert<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>árvvoštallan<s n="n"/></l><r>Bedingung<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ásahus<s n="n"/></l><r>Institut<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>aski<s n="n"/></l><r>Etage<s n="n"/><s n="f"/></r></p></e>
@@ -903,33 +903,33 @@
     <e><p><l>avvi<s n="n"/></l><r>Belte<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>báddi<s n="n"/></l><r>Schnur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>badjeolmmoš<s n="n"/></l><r>Rentierhalter<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>badjesápmi<s n="n"/></l><r>Badjesame<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>badjesápmi<s n="n"/></l><r>Rentiersame<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bahádahkki<s n="n"/></l><r>Teufel<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>bahágas<s n="n"/></l><r>Teufelz<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bahágas<s n="n"/></l><r>Teufel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>báhppa<s n="n"/></l><r>Priester<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>báhti<s n="n"/></l><r>Auflauf<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>báidi<s n="n"/></l><r>Hemd<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>baika<s n="n"/></l><r>Scheiße<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>baika<s n="n"/></l><r>Scheiße<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>báiki<s n="n"/></l><r>Ort<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>balddonasmuitalus<s n="n"/></l><r>Geistgeschicht<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>balddonasmuitalus<s n="n"/></l><r>Geistergeschicht<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bálká<s n="n"/></l><r>Einkommen<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>bálkkašupmi<s n="n"/></l><r>Belohnung<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bálkkašupmi<s n="n"/></l><r>Preis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bálvalus<s n="n"/></l><r>Dienst<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>balva<s n="n"/></l><r>Wolke<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bárdni<s n="n"/></l><r>Junge<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bargi<s n="n"/></l><r>Arbeitnehmer<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>bargobivttas<s n="n"/></l><r>Arbeitkleidung<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bargobivttas<s n="n"/></l><r>Arbeitskleidung<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bargu<s n="n"/></l><r>Arbeit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bártnáš<s n="n"/></l><r>Jüngchen<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>basadanlatnja<s n="n"/></l><r>Badezimmer<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>bassi<s n="n"/></l><r>Sonntag<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bassi<s n="n"/></l><r>Feiertag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>baste<s n="n"/></l><r>Löffel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>beaivi<s n="n"/></l><r>Tag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>beaivvádat<s n="n"/></l><r>Sonnenschein<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>beaivváš<s n="n"/></l><r>Sonne<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bealdu<s n="n"/></l><r>Feld<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>bealle<s n="n"/></l><r>Halbe<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bealle<s n="n"/></l><r>Hälfte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bealli<s n="n"/></l><r>Seite<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>beallječikŋa<s n="n"/></l><r>Ohrring<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>beallji<s n="n"/></l><r>Ohr<s n="n"/><s n="nt"/></r></p></e>
@@ -940,7 +940,7 @@
     <e><p><l>beassan<s n="n"/></l><r>Zutritt<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>beassášdoalut<s n="n"/></l><r>Osterveranstaltung<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>beassážat<s n="n"/></l><r>Ostern<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>beatnagaš<s n="n"/></l><r>Hundchen<s n="n"/></r></p></e>
+    <e><p><l>beatnagaš<s n="n"/></l><r>Hündchen<s n="n"/></r></p></e>
     <e><p><l>beavdi<s n="n"/></l><r>Tisch<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>beroštupmi<s n="n"/></l><r>Interesse<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bidjan<s n="n"/></l><r>Einstellung<s n="n"/><s n="m"/></r></p></e>
@@ -948,23 +948,23 @@
     <e><p><l>biebmu<s n="n"/></l><r>Essen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>bierggas<s n="n"/></l><r>Gegenstand<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>biergu<s n="n"/></l><r>Fleisch<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>bihtta<s n="n"/></l><r>Bit<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bihtta<s n="n"/></l><r>Stück<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bihttá<s n="n"/></l><r>Hausarbeit<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>biigá<s n="n"/></l><r>Jungfer<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>biigá<s n="n"/></l><r>Magd<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>biila<s n="n"/></l><r>Auto<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>bileahtta<s n="n"/></l><r>Karte<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>biras<s n="n"/></l><r>Umwelt<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>biras<s n="n"/></l><r>Umgebung<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bircu<s n="n"/></l><r>Würfel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>birgejupmi<s n="n"/></l><r>Lebensunterhalt<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>bivddus<s n="n"/></l><r>Fischfall<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bivddus<s n="n"/></l><r>Angel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bivdi<s n="n"/></l><r>Jäger<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bivdu<s n="n"/></l><r>Jagd<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bivttasráhkadeapmi<s n="n"/></l><r>Schneidung<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bivttas<s n="n"/></l><r>Kleidung<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>bláđđi<s n="n"/></l><r>Zeitung<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bláđđi<s n="n"/></l><r>Zeitschrift<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bliánta<s n="n"/></l><r>Bleistift<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>boađus<s n="n"/></l><r>Result<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>boagán<s n="n"/></l><r>Belte<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>boađus<s n="n"/></l><r>Resultat<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>boagán<s n="n"/></l><r>Gürtel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>boahtteáigi<s n="n"/></l><r>Zukunft<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>boahttevuohta<s n="n"/></l><r>Zukunft<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>boahtti<s n="n"/></l><r>Kommende<s n="n"/><s n="m"/></r></p></e>
