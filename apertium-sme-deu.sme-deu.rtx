@@ -17,6 +17,11 @@ inf = inf actio ;
 pcp = pp pprs prfprc ;
 conneg = conneg ;
 def = ind def ;
+adj_type = sint pred attr ;
+
+! Giella specifics
+sem = sem_time sem_plc ;
+depfunc = "@←SPRED" "@←OPRED" "@←N" ;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -36,7 +41,8 @@ det: _.det_type.person.gender.number.case;
 adv: _.advtype;
 post: _;
 pr: _;
-adj: _.<sint>.gender.number.case.<st>;
+adj_agr: _.<sint>.gender.number.case.<st>;
+adj_pred: _.<sint>.adj_type;
 num: _.number;
 pcle: _;
 
@@ -84,15 +90,13 @@ maybe_art: (if (1.number = sg)
                      elif (1.case = ill) [der@det.def.[1.gender].sg.acc _]
                      elif (1.case = loc) [der@det.def.[1.gender].sg.dat _]
                      elif (1.case = ess) [der@det.def.[1.gender].sg.nom _]
-                     elif (1.case = acc) [der@det.def.[1.gender].sg.acc _]
-                     else [der@det.def.[1.gender].sg.nom _ ])
+                     else [der@det.def.[1.gender].sg.[1.case] _ ])
                 else
                     (if (1.case = com) [ein@det.ind.[1.gender].sg.dat _]
                      elif (1.case = ill) [ein@det.ind.[1.gender].sg.acc _]
                      elif (1.case = loc) [ein@det.ind.[1.gender].sg.dat _]
                      elif (1.case = ess) [ein@det.ind.[1.gender].sg.nom _]
-                     elif (1.case = acc) [ein@det.ind.[1.gender].sg.acc _]
-                     else [ein@det.ind.[1.gender].sg.nom _ ])
+                     else [ein@det.ind.[1.gender].sg.[1.case] _ ])
                 )
             else
                 (if (1.def = def) 
@@ -100,7 +104,6 @@ maybe_art: (if (1.number = sg)
                      elif (1.case = ill) [der@det.def.mfn.pl.dat _]
                      elif (1.case = loc) [der@det.def.mfn.pl.acc _]
                      elif (1.case = ess) [der@det.def.mfn.pl.nom _]
-                     elif (1.case = acc) [der@det.def.mfn.pl.acc _]
                      else [der@det.def.mfn.pl.[1.case] _])
                 else []
                 )
@@ -127,6 +130,11 @@ pro_undrop: (if (1.number = sg)
                  elif (1.person = p3) [sie@prn.pers.p3.mf.pl.nom _ beide@det.ind.mfn.pl.nom _]
                  else [$$expletive _])
              else [$$expletive _]) ;
+adj: (if (1.depfunc = "@←SPRED") 1(adj_pred)[adj_type=pred]
+      elif (1.depfunc = "@←OPRED") 1(adj_pred)[adj_type=pred]
+      else 1(adj_agr)
+     ) ;
+
 
 !!!!!!!!!!!!!!!
 !! REDUCTION RULES
@@ -167,6 +175,9 @@ VP -> NP.*.loc leat@vblex {
       PRN V {
         *(maybe_adp)[case=1.case]
         1 _ 2 } |
+      PRN ADV V {
+        *(maybe_adp)[case=1.case]
+        1 _ 3 _ 2 } |
       PROPN V {
         *(maybe_adp)[case=1.case]
         1 _ 2 } |
@@ -196,6 +207,7 @@ NUMP -> num NP { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
                  2[number=(if (1.lem/sl = "okta") sg else pl)] } ;
 NP -> A %N { 1[gender=2.gender,
                  number=2.number,case=2.case] _ 2 } |
+      N ADV { 1 _ 2 } |
       %N { 1 } ;
 DP -> DET %N { 1[gender=(if (2.number = pl) mfn else 2.gender),
                  number=2.number,case=2.case] _ 2 } ;
@@ -205,7 +217,9 @@ N -> n.$case/sl.$number.$gender/tl {1[case=(if (1.case = loc) acc
                                          elif (1.case = com) dat
                                          elif (1.case = acc) acc
                                          elif (1.case = dat) dat
-                                         elif (1.case = gen) gen
+                                         elif (1.case = gen) 
+                                            (if (1.sem = sem_time) acc
+                                            else gen)
                                          else nom),
                                    number=(if (1.number = du) pl
                                            elif (1.number = pl) pl
