@@ -227,8 +227,7 @@
     <e><p><l c="toktokens??">ja<b/>go<s n="cnjsub"/></l><r>wann<s n="cnjsub"/></r></p></e>
     <e><p><l c="toktokens??">ovdal<b/>go<s n="cnjsub"/></l><r>bevor<s n="cnjsub"/></r></p></e>
     <e><p><l>ovdalgo<s n="cnjsub"/></l><r>bevor<s n="cnjsub"/></r></p></e>
-    <e><p><l>go<s n="cnjsub"/></l><r>wenn<s n="cnjsub"/></r></p></e>
-    <e><p><l>go<s n="cnjsub"/></l><r>als<s n="cnjsub"/></r></p></e>
+    <e><p><l>go<s n="cnjsub"/></l><r>wann<s n="cnjsub"/></r></p></e>
     <e><p><l>ahte<s n="cnjsub"/></l><r>dass<s n="cnjsub"/></r></p></e>
     <e><p><l>vaikko<s n="cnjsub"/></l><r>obwohl<s n="cnjsub"/></r></p></e>
     <e><p><l>dasgo<s n="cnjsub"/></l><r>dafür<s n="cnjsub"/></r></p></e>
@@ -782,7 +781,7 @@
     <e><p><l>váttis<s n="adj"/></l><r>schwerig<s n="adj"/></r></p></e>
     <e><p><l>veara<s n="adj"/></l><r>wert<s n="adj"/></r></p></e>
     <e><p><l>vejolaš<s n="adj"/></l><r>möglich<s n="adj"/></r></p></e>
-    <e><p><l>viđát<s n="adj"/></l><r>fünfte<s n="adj"/></r></p></e>
+    <e><p><l>viđát<s n="adj"/></l><r>fünfter<s n="adj"/></r></p></e>
     <e><p><l>vielgat<s n="adj"/></l><r>weiß<s n="adj"/></r></p></e>
     <e><p><l>viiddis<s n="adj"/></l><r>umfangreich<s n="adj"/></r></p></e>
     <e><p><l>visot<s n="adj"/></l><r>alle<s n="adj"/></r></p></e>
@@ -790,19 +789,19 @@
     <e><p><l>vissis<s n="adj"/></l><r>sicher<s n="adj"/></r></p></e>
     <e><p><l>vuogas<s n="adj"/></l><r>angemessen<s n="adj"/></r></p></e>
     <e><p><l>vuoitemeahttun<s n="adj"/></l><r>unschlagbar<s n="adj"/></r></p></e>
-    <e><p><l>vuosttas<s n="adj"/></l><r>erste<s n="adj"/></r></p></e>
-    <e><p><l>vuosttaš<s n="adj"/></l><r>erste<s n="adj"/></r></p></e>
+    <e><p><l>vuosttas<s n="adj"/></l><r>erster<s n="adj"/></r></p></e>
+    <e><p><l>vuosttaš<s n="adj"/></l><r>erster<s n="adj"/></r></p></e>
     <e><p><l>sámegielat<s n="adj"/></l><r>samisch<s n="adj"/></r></p></e>
     <e><p><l>guovddáš<s n="adj"/></l><r>zentral<s n="adj"/></r></p></e>
     <e><p><l>digitála<s n="adj"/></l><r>digital<s n="adj"/></r></p></e>
-    <e><p><l>siskkáldas<s n="adj"/></l><r>innere<s n="adj"/></r></p></e>
+    <e><p><l>siskkáldas<s n="adj"/></l><r>innerer<s n="adj"/></r></p></e>
 
 
 
     <!-- }}}
          {{{ SECTION: Nouns nouns -->
 
-    <e><p><l>dilli<s n="n"/></l><r>Gelegenheit<s n="n"/><s n="f"/></r></p></e>
+    <e"><p><l>dilli<s n="n"/></l><r>Gelegenheit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>báhkki<s n="n"/></l><r>Auswuchs<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>bearpmet<s n="n"/></l><r>Bodenbalken<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>buođđogeahči<s n="n"/></l><r>Dammspitze<s n="n"/><s n="m"/></r></p></e>
@@ -1157,12 +1156,12 @@
     <e><p><l>gáddi<s n="n"/></l><r>Strand<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gáffádat<s n="n"/></l><r>Cafe<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gáffe<s n="n"/></l><r>Kaffee<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>gáhkku<s n="n"/></l><r>Küche<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gáhkku<s n="n"/></l><r>Kuchen<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gahpir<s n="n"/></l><r>Mütze<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gáhttu<s n="n"/></l><r>Katze<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gáibádus<s n="n"/></l><r>Anforderung<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gáica<s n="n"/></l><r>Ziege<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>gáiccanáhkki<s n="n"/></l><r>Geitleder<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>gáiccanáhkki<s n="n"/></l><r>Ziegenleder<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>gákkis<s n="n"/></l><r>Fries<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gáktemálle<s n="n"/></l><r>Gaktimodell<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gálbi<s n="n"/></l><r>Kalb<s n="n"/><s n="m"/></r></p></e>
@@ -1170,7 +1169,7 @@
     <e><p><l>gálssot<s n="n"/></l><r>Gamasche<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gálvu<s n="n"/></l><r>Mittel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>gáma<s n="n"/></l><r>Schuh<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>gámasuoidni<s n="n"/></l><r>Segge<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gámasuoidni<s n="n"/></l><r>Schuhgrass<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gánda<s n="n"/></l><r>Junge<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gárdin<s n="n"/></l><r>Garten<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>garraskearru<s n="n"/></l><r>Festplatte<s n="n"/><s n="m"/></r></p></e>
@@ -1189,9 +1188,9 @@
     <e><p><l>gažaldat<s n="n"/></l><r>Frage<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gázzi<s n="n"/></l><r>Gruppe<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>geađgi<s n="n"/></l><r>Stein<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>geahči<s n="n"/></l><r>Mütze<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>geahči<s n="n"/></l><r>Ende<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>geaidnu<s n="n"/></l><r>Weg<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>geardi<s n="n"/></l><r>Klass<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>geardi<s n="n"/></l><r>Mal<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>geasseidja<s n="n"/></l><r>Sommernacht<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>geassemánnu<s n="n"/></l><r>Juni<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>geasseorohat<s n="n"/></l><r>Sommerhaus<s n="n"/><s n="nt"/></r></p></e>
