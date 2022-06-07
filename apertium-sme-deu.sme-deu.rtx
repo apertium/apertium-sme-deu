@@ -68,6 +68,7 @@ NUMP: _ ;
 NP: _.gender.number.case;
 DP: _.gender.number.case;
 
+
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
@@ -150,7 +151,7 @@ S -> VP NP { 1 _
      NP {
         *(maybe_adp)[case=1.case]
         *(maybe_art)[number=1.number,case=1.case,gender=1.gender,def=def]
-     1 } |
+        1 } |
      DP {
         *(maybe_adp)[case=1.case]
         1 } |
@@ -187,6 +188,8 @@ VP -> NP.*.loc leat@vblex {
       DP V {
         *(maybe_adp)[case=1.case]
         1 _ 2 } |
+      PRN ii@vblex vblex { 1 _
+        3[person=2.person,number=2.number] _ nicht@adv } |
       ii@vblex vblex {
         *(pro_undrop)[number=1.number,person=1.person]
         2[person=1.person, number=1.number] _ nicht@adv } |
@@ -210,12 +213,24 @@ NUMP -> num NP { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
                  2[number=(if (1.lem/sl = "okta") sg else pl)] } ;
 NP -> A %N { 1[gender=2.gender,
                  number=2.number,case=2.case] _ %2 } |
-      N ADV { 1 _ 2 } |
-      %N { 1 } ;
+      N ADV { %1 _ 2 } |
+      N.*.gen N { %2 _ der@det.def.[1.gender].sg.gen _ 1 } |
+      N.*.gen A N { 2 _ %3 _
+                    der@det.def.[1.gender].sg.gen _ 1 } |
+      ! idiomatic 1:n translations
+      ! n
+      %N { %1 } ;
 DP -> DET %N { 1[gender=(if (2.number = pl) mfn else 2.gender),
                  number=2.number,case=2.case] _ 2 } |
+      ! idiomatic 1:n translations
+      veahkki@n { zu@pr.dat _ Hilfe@n.f.sg.dat } |
+      ! det
       DET { 1 } ;
-N -> n.$case/sl.$number.$gender/tl {1[case=(if (1.case = loc) acc
+N ->
+    ! idioms
+    ruhtadilli@n { finanziell@adj.sint.f.sg.nom.sw _ Situation@n.f.sg.nom } |
+    ! normal n
+     n.$case/sl.$number.$gender/tl {1[case=(if (1.case = loc) acc
                                          elif (1.case = ill) dat
                                          elif (1.case = ess) nom
                                          elif (1.case = com) dat
@@ -227,7 +242,8 @@ N -> n.$case/sl.$number.$gender/tl {1[case=(if (1.case = loc) acc
                                          else nom),
                                    number=(if (1.number = du) pl
                                            elif (1.number = pl) pl
-                                           else sg)] } ;
+                                           else sg)] } |
+      
 PROPN -> np.*.$case/sl.$number.$gender {1} ;
 C -> cnjcoo {1} |
      cnjsub {1} ;
@@ -261,7 +277,8 @@ ADV -> adv {1} |
 ADP -> post {1} |
        pr {1} ;
 A -> %adj { %1 } ;
-NUM -> num {1[number = (if (1.lem/sl = "okta") sg else pl)] } ; 
+NUM -> num {1[number = (if (1.lem/sl = "okta") sg else pl)] } ;
+
     ! IE numerals have no morphological num so they assume semantic num
 
 ! Resources:
