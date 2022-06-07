@@ -809,7 +809,7 @@
     <e><p><l>čuoika<s n="n"/></l><r>Mücke<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dahkan<s n="n"/></l><r>Tun<s n="n"/><s n="nt"/></r></p></e>
     <e c="fixme"><p><l>deatnojohtin<s n="n"/></l><r>Eisschmeltung<s n="n"/><s n="m"/></r></p></e>
-    <e c="fixme"><p><l>divššohasbearráigeahčči<s n="n"/></l><r>Kundenüberwachung<s n="n"/><s n="m"/></r></p></e>
+    <e c="fixme"><p><l>divššohasbearráigeahčči<s n="n"/></l><r>Kundenüberwachung<s n="n"/><s n="f"/></r></p></e>
     <e c="fixme"><p><l>dorka<s n="n"/></l><r>Mantel<s n="n"/><s n="m"/></r></p></e>
     <e c="FIXME"><p><l>dorski<s n="n"/></l><r>Kabeljau<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>fiervá<s n="n"/></l><r>Strand<s n="n"/><s n="m"/></r></p></e>
@@ -972,9 +972,9 @@
     <e><p><l>boanda<s n="n"/></l><r>Bauer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>boaris<s n="n"/></l><r>Alte<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>boasta<s n="n"/></l><r>Post<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>boazodoallu<s n="n"/></l><r>Rentierhaltung<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>boazolohku<s n="n"/></l><r>Rentierzahl<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>boazosápmi<s n="n"/></l><r>Rentiersamisch<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>boazodoallu<s n="n"/></l><r>Rentierhaltung<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>boazolohku<s n="n"/></l><r>Rentierzahl<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>boazosápmi<s n="n"/></l><r>Rentiersaame<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>boazu<s n="n"/></l><r>Rentier<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>boddu<s n="n"/></l><r>Pause<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bodni<s n="n"/></l><r>Boden<s n="n"/><s n="m"/></r></p></e>
