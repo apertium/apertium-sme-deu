@@ -162,10 +162,13 @@ VP -> NP.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
         *(maybe_art)[number=1.number, case=nom, gender=1.gender,def=def] 
         1[case=nom] _ haben@vbhaver.pri.p3.sg } |
-      PROPN.*.loc leat@vblex {
+      %PROPN.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
-        1[case=nom] _ haben@vbhaver.pri.p3.sg } |
+        %1[case=nom] _ haben@vbhaver.pri.p3.sg } |
       PRN.*.loc leat@vblex {
+        *(maybe_adp)[case=nom]
+        1[case=nom] _ haben@vbhaver.pri.[1.person].[1.number] } |
+      DET.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
         1[case=nom] _ haben@vbhaver.pri.[1.person].[1.number] } |
       NP V {
@@ -206,11 +209,12 @@ PP -> NUMP post { 2 _ 1 } |
 NUMP -> num NP { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
                  2[number=(if (1.lem/sl = "okta") sg else pl)] } ;
 NP -> A %N { 1[gender=2.gender,
-                 number=2.number,case=2.case] _ 2 } |
+                 number=2.number,case=2.case] _ %2 } |
       N ADV { 1 _ 2 } |
       %N { 1 } ;
 DP -> DET %N { 1[gender=(if (2.number = pl) mfn else 2.gender),
-                 number=2.number,case=2.case] _ 2 } ;
+                 number=2.number,case=2.case] _ 2 } |
+      DET { 1 } ;
 N -> n.$case/sl.$number.$gender/tl {1[case=(if (1.case = loc) acc
                                          elif (1.case = ill) dat
                                          elif (1.case = ess) nom
