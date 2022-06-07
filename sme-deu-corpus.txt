@@ -1423,13 +1423,13 @@ Biillat leat buorit.
 Girji lea hálbi.
 Girjjit leat hálbbit.
 Ánne lea nuorra, Biret lea nuorat ja Inger lea nuoramus.
-Dárogiella lea váttis, sámegiella lea váddáseabbo ja suomagiella lea váddáseamos.
+Dárogiella lea váttis, sámegiella lea váddáseabbo ja suomagiella lea váddáseamos.	Norwegisch ist schwierig, Samisch ist schwieriger und Finnisch ist am schwierigsten.
 Nisuláibi lea njálggis, juovlagáhkku lea njálgát ja lákcagáhkku lea njálgámus.
-Ovlla lea rikkis, Biera lea riggát ja Heaika lea riggámus.
+Ovlla lea rikkis, Biera lea riggát ja Heaika lea riggámus.	Ovlla ist reich, Biera ist reicher und Heaika ist der reicheste.
 Mis lea buorre borramuš ruovttus.
 Áhčči ráhkada buori borramuša.
 Ale bija čázi buori borramuššii.
-Nieida manai áhku lusa buriin borramušain.
+Nieida manai áhku lusa buriin borramušain.	Das Mädchen ging zu Oma mit dem guten Essen.
 Mii atnit bohccobierggu buorrin borramuššan.
 Gal buriin suvlliin sáhttá borrat vaikko maid.
 Soai leigga ovttas buriid beivviid.
@@ -1439,7 +1439,7 @@ Nuorain lea unnán ruhta.
 Riggát vulget lupmui juohke jagi.
 Mun vuolggán dohko riggáiguin.
 Viššalat ohppet eanet go láikkit.
-Son lea buoremus buoremusaid gaskkas.
+Son lea buoremus buoremusaid gaskkas.	Er ist der Beste unter den Besten.
 Nuoramusat eai oaččo vahkkoruđa.	Die Jüngsten bekommen kein Wochengeld.
 Boarráseappot ožžot vahkkoruđa.	Die Älteren bekommen Wochengeld.
 Boarrásepmosat sáhttet bargat.	Die Ältesten können arbeiten.
