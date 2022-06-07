@@ -801,13 +801,13 @@
     <!-- }}}
          {{{ SECTION: Nouns nouns -->
 
-    <e"><p><l>dilli<s n="n"/></l><r>Gelegenheit<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dilli<s n="n"/></l><r>Gelegenheit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>báhkki<s n="n"/></l><r>Auswuchs<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>bearpmet<s n="n"/></l><r>Bodenbalken<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>buođđogeahči<s n="n"/></l><r>Dammspitze<s n="n"/><s n="m"/></r></p></e>
-    <e c="fixme"><p><l>cizáš<s n="n"/></l><r>Vögelchen<s n="n"/><s n="n"/></r></p></e>
+    <e c="fixme"><p><l>cizáš<s n="n"/></l><r>Vögelchen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>čuoika<s n="n"/></l><r>Mücke<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>dahkan<s n="n"/></l><r>Tun<s n="n"/><s n="n"/></r></p></e>
+    <e><p><l>dahkan<s n="n"/></l><r>Tun<s n="n"/><s n="nt"/></r></p></e>
     <e c="fixme"><p><l>deatnojohtin<s n="n"/></l><r>Eisschmeltung<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>divššohasbearráigeahčči<s n="n"/></l><r>Kundenüberwachung<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>dorka<s n="n"/></l><r>Mantel<s n="n"/><s n="m"/></r></p></e>
@@ -815,7 +815,7 @@
     <e c="fixme"><p><l>fiervá<s n="n"/></l><r>Strand<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>gáhkkogárri<s n="n"/></l><r>Teigplatz<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>gávdni<s n="n"/></l><r>Nutzung<s n="n"/><s n="f"/></r></p></e>
-    <e c="fixme"><p><l>gávttehas<s n="n"/></l><r>Same<s n="n"/><s n="m"/></r></p></e>
+    <e c="fixme"><p><l>gávttehas<s n="n"/></l><r>Saame<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>geavahanriidu<s n="n"/></l><r>Nutzungskonflikt<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>goahti<s n="n"/></l><r>Zelt<s n="n"/><s n="nt"/></r></p></e>
     <e c="fixme"><p><l>ivguheasta<s n="n"/></l><r>Pferd<s n="n"/><s n="nt"/></r></p></e>
@@ -1149,6 +1149,7 @@
     <e><p><l>fiervábuvri<s n="n"/></l><r>Boothaus<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>fiilu<s n="n"/></l><r>Feile<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>filbma<s n="n"/></l><r>Film<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>fokus<s n="n"/></l><r>Fokus<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>friijaminuhtta<s n="n"/></l><r>Pause<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>fuolki<s n="n"/></l><r>Verwandter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>fylka<s n="n"/></l><r>Bundesland<s n="n"/><s n="m"/></r></p></e>
@@ -1574,7 +1575,7 @@
     <e><p><l>ráfi<s n="n"/></l><r>Stille<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ráhkisvuohta<s n="n"/></l><r>Liebe<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ráigi<s n="n"/></l><r>Loch<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>rámbuvri<s n="n"/></l><r>Gesellschaft<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rámbuvri<s n="n"/></l><r>Geschäft<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ránnjá<s n="n"/></l><r>Nachbar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>raporta<s n="n"/></l><r>Raport<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rássi<s n="n"/></l><r>Kraut<s n="n"/><s n="nt"/></r></p></e>
@@ -1636,12 +1637,12 @@
     <e><p><l>seahkka<s n="n"/></l><r>Sack<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>seaidni<s n="n"/></l><r>Wand<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>searvan<s n="n"/></l><r>Mitwirkung<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>searvi<s n="n"/></l><r>Mannschaft<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>servodat<s n="n"/></l><r>Gesellschaft<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>searvi<s n="n"/></l><r>Verbund<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>servodat<s n="n"/></l><r>Gesellschaft<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>šibit<s n="n"/></l><r>Haustier<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>šiehtadus<s n="n"/></l><r>Veröffentligung<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>siessá<s n="n"/></l><r>Tante<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>sihkarvuohta<s n="n"/></l><r>Sicherheit<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>šiehtadus<s n="n"/></l><r>Vereinbarung<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>siessá<s n="n"/></l><r>Tante<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sihkarvuohta<s n="n"/></l><r>Sicherheit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sihkkarasti<s n="n"/></l><r>Sicherung<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sihkkel<s n="n"/></l><r>Fahrrad<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>siidu<s n="n"/></l><r>Seite<s n="n"/><s n="m"/></r></p></e>
