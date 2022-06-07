@@ -1440,14 +1440,14 @@ Riggát vulget lupmui juohke jagi.
 Mun vuolggán dohko riggáiguin.
 Viššalat ohppet eanet go láikkit.
 Son lea buoremus buoremusaid gaskkas.
-Nuoramusat eai oaččo vahkkoruđa.
-Boarráseappot ožžot vahkkoruđa.
-Boarrásepmosat sáhttet bargat.
-Nuorabuin lea unnán ruhta.
-Nuoramusain lea unnán ruhta.
-Riggábut vulget lupmui juohke jagi.
-Riggámusat vulget lupmui juohke jagi.
-Aslak A. Guttorm boahtá odne.
+Nuoramusat eai oaččo vahkkoruđa.	Die Jüngsten bekommen kein Wochengeld.
+Boarráseappot ožžot vahkkoruđa.	Die Älteren bekommen Wochengeld.
+Boarrásepmosat sáhttet bargat.	Die Ältesten können arbeiten.
+Nuorabuin lea unnán ruhta.	Die Jüngeren haben wenig Geld.
+Nuoramusain lea unnán ruhta.	Die Jüngsten haben wenig Geld.
+Riggábut vulget lupmui juohke jagi.	Die Reicheren fahren jedes Jahr in die Ferien.
+Riggámusat vulget lupmui juohke jagi.	Die Reichsten fahren jedes Jahr in die Ferien.
+Aslak A. Guttorm boahtá odne.	Aslak A. Guttorm kommt heute.
 Ja maid Aslak M. Eira boahtá. 
 Ja maid Aslak M. A. Eira boahtá.
 Ja Mr. J. Sparrow boahtá maid.
