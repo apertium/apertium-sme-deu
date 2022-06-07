@@ -1392,37 +1392,37 @@ Deatnojohtin sáhttá leat váralaččamus.
 Sii leat measta vuoitemeahttumat.
 Kulihkka lea dábálaččat.
 Son lea árggimus.
-Sii leat boarrásepmosat.
+Sii leat boarrásepmosat.	Sie sind am ältesten.
 Sii leat árggimusat.
 Sii leat čeahpimusat.
-Sii leat nuoramusat.
-Sii leat stuoribut.
+Sii leat nuoramusat.	Sie sind am jüngsten.
+Sii leat stuoribut.	Sie sind am größten.
 Diet lea gusto ávkkálaččamus vuohki.
 Sii leat váibmilat ruhtii.
-Mu mielas lei heajut dálki ikte.
+Mu mielas lei heajut dálki ikte.	Meiner Meinung nach war gestern schlechtes Wetter.
 Leat go min dihtorat ođđaáigásaččat?
 Eai oro nu vuohkkasat.
-Dát ii leat álkes bihttá.
-Sus lei earenoamáš čielga niehku.
+Dát ii leat álkes bihttá.	Das ist kein einfaches Stück.
+Sus lei earenoamáš čielga niehku.	Er hatte einen besonders klaren Traum.
 Jiehtanasat leat hirbmat gievrrat, muhto eai leat nu jierbmát.
 Dat dáidet riggábut go mii jáhkkit.
 Bártnit ledje čeavlát.
-Min bárdni lea guhkki.
-Min bártnit leat guhkit.
-Viessu lea stuoris.
-Viesut leat stuorrát.
+Min bárdni lea guhkki.	Mein Sohn ist groß.
+Min bártnit leat guhkit.	Meine Söhne sind groß.
+Viessu lea stuoris.	Das Haus ist groß.
+Viesut leat stuorrát.	Die Häuser sind groß.
 Nuorra nieida lea seaggi.
 Nuorra nieiddat leat seakkit.
-Áddjá lea jállu.
-Ádját leat jálut.
-Mánná lea láiki.
-Mánát leat láikkit.
+Áddjá lea jállu.	Der Opa ist mutig.
+Ádját leat jálut.	Die Opas sind mutig.
+Mánná lea láiki.	Das Kind ist faul.
+Mánát leat láikkit.	Die Kinder sind faul.
 Biktasat leat nannosat.
-Biila lea buorre.
-Biillat leat buorit.
-Girji lea hálbi.
-Girjjit leat hálbbit.
-Ánne lea nuorra, Biret lea nuorat ja Inger lea nuoramus.
+Biila lea buorre.	Das Auto ist gut.
+Biillat leat buorit.	Die Autos sind gut.
+Girji lea hálbi.	Das Buch ist billig.
+Girjjit leat hálbbit.	Die Bücher sind billig.
+Ánne lea nuorra, Biret lea nuorat ja Inger lea nuoramus.	Ánne ist jung, Biret ist jünger, Inger ist am jüngsten.
 Dárogiella lea váttis, sámegiella lea váddáseabbo ja suomagiella lea váddáseamos.	Norwegisch ist schwierig, Samisch ist schwieriger und Finnisch ist am schwierigsten.
 Nisuláibi lea njálggis, juovlagáhkku lea njálgát ja lákcagáhkku lea njálgámus.
 Ovlla lea rikkis, Biera lea riggát ja Heaika lea riggámus.	Ovlla ist reich, Biera ist reicher und Heaika ist der reicheste.
