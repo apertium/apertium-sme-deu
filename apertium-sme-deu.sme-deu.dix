@@ -242,8 +242,8 @@
     <e><p><l>vai<s n="cnjsub"/></l><r>sodas<s n="cnjsub"/></r></p></e>
     <e><p><l>dalle<b/>go<s n="cnjsub"/></l><r>dann<s n="cnjsub"/></r></p></e>
     <e><p><l>danne<b/>go<s n="cnjsub"/></l><r>darüber<s n="cnjsub"/></r></p></e>
-    <e><p><l>maŋŋelgo<s n="cnjsub"/></l><r>wann<s n="cnjsub"/></r></p></e>
-    <e><p><l>maŋŋel<b/>go<s n="cnjsub"/></l><r>wann<s n="cnjsub"/></r></p></e>
+    <e><p><l>maŋŋelgo<s n="cnjsub"/></l><r>nach<s n="cnjsub"/></r></p></e>
+    <e><p><l>maŋŋel<b/>go<s n="cnjsub"/></l><r>nach<s n="cnjsub"/></r></p></e>
     <e><p><l>nu<b/>ahte<s n="cnjsub"/></l><r>also<s n="cnjsub"/></r></p></e>
 
     <e><p><l>mađe<s n="cnjsub"/></l><r>je<s n="cnjsub"/></r></p></e>
@@ -257,7 +257,7 @@
     <e><p><l>bajábeallai<s n="post"/></l><r>über<s n="pr"/></r></p></e>
     <e><p><l>bálddas<s n="post"/></l><r>bei<s n="pr"/></r></p></e>
     <e><p><l>beale<s n="post"/></l><r>seitens<s n="pr"/></r></p></e>
-    <e><p><l>birra<s n="post"/></l><r>herum<s n="pr"/></r></p></e>
+    <e><p><l>birra<s n="post"/></l><r>um<s n="pr"/></r></p></e>
     <e><p><l>bokte<s n="post"/></l><r>durch<s n="pr"/></r></p></e>
     <e><p><l>čađa<s n="post"/></l><r>durch<s n="pr"/></r></p></e>
     <e><p><l>dihte<s n="post"/></l><r>für<s n="pr"/></r></p></e>
@@ -269,7 +269,7 @@
     <e><p><l>láhkai<s n="post"/></l><r>weise<s n="pr"/></r></p></e>
     <e><p><l>lahka<s n="post"/></l><r>bei<s n="pr"/></r></p></e>
     <e><p><l>luhtte<s n="post"/></l><r>bei<s n="pr"/></r></p></e>
-    <e><p><l>lusa<s n="post"/></l><r>bei<s n="pr"/></r></p></e>
+    <e><p><l>lusa<s n="post"/></l><r>zu<s n="pr"/></r></p></e>
     <e><p><l>maŋis<s n="post"/></l><r>nach<s n="pr"/></r></p></e>
     <e><p><l>maŋŋel<s n="post"/></l><r>nach<s n="pr"/></r></p></e>
     <e><p><l>mielde<s n="post"/></l><r>durch<s n="pr"/></r></p></e>
@@ -1355,7 +1355,7 @@
     <e><p><l>láibevajahas<s n="n"/></l><r>Brotscheibe<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>láibi<s n="n"/></l><r>Brot<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>láigi<s n="n"/></l><r>Garn<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>lákcagáhkku<s n="n"/></l><r>Flöteküche<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lákcagáhkku<s n="n"/></l><r>Sahnetorte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>láseráigi<s n="n"/></l><r>Fenster<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>láse<s n="n"/></l><r>Fenster<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lássa<s n="n"/></l><r>Fenster<s n="n"/><s n="nt"/></r></p></e>
@@ -1499,7 +1499,7 @@
     <e><p><l>nisu<s n="n"/></l><r>Weizen<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>nisut<s n="n"/></l><r>Weizen<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>njálbmi<s n="n"/></l><r>Mund<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>njálggis<s n="n"/></l><r>Süßigkeit<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>njálggis<s n="n"/></l><r>Süßigkeit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>njiŋŋelasheasta<s n="n"/></l><r c="female">Stute<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>njoammil<s n="n"/></l><r>Hase<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>njukčamánnu<s n="n"/></l><r>Mars<s n="n"/><s n="m"/></r></p></e>
