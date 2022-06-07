@@ -75,7 +75,7 @@
     <e><p><l>mielas<s n="post"/></l><r>Idee<s n="f"/></r></p></e>
     <e><p><l>moadde<s n="num"/></l><r>paar<s n="num"/></r></p></e>
     <e><p><l>ollugat<s n="prn"/></l><r>viele<s n="prn"/></r></p></e>
-    <e><p><l>unnán<s n="prn"/></l><r>bischen<s n="adv"/></r></p></e>
+    <e><p><l>unnán<s n="prn"/></l><r>bißchen<s n="adv"/></r></p></e>
     <e><p><l>vaikko<b/>mii<s n="prn"/></l><r>wie<b/>auch<b/>immer<s n="adv"/></r></p></e>
 
     <e r="LR"><p><l>bat<s n="pcle"/></l><r/></p></e>
@@ -231,8 +231,8 @@
     <e><p><l>ahte<s n="cnjsub"/></l><r>dass<s n="cnjsub"/></r></p></e>
     <e><p><l>vaikko<s n="cnjsub"/></l><r>obwohl<s n="cnjsub"/></r></p></e>
     <e><p><l>dasgo<s n="cnjsub"/></l><r>denn<s n="cnjsub"/></r></p></e>
-    <e><p><l>danin<s n="cnjsub"/></l><r>dafür<s n="cnjsub"/></r></p></e>
-    <e><p><l>danin<b/>go<s n="cnjsub"/></l><r>dafür<s n="cnjsub"/></r></p></e>
+    <e><p><l>danin<s n="cnjsub"/></l><r>deshalb<s n="cnjsub"/></r></p></e>
+    <e><p><l>danin<b/>go<s n="cnjsub"/></l><r>weil<s n="cnjsub"/></r></p></e>
     <e><p><l>jos<s n="cnjsub"/></l><r>ob<s n="cnjsub"/></r></p></e>
     <e><p><l>jus<s n="cnjsub"/></l><r>ob<s n="cnjsub"/></r></p></e>
     <e><p><l>jus<s n="cnjsub"/></l><r>wenn<s n="cnjsub"/></r></p></e>
@@ -363,12 +363,12 @@
     <e><p><l>dal<s n="adv"/></l><r>dann<s n="adv"/></r></p></e>
     <e><p><l>dál<s n="adv"/></l><r>jetzt<s n="adv"/></r></p></e>
     <e><p><l>dálvit<s n="adv"/></l><r>am<b/>Winter<s n="adv"/></r></p></e>
-    <e><p><l>dan<b/>dihte<s n="adv"/></l><r>dafür<s n="adv"/></r></p></e>
-    <e><p><l>danin<s n="adv"/></l><r>dafür<s n="adv"/></r></p></e>
-    <e><p><l>danne<s n="adv"/></l><r>dafür<s n="adv"/></r></p></e>
+    <e><p><l>dan<b/>dihte<s n="adv"/></l><r>deshalb<s n="adv"/></r></p></e>
+    <e><p><l>danin<s n="adv"/></l><r>deshalb<s n="adv"/></r></p></e>
+    <e><p><l>danne<s n="adv"/></l><r>deshalb<s n="adv"/></r></p></e>
     <e><p><l>dáppe<s n="adv"/></l><r>her<s n="adv"/></r></p></e>
     <e><p><l>dárkilit<s n="adv"/></l><r>genau<s n="adv"/></r></p></e>
-    <e><p><l>dasa<b/>lassin<s n="adv"/></l><r>dafür<s n="adv"/></r></p></e>
+    <e><p><l>dasa<b/>lassin<s n="adv"/></l><r>zusätzlich<s n="adv"/></r></p></e>
     <e><p><l>dá<s n="adv"/></l><r>hier<s n="adv"/></r></p></e>
     <e><p><l>dás<s n="adv"/></l><r>hier<s n="adv"/></r></p></e>
     <e><p><l>dasto<s n="adv"/></l><r>da<s n="adv"/></r></p></e>
@@ -541,14 +541,14 @@
     <e><p><l>suige<s n="adv"/></l><r>jedenfalls<s n="adv"/></r></p></e>
     <e><p><l>sullii<s n="adv"/></l><r>umgefähr<s n="adv"/></r></p></e>
     <e><p><l>Suoma<b/>bealde<s n="adv"/></l><r>nach<b/>Finnland<s n="adv"/></r></p></e>
-    <e><p><l>uhccán<s n="adv"/></l><r>bischen<s n="adv"/></r></p></e>
+    <e><p><l>uhccán<s n="adv"/></l><r>wenig<s n="adv"/></r></p></e>
     <e><p><l>vaikko<s n="adv"/></l><r>obwohl<s n="adv"/></r></p></e>
     <e><p><l>válbmasii<s n="adv"/></l><r>fertig<s n="adv"/></r></p></e>
     <e><p><l>várra<s n="adv"/></l><r>sicher<s n="adv"/></r></p></e>
     <e><p><l>várrugasat<s n="adv"/></l><r>vorsichtig<s n="adv"/></r></p></e>
-    <e><p><l>veahá<s n="adv"/></l><r>bischen<s n="adv"/></r></p></e>
-    <e><p><l>veaháš<s n="adv"/></l><r>bisschen<s n="adv"/></r></p></e>
-    <e><p><l>veháš<s n="adv"/></l><r>bischen<s n="adv"/></r></p></e>
+    <e><p><l>veahá<s n="adv"/></l><r>bißchen<s n="adv"/></r></p></e>
+    <e><p><l>veaháš<s n="adv"/></l><r>bißchen<s n="adv"/></r></p></e>
+    <e><p><l>veháš<s n="adv"/></l><r>bißchen<s n="adv"/></r></p></e>
     <e><p><l>velá<s n="adv"/></l><r>noch<s n="adv"/></r></p></e>
     <e><p><l>vel<s n="adv"/></l><r>noch<b/>nicht<s n="adv"/></r></p></e>
     <e><p><l>viidáseapot<s n="adv"/></l><r>wider<s n="adv"/></r></p></e>
@@ -563,7 +563,7 @@
     <e><p><l>vuosttažettiin<s n="adv"/></l><r>erstmal<s n="adv"/></r></p></e>
     <e><p><l>vuovdimassii<s n="adv"/></l><r>verkaufbar<s n="adv"/></r></p></e>
     <e><p><l>buoret<s n="adv"/></l><r>besser<s n="adv"/></r></p></e>
-    <e><p><l>unnán<s n="adv"/></l><r>bischen<s n="adv"/></r></p></e>
+    <e><p><l>unnán<s n="adv"/></l><r>wenig<s n="adv"/></r></p></e>
     <e><p><l>dainna<b/>lágiin<s n="adv"/></l><r>so<s n="adv"/></r></p></e>
     <e><p><l>ovtta<b/>oaivilis<s n="adv"/></l><r>einig<s n="adv"/></r></p></e>
     <e><p><l>ovttasráđiid<s n="adv"/></l><r>zusammen<s n="adv"/></r></p></e>
@@ -585,9 +585,9 @@
     <e c="fixme"><p><l>b<s n="adv"/></l><r>b<s n="adv"/></r></p></e>
     <e><p><l>máŋgga<b/>jahkái<s n="adv"/></l><r>in<b/>viele<b/>Jahre<s n="adv"/></r></p></e>
     <e c="???"><p><l>soggái<b/>čalmmiid<s n="adv"/></l><r>wandseitens<s n="adv"/></r></p></e>
-    <e c="???"><p><l>mielde<s n="adv"/></l><r>freulich<s n="adv"/></r></p></e>
+    <e c="???"><p><l>mielde<s n="adv"/></l><r>mit<s n="adv"/></r></p></e>
     <e c="???"><p><l>miela<b/>miel<s n="adv"/></l><r>gerne<s n="adv"/></r></p></e>
-    <e c="???"><p><l>rievtti<b/>mielde<s n="adv"/></l><r>sensitiv<s n="adv"/></r></p></e>
+    <e c="???"><p><l>rievtti<b/>mielde<s n="adv"/></l><r>tatsächlich<s n="adv"/></r></p></e>
     <e><p><l c="tokens?">juohke<b/>sajis<s n="adv"/></l><r>stattdessen<s n="adv"/></r></p></e>
 
     <!-- }}}
@@ -759,8 +759,8 @@
     <e><p><l>rikkis<s n="adj"/></l><r>reich<s n="adj"/></r></p></e>
     <e><p><l>ruoksat<s n="adj"/></l><r>rot<s n="adj"/></r></p></e>
     <e><p><l>ruškat<s n="adj"/></l><r>rot<s n="adj"/></r></p></e>
-    <e><p><l>sámegiel<s n="adj"/></l><r>samisch<s n="adj"/></r></p></e>
-    <e><p><l>sápmelaš<s n="adj"/></l><r>samisch<s n="adj"/></r></p></e>
+    <e><p><l>sámegiel<s n="adj"/></l><r>saamisch<s n="adj"/></r></p></e>
+    <e><p><l>sápmelaš<s n="adj"/></l><r>Saame<s n="adj"/></r></p></e>
     <e><p><l>sávri<s n="adj"/></l><r>gesund<s n="adj"/></r></p></e>
     <e><p><l>seaggi<s n="adj"/></l><r>dünn<s n="adj"/></r></p></e>
     <e><p><l>sierralágan<s n="adj"/></l><r>unterschiedlich<s n="adj"/></r></p></e>
@@ -785,7 +785,7 @@
     <e><p><l>vielgat<s n="adj"/></l><r>weiß<s n="adj"/></r></p></e>
     <e><p><l>viiddis<s n="adj"/></l><r>umfangreich<s n="adj"/></r></p></e>
     <e><p><l>visot<s n="adj"/></l><r>alle<s n="adj"/></r></p></e>
-    <e><p><l>viššal<s n="adj"/></l><r>fleissig<s n="adj"/></r></p></e>
+    <e><p><l>viššal<s n="adj"/></l><r>fleißig<s n="adj"/></r></p></e>
     <e><p><l>vissis<s n="adj"/></l><r>sicher<s n="adj"/></r></p></e>
     <e><p><l>vuogas<s n="adj"/></l><r>angemessen<s n="adj"/></r></p></e>
     <e><p><l>vuoitemeahttun<s n="adj"/></l><r>unschlagbar<s n="adj"/></r></p></e>
@@ -805,9 +805,9 @@
     <e><p><l>báhkki<s n="n"/></l><r>Auswuchs<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>bearpmet<s n="n"/></l><r>Bodenbalken<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>buođđogeahči<s n="n"/></l><r>Dammspitze<s n="n"/><s n="m"/></r></p></e>
-    <e c="fixme"><p><l>cizáš<s n="n"/></l><r>Vögelchen<s n="n"/><s n="m"/></r></p></e>
+    <e c="fixme"><p><l>cizáš<s n="n"/></l><r>Vögelchen<s n="n"/><s n="n"/></r></p></e>
     <e><p><l>čuoika<s n="n"/></l><r>Mücke<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>dahkan<s n="n"/></l><r>Tun<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dahkan<s n="n"/></l><r>Tun<s n="n"/><s n="n"/></r></p></e>
     <e c="fixme"><p><l>deatnojohtin<s n="n"/></l><r>Eisschmeltung<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>divššohasbearráigeahčči<s n="n"/></l><r>Kundenüberwachung<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>dorka<s n="n"/></l><r>Mantel<s n="n"/><s n="m"/></r></p></e>
@@ -816,7 +816,7 @@
     <e c="fixme"><p><l>gáhkkogárri<s n="n"/></l><r>Teigplatz<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>gávdni<s n="n"/></l><r>Nutzung<s n="n"/><s n="f"/></r></p></e>
     <e c="fixme"><p><l>gávttehas<s n="n"/></l><r>Same<s n="n"/><s n="m"/></r></p></e>
-    <e c="fixme"><p><l>geavahanriidu<s n="n"/></l><r>Brauchkonflikt<s n="n"/><s n="m"/></r></p></e>
+    <e c="fixme"><p><l>geavahanriidu<s n="n"/></l><r>Nutzungskonflikt<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>goahti<s n="n"/></l><r>Zelt<s n="n"/><s n="nt"/></r></p></e>
     <e c="fixme"><p><l>ivguheasta<s n="n"/></l><r>Pferd<s n="n"/><s n="nt"/></r></p></e>
     <e c="FIXME"><p><l>juksu<s n="n"/></l><r>Schellfisch<s n="n"/><s n="m"/></r></p></e>
@@ -1088,7 +1088,7 @@
     <e><p><l>dikta<s n="n"/></l><r>Gedicht<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>diŋga<s n="n"/></l><r>Zeug<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>doaibmabidju<s n="n"/></l><r>Verfahren<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>doaibmaplána<s n="n"/></l><r>Aktionsplan<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>doaibmaplána<s n="n"/></l><r>Handlungsplan<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>doaibma<s n="n"/></l><r>Verwendung<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>doalut<s n="n"/></l><r>Veranstaltung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>doarjja<s n="n"/></l><r>Unterstützung<s n="n"/><s n="m"/></r></p></e>
@@ -1602,7 +1602,7 @@
     <e><p><l>rohkajáffu<s n="n"/></l><r>Roggenmehl<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>rolla<s n="n"/></l><r>Rolle<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>romána<s n="n"/></l><r>Roman<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>ruhtadilli<s n="n"/></l><r>Geldzustand<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ruhtadilli<s n="n"/></l><r>finanzielle<b/>Situation<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ruhta<s n="n"/></l><r>Geld<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ruhtavallji<s n="n"/></l><r>Geldüberfluss<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ruoktu<s n="n"/></l><r>Haus<s n="n"/><s n="nt"/></r></p></e>
@@ -1849,6 +1849,7 @@
     <e><p><l>báhtarit<s n="vblex"/></l><r>flüchten<s n="vblex"/></r></p></e>
     <e><p><l>baikit<s n="vblex"/></l><r>scheißen<s n="vblex"/></r></p></e>
     <e><p><l>bálkestit<s n="vblex"/></l><r>werfen<s n="vblex"/></r></p></e>
+    <e><p><l>bálkestit<s n="vblex"/></l><r>wegwerfen<s n="vblex"/></r></p></e>
     <e><p><l>ballat<s n="vblex"/></l><r>fürchten<s n="vblex"/></r></p></e>
     <e><p><l>bállet<s n="vblex"/></l><r>freilassen<s n="vblex"/></r></p></e>
     <e><p><l>bargat<s n="vblex"/></l><r>arbeiten<s n="vblex"/></r></p></e>
@@ -1952,7 +1953,7 @@
     <e><p><l>dieđihit<s n="vblex"/></l><r>mitteilen<s n="vblex"/></r></p></e>
     <e><p><l>diehtit<s n="vblex"/></l><r>wissen<s n="vblex"/></r></p></e>
     <e><p><l>dihkkádit<s n="vblex"/></l><r>ausschildern<s n="vblex"/></r></p></e>
-    <e><p><l>dikšut<s n="vblex"/></l><r>kultivieren<s n="vblex"/></r></p></e>
+    <e><p><l>dikšut<s n="vblex"/></l><r>pflegen<s n="vblex"/></r></p></e>
     <e><p><l>dinet<s n="vblex"/></l><r>verdienen<s n="vblex"/></r></p></e>
     <e><p><l>divvut<s n="vblex"/></l><r>korrigieren<s n="vblex"/></r></p></e>
     <e><p><l>divvut<s n="vblex"/></l><r>reparieren<s n="vblex"/></r></p></e>
