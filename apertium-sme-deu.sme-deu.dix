@@ -138,6 +138,7 @@
     <e><p><l>giežanuppelohkái<s n="num"/></l><r>siebzehn<s n="num"/></r></p></e>
     <e><p><l>gávccinuppelohkái<s n="num"/></l><r>achtzehn<s n="num"/></r></p></e>
     <e><p><l>ovccinuppelohkái<s n="num"/></l><r>neunzehn<s n="num"/></r></p></e>
+    <e><p><l>duhát<s n="num"/></l><r>tausend<s n="num"/></r></p></e>
     <e><p><l>miljovdna<s n="num"/></l><r>million<s n="num"/></r></p></e>
 
     <!-- }}}
@@ -191,8 +192,8 @@
     <e><p><l>diet<s n="prn"/></l><r>das<s n="prn"/></r></p></e>
     <e><p><l>dot<s n="prn"/></l><r>das<s n="prn"/></r></p></e>
     <e><p><l>duot<s n="prn"/></l><r>das<s n="prn"/></r></p></e>
-    <e><p><l>eanaš<s n="prn"/></l><r>mest<s n="prn"/></r></p></e>
-    <e><p><l>eanáš<s n="prn"/></l><r>mest<s n="prn"/></r></p></e>
+    <e><p><l>eanaš<s n="prn"/></l><r>meist<s n="prn"/></r></p></e>
+    <e><p><l>eanáš<s n="prn"/></l><r>meist<s n="prn"/></r></p></e>
     <e><p><l>eará<s n="prn"/></l><r>andere<s n="prn"/></r></p></e>
     <e><p><l>gait<s n="prn"/></l><r>alle<s n="prn"/></r></p></e>
     <e><p><l>gii<s n="prn"/><s n="ind"/></l><r>jemand<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
