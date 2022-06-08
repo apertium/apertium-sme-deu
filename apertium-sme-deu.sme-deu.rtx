@@ -179,6 +179,9 @@ VP -> NP.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
         *(maybe_art)[number=1.number, case=nom, gender=1.gender,def=def,negativity=aff] 
         1[case=nom] _ haben@vbhaver.pri.p3.sg } |
+      leat@vblex go@pcle PRN.*.loc {
+        haben@vbhaver.pri.[3.person].[3.number] _
+        3[case=nom] } |
       %PROPN.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
         %1[case=nom] _ haben@vbhaver.pri.p3.sg } |
