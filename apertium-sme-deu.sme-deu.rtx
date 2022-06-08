@@ -20,7 +20,7 @@ def = ind def ;
 adj_type = sint pred attr ;
 negativity = (NEG aff) neg aff ;
 ! Giella specifics
-sem = sem_time sem_plc ;
+sem = (SEM sem_dummy) sem_time sem_plc sem_hum sem_ani sem_dummy ;
 depfunc = "@←SPRED" "@←OPRED" "@←N" "@HNOUN" ;
 
 !!!!!!!!!!!!!!!
@@ -48,7 +48,7 @@ pcle: _;
 
 ! smaller phrases
 PROPN: _.case ;
-N: _.gender.number.case ;
+N: _.gender.number.case.sem ;
 V: _.number.person ;
 C: _;
 PRN: _.case.number.person;
@@ -65,7 +65,7 @@ S: _ ;
 
 PP: _ ;
 NUMP: _ ;
-NP: _.gender.number.case;
+NP: _.gender.number.case.sem;
 DP: _.gender.number.case;
 
 
@@ -175,10 +175,10 @@ S -> VP NP { 1 _
         *(maybe_adp)[case=1.case]
         1 } ; ! stray PROPN (no article)
 NEG -> ii@vblex { nicht@adv[lemcase=1.lemcase] } ; ! stray NEG
-VP -> NP.*.loc leat@vblex {
+VP -> NP.*.loc.sem_hum leat@vblex {
         *(maybe_adp)[case=nom]
         *(maybe_art)[number=1.number, case=nom, gender=1.gender,def=def,negativity=aff] 
-        1[case=nom] _ haben@vbhaver.pri.p3.sg } |
+        1[case=nom] _ haben@vbhaver.pri.p3.[1.number] } |
       leat@vblex go@pcle PRN.*.loc {
         haben@vbhaver.pri.[3.person].[3.number] _
         3[case=nom] } |
@@ -249,6 +249,7 @@ NP -> A %N ADV { 1[gender=2.gender,
 DP -> DET %N { 1[gender=(if (2.number = pl) mfn else 2.gender),
                  number=2.number,case=2.case] _ 2 } |
       ! idiomatic 1:n translations
+      ollu@adj %N { viel@adj.sint.attr _ 2 } | 
       veahkki@n { zu@pr.dat _ Hilfe@n.f.sg.dat } |
       ruhta@n { 1 } |
       ! det
@@ -257,7 +258,7 @@ N ->
     ! idioms
     ruhtadilli@n { finanziell@adj.sint.f.sg.nom.sw _ Situation@n.f.sg.nom } |
     ! normal n
-     n.$case/sl.$number.$gender/tl {1[case=(if (1.case = loc) acc
+    %n {1[case=(if (1.case = loc) acc
                                          elif (1.case = ill) dat
                                          elif (1.case = ess) nom
                                          elif (1.case = com) dat
