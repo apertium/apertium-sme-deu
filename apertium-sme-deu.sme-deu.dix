@@ -809,7 +809,7 @@
     <e><p><l>čuoika<s n="n"/></l><r>Mücke<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dahkan<s n="n"/></l><r>Tun<s n="n"/><s n="nt"/></r></p></e>
     <e c="fixme"><p><l>deatnojohtin<s n="n"/></l><r>Eisschmeltung<s n="n"/><s n="m"/></r></p></e>
-    <e c="fixme"><p><l>divššohasbearráigeahčči<s n="n"/></l><r>Kundenüberwachung<s n="n"/><s n="f"/></r></p></e>
+    <e c="fixme"><p><l>divššohasbearráigeahčči<s n="n"/></l><r>Kundeninspekteur<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>dorka<s n="n"/></l><r>Mantel<s n="n"/><s n="m"/></r></p></e>
     <e c="FIXME"><p><l>dorski<s n="n"/></l><r>Kabeljau<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>fiervá<s n="n"/></l><r>Strand<s n="n"/><s n="m"/></r></p></e>
@@ -823,17 +823,17 @@
     <e c="fixme"><p><l>liemas<s n="n"/></l><r>Pfad<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>návetgoahti<s n="n"/></l><r>Stallekota<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>nuvttot<s n="n"/></l><r>Schuh<s n="n"/><s n="m"/></r></p></e>
-    <e c="fixme"><p><l>ommangáddi<s n="n"/></l><r>Ofen...<s n="n"/><s n="m"/></r></p></e>
+    <e c="fixme"><p><l>ommangáddi<s n="n"/></l><r>Ofenrand<s n="n"/><s n="m"/></r></p></e>
     <e c="FIXME"><p><l>rákkas<s n="n"/></l><r>Zelt<s n="n"/><s n="nt"/></r></p></e>
     <e c="fixme"><p><l>rátnogođđi<s n="n"/></l><r>Leichnäher<s n="n"/><s n="m"/></r></p></e>
     <e c="FIXME"><p><l>ravda<s n="n"/></l><r>Ecke<s n="n"/><s n="f"/></r></p></e>
-    <e c="fixme"><p><l>riggi<s n="n"/></l><r>Zeltholz<s n="n"/><s n="m"/></r></p></e>
-    <e c="fixme"><p><l>salla<s n="n"/></l><r>Arm<s n="n"/><s n="m"/></r></p></e>
+    <e c="fixme"><p><l>riggi<s n="n"/></l><r>Zeltstangen<s n="n"/><s n="m"/></r></p></e>
+    <e c="fixme"><p><l>salla<s n="n"/></l><r>Schoß<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>seahkkanjálbmi<s n="n"/></l><r>Sacköffnung<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>siida<s n="n"/></l><r>Samendorf<s n="n"/><s n="m"/></r></p></e>
-    <e c="fixme"><p><l>siseana<s n="n"/></l><r>Einland<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>siida<s n="n"/></l><r>Saamendorf<s n="n"/><s n="m"/></r></p></e>
+    <e c="fixme"><p><l>siseana<s n="n"/></l><r>Festland<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>šlárvaságat<s n="n"/></l><r>Faulnachricht<s n="n"/><s n="m"/></r></p></e>
-    <e c="fixme"><p><l>soggi<s n="n"/></l><r>Wandside<s n="n"/><s n="m"/></r></p></e>
+    <e c="fixme"><p><l>soggi<s n="n"/></l><r>Wandseite<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>suddi<s n="n"/></l><r>Riss<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>viđas<s n="n"/></l><r>Fünfer<s n="n"/><s n="m"/></r></p></e>
     <e c="fixme"><p><l>vuovdingálvu<s n="n"/></l><r>Verkaufserfolg<s n="n"/><s n="m"/></r></p></e>
@@ -860,8 +860,8 @@
     <e c="Fixme"><p><l>n<s n="n"/></l><r>n<s n="n"/><s n="m"/></r></p></e>
     <e c="Fixme"><p><l>km<s n="n"/></l><r>km<s n="n"/><s n="m"/></r></p></e>
     <e c="Fixme"><p><l>%<s n="n"/></l><r>%<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>sámediggeráđđi<s n="n"/></l><r>Samenrat<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>sámediggejoavku<s n="n"/></l><r>Samenmannschaft<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sámediggeráđđi<s n="n"/></l><r>Saamenparlamentsrat<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sámediggejoavku<s n="n"/></l><r>Saamenparlamentsgruppe<s n="n"/><s n="m"/></r></p></e>
 
 
     <e><p><l>ađa<s n="n"/></l><r>Knöchelkern<s n="n"/><s n="m"/></r></p></e>
