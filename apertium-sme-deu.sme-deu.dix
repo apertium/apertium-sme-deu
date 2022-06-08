@@ -1797,7 +1797,7 @@
     <e c="FIXME"><p><l>soaitit<s n="vblex"/></l><r>dürfen<s n="vbmod"/></r></p></e>
     <e c="have time for"><p><l>astat<s n="vblex"/></l><r>können<s n="vblex"/></r></p></e>
     <e><p><l>áigut<s n="vblex"/></l><r>werden<s n="vbmod"/></r></p></e>
-    <e><p><l>berret<s n="vblex"/></l><r>müssen<s n="vbmod"/></r></p></e>
+    <e><p><l>berret<s n="vblex"/></l><r>sollen<s n="vbmod"/></r></p></e>
     <e><p><l>fertet<s n="vblex"/></l><r>müssen<s n="vbmod"/></r></p></e>
     <e><p><l>galgat<s n="vblex"/></l><r>sollen<s n="vbmod"/></r></p></e>
     <e><p><l>háliidit<s n="vblex"/></l><r>möchten<s n="vbmod"/></r></p></e>
@@ -1812,19 +1812,19 @@
 
     <!-- rest -->
 
-    <e c="check"><p><l>ánssáhit<s n="vblex"/></l><r>dienen<s n="vblex"/></r></p></e>
-    <e c="check"><p><l>beassat<s n="vblex"/></l><r>erreichen<s n="vblex"/></r></p></e>
+    <e c="check"><p><l>ánssáhit<s n="vblex"/></l><r>verdienen<s n="vblex"/></r></p></e>
+    <e c="check"><p><l>beassat<s n="vblex"/></l><r>können<s n="vblex"/></r></p></e>
     <e c="check"><p><l>justit<s n="vblex"/></l><r>justieren<s n="vblex"/></r></p></e>
     <e c="check"><p><l>sistat<s n="vblex"/></l><r>schuhmachen<s n="vblex"/></r></p></e>
     <e c="fixme"><p><l>bivvat<s n="vblex"/></l><r c="kalte">aushalten<s n="vblex"/></r></p></e>
-    <e c="fixme"><p><l>bovdehit<s n="vblex"/></l><r>anrufen<s n="vblex"/></r></p></e>
-    <e c="FIXME"><p><l>bovdezit<s n="vblex"/></l><r>anrufen<s n="vblex"/></r></p></e>
+    <e c="fixme"><p><l>bovdehit<s n="vblex"/></l><r>einladen<s n="vblex"/></r></p></e>
+    <e c="FIXME"><p><l>bovdezit<s n="vblex"/></l><r>einladen<s n="vblex"/></r></p></e>
     <e c="fixme"><p><l>gártat<s n="vblex"/></l><r>schaffen<s n="vblex"/></r></p></e>
     <e c="fixme"><p><l>goallut<s n="vblex"/></l><r>einfrieren<s n="vblex"/></r></p></e>
     <e c="fixme"><p><l>gohčodit<s n="vblex"/></l><r>heißen<s n="vblex"/></r></p></e>
     <e c="fixme"><p><l>goldit<s n="vblex"/></l><r>angeln<s n="vblex"/></r></p></e>
     <e c="FIXME"><p><l>verrošit<s n="vblex"/></l><r>schlecht<b/>sein<s n="vblex"/></r></p></e>
-    <e><p><l>áddet<s n="vblex"/></l><r>verstanden<s n="vblex"/></r></p></e>
+    <e><p><l>áddet<s n="vblex"/></l><r>verstehen<s n="vblex"/></r></p></e>
     <e><p><l>addit<s n="vblex"/></l><r>geben<s n="vblex"/></r></p></e>
     <e><p><l>addit<s n="vblex"/></l><r>liefern<s n="vblex"/></r></p></e>
     <e><p><l>álbmut<s n="vblex"/></l><r>schaufeln<s n="vblex"/></r></p></e>
@@ -1878,7 +1878,7 @@
     <e><p><l>boaldit<s n="vblex"/></l><r>verbrennen<s n="vblex"/></r></p></e>
     <e><p><l>boktit<s n="vblex"/></l><r>wecken<s n="vblex"/></r></p></e>
     <e><p><l>boradit<s n="vblex"/></l><r>essen<s n="vblex"/></r></p></e>
-    <e><p><l>borahallat<s n="vblex"/></l><r>entbeißen<s n="vblex"/></r></p></e>
+    <e><p><l>borahallat<s n="vblex"/></l><r>essen<s n="vblex"/></r></p></e>
     <e><p><l>borahit<s n="vblex"/></l><r>füttern<s n="vblex"/></r></p></e>
     <e><p><l>borgguhit<s n="vblex"/></l><r>rauchen<s n="vblex"/></r></p></e>
     <e><p><l>borrat<s n="vblex"/></l><r>essen<s n="vblex"/></r></p></e>
@@ -1901,7 +1901,7 @@
     <e><p><l>cealkit<s n="vblex"/></l><r>sagen<s n="vblex"/></r></p></e>
     <e><p><l>čeargut<s n="vblex"/></l><r>schreien<s n="vblex"/></r></p></e>
     <e><p><l>ceavzit<s n="vblex"/></l><r>schaffen<s n="vblex"/></r></p></e>
-    <e><p><l>cegget<s n="vblex"/></l><r>einrichten<s n="vblex"/></r></p></e>
+    <e><p><l>cegget<s n="vblex"/></l><r>aufbauhen<s n="vblex"/></r></p></e>
     <e><p><l>cegget<s n="vblex"/></l><r>einrichten<s n="vblex"/></r></p></e>
     <e><p><l>čiehkádit<s n="vblex"/></l><r>verstecken<s n="vblex"/></r></p></e>
     <e><p><l>čiekčat<s n="vblex"/></l><r>treten<s n="vblex"/></r></p></e>
