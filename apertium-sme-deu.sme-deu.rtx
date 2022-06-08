@@ -156,7 +156,11 @@ adj: (if (1.depfunc = "@←SPRED") 1(adj_pred)[adj_type=pred]
 !!!!!!!!!!!!!!!
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
-S -> VP NP { 1 _
+S -> ADV VP NP { 2 _ 1 _
+        *(maybe_adp)[case=3.case]
+        *(maybe_art)[number=3.number,case=3.case,gender=3.gender,def=ind,negativity=2.negativity]
+        3 } |
+     VP NP { 1 _
         *(maybe_adp)[case=2.case]
         *(maybe_art)[number=2.number,case=2.case,gender=2.gender,def=ind,negativity=1.negativity]
         2 } |
