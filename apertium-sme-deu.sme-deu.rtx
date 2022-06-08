@@ -245,12 +245,14 @@ PP -> NUMP post { 2 _ 1 } |
       prn.pers.*.gen.* mielas@post { 1 _ Meinung@n.f.sg.nom _ nach@pr.dat } |
       PRN post { 2 _ 1 } |
       NP post { 2 _ 1 } ;
-NUMP -> %num A N { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
+NUMP -> %num A n { 1[number=(if (1.lem/sl = "okta") sg else pl),
+                     gender=3.gender] _
                  %2[number=(if (1.lem/sl = "okta") sg else pl),
                    case=1.case] _
                  %3[number=(if (1.lem/sl = "okta") sg else pl),
                    case=1.case] } |
-        %num N { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
+        %num n { 1[number=(if (1.lem/sl = "okta") sg else pl),
+                   gender=2.gender] _
                  %2[number=(if (1.lem/sl = "okta") sg else pl),
                    case=1.case] }         ;
 NP -> A %N ADV { 1[gender=2.gender,
