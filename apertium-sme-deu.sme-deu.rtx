@@ -5,11 +5,11 @@
 number = (ND sg) sg pl sp du ND ;
 gender = (GD m) m f mf nt mfn GD ;
 case = (CD nom) nom acc dat gen ill loc com ess CD ;
-det_type = def ind dem itg pos;
-tense = pres fut pret pii imp;
+det_type = def ind dem itg pos qnt ;
+tense = pres fut pret pii imp ;
 person = p1 p2 p3 ;
 npclass = ant org al top geo;
-prntype = pers ind itg dem;
+prntype = pers ind qnt itg dem;
 sep = sep ;
 fs = fs ;
 advtype = itg ;
@@ -191,6 +191,10 @@ VP -> NP.*.loc.sem_hum leat@vblex {
       DET.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
         1[case=nom] _ haben@vbhaver.pri.[1.person].[1.number] } |
+      ii@vblex DP.*.loc leat@vblex {
+        nicht@adv _
+        *(maybe_adp)[case=nom]
+        2[case=nom] _ haben@vbhaver.pri.[1.person].[2.number] } |
       DP.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
         1[case=nom] _ haben@vbhaver.pri.[1.person].[1.number] } |
@@ -247,13 +251,14 @@ NP -> A %N ADV { 1[gender=2.gender,
       ! n
       %N { %1 } ;
 DP -> DET %N { 1[gender=(if (2.number = pl) mfn else 2.gender),
-                 number=2.number,case=2.case] _ 2 } |
+                 number=2.number,
+                 case=(if (2.case = loc) nom else 2.case)] _ 2 } |
       ! idiomatic 1:n translations
       ollu@adj %N { viel@adj.sint.attr _ 2 } | 
       veahkki@n { zu@pr.dat _ Hilfe@n.f.sg.dat } |
       ruhta@n { 1 } |
       ! det
-      DET { 1 } ;
+      %DET { %1 } ;
 N ->
     ! idioms
     ruhtadilli@n { finanziell@adj.sint.f.sg.nom.sw _ Situation@n.f.sg.nom } |
