@@ -226,7 +226,7 @@
 
     <!-- subordinating subordination subord -->
 
-    <e><p><l c="toktokens??">ja<b/>go<s n="cnjsub"/></l><r>wann<s n="cnjsub"/></r></p></e>
+    <e><p><l c="toktokens??">ja<b/>go<s n="cnjsub"/></l><r>als<s n="cnjsub"/></r></p></e>
     <e><p><l c="toktokens??">ovdal<b/>go<s n="cnjsub"/></l><r>bevor<s n="cnjsub"/></r></p></e>
     <e><p><l>ovdalgo<s n="cnjsub"/></l><r>bevor<s n="cnjsub"/></r></p></e>
     <e><p><l>go<s n="cnjsub"/></l><r>als<s n="cnjsub"/></r></p></e>
@@ -368,7 +368,7 @@
     <e><p><l>dan<b/>dihte<s n="adv"/></l><r>deshalb<s n="adv"/></r></p></e>
     <e><p><l>danin<s n="adv"/></l><r>deshalb<s n="adv"/></r></p></e>
     <e><p><l>danne<s n="adv"/></l><r>deshalb<s n="adv"/></r></p></e>
-    <e><p><l>dáppe<s n="adv"/></l><r>her<s n="adv"/></r></p></e>
+    <e><p><l>dáppe<s n="adv"/></l><r>hier<s n="adv"/></r></p></e>
     <e><p><l>dárkilit<s n="adv"/></l><r>genau<s n="adv"/></r></p></e>
     <e><p><l>dasa<b/>lassin<s n="adv"/></l><r>zusätzlich<s n="adv"/></r></p></e>
     <e><p><l>dá<s n="adv"/></l><r>hier<s n="adv"/></r></p></e>
@@ -379,42 +379,42 @@
     <e><p><l>davvin<s n="adv"/></l><r>nord<s n="adv"/></r></p></e>
     <e><p><l>dearvan<s n="adv"/></l><r>gesund<s n="adv"/></r></p></e>
     <e><p><l>dego<s n="adv"/></l><r>wie<s n="adv"/></r></p></e>
-    <e><p><l>deike<s n="adv"/></l><r>her<s n="adv"/></r></p></e>
+    <e><p><l>deike<s n="adv"/></l><r>hierhin<s n="adv"/></r></p></e>
     <e><p><l>de<s n="adv"/></l><r>dann<s n="adv"/></r></p></e>
-    <e><p><l>dieđusge<s n="adv"/></l><r>natürlich<s n="adv"/></r></p></e>
-    <e><p><l>dieđus<s n="adv"/></l><r>natürlich<s n="adv"/></r></p></e>
+    <e><p><l>dieđusge<s n="adv"/></l><r>selbstverständlich<s n="adv"/></r></p></e>
+    <e><p><l>dieđus<s n="adv"/></l><r>selbstverständlich<s n="adv"/></r></p></e>
     <e><p><l>diehke<s n="adv"/></l><r>hier<s n="adv"/></r></p></e>
-    <e><p><l>diehko<s n="adv"/></l><r>dort<s n="adv"/></r></p></e>
+    <e><p><l>diehko<s n="adv"/></l><r>dorthin<s n="adv"/></r></p></e>
     <e><p><l>dieppe<s n="adv"/></l><r>dort<s n="adv"/></r></p></e>
     <e><p><l>die<s n="adv"/></l><r>da<s n="adv"/></r></p></e>
-    <e><p><l>diibmá<s n="adv"/></l><r>letzte<b/>jahr<s n="adv"/></r></p></e>
+    <e><p><l>diibmá<s n="adv"/></l><r>letztes<b/>Jahr<s n="adv"/></r></p></e>
     <e><p><l>doarvái<s n="adv"/></l><r>genug<s n="adv"/></r></p></e>
     <e><p><l>dohko<s n="adv"/></l><r>drüber<s n="adv"/></r></p></e>
     <e><p><l>dolin<s n="adv"/></l><r>früher<s n="adv"/></r></p></e>
     <e><p><l>doppe<s n="adv"/></l><r>dort<s n="adv"/></r></p></e>
-    <e><p><l>do<s n="adv"/></l><r>dort<s n="adv"/></r></p></e>
+    <e><p><l>do<s n="adv"/></l><r>dorthin<s n="adv"/></r></p></e>
     <e><p><l>duođaid<s n="adv"/></l><r>echt<s n="adv"/></r></p></e>
     <e><p><l>duosđas<s n="adv"/></l><r>unter<s n="adv"/></r></p></e>
     <e><p><l>duo<s n="adv"/></l><r>darüber<s n="adv"/></r></p></e>
     <e><p><l>dušše<s n="adv"/></l><r>nur<s n="adv"/></r></p></e>
     <e><p><l>eambbo<s n="adv"/></l><r>mehr<s n="adv"/></r></p></e>
-    <e><p><l>eanaš<s n="adv"/></l><r>insbesondere<s n="adv"/></r></p></e>
+    <e><p><l>eanaš<s n="adv"/></l><r>hauptsächlich<s n="adv"/></r></p></e>
     <e><p><l>eanet<s n="adv"/></l><r>mehr<s n="adv"/></r></p></e>
     <e><p><l>earenoamáš<s n="adv"/></l><r>besonder<s n="adv"/></r></p></e>
     <e><p><l>earenoamážit<s n="adv"/></l><r>besonders<s n="adv"/></r></p></e>
-    <e><p><l>earret<b/>eará<s n="adv"/></l><r>unter<b/>anterem<s n="adv"/></r></p></e>
-    <e><p><l>easkka<s n="adv"/></l><r>genau<s n="adv"/></r></p></e>
-    <e><p><l>ekonomalaččat<s n="adv"/></l><r>ökonomisch<s n="adv"/></r></p></e>
+    <e><p><l>earret<b/>eará<s n="adv"/></l><r>unter<b/>anderem<s n="adv"/></r></p></e>
+    <e><p><l>easkka<s n="adv"/></l><r>vorher<s n="adv"/></r></p></e>
+    <e><p><l>ekonomalaččat<s n="adv"/></l><r>finanziell<s n="adv"/></r></p></e>
     <e><p><l>erenoamáš<s n="adv"/></l><r>besonders<s n="adv"/></r></p></e>
     <e><p><l>erenoamážit<s n="adv"/></l><r>besonders<s n="adv"/></r></p></e>
     <e><p><l>eret<s n="adv"/></l><r>weg<s n="adv"/></r></p></e>
     <e><p><l>fal<s n="adv"/></l><r>nur<s n="adv"/></r></p></e>
-    <e><p><l>fargga<s n="adv"/></l><r>schnell<s n="adv"/></r></p></e>
+    <e><p><l>fargga<s n="adv"/></l><r>bald<s n="adv"/></r></p></e>
     <e><p><l>fárrolaga<s n="adv"/></l><r>zusammen<s n="adv"/></r></p></e>
     <e><p><l>fárrui<s n="adv"/></l><r>mit<s n="adv"/></r></p></e>
     <e><p><l>fas<s n="adv"/></l><r>nochmal<s n="adv"/></r></p></e>
     <e><p><l>fásta<s n="adv"/></l><r>fast<s n="adv"/></r></p></e>
-    <e><p><l>gahperahttá<s n="adv"/></l><r>barhauptig<s n="adv"/></r></p></e>
+    <e><p><l>gahperahttá<s n="adv"/></l><r>barhäuptig<s n="adv"/></r></p></e>
     <e><p><l>galbmasit<s n="adv"/></l><r>kalt<s n="adv"/></r></p></e>
     <e><p><l>gallás<s n="adv"/></l><r>genug<s n="adv"/></r></p></e>
     <e><p><l>galmmas<s n="adv"/></l><r>getäubt<s n="adv"/></r></p></e>
@@ -422,7 +422,7 @@
     <e><p><l>gánske<s n="adv"/></l><r>vielleicht<s n="adv"/></r></p></e>
     <e><p><l>garrasit<s n="adv"/></l><r>hart<s n="adv"/></r></p></e>
     <e><p><l>gaskal<s n="adv"/></l><r>durch<s n="adv"/></r></p></e>
-    <e><p><l>geassit<s n="adv"/></l><r>am<b/>Sommer<s n="adv"/></r></p></e>
+    <e><p><l>geassit<s n="adv"/></l><r>im<b/>Sommer<s n="adv"/></r></p></e>
     <e><p><l>gitta<s n="adv"/></l><r>geschlossen<s n="adv"/></r></p></e>
     <e><p><l>goassege<s n="adv"/></l><r>nie<s n="adv"/></r></p></e>
     <e><p><l>goasse<s n="adv"/></l><r>nie<s n="adv"/></r></p></e>
@@ -1283,7 +1283,7 @@
     <e><p><l>heasta<s n="n"/></l><r>Pferd<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>heavdni<s n="n"/></l><r>Edderkopf<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hildu<s n="n"/></l><r>Schrank<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>hillagáhkku<s n="n"/></l><r>Flatenbrot<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>hillagáhkku<s n="n"/></l><r>Fladenbrot<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hiŋggal<s n="n"/></l><r>Stall<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>historijá<s n="n"/></l><r>Geschicht<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>historjá<s n="n"/></l><r>Geschicht<s n="n"/><s n="m"/></r></p></e>
