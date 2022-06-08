@@ -191,6 +191,9 @@ VP -> NP.*.loc leat@vblex {
       DET.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
         1[case=nom] _ haben@vbhaver.pri.[1.person].[1.number] } |
+      DP.*.loc leat@vblex {
+        *(maybe_adp)[case=nom]
+        1[case=nom] _ haben@vbhaver.pri.[1.person].[1.number] } |
       NP V {
         *(maybe_adp)[case=1.case]
         *(maybe_art)[number=1.number, case=1.case, gender=1.gender,def=def,negativity=aff]
