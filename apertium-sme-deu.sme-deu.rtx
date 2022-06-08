@@ -18,10 +18,10 @@ pcp = pp pprs prfprc ;
 conneg = conneg ;
 def = ind def ;
 adj_type = sint pred attr ;
-
+negativity = (NEG aff) neg aff ;
 ! Giella specifics
 sem = sem_time sem_plc ;
-depfunc = "@←SPRED" "@←OPRED" "@←N" ;
+depfunc = "@←SPRED" "@←OPRED" "@←N" "@HNOUN" ;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -57,7 +57,7 @@ ADV: _;
 ADP: _;
 A: _ ;
 NUM: _ ;
-VP: _ ;
+VP: _.negativity ;
 NEG: _ ;
 S: _ ;
 
@@ -242,9 +242,8 @@ N ->
                                          else nom),
                                    number=(if (1.number = du) pl
                                            elif (1.number = pl) pl
-                                           else sg)] } |
-      
-PROPN -> np.*.$case/sl.$number.$gender {1} ;
+                                           else sg)] } ;
+PROPN -> %np.* {%1} ;
 C -> cnjcoo {1} |
      cnjsub {1} ;
 DET -> %prn.pers.*.gen."@→N" { %1 } |  ! Obs: list from sme-nob
@@ -273,6 +272,8 @@ PRN -> %prn { 1[case=(if (1.case = loc) nom
                      elif (1.case = gen) gen
                      else nom)] } ;
 ADV -> adv {1} |
+       ! idiomatics
+       dáidit@vblex { vielleicht@adv } |
        pcle {1} ;
 ADP -> post {1} |
        pr {1} ;
