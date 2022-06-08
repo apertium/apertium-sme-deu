@@ -791,7 +791,7 @@
     <e><p><l>vuoitemeahttun<s n="adj"/></l><r>unschlagbar<s n="adj"/></r></p></e>
     <e><p><l>vuosttas<s n="adj"/></l><r>erster<s n="adj"/></r></p></e>
     <e><p><l>vuosttaš<s n="adj"/></l><r>erster<s n="adj"/></r></p></e>
-    <e><p><l>sámegielat<s n="adj"/></l><r>samisch<s n="adj"/></r></p></e>
+    <e><p><l>sámegielat<s n="adj"/></l><r>saamisch<s n="adj"/></r></p></e>
     <e><p><l>guovddáš<s n="adj"/></l><r>zentral<s n="adj"/></r></p></e>
     <e><p><l>digitála<s n="adj"/></l><r>digital<s n="adj"/></r></p></e>
     <e><p><l>siskkáldas<s n="adj"/></l><r>innerer<s n="adj"/></r></p></e>
@@ -1064,7 +1064,7 @@
     <e><p><l>dárra<s n="n"/></l><r>Kelp<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>dássi<s n="n"/></l><r>Etage<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dávvir<s n="n"/></l><r>Gegenstand<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>Davvisámegiella<s n="n"/></l><r>Nordsamisch<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Davvisámegiella<s n="n"/></l><r>Nordsaamisch<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>davvi<s n="n"/></l><r>Nord<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>dáža<s n="n"/></l><r>Norwegisch<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>deadja<s n="n"/></l><r>Tee<s n="n"/><s n="m"/></r></p></e>
@@ -1321,7 +1321,7 @@
     <e><p><l>jokŋa<s n="n"/></l><r>Preiselbeere<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>journalista<s n="n"/></l><r>Journalist<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>juhkki<s n="n"/></l><r>Säufer<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>julevsápmelaš<s n="n"/></l><r>Julevsamisch<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>julevsápmelaš<s n="n"/></l><r>Julevsaamisch<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>julevsápmi<s n="n"/></l><r>Lule-Same<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>juoigan<s n="n"/></l><r>Joik<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>juolggeheapme<s n="n"/></l><r>Paraplegik<s n="n"/><s n="m"/></r></p></e>
@@ -1623,17 +1623,17 @@
     <e><p><l>sáidi<s n="n"/></l><r>Seelachs<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sákta<s n="n"/></l><r>Saft<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sáltemárfi<s n="n"/></l><r>Salami<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>sámediggi<s n="n"/></l><r>Samerat<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>sámegiella<s n="n"/></l><r>Samisch<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>sámemusea<s n="n"/></l><r>Samenmusee<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>sámenieida<s n="n"/></l><r>Samin<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>sápmelaš<s n="n"/></l><r>Samisch<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>sápmi<s n="n"/></l><r>Same<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sámediggi<s n="n"/></l><r>Saamenparlament<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sámegiella<s n="n"/></l><r>Saamisch<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>sámemusea<s n="n"/></l><r>Saamenmuseum<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sámenieida<s n="n"/></l><r>Saamin<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sápmelaš<s n="n"/></l><r>Saamisch<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sápmi<s n="n"/></l><r>Saame<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sarrit<s n="n"/></l><r>Blaubeere<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sátnejođiheaddji<s n="n"/></l><r>Vorsitzender<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>sátni<s n="n"/></l><r>Wort<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sátni<s n="n"/></l><r>Wort<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>sávza<s n="n"/></l><r>Schaf<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>sávzzanáhkki<s n="n"/></l><r>Schafleber<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sávzzanáhkki<s n="n"/></l><r>Schafleber<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>seahkka<s n="n"/></l><r>Sack<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>seaidni<s n="n"/></l><r>Wand<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>searvan<s n="n"/></l><r>Mitwirkung<s n="n"/><s n="m"/></r></p></e>
@@ -1645,25 +1645,25 @@
     <e><p><l>sihkarvuohta<s n="n"/></l><r>Sicherheit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sihkkarasti<s n="n"/></l><r>Sicherung<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sihkkel<s n="n"/></l><r>Fahrrad<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>siidu<s n="n"/></l><r>Seite<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>siivu<s n="n"/></l><r>Wetter<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>siidu<s n="n"/></l><r>Seite<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>siivu<s n="n"/></l><r>Wetter<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>silbabaste<s n="n"/></l><r>Silberlöffel<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>silbaruhta<s n="n"/></l><r>Silbermynt<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>silbaruhta<s n="n"/></l><r>Silbermünze<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>silba<s n="n"/></l><r>Silber<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>šillju<s n="n"/></l><r>Hof1<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>šillju<s n="n"/></l><r>Hof<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sisdoallu<s n="n"/></l><r>Inhalt<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>sivva<s n="n"/></l><r>Grunn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sivva<s n="n"/></l><r>Grund<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>skábmamánnu<s n="n"/></l><r>November<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>skáhppe<s n="n"/></l><r>Schrank<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>skeaŋka<s n="n"/></l><r>Geschenk<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>skibir<s n="n"/></l><r>Freund<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>skohtergilvu<s n="n"/></l><r>Scooterrennen<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>skohtermáđidja<s n="n"/></l><r>Skooterstraße<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>skohtergilvu<s n="n"/></l><r>Scooterrennen<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>skohtermáđidja<s n="n"/></l><r>Skooterstraße<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>skohter<s n="n"/></l><r>Scooter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>skohtervuoddji<s n="n"/></l><r>Skooterfahrer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>skuvlabeaivi<s n="n"/></l><r>Schultag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>skuvlabeaivvi<s n="n"/></l><r>Schultag<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>skuvladiibmu<s n="n"/></l><r>Schulestund<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>skuvladiibmu<s n="n"/></l><r>Schulstunde<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>skuvla<s n="n"/></l><r>Schule<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>snáldu<s n="n"/></l><r>Spindel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>snoraldat<s n="n"/></l><r>Schuchband<s n="n"/><s n="m"/></r></p></e>
@@ -1676,25 +1676,25 @@
     <e><p><l>sotnabeaivi<s n="n"/></l><r>Sonntag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>spábba<s n="n"/></l><r>Ball<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>speajal<s n="n"/></l><r>Spiegel<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>stádion<s n="n"/></l><r>Stadium<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>stággu<s n="n"/></l><r>Stange<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>stádion<s n="n"/></l><r>Stadion<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>stággu<s n="n"/></l><r>Stange<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>stáhta<s n="n"/></l><r>Staat<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stálle<s n="n"/></l><r>Stall<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stálli<s n="n"/></l><r>Stahl<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stállja<s n="n"/></l><r>Stall<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stállu<s n="n"/></l><r>Troll<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>staolpu<s n="n"/></l><r>Pfosten<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>stipeanda<s n="n"/></l><r>Stipend<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>stipeanda<s n="n"/></l><r>Stipendium<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stivra<s n="n"/></l><r>Vorstand<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>stivrran<s n="n"/></l><r>Steuerrad<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>stivrran<s n="n"/></l><r>Steuerrad<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stoagus<s n="n"/></l><r>Spiel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stoalpu<s n="n"/></l><r>Pillar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stohkka<s n="n"/></l><r>Spiel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stohpogálvu<s n="n"/></l><r>Möbel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>studeanta<s n="n"/></l><r>Student<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stuollu<s n="n"/></l><r>Stuhl<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>submi<s n="n"/></l><r>Summe<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>šuhkoládagáhkku<s n="n"/></l><r>Schokoladeküche<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>submi<s n="n"/></l><r>Summe<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>šuhkoládagáhkku<s n="n"/></l><r>Schokoladenkuchen<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>suohkan<s n="n"/></l><r>Bezirk<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>suohkku<s n="n"/></l><r>Strumpf<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>suoidnemánnu<s n="n"/></l><r>Juli<s n="n"/><s n="m"/></r></p></e>
@@ -1703,15 +1703,15 @@
     <e><p><l>suoládeapmi<s n="n"/></l><r>Überfall<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>suomagiella<s n="n"/></l><r>Finnisch<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>suopman<s n="n"/></l><r>Dialekt<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>suorggis<s n="n"/></l><r>Suffix<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>suovasbiergu<s n="n"/></l><r>Räucherfleisch<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>suorggis<s n="n"/></l><r>Suffix<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>suovasbiergu<s n="n"/></l><r>Räucherfleisch<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>suovva<s n="n"/></l><r>Rauch<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>suvccas<s n="n"/></l><r>Märchen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>suvli<s n="n"/></l><r>Kräuter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>tabealla<s n="n"/></l><r>Tabelle<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>táksevuoddji<s n="n"/></l><r>Taxifahrer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>teáhterčájálmas<s n="n"/></l><r>Theateraufführung<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>teáhter<s n="n"/></l><r>Theater<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>teáhter<s n="n"/></l><r>Theater<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>teaksta<s n="n"/></l><r>Text<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>temá<s n="n"/></l><r>Thema<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>toga<s n="n"/></l><r>Zug<s n="n"/><s n="m"/></r></p></e>
@@ -1729,10 +1729,10 @@
     <e><p><l>vahkkoloahppa<s n="n"/></l><r>Wochenende<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vahkku<s n="n"/></l><r>Woche<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>váhnen<s n="n"/></l><r>Elter<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>váibmu<s n="n"/></l><r>Herz<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>váikkuhus<s n="n"/></l><r>Konsekvenz<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>váibmu<s n="n"/></l><r>Herz<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>váikkuhus<s n="n"/></l><r>Konsekvenz<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>váivi<s n="n"/></l><r>Ursache<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>váldi<s n="n"/></l><r>Vollmacht<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>váldi<s n="n"/></l><r>Vollmacht<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>váldodoaimmaheaddji<s n="n"/></l><r>Hauptredakteur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>válljen<s n="n"/></l><r>Wahl<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vanca<s n="n"/></l><r>Boot<s n="n"/><s n="nt"/></r></p></e>
@@ -2196,7 +2196,7 @@
     <e><p><l>sadjit<s n="vblex"/></l><r>spitzen<s n="vblex"/></r></p></e>
     <e><p><l>sáhkohaddat<s n="vblex"/></l><r>strafen<s n="vblex"/></r></p></e>
     <e><p><l>sakŋidit<s n="vblex"/></l><r>kitzeln<s n="vblex"/></r></p></e>
-    <e><p><l>sámástit<s n="vblex"/></l><r>sprechen<b/>samisch<s n="vblex"/></r></p></e>
+    <e><p><l>sámástit<s n="vblex"/></l><r>sprechen<b/>saamisch<s n="vblex"/></r></p></e>
     <e><p><l>sárdnut<s n="vblex"/></l><r>sprechen<s n="vblex"/></r></p></e>
     <e><p><l>sárgut<s n="vblex"/></l><r>zeichnen<s n="vblex"/></r></p></e>
     <e><p><l>sávvat<s n="vblex"/></l><r>hoffen<s n="vblex"/></r></p></e>
