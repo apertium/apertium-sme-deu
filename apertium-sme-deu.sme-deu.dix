@@ -669,14 +669,14 @@
     <e><p><l>erenoamán<s n="adj"/></l><r>besonder<s n="adj"/></r></p></e>
     <e><p><l>erenoamáš<s n="adj"/></l><r>besonder<s n="adj"/></r></p></e>
     <e><p><l>fágalaš<s n="adj"/></l><r>professional<s n="adj"/></r></p></e>
-    <e><p><l>fiinnis<s n="adj"/></l><r>fin<s n="adj"/></r></p></e>
+    <e><p><l>fiinnis<s n="adj"/></l><r>schön<s n="adj"/></r></p></e>
     <e><p><l>fiskat<s n="adj"/></l><r>gelb<s n="adj"/></r></p></e>
     <e><p><l>freestyle<s n="adj"/></l><r>freestyle<s n="adj"/></r></p></e>
     <e><p><l>galmma<s n="adj"/></l><r>kalt<s n="adj"/></r></p></e>
     <e><p><l>galmmas<s n="adj"/></l><r>kalt<s n="adj"/></r></p></e>
-    <e><p><l>gánnáhahtti<s n="adj"/></l><r>stöttende<s n="adj"/></r></p></e>
+    <e><p><l>gánnáhahtti<s n="adj"/></l><r>lohnend<s n="adj"/></r></p></e>
     <e><p><l>garas<s n="adj"/></l><r>hart<s n="adj"/></r></p></e>
-    <e><p><l>garas<s n="adj"/></l><r>strengent<s n="adj"/></r></p></e>
+    <e><p><l>garas<s n="adj"/></l><r>streng<s n="adj"/></r></p></e>
     <e><p><l>gárži<s n="adj"/></l><r>eng<s n="adj"/></r></p></e>
     <e><p><l>gearggus<s n="adj"/></l><r>fertig<s n="adj"/></r></p></e>
     <e><p><l>gelddolaš<s n="adj"/></l><r>spannend<s n="adj"/></r></p></e>
@@ -2176,7 +2176,7 @@
     <e><p><l>ovddánahtit<s n="vblex"/></l><r>entwickeln<s n="vblex"/></r></p></e>
     <e><p><l>ovddeštit<s n="vblex"/></l><r>restaurieren<s n="vblex"/></r></p></e>
     <e><p><l>ovddidit<s n="vblex"/></l><r>vorlegen<s n="vblex"/></r></p></e>
-    <e><p><l>rabastit<s n="vblex"/></l><r>offnen<s n="vblex"/></r></p></e>
+    <e><p><l>rabastit<s n="vblex"/></l><r>öffnen<s n="vblex"/></r></p></e>
     <e><p><l>rábmot<s n="vblex"/></l><r>loben<s n="vblex"/></r></p></e>
     <e><p><l>ráđđádallat<s n="vblex"/></l><r>verhandeln<s n="vblex"/></r></p></e>
     <e><p><l>rahčat<s n="vblex"/></l><r>schuften<s n="vblex"/></r></p></e>
@@ -2187,33 +2187,34 @@
     <e><p><l>rávkat<s n="vblex"/></l><r>anfragen<s n="vblex"/></r></p></e>
     <e><p><l>rávvet<s n="vblex"/></l><r>empfehlen<s n="vblex"/></r></p></e>
     <e><p><l>registreret<s n="vblex"/></l><r>registrieren<s n="vblex"/></r></p></e>
-    <e><p><l>riegádit<s n="vblex"/></l><r>bohren<s n="vblex"/></r></p></e>
+    <e><p><l>riegádit<s n="vblex"/></l><r>gebohren<b/>werden<s n="vblex"/></r></p></e>
     <e><p><l>riestit<s n="vblex"/></l><r>arbeiten<s n="vblex"/></r></p></e>
     <e><p><l>rievdadit<s n="vblex"/></l><r>verändern<s n="vblex"/></r></p></e>
     <e><p><l>rievidit<s n="vblex"/></l><r>rauben<s n="vblex"/></r></p></e>
     <e><p><l>riidet<s n="vblex"/></l><r>reiten<s n="vblex"/></r></p></e>
-    <e><p><l>riŋget<s n="vblex"/></l><r>telefonieren<s n="vblex"/></r></p></e>
+    <e><p><l>riŋget<s n="vblex"/></l><r>anrufen<s n="vblex"/></r></p></e>
     <e><p><l>ristet<s n="vblex"/></l><r>schütteln<s n="vblex"/></r></p></e>
     <e><p><l>roggat<s n="vblex"/></l><r>graben<s n="vblex"/></r></p></e>
-    <e><p><l>ruohttat<s n="vblex"/></l><r>springen<s n="vblex"/></r></p></e>
-    <e><p><l>ruoidnat<s n="vblex"/></l><r>aufnehmen<s n="vblex"/></r></p></e>
-    <e><p><l>šaddat<s n="vblex"/></l><r>umwandeln<s n="vblex"/></r></p></e>
+    <e><p><l>ruohttat<s n="vblex"/></l><r>laufen<s n="vblex"/></r></p></e>
+    <e><p><l>ruoidnat<s n="vblex"/></l><r>abnehmen<s n="vblex"/></r></p></e>
+    <e><p><l>šaddat<s n="vblex"/></l><r>werden<s n="vblex"/></r></p></e>
+    <e><p><l>šaddat<s n="vblex"/></l><r>wachsen<s n="vblex"/></r></p></e>
     <e><p><l>sáddet<s n="vblex"/></l><r>schicken<s n="vblex"/></r></p></e>
     <e><p><l>sadjit<s n="vblex"/></l><r>spitzen<s n="vblex"/></r></p></e>
     <e><p><l>sáhkohaddat<s n="vblex"/></l><r>strafen<s n="vblex"/></r></p></e>
-    <e><p><l>sakŋidit<s n="vblex"/></l><r>kitzeln<s n="vblex"/></r></p></e>
-    <e><p><l>sámástit<s n="vblex"/></l><r>sprechen<b/>saamisch<s n="vblex"/></r></p></e>
+    <e><p><l>sakŋidit<s n="vblex"/></l><r>jucken<s n="vblex"/></r></p></e>
+    <e><p><l>sámástit<s n="vblex"/></l><r>saamisch<b/>sprechen<s n="vblex"/></r></p></e>
     <e><p><l>sárdnut<s n="vblex"/></l><r>sprechen<s n="vblex"/></r></p></e>
     <e><p><l>sárgut<s n="vblex"/></l><r>zeichnen<s n="vblex"/></r></p></e>
-    <e><p><l>sávvat<s n="vblex"/></l><r>hoffen<s n="vblex"/></r></p></e>
+    <e><p><l>sávvat<s n="vblex"/></l><r>wünschen<s n="vblex"/></r></p></e>
     <e><p><l>savvit<s n="vblex"/></l><r>heilen<s n="vblex"/></r></p></e>
     <e><p><l>savvot<s n="vblex"/></l><r>heilen<s n="vblex"/></r></p></e>
     <e><p><l>seailluhit<s n="vblex"/></l><r>lagern<s n="vblex"/></r></p></e>
     <e><p><l>seaktit<s n="vblex"/></l><r>tauen<s n="vblex"/></r></p></e>
     <e><p><l>seargat<s n="vblex"/></l><r>zerbrechen<s n="vblex"/></r></p></e>
-    <e><p><l>searvat<s n="vblex"/></l><r>folgen<s n="vblex"/></r></p></e>
+    <e><p><l>searvat<s n="vblex"/></l><r>nützen<s n="vblex"/></r></p></e>
     <e><p><l>seastit<s n="vblex"/></l><r>sparen<s n="vblex"/></r></p></e>
-    <e><p><l>sevnnjodit<s n="vblex"/></l><r>verdunkeln<s n="vblex"/></r></p></e>
+    <e><p><l>sevnnjodit<s n="vblex"/></l><r>dunkel<b/>werden<s n="vblex"/></r></p></e>
     <e><p><l>sihkkarastit<s n="vblex"/></l><r>sicherstellen<s n="vblex"/></r></p></e>
     <e><p><l>sirdit<s n="vblex"/></l><r>umziehen<s n="vblex"/></r></p></e>
     <e><p><l>skuvlet<s n="vblex"/></l><r>lehren<s n="vblex"/></r></p></e>
