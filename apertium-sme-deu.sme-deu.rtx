@@ -247,6 +247,7 @@ DP -> DET %N { 1[gender=(if (2.number = pl) mfn else 2.gender),
                  number=2.number,case=2.case] _ 2 } |
       ! idiomatic 1:n translations
       veahkki@n { zu@pr.dat _ Hilfe@n.f.sg.dat } |
+      ruhta@n { 1 } |
       ! det
       DET { 1 } ;
 N ->
