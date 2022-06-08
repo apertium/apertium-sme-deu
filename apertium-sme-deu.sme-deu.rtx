@@ -64,7 +64,7 @@ S: _ ;
 ! phrases
 
 PP: _ ;
-NUMP: _ ;
+NUMP: _.number.case ;
 NP: _.gender.number.case.sem;
 DP: _.gender.number.case;
 
@@ -245,8 +245,14 @@ PP -> NUMP post { 2 _ 1 } |
       prn.pers.*.gen.* mielas@post { 1 _ Meinung@n.f.sg.nom _ nach@pr.dat } |
       PRN post { 2 _ 1 } |
       NP post { 2 _ 1 } ;
-NUMP -> num NP { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
-                 2[number=(if (1.lem/sl = "okta") sg else pl)] } ;
+NUMP -> %num A N { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
+                 %2[number=(if (1.lem/sl = "okta") sg else pl),
+                   case=1.case] _
+                 %3[number=(if (1.lem/sl = "okta") sg else pl),
+                   case=1.case] } |
+        %num N { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
+                 %2[number=(if (1.lem/sl = "okta") sg else pl),
+                   case=1.case] }         ;
 NP -> A %N ADV { 1[gender=2.gender,
                    number=2.number,case=2.case] _ %2 _ 3 } |
       A %N { 1[gender=2.gender,
