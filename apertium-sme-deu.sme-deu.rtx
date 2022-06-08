@@ -93,11 +93,19 @@ maybe_art: (if (1.number = sg)
                      elif (1.case = ess) [der@det.def.[1.gender].sg.nom _]
                      else [der@det.def.[1.gender].sg.[1.case] _ ])
                 else
-                    (if (1.case = com) [ein@det.ind.[1.gender].sg.dat _]
-                     elif (1.case = ill) [ein@det.ind.[1.gender].sg.acc _]
-                     elif (1.case = loc) [ein@det.ind.[1.gender].sg.dat _]
-                     elif (1.case = ess) [ein@det.ind.[1.gender].sg.nom _]
-                     else [ein@det.ind.[1.gender].sg.[1.case] _ ])
+                    (if (1.negativity = neg)
+                        (if (1.case = com) [kein@det.ind.[1.gender].sg.dat _]
+                         elif (1.case = ill) [kein@det.ind.[1.gender].sg.acc _]
+                         elif (1.case = loc) [kein@det.ind.[1.gender].sg.dat _]
+                         elif (1.case = ess) [kein@det.ind.[1.gender].sg.nom _]
+                         else [kein@det.ind.[1.gender].sg.[1.case] _ ])
+                    else
+                        (if (1.case = com) [ein@det.ind.[1.gender].sg.dat _]
+                         elif (1.case = ill) [ein@det.ind.[1.gender].sg.acc _]
+                         elif (1.case = loc) [ein@det.ind.[1.gender].sg.dat _]
+                         elif (1.case = ess) [ein@det.ind.[1.gender].sg.nom _]
+                         else [ein@det.ind.[1.gender].sg.[1.case] _ ])
+                    )
                 )
             else
                 (if (1.def = def) 
@@ -106,7 +114,15 @@ maybe_art: (if (1.number = sg)
                      elif (1.case = loc) [der@det.def.mfn.pl.acc _]
                      elif (1.case = ess) [der@det.def.mfn.pl.nom _]
                      else [der@det.def.mfn.pl.[1.case] _])
-                else []
+                else 
+                    (if (1.negativity = neg)
+                        (if (1.case = com) [kein@det.ind.[1.gender].sg.dat _]
+                         elif (1.case = ill) [kein@det.ind.[1.gender].sg.acc _]
+                         elif (1.case = loc) [kein@det.ind.[1.gender].sg.dat _]
+                         elif (1.case = ess) [kein@det.ind.[1.gender].sg.nom _]
+                         else [kein@det.ind.[1.gender].sg.[1.case] _ ])
+                    else []
+                    )
                 )
             );
 maybe_adp: (if (1.case = loc) [in@pr.dat _]
@@ -142,7 +158,7 @@ adj: (if (1.depfunc = "@←SPRED") 1(adj_pred)[adj_type=pred]
 !!!!!!!!!!!!!!!
 S -> VP NP { 1 _
         *(maybe_adp)[case=2.case]
-        *(maybe_art)[number=2.number,case=2.case,gender=2.gender,def=ind]
+        *(maybe_art)[number=2.number,case=2.case,gender=2.gender,def=ind,negativity=1.negativity]
         2 } |
      VP DP { 1 _ 
         *(maybe_adp)[case=2.case]
@@ -150,7 +166,7 @@ S -> VP NP { 1 _
      VP { 1 } |  ! stray VP
      NP {
         *(maybe_adp)[case=1.case]
-        *(maybe_art)[number=1.number,case=1.case,gender=1.gender,def=def]
+        *(maybe_art)[number=1.number,case=1.case,gender=1.gender,def=def,negativity=aff]
         1 } |
      DP {
         *(maybe_adp)[case=1.case]
@@ -161,7 +177,7 @@ S -> VP NP { 1 _
 NEG -> ii@vblex { nicht@adv[lemcase=1.lemcase] } ; ! stray NEG
 VP -> NP.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
-        *(maybe_art)[number=1.number, case=nom, gender=1.gender,def=def] 
+        *(maybe_art)[number=1.number, case=nom, gender=1.gender,def=def,negativity=aff] 
         1[case=nom] _ haben@vbhaver.pri.p3.sg } |
       %PROPN.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
@@ -174,7 +190,7 @@ VP -> NP.*.loc leat@vblex {
         1[case=nom] _ haben@vbhaver.pri.[1.person].[1.number] } |
       NP V {
         *(maybe_adp)[case=1.case]
-        *(maybe_art)[number=1.number, case=1.case, gender=1.gender,def=def]
+        *(maybe_art)[number=1.number, case=1.case, gender=1.gender,def=def,negativity=aff]
         1 _ 2 } |
       PRN V {
         *(maybe_adp)[case=1.case]
@@ -188,13 +204,13 @@ VP -> NP.*.loc leat@vblex {
       DP V {
         *(maybe_adp)[case=1.case]
         1 _ 2 } |
-      PRN ii@vblex vblex { 1 _
-        3[person=2.person,number=2.number] _ nicht@adv } |
-      ii@vblex vblex {
+      PRN ii@vblex vblex [$negativity=neg] { 1 _
+        3[person=2.person,number=2.number] } |
+      ii@vblex vblex [$negativity=neg] {
         *(pro_undrop)[number=1.number,person=1.person]
-        2[person=1.person, number=1.number] _ nicht@adv } |
-      ii@vblex prn vblex {
-        2 _ 3[person=1.person, number=1.number] _ nicht@adv } |
+        2[person=1.person, number=1.number] } |
+      ii@vblex prn vblex [$negativity=neg] {
+        2 _ 3[person=1.person, number=1.number] } |
       V go@pcle {
       1 _ *(pro_undrop)[number=1.number,person=1.person] } |  ! stray V + qst
       V { *(pro_undrop)[number=1.number,person=1.person] 1 } ;  ! stray V
@@ -207,6 +223,8 @@ V -> %vblex [$$expletive=(if (1.lem = "regnen") es@prn.pers.p3.nt.sg.nom),
      %vbser {1} |
      %vbmod {1} ;
 PP -> NUMP post { 2 _ 1 } |
+      ! idioms
+      prn.pers.*.gen.* mielas@post { 1 _ Meinung@n.f.sg.nom _ nach@pr.dat } |
       PRN post { 2 _ 1 } |
       NP post { 2 _ 1 } ;
 NUMP -> num NP { 1[number=(if (1.lem/sl = "okta") sg else pl)] _
