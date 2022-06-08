@@ -188,6 +188,10 @@ VP -> NP.*.loc.sem_hum leat@vblex {
       PRN.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
         1[case=nom] _ haben@vbhaver.pri.[1.person].[1.number] } |
+      PRN.*.loc ADV leat@vblex {
+        2 _ 
+        *(maybe_adp)[case=nom]
+        1[case=nom] _ haben@vbhaver.pri.[1.person].[1.number] } |
       DET.*.loc leat@vblex {
         *(maybe_adp)[case=nom]
         1[case=nom] _ haben@vbhaver.pri.[1.person].[1.number] } |
