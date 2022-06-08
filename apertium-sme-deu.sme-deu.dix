@@ -58,6 +58,7 @@
 
     <sdef n="foc_bat"               c="Focus enclitic conversion bug"/>
     <sdef n="ex_np"                 c="Proper Noun conversion bug"/>
+    <sdef n="ex_adj"                c="adj conversion bug"/>
     <sdef n="sem_org_prod-vis"      c="Semantics conversion bug"/>
 
     <sdef n="GD"      c="undefined gender"/>
@@ -735,6 +736,7 @@
     <e><p><l>njalkkas<s n="adj"/></l><r>rutschig<s n="adj"/></r></p></e>
     <e><p><l>nubbi<s n="adj"/></l><r>andere<s n="adj"/></r></p></e>
     <e><p><l>nuorra<s n="adj"/></l><r>jung<s n="adj"/></r></p></e>
+    <!--    <e><p><l>nuorra<s n="ex_adj"/></l><r>jung<s n="adj"/></r></p></e> -->
     <e><p><l>oahpis<s n="adj"/></l><r>bekannt<s n="adj"/></r></p></e>
     <e><p><l>oainnus<s n="adj"/></l><r>sichtbar<s n="adj"/></r></p></e>
     <e><p><l>oanehaš<s n="adj"/></l><r>kurz<s n="adj"/></r></p></e>
