@@ -624,11 +624,14 @@
     <e><p><l>áŋgir<s n="adj"/></l><r>streng<s n="adj"/></r></p></e>
     <e><p><l>árbevirolaš<s n="adj"/></l><r>traditionell<s n="adj"/></r></p></e>
     <e><p><l>árgi<s n="adj"/></l><r>schüchtern<s n="adj"/></r></p></e>
+    <e><p><l>árktalaš<s n="adj"/></l><r>arktisch<s n="adj"/></r></p></e>
+    <e><p><l>ártet<s n="adj"/></l><r>merkwürdig<s n="adj"/></r></p></e>
     <e><p><l>árvvus<s n="adj"/></l><r>ziemlich<s n="adj"/></r></p></e>
     <e><p><l>ávkkálaš<s n="adj"/></l><r>hilfreich<s n="adj"/></r></p></e>
     <e><p><l>bahá<s n="adj"/></l><r>böse<s n="adj"/></r></p></e>
     <e><p><l>báhkas<s n="adj"/></l><r>heiß<s n="adj"/></r></p></e>
     <e><p><l>báikkálaš<s n="adj"/></l><r>lokal<s n="adj"/></r></p></e>
+    <e><p><l>bajit<s n="adj"/></l><r>oberer<s n="adj"/></r></p></e>
     <e><p><l>bávččas<s n="adj"/></l><r>schmerzhaft<s n="adj"/></r></p></e>
     <e><p><l>beaivválaš<s n="adj"/></l><r>täglich<s n="adj"/></r></p></e>
     <e><p><l>beakkán<s n="adj"/></l><r>bekannt<s n="adj"/></r></p></e>
@@ -640,6 +643,7 @@
     <e><p><l>boahtte<s n="adj"/></l><r>nächste<s n="adj"/></r></p></e>
     <e><p><l>boahttevaš<s n="adj"/></l><r>folgend<s n="adj"/></r></p></e>
     <e><p><l>boaris<s n="adj"/></l><r>alt<s n="adj"/></r></p></e>
+    <e><p><l>boasttu<s n="adj"/></l><r>falsch<s n="adj"/></r></p></e>
     <e><p><l>bonju<s n="adj"/></l><r>queer<s n="adj"/></r></p></e>
     <e><p><l>buoidi<s n="adj"/></l><r>dick<s n="adj"/></r></p></e>
     <e><p><l>buoidi<s n="adj"/></l><r>fett<s n="adj"/></r></p></e>
@@ -647,7 +651,8 @@
     <e><p><l>buorre<s n="adj"/></l><r>gut<s n="adj"/></r></p></e>
     <e><p><l>čába<s n="adj"/></l><r>schön<s n="adj"/></r></p></e>
     <e><p><l>čáhppat<s n="adj"/></l><r>schwarz<s n="adj"/></r></p></e>
-    <e><p><l>čáhppat<s n="adj"/></l><r>schwarz<s n="adj"/></r></p></e>
+    <e><p><l>ceavzil<s n="adj"/></l><r>robust<s n="adj"/></r></p></e>
+    <e><p><l>čálalaš<s n="adj"/></l><r>schriftlich<s n="adj"/></r></p></e>
     <e><p><l>čalmmeheapme<s n="adj"/></l><r>blind<s n="adj"/></r></p></e>
     <e><p><l>čáppat<s n="adj"/></l><r>schön<s n="adj"/></r></p></e>
     <e><p><l>čeahppi<s n="adj"/></l><r>gut<s n="adj"/></r></p></e>
@@ -677,9 +682,11 @@
     <e><p><l>duolbbas<s n="adj"/></l><r>eben<s n="adj"/></r></p></e>
     <e><p><l>eahkedis<s n="adj"/></l><r>abendlich<s n="adj"/></r></p></e>
     <e><p><l>eambbo<s n="adj"/></l><r>mehr<s n="adj"/></r></p></e>
+    <e><p><l>eaktodáhtolaš<s n="adj"/></l><r>freiwillig<s n="adj"/></r></p></e>
     <e><p><l>eanas<s n="adj"/></l><r>meistens<s n="adj"/></r></p></e>
     <e><p><l>eanaš<s n="adj"/></l><r>meistens<s n="adj"/></r></p></e>
     <e><p><l>eanet<s n="adj"/></l><r>mehrere<s n="adj"/></r></p></e>
+    <e><p><l>earálágan<s n="adj"/></l><r>anders<s n="adj"/></r></p></e>
     <e><p><l>ekonomalaš<s n="adj"/></l><r>ökonomisch<s n="adj"/></r></p></e>
     <e><p><l>erenoamán<s n="adj"/></l><r>besonder<s n="adj"/></r></p></e>
     <e><p><l>erenoamáš<s n="adj"/></l><r>besonder<s n="adj"/></r></p></e>
@@ -687,12 +694,15 @@
     <e><p><l>fiinnis<s n="adj"/></l><r>schön<s n="adj"/></r></p></e>
     <e><p><l>fiskat<s n="adj"/></l><r>gelb<s n="adj"/></r></p></e>
     <e><p><l>freestyle<s n="adj"/></l><r>freestyle<s n="adj"/></r></p></e>
+    <e><p><l>friddja<s n="adj"/></l><r>frei<s n="adj"/></r></p></e>
     <e><p><l>galmma<s n="adj"/></l><r>kalt<s n="adj"/></r></p></e>
     <e><p><l>galmmas<s n="adj"/></l><r>kalt<s n="adj"/></r></p></e>
     <e><p><l>gánnáhahtti<s n="adj"/></l><r>lohnend<s n="adj"/></r></p></e>
     <e><p><l>garas<s n="adj"/></l><r>hart<s n="adj"/></r></p></e>
     <e><p><l>garas<s n="adj"/></l><r>streng<s n="adj"/></r></p></e>
     <e><p><l>gárži<s n="adj"/></l><r>eng<s n="adj"/></r></p></e>
+    <e><p><l>gárvvis<s n="adj"/></l><r>fertig<s n="adj"/></r></p></e>
+    <e><p><l>gaskaboddosaš<s n="adj"/></l><r>vorläufig<s n="adj"/></r></p></e>
     <e><p><l>gearggus<s n="adj"/></l><r>fertig<s n="adj"/></r></p></e>
     <e><p><l>gelddolaš<s n="adj"/></l><r>spannend<s n="adj"/></r></p></e>
     <e><p><l>gielalaš<s n="adj"/></l><r>sprachlich<s n="adj"/></r></p></e>
@@ -711,6 +721,7 @@
     <e><p><l>hávski<s n="adj"/></l><r>lustig<s n="adj"/></r></p></e>
     <e><p><l>headju<s n="adj"/></l><r>schlecht<s n="adj"/></r></p></e>
     <e><p><l>heittot<s n="adj"/></l><r>schlecht<s n="adj"/></r></p></e>
+    <e><p><l>heivvolaš<s n="adj"/></l><r>passend<s n="adj"/></r></p></e>
     <e><p><l>hilbat<s n="adj"/></l><r>wild<s n="adj"/></r></p></e>
     <e><p><l>hirbmat<s n="adj"/></l><r>fürchterlich<s n="adj"/></r></p></e>
     <e><p><l>historjjálaš<s n="adj"/></l><r>historisch<s n="adj"/></r></p></e>
@@ -725,6 +736,7 @@
     <e><p><l>juhkki<s n="adj"/></l><r>steinhagelvoll<s n="adj"/></r></p></e>
     <e><p><l>juohkelágan<s n="adj"/></l><r>allerlei<s n="adj"/></r></p></e>
     <e><p><l>juolggeheapme<s n="adj"/></l><r>fußlos<s n="adj"/></r></p></e>
+    <e><p><l>konkrehta<s n="adj"/></l><r>konkret<s n="adj"/></r></p></e>
     <e><p><l>kultuvrralaš<s n="adj"/></l><r>kulturell<s n="adj"/></r></p></e>
     <e><p><l>lágan<s n="adj"/></l><r>solche<s n="adj"/></r></p></e>
     <e><p><l>láiki<s n="adj"/></l><r>faul<s n="adj"/></r></p></e>
@@ -732,11 +744,13 @@
     <e><p><l>liekkas<s n="adj"/></l><r>warm<s n="adj"/></r></p></e>
     <e><p><l>lobiheapme<s n="adj"/></l><r>unerlaubt<s n="adj"/></r></p></e>
     <e><p><l>lohkki<s n="adj"/></l><r>lesend<s n="adj"/></r></p></e>
+    <e><p><l>lohpalaš<s n="adj"/></l><r>abschließend<s n="adj"/></r></p></e>
     <e><p><l>lossat<s n="adj"/></l><r>schwer<s n="adj"/></r></p></e>
     <e><p><l>lossat<s n="adj"/></l><r>tung<s n="adj"/></r></p></e>
     <e><p><l>lunddolaš<s n="adj"/></l><r>natürlich<s n="adj"/></r></p></e>
     <e><p><l>luohttevaš<s n="adj"/></l><r>zuverlässig<s n="adj"/></r></p></e>
     <e><p><l>máilmmiviidosaš<s n="adj"/></l><r>weltweit<s n="adj"/></r></p></e>
+    <e><p><l>máŋggabealat<s n="adj"/></l><r>vielseitig<s n="adj"/></r></p></e>
     <e><p><l>máŋggalágan<s n="adj"/></l><r>verschieden<s n="adj"/></r></p></e>
     <e><p><l>maŋimuš<s n="adj"/></l><r>letzte<s n="adj"/></r></p></e>
     <e><p><l>maŋit<s n="adj"/></l><r>nächste<s n="adj"/></r></p></e>
@@ -745,18 +759,23 @@
     <e><p><l>miellagiddevaš<s n="adj"/></l><r>intressant<s n="adj"/></r></p></e>
     <e><p><l>mihtilmas<s n="adj"/></l><r>typisch<s n="adj"/></r></p></e>
     <e><p><l>musihkkačeahppi<s n="adj"/></l><r>musikalisch<s n="adj"/></r></p></e>
+    <e><p><l>movttet<s n="adj"/></l><r>gutgelaunt<s n="adj"/></r></p></e>
     <e><p><l>namahan<b/>veara<s n="adj"/></l><r>bemerkenswert<s n="adj"/></r></p></e>
     <e><p><l>nammasaš<s n="adj"/></l><r>genennt<s n="adj"/></r></p></e>
     <e><p><l>nanus<s n="adj"/></l><r>robus<s n="adj"/></r></p></e>
     <e><p><l>nationála<s n="adj"/></l><r>national<s n="adj"/></r></p></e>
+    <e><p><l>našuvnnalaš<s n="adj"/></l><r>national<s n="adj"/></r></p></e>
     <e><p><l>neavri<s n="adj"/></l><r>schlecht<s n="adj"/></r></p></e>
     <e><p><l>njálggat<s n="adj"/></l><r>gut<s n="adj"/></r></p></e>
     <e><p><l>njálggat<s n="adj"/></l><r>köstlich<s n="adj"/></r></p></e>
     <e><p><l>njálggis<s n="adj"/></l><r>köstlich<s n="adj"/></r></p></e>
     <e><p><l>njalkkas<s n="adj"/></l><r>rutschig<s n="adj"/></r></p></e>
+    <e><p><l>njálmmálaš<s n="adj"/></l><r>mündlich<s n="adj"/></r></p></e>
+    <e><p><l>njealját<s n="adj"/></l><r>vierter<s n="adj"/></r></p></e>
     <e><p><l>nubbi<s n="adj"/></l><r>andere<s n="adj"/></r></p></e>
     <e><p><l>nuorra<s n="adj"/></l><r>jung<s n="adj"/></r></p></e>
     <!--    <e><p><l>nuorra<s n="ex_adj"/></l><r>jung<s n="adj"/></r></p></e> -->
+    <e><p><l>oadjebas<s n="adj"/></l><r>sicher<s n="adj"/></r></p></e>
     <e><p><l>oahpis<s n="adj"/></l><r>bekannt<s n="adj"/></r></p></e>
     <e><p><l>oainnus<s n="adj"/></l><r>sichtbar<s n="adj"/></r></p></e>
     <e><p><l>oanehaš<s n="adj"/></l><r>kurz<s n="adj"/></r></p></e>
@@ -770,11 +789,16 @@
     <e><p><l>olu<s n="adj"/></l><r>viel<s n="adj"/></r></p></e>
     <e><p><l>oppa<s n="adj"/></l><r>ganz<s n="adj"/></r></p></e>
     <e><p><l>otná<s n="adj"/></l><r>heutig<s n="adj"/></r></p></e>
+    <e><p><l>ovdalaš<s n="adj"/></l><r>vorheriger<s n="adj"/></r></p></e>
     <e><p><l>ovddeš<s n="adj"/></l><r>vormalige<s n="adj"/></r></p></e>
     <e><p><l>ovddit<s n="adj"/></l><r>vorausgehend<s n="adj"/></r></p></e>
     <e><p><l>ovttajienalaš<s n="adj"/></l><r>einstimmig<s n="adj"/></r></p></e>
+    <e><p><l>pedagogalaš<s n="adj"/></l><r>pädagogisch<s n="adj"/></r></p></e>
     <e><p><l>persovnnalaš<s n="adj"/></l><r>persönlich<s n="adj"/></r></p></e>
     <e><p><l>politihkalaš<s n="adj"/></l><r>politisch<s n="adj"/></r></p></e>
+    <e><p><l>positiiva<s n="adj"/></l><r>positiv<s n="adj"/></r></p></e>
+    <e><p><l>positiivalaš<s n="adj"/></l><r>positiv<s n="adj"/></r></p></e>
+    <e><p><l>psyhkalaš<s n="adj"/></l><r>psychisch<s n="adj"/></r></p></e>
     <e><p><l>rabas<s n="adj"/></l><r>offen<s n="adj"/></r></p></e>
     <e><p><l>ráhkis<s n="adj"/></l><r>geliebt<s n="adj"/></r></p></e>
     <e><p><l>regionála<s n="adj"/></l><r>regional<s n="adj"/></r></p></e>
@@ -783,29 +807,36 @@
     <e><p><l>riikkaidgaskasaš<s n="adj"/></l><r>international<s n="adj"/></r></p></e>
     <e><p><l>rikkis<s n="adj"/></l><r>reich<s n="adj"/></r></p></e>
     <e><p><l>ruoksat<s n="adj"/></l><r>rot<s n="adj"/></r></p></e>
+    <e><p><l>ruovdnosaš<s n="adj"/></l><r>-Kronen<s n="adj"/></r></p></e>
     <e><p><l>ruškat<s n="adj"/></l><r>rot<s n="adj"/></r></p></e>
     <e><p><l>sámegiel<s n="adj"/></l><r>saamisch<s n="adj"/></r></p></e>
     <e><p><l>sápmelaš<s n="adj"/></l><r>Saame<s n="adj"/></r></p></e>
     <e><p><l>sávri<s n="adj"/></l><r>gesund<s n="adj"/></r></p></e>
     <e><p><l>seaggi<s n="adj"/></l><r>dünn<s n="adj"/></r></p></e>
+    <e><p><l>seammalágan<s n="adj"/></l><r>gleich<s n="adj"/></r></p></e>
     <e><p><l>sierralágan<s n="adj"/></l><r>unterschiedlich<s n="adj"/></r></p></e>
+    <e><p><l>sihkar<s n="adj"/></l><r>sicher<s n="adj"/></r></p></e>
     <e><p><l>siskkáldaš<s n="adj"/></l><r>intern<s n="adj"/></r></p></e>
     <e><p><l>sivalaš<s n="adj"/></l><r>schuldig<s n="adj"/></r></p></e>
     <e><p><l>smávis<s n="adj"/></l><r>klein<s n="adj"/></r></p></e>
     <e><p><l>somá<s n="adj"/></l><r>spaß<s n="adj"/></r></p></e>
     <e><p><l>sosiála<s n="adj"/></l><r>sozial<s n="adj"/></r></p></e>
+    <e><p><l>stáhtalaš<s n="adj"/></l><r>staatlich<s n="adj"/></r></p></e>
     <e><p><l>stuoris<s n="adj"/></l><r>groß<s n="adj"/></r></p></e>
     <e><p><l>suohtas<s n="adj"/></l><r>glücklich<s n="adj"/></r></p></e>
     <e><p><l>sullasaš<s n="adj"/></l><r>ungefähr<s n="adj"/></r></p></e> 
     <e><p><l>suopmelaš-ugralaš<s n="adj"/></l><r>finno-ugrisch<s n="adj"/></r></p></e>
+    <e><p><l>teknihkalaš<s n="adj"/></l><r>technisch<s n="adj"/></r></p></e>
     <e><p><l>uhcci<s n="adj"/></l><r>klein<s n="adj"/></r></p></e>
     <e><p><l>unni<s n="adj"/></l><r>jung<s n="adj"/></r></p></e>
     <e><p><l>unohas<s n="adj"/></l><r>unangenehm<s n="adj"/></r></p></e>
     <e><p><l>váibmil<s n="adj"/></l><r>gierig<s n="adj"/></r></p></e>
+    <e><p><l>váilevaš<s n="adj"/></l><r>unvollständig<s n="adj"/></r></p></e>
     <e><p><l>válmmas<s n="adj"/></l><r>fertig<s n="adj"/></r></p></e>
     <e><p><l>váralaš<s n="adj"/></l><r>gefährlich<s n="adj"/></r></p></e>
     <e><p><l>varas<s n="adj"/></l><r>frisch<s n="adj"/></r></p></e>
     <e><p><l>váttis<s n="adj"/></l><r>schwierig<s n="adj"/></r></p></e>
+    <e><p><l>veadjemeahttun<s n="adj"/></l><r>unmöglich<s n="adj"/></r></p></e>
     <e><p><l>veara<s n="adj"/></l><r>wert<s n="adj"/></r></p></e>
     <e><p><l>vejolaš<s n="adj"/></l><r>möglich<s n="adj"/></r></p></e>
     <e><p><l>viđát<s n="adj"/></l><r>fünfter<s n="adj"/></r></p></e>
@@ -1571,7 +1602,7 @@
     <e><p><l>oaivi<s n="n"/></l><r>Kopf<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>oambealle<s n="n"/></l><r>Cousine<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>oappáš<s n="n"/></l><r>Schwester<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>oarjesápmi<s n="n"/></l><r>Süd-Saame<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>oarjesápmi<s n="n"/></l><r>Südsaame<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>oassálasti<s n="n"/></l><r>Teilnehmer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>oassi<s n="n"/></l><r>Teil<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>oasti<s n="n"/></l><r>Kunde<s n="n"/><s n="m"/></r></p></e>
@@ -1580,14 +1611,16 @@
     <e><p><l>ohcan<s n="n"/></l><r>Suche<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ohca<s n="n"/></l><r>Brustkorb<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>oktavuohta<s n="n"/></l><r>Verbindung<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>olahus<s n="n"/></l><r>Höchstleistung<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>olahusjoavku<s n="n"/></l><r>Spitzengruppe<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>olgoriika<s n="n"/></l><r>Ausland<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>olli<s n="n"/></l><r>Dimension<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>olmmái<s n="n"/></l><r>Herr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>olmmái<s n="n"/></l><r>Mann<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>olmmoš<s n="n"/></l><r>Mensch<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ore<s n="n"/></l><r>Hengst<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>orgána<s n="n"/></l><r>Organ<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>organisašuvdna<s n="n"/></l><r>Organisation<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>orrunsadji<s n="n"/></l><r>Wohnbereich<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>orrunsadji<s n="n"/></l><r>Wohnort<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>orru<s n="n"/></l><r>Einwohner<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ortnet<s n="n"/></l><r>Reihenfolge<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>osku<s n="n"/></l><r>Glaube<s n="n"/><s n="m"/></r></p></e>
