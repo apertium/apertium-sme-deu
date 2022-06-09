@@ -54,6 +54,8 @@
     <sdef n="pasv"    c="passive"/>
     <sdef n="comp"    c="comparative"/>
     <sdef n="sup"     c="superlative"/>
+    <sdef n="tv"      c="transit"/>
+    <sdef n="iv"      c="in transit"/>
 
     <sdef n="nom"     c="nominative"/>
     <sdef n="gen"     c="genitive"/>
@@ -80,12 +82,18 @@
       <e><i><s n="vblex"/></i></e>
       <e><p><l><s n="ex_vblex"/><s n="ex_tv"/><s n="der_passl"/><s n="vblex"/></l>
             <r><s n="vblex"/><s n="pasv"/></r></p></e>
+      <e><p><l><s n="vblex"/><s n="tv"/><s n="der_passl"/><s n="vblex"/></l>
+            <r><s n="vblex"/><s n="pasv"/></r></p></e>
     </pardef>
     <pardef n="adj">
       <e><i><s n="adj"/></i></e>
       <e><p><l><s n="ex_adj"/><s n="der_comp"/><s n="adj"/></l>
             <r><s n="adj"/><s n="comp"/></r></p></e>
       <e><p><l><s n="ex_adj"/><s n="der_superl"/><s n="adj"/></l>
+            <r><s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l><s n="adj"/><s n="der_comp"/><s n="adj"/></l>
+            <r><s n="adj"/><s n="comp"/></r></p></e>
+      <e><p><l><s n="adj"/><s n="der_superl"/><s n="adj"/></l>
             <r><s n="adj"/><s n="sup"/></r></p></e>
     </pardef>
   </pardefs>
