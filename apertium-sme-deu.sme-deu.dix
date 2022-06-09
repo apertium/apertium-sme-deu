@@ -893,6 +893,7 @@
 
 
     <e><p><l>ađa<s n="n"/></l><r>Knöchelkern<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>áddejupmi<s n="n"/></l><r>Verständnis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>addi<s n="n"/></l><r>Schenker<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>áddjá<s n="n"/></l><r>Opa<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>áhčči<s n="n"/></l><r>Vater<s n="n"/><s n="m"/></r></p></e>
@@ -1048,6 +1049,7 @@
     <e><p><l>CD<s n="n"/></l><r>CD<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>čeahci<s n="n"/></l><r>Onkel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cealkka<s n="n"/></l><r>Satz<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cealkámuš<s n="n"/></l><r>Äußerung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>čiehka<s n="n"/></l><r>Nebel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>čiekčan<s n="n"/></l><r>Kampf<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>čiekči<s n="n"/></l><r>Fußballspieler<s n="n"/><s n="m"/></r></p></e>
@@ -1370,6 +1372,7 @@
     <e><p><l>kantuvra<s n="n"/></l><r>Büro<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kássa<s n="n"/></l><r>Kasse<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kino<s n="n"/></l><r>Kino<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>kohppa<s n="n"/></l><r>Tasse<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>konfirmašuvdna<s n="n"/></l><r>Konfirmation<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>konsearta<s n="n"/></l><r>Konzert<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>konsultašuvdnašiehtadusa<s n="n"/></l><r>Konsultierungsabmachung<s n="n"/><s n="m"/></r></p></e>
@@ -1435,6 +1438,7 @@
     <e><p><l>máđidja<s n="n"/></l><r>Straße<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>máhka<s n="n"/></l><r>Schwager<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>máhka<s n="n"/></l><r>Schwiegerbruder<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>máhtolašvuohta<s n="n"/></l><r>Wissen<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>máhttu<s n="n"/></l><r>Fähigkeit<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>máhtu<s n="n"/></l><r>Wurm<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>máilbmi<s n="n"/></l><r>Welt<s n="n"/><s n="f"/></r></p></e>
@@ -1510,6 +1514,7 @@
     <e><p><l>muorjemeastu<s n="n"/></l><r>Marmelade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>muorji<s n="n"/></l><r>Beere<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>muorra<s n="n"/></l><r>Baum<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>muorragohppa<s n="n"/></l><r>Holztasse<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>muortu<s n="n"/></l><r>Seelachs<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>muoŧŧá<s n="n"/></l><r>Tante<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>muoŧŧa<s n="n"/></l><r>Tante<s n="n"/><s n="f"/></r></p></e>
@@ -1604,6 +1609,7 @@
     <e><p><l>prošeakta<s n="n"/></l><r>Projekt<s n="n"/><s n="n"/></r></p></e>
     <e><p><l>proseanta<s n="n"/></l><r>Prozent<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>proseassa<s n="n"/></l><r>Prozess<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>prostitušuvdna<s n="n"/></l><r>Prostitution<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ráđđehus<s n="n"/></l><r>Regierung<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>raddeleahppi<s n="n"/></l><r>Brustlatz<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ráđđi<s n="n"/></l><r>Rat<s n="n"/><s n="m"/></r></p></e>
@@ -1629,6 +1635,7 @@
     <e><p><l>riebangolli<s n="n"/></l><r>Katzengold<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>riegádanbeaivi<s n="n"/></l><r>Geburtstag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>riekti<s n="n"/></l><r>Recht<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>rievdadus<s n="n"/></l><r>Veränderung<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>rievdan<s n="n"/></l><r>Veränderung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rievvár<s n="n"/></l><r>Räuber<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>riika<s n="n"/></l><r>Land<s n="n"/><s n="nt"/></r></p></e>
@@ -1718,6 +1725,7 @@
     <e><p><l>stádion<s n="n"/></l><r>Stadion<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stággu<s n="n"/></l><r>Stange<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>stáhta<s n="n"/></l><r>Staat<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>stáhtus<s n="n"/></l><r>Status<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stálle<s n="n"/></l><r>Stall<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stálli<s n="n"/></l><r>Stahl<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stállja<s n="n"/></l><r>Stall<s n="n"/><s n="m"/></r></p></e>
@@ -2168,18 +2176,18 @@
     <e><p><l>luoitádit<s n="vblex"/></l><r>untergehen<s n="vblex"/></r></p></e>
     <e><p><l>luoitit<s n="vblex"/></l><r>loslassen<s n="vblex"/></r></p></e>
     <e><p><l>máksit<s n="vblex"/></l><r>bezahlen<s n="vblex"/></r></p></e>
-    <e><p><l>málestit<s n="vblex"/></l><r>zubereiten<s n="vblex"/></r></p></e>
+    <e><p><l>málestit<s n="vblex"/></l><r>kochen<s n="vblex"/></r></p></e>
     <e><p><l>málet<s n="vblex"/></l><r>malen<s n="vblex"/></r></p></e>
     <e><p><l>mannat<s n="vblex"/></l><r>gehen<s n="vblex"/></r></p></e>
     <e><p><l>mánnat<s n="vblex"/></l><r>spotten<s n="vblex"/></r></p></e>
     <e><p><l>maŋidit<s n="vblex"/></l><r>verschieben<s n="vblex"/></r></p></e>
     <e><p><l>mátkkoštit<s n="vblex"/></l><r>reisen<s n="vblex"/></r></p></e>
     <e><p><l>meannudit<s n="vblex"/></l><r>arbeiten<s n="vblex"/></r></p></e>
-    <e><p><l>mearkkašit<s n="vblex"/></l><r>bemerken<s n="vblex"/></r></p></e>
-    <e><p><l>mearridit<s n="vblex"/></l><r>spezifizieren<s n="vblex"/></r></p></e>
+    <e><p><l>mearkkašit<s n="vblex"/></l><r>bedeuten<s n="vblex"/></r></p></e>
+    <e><p><l>mearridit<s n="vblex"/></l><r>entscheiden<s n="vblex"/></r></p></e>
     <e><p><l>miehtat<s n="vblex"/></l><r>annehmen<s n="vblex"/></r></p></e>
     <e><p><l>mielddisbuktit<s n="vblex"/></l><r>mitbringen<s n="vblex"/></r></p></e>
-    <e><p><l>mihtidit<s n="vblex"/></l><r>messern<s n="vblex"/></r></p></e>
+    <e><p><l>mihtidit<s n="vblex"/></l><r>messen<s n="vblex"/></r></p></e>
     <e><p><l>muddit<s n="vblex"/></l><r>reparieren<s n="vblex"/></r></p></e>
     <e><p><l>muitalit<s n="vblex"/></l><r>sagen<s n="vblex"/></r></p></e>
     <e><p><l>muitit<s n="vblex"/></l><r>erinnern<s n="vblex"/></r></p></e>
