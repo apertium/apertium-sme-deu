@@ -453,6 +453,7 @@
     <e><p><l>gurut<b/>bealde<s n="adv"/></l><r>links<s n="adv"/></r></p></e>
     <e><p><l>gusto<s n="adv"/></l><r>ziemlich<s n="adv"/></r></p></e>
     <e><p><l>haga<s n="adv"/></l><r>ohnehin<s n="adv"/></r></p></e>
+    <e><p><l>hávil<s n="adv"/></l><r>jeweils<s n="adv"/></r></p></e>
     <e><p><l>hihtásit<s n="adv"/></l><r>langsam<s n="adv"/></r></p></e>
     <e><p><l>hirbmat<s n="adv"/></l><r>fürchterlich<s n="adv"/></r></p></e>
     <e><p><l>hui<s n="adv"/></l><r>sehr<s n="adv"/></r></p></e>
@@ -697,15 +698,16 @@
     <e><p><l>gievra<s n="adj"/></l><r>stark<s n="adj"/></r></p></e>
     <e><p><l>goalki<s n="adj"/></l><r>stille<s n="adj"/></r></p></e>
     <e><p><l>goalmmát<s n="adj"/></l><r>dritte<s n="adj"/></r></p></e>
-    <e><p><l>goikkis<s n="adj"/></l><r>trokken<s n="adj"/></r></p></e>
+    <e><p><l>goikkis<s n="adj"/></l><r>trocken<s n="adj"/></r></p></e>
     <e><p><l>guhkki<s n="adj"/></l><r>lang<s n="adj"/></r></p></e>
     <e><p><l>gullevaš<s n="adj"/></l><r>dazugehörende<s n="adj"/></r></p></e>
+    <e><p><l>guorus<s n="adj"/></l><r>leer<s n="adj"/></r></p></e>
     <e><p><l>guoskevaš<s n="adj"/></l><r>aktuell<s n="adj"/></r></p></e>
-    <e><p><l>guovdageaidnulaš<s n="adj"/></l><r>guovdageaidnulasch<s n="adj"/></r></p></e>
+    <e><p><l>guovdageaidnulaš<s n="adj"/></l><r>Kautokeino-Einwohner<s n="adj"/></r></p></e>
     <e><p><l>hálbi<s n="adj"/></l><r>billig<s n="adj"/></r></p></e>
     <e><p><l>hálddahuslaš<s n="adj"/></l><r>administrativ<s n="adj"/></r></p></e>
-    <e><p><l>hávski<s n="adj"/></l><r>glücklich<s n="adj"/></r></p></e>
-    <e><p><l>hávski<s n="adj"/></l><r>glücklich<s n="adj"/></r></p></e>
+    <e><p><l>hávski<s n="adj"/></l><r>lustig<s n="adj"/></r></p></e>
+    <e><p><l>hávski<s n="adj"/></l><r>lustig<s n="adj"/></r></p></e>
     <e><p><l>headju<s n="adj"/></l><r>schlecht<s n="adj"/></r></p></e>
     <e><p><l>heittot<s n="adj"/></l><r>schlecht<s n="adj"/></r></p></e>
     <e><p><l>hilbat<s n="adj"/></l><r>wild<s n="adj"/></r></p></e>
@@ -713,7 +715,7 @@
     <e><p><l>historjjálaš<s n="adj"/></l><r>historisch<s n="adj"/></r></p></e>
     <e><p><l>iešguđetlágan<s n="adj"/></l><r>verschiedene<s n="adj"/></r></p></e>
     <e><p><l>ilolaš<s n="adj"/></l><r>glücklich<s n="adj"/></r></p></e>
-    <e><p><l>issoras<s n="adj"/></l><r>fürchtbar<s n="adj"/></r></p></e>
+    <e><p><l>issoras<s n="adj"/></l><r>furchtbar<s n="adj"/></r></p></e>
     <e><p><l>jahkásaš<s n="adj"/></l><r>jährlich<s n="adj"/></r></p></e>
     <e><p><l>jállu<s n="adj"/></l><r>mutig<s n="adj"/></r></p></e>
     <e><p><l>jierbmái<s n="adj"/></l><r>sinnvoll<s n="adj"/></r></p></e>
@@ -722,7 +724,7 @@
     <e><p><l>juhkki<s n="adj"/></l><r>steinhagelvoll<s n="adj"/></r></p></e>
     <e><p><l>juohkelágan<s n="adj"/></l><r>allerlei<s n="adj"/></r></p></e>
     <e><p><l>juolggeheapme<s n="adj"/></l><r>fußlos<s n="adj"/></r></p></e>
-    <e><p><l>kultuvrralaš<s n="adj"/></l><r>kulturisch<s n="adj"/></r></p></e>
+    <e><p><l>kultuvrralaš<s n="adj"/></l><r>kulturell<s n="adj"/></r></p></e>
     <e><p><l>lágan<s n="adj"/></l><r>solche<s n="adj"/></r></p></e>
     <e><p><l>láiki<s n="adj"/></l><r>faul<s n="adj"/></r></p></e>
     <e><p><l>láivi<s n="adj"/></l><r>mild<s n="adj"/></r></p></e>
@@ -732,7 +734,7 @@
     <e><p><l>lossat<s n="adj"/></l><r>tung<s n="adj"/></r></p></e>
     <e><p><l>lunddolaš<s n="adj"/></l><r>natürlich<s n="adj"/></r></p></e>
     <e><p><l>luohttevaš<s n="adj"/></l><r>zuverlässig<s n="adj"/></r></p></e>
-    <e><p><l>máilmmiviidosaš<s n="adj"/></l><r>weltveit<s n="adj"/></r></p></e>
+    <e><p><l>máilmmiviidosaš<s n="adj"/></l><r>weltweit<s n="adj"/></r></p></e>
     <e><p><l>máŋggalágan<s n="adj"/></l><r>verschieden<s n="adj"/></r></p></e>
     <e><p><l>maŋimuš<s n="adj"/></l><r>letzte<s n="adj"/></r></p></e>
     <e><p><l>maŋit<s n="adj"/></l><r>nächste<s n="adj"/></r></p></e>
@@ -767,6 +769,7 @@
     <e><p><l>otná<s n="adj"/></l><r>heutig<s n="adj"/></r></p></e>
     <e><p><l>ovddeš<s n="adj"/></l><r>vormalige<s n="adj"/></r></p></e>
     <e><p><l>ovddit<s n="adj"/></l><r>vorausgehend<s n="adj"/></r></p></e>
+    <e><p><l>persovnnalaš<s n="adj"/></l><r>persönlich<s n="adj"/></r></p></e>
     <e><p><l>politihkalaš<s n="adj"/></l><r>politisch<s n="adj"/></r></p></e>
     <e><p><l>rabas<s n="adj"/></l><r>offen<s n="adj"/></r></p></e>
     <e><p><l>ráhkis<s n="adj"/></l><r>geliebt<s n="adj"/></r></p></e>
@@ -788,6 +791,7 @@
     <e><p><l>sosiála<s n="adj"/></l><r>sozial<s n="adj"/></r></p></e>
     <e><p><l>stuoris<s n="adj"/></l><r>groß<s n="adj"/></r></p></e>
     <e><p><l>suohtas<s n="adj"/></l><r>glücklich<s n="adj"/></r></p></e>
+    <e><p><l>suopmelaš-ugralaš<s n="adj"/></l><r>finno-ugrisch<s n="adj"/></r></p></e>
     <e><p><l>uhcci<s n="adj"/></l><r>klein<s n="adj"/></r></p></e>
     <e><p><l>unni<s n="adj"/></l><r>jung<s n="adj"/></r></p></e>
     <e><p><l>unohas<s n="adj"/></l><r>unangenehm<s n="adj"/></r></p></e>
@@ -1064,6 +1068,8 @@
     <e><p><l>dáhpi<s n="n"/></l><r>Brauch<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>dáhttu<s n="n"/></l><r>Wille<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>dáidda<s n="n"/></l><r>Kunst<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dáiddar<s n="n"/></l><r>Künstler<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>dáiddárstipeanda<s n="n"/></l><r>Künstlerstipendium<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>dáigi<s n="n"/></l><r>Teig<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>dákti<s n="n"/></l><r>Knochen<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>dálki<s n="n"/></l><r>Wetter<s n="n"/><s n="nt"/></r></p></e>
@@ -1359,7 +1365,9 @@
     <e><p><l>kino<s n="n"/></l><r>Kino<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>konfirmašuvdna<s n="n"/></l><r>Konfirmation<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>konsearta<s n="n"/></l><r>Konzert<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>konsultašuvdnašiehtadusa<s n="n"/></l><r>Konsultierungsabmachung<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kontu<s n="n"/></l><r>Konto<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>kulturfoanda<s n="n"/></l><r>Kulturfond<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kulturmuitu<s n="n"/></l><r>Kulturdenkmal<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kultuvra<s n="n"/></l><r>Kultur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kursa<s n="n"/></l><r>Kurs<s n="n"/><s n="m"/></r></p></e>
@@ -1369,10 +1377,12 @@
     <e><p><l>ládju<s n="n"/></l><r>Heuarbeit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>láhka<s n="n"/></l><r>Gesetz<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>láhtti<s n="n"/></l><r>Boden<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lahttu<s n="n"/></l><r>Mitglied<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>láibbohat<s n="n"/></l><r>Bäckerei<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>láibevajahas<s n="n"/></l><r>Brotscheibe<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>láibi<s n="n"/></l><r>Brot<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>láigi<s n="n"/></l><r>Garn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lágideaddji<s n="n"/></l><r>Veranstalter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lákcagáhkku<s n="n"/></l><r>Sahnetorte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>láseráigi<s n="n"/></l><r>Fenster<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>láse<s n="n"/></l><r>Fenster<s n="n"/><s n="nt"/></r></p></e>
@@ -1388,26 +1398,28 @@
     <e><p><l>leaska<s n="n"/></l><r>Witwe<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>lestadiánalaš<s n="n"/></l><r>Lästadier<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lihkkoihsvuohta<s n="n"/></l><r>Unfall<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>lihkkolohku<s n="n"/></l><r>Glückszahl<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lihkkolohku<s n="n"/></l><r>Glückszahl<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>lihkohisvuohta<s n="n"/></l><r>Unfall<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lihkohisvuohta<s n="n"/></l><r>Unfall<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lihtti<s n="n"/></l><r>Behälter<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>liidna<s n="n"/></l><r>Angelschnur<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>liidni<s n="n"/></l><r>Textil<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>liidna<s n="n"/></l><r>Angelschnur<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>liidni<s n="n"/></l><r>Textil<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>linnjá<s n="n"/></l><r>Fachrichtung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>lođá<s n="n"/></l><r>Box<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>loddi<s n="n"/></l><r>Vogel<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>lohkan<s n="n"/></l><r>Lesen<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>lohka<s n="n"/></l><r>Lesen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lohkan<s n="n"/></l><r>Lesen<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>lohka<s n="n"/></l><r>Lesen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lohkka<s n="n"/></l><r>Schloss<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lohku<s n="n"/></l><r>Zahl<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>lohpi<s n="n"/></l><r>Erlaubnis<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lohpi<s n="n"/></l><r>Erlaubnis<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>luksushotealla<s n="n"/></l><r>Luxushotel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lunta<s n="n"/></l><r>Junge<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lullisápmelaš<s n="n"/></l><r>Südsaame<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>luodda<s n="n"/></l><r>Straße<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>luohkká<s n="n"/></l><r>Klasse<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>luoikkas<s n="n"/></l><r>Leihgabe<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>luomi<s n="n"/></l><r>Moltebeere<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>luondu<s n="n"/></l><r>Umwelt<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>luondu<s n="n"/></l><r>Umwelt<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>luopmu<s n="n"/></l><r>Urlaub<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>luossa<s n="n"/></l><r>Lachs<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lyrihkka<s n="n"/></l><r>Liedtext<s n="n"/><s n="m"/></r></p></e>
@@ -1419,7 +1431,7 @@
     <e><p><l>máhttu<s n="n"/></l><r>Fähigkeit<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>máhtu<s n="n"/></l><r>Wurm<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>máilbmi<s n="n"/></l><r>Welt<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>máilmmicupgilvu<s n="n"/></l><r>WM-cup<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>máilmmicupgilvu<s n="n"/></l><r>Weltmeisterschaft<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>máilmmicup<s n="n"/></l><r>Weltmeisterschaft<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>máilmmimeašttir<s n="n"/></l><r>Weltmeister<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>máilmmisoahti<s n="n"/></l><r>Weltkrieg<s n="n"/><s n="m"/></r></p></e>
@@ -1520,7 +1532,8 @@
     <e><p><l>njálggis<s n="n"/></l><r>Süßigkeit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>njiŋŋelasheasta<s n="n"/></l><r c="female">Stute<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>njoammil<s n="n"/></l><r>Hase<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>njukčamánnu<s n="n"/></l><r>Mars<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>njukčamánnu<s n="n"/></l><r>März<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>njunušolmmoš<s n="n"/></l><r>Hauptperson<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>njuolggadus<s n="n"/></l><r>Regel<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>novealla<s n="n"/></l><r>Roman<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>nuorra<s n="n"/></l><r>Jugend<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1584,7 +1597,7 @@
     <e><p><l>prošeakta<s n="n"/></l><r>Projekt<s n="n"/><s n="n"/></r></p></e>
     <e><p><l>proseanta<s n="n"/></l><r>Prozent<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>proseassa<s n="n"/></l><r>Prozess<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>ráđđehus<s n="n"/></l><r>Rathaus<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>ráđđehus<s n="n"/></l><r>Regierung<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>raddeleahppi<s n="n"/></l><r>Brustlatz<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ráđđi<s n="n"/></l><r>Rat<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rádio<s n="n"/></l><r>Radio<s n="n"/><s n="nt"/></r></p></e>
@@ -1631,8 +1644,8 @@
     <e><p><l>ruvdnu<s n="n"/></l><r>Krone<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sabet<s n="n"/></l><r>Ski<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>šaddan<s n="n"/></l><r>Wachstum<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>sadji<s n="n"/></l><r>Standort<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>sadji<s n="n"/></l><r>Standort<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sadji<s n="n"/></l><r>Ort<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sadji<s n="n"/></l><r>Ort<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ságat<s n="n"/></l><r>Neuheit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sahájáffu<s n="n"/></l><r>Sägemehl<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>sáhka<s n="n"/></l><r>Mitteilung<s n="n"/><s n="f"/></r></p></e>
@@ -1641,7 +1654,9 @@
     <e><p><l>sákta<s n="n"/></l><r>Saft<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sáltemárfi<s n="n"/></l><r>Salami<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sámediggi<s n="n"/></l><r>Saamenparlament<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>sámegiella<s n="n"/></l><r>Saamisch<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>sámegiella<s n="n"/></l><r>Saamisch<s n="n"/><s n="nt"/></r></p></e>    
+    <e><p><l>sámekonferánsa<s n="n"/></l><r>Saamenkonferenz<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>sámeleavga<s n="n"/></l><r>Saamenflagge<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>sámemusea<s n="n"/></l><r>Saamenmuseum<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>sámenieida<s n="n"/></l><r>Saamin<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sápmelaš<s n="n"/></l><r>Saamisch<s n="n"/><s n="m"/></r></p></e>
@@ -1751,13 +1766,15 @@
     <e><p><l>váivi<s n="n"/></l><r>Ursache<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>váldi<s n="n"/></l><r>Vollmacht<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>váldodoaimmaheaddji<s n="n"/></l><r>Hauptredakteur<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>válljen<s n="n"/></l><r>Wahl<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>váldolágideaddji<s n="n"/></l><r>Haupteranstalter<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>válljen<s n="n"/></l><r>Wahl<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vanca<s n="n"/></l><r>Boot<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>váranjahki<s n="n"/></l><r>Himbeerjahr<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>váran<s n="n"/></l><r>Himbeere<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>varisheasta<s n="n"/></l><r c="male">Hengst<s n="m"/><s n="nt"/></r></p></e>
     <e><p><l>varradeaddu<s n="n"/></l><r>Blutdruck<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>varra<s n="n"/></l><r>Blut<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>várrelahttu<s n="n"/></l><r>Ersatzmitglied<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>várri<s n="n"/></l><r>Berg<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vársá<s n="n"/></l><r>Fohlen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vásáhus<s n="n"/></l><r>Erfahrung<s n="n"/><s n="f"/></r></p></e>
@@ -1970,6 +1987,7 @@
     <e><p><l>deavččastit<s n="vblex"/></l><r>plätten<s n="vblex"/></r></p></e>
     <e><p><l>dieđihit<s n="vblex"/></l><r>mitteilen<s n="vblex"/></r></p></e>
     <e><p><l>diehtit<s n="vblex"/></l><r>wissen<s n="vblex"/></r></p></e>
+    <e><p><l>digaštallat<s n="vblex"/></l><r>streiten<s n="vblex"/></r></p></e>
     <e><p><l>dihkkádit<s n="vblex"/></l><r>ausschildern<s n="vblex"/></r></p></e>
     <e><p><l>dikšut<s n="vblex"/></l><r>pflegen<s n="vblex"/></r></p></e>
     <e><p><l>dinet<s n="vblex"/></l><r>verdienen<s n="vblex"/></r></p></e>
@@ -2007,10 +2025,13 @@
     <e><p><l>fággádallat<s n="vblex"/></l><r>ringen<s n="vblex"/></r></p></e>
     <e><p><l>fállat<s n="vblex"/></l><r>anbieten<s n="vblex"/></r></p></e>
     <e><p><l>fárret<s n="vblex"/></l><r>umziehen<s n="vblex"/></r></p></e>
+    <e><p><l>fátmmastit<s n="vblex"/></l><r>umarmen<s n="vblex"/></r></p></e>
     <e><p><l>fillehallat<s n="vblex"/></l><r>bezaubern<s n="vblex"/></r></p></e>
     <e><p><l>fillet<s n="vblex"/></l><r>narren<s n="vblex"/></r></p></e>
     <e><p><l>fitnat<s n="vblex"/></l><r>besuchen<s n="vblex"/></r></p></e>
     <e><p><l>fuobmát<s n="vblex"/></l><r>bemerken<s n="vblex"/></r></p></e>
+    <e><p><l>fuomášit<s n="vblex"/></l><r>bemerken<s n="vblex"/></r></p></e>
+    <e><p><l>fuomášahttit<s n="vblex"/></l><r>aufmerksam<b/>machen<s n="vblex"/></r></p></e>
     <e><p><l>fuolahit<s n="vblex"/></l><r>sorgen<s n="vblex"/></r></p></e>
     <e><p><l>gahččat<s n="vblex"/></l><r>fallen<s n="vblex"/></r></p></e>
     <e><p><l>gáhttet<s n="vblex"/></l><r>beachten<s n="vblex"/></r></p></e>
@@ -2085,6 +2106,7 @@
     <e><p><l>humadit<s n="vblex"/></l><r>reden<s n="vblex"/></r></p></e>
     <e><p><l>hupmat<s n="vblex"/></l><r>sprechen<s n="vblex"/></r></p></e>
     <e><p><l>iktit<s n="vblex"/></l><r>offenbaren<s n="vblex"/></r></p></e>
+    <e><p><l>illudit<s n="vblex"/></l><r>sich<b/>freuen<s n="vblex"/></r></p></e>
     <e><p><l>ipmirdit<s n="vblex"/></l><r>verstanden<s n="vblex"/></r></p></e>
     <e><p><l>iskat<s n="vblex"/></l><r>forschen<s n="vblex"/></r></p></e>
     <e><p><l>jáhkkit<s n="vblex"/></l><r>glauben<s n="vblex"/></r></p></e>
@@ -2250,8 +2272,8 @@
     <e><p><l>váivvidit<s n="vblex"/></l><r>stören<s n="vblex"/></r></p></e>
     <e><p><l>válddestit<s n="vblex"/></l><r>trinken<s n="vblex"/></r></p></e>
     <e><p><l>váldit<s n="vblex"/></l><r>nehmen<s n="vblex"/></r></p></e>
-    <e><p><l>válljet<s n="vblex"/></l><r>wahlen<s n="vblex"/></r></p></e>
-    <e><p><l>váruhit<s n="vblex"/></l><r>sich<b/>passen<s n="vblex"/></r></p></e>
+    <e><p><l>válljet<s n="vblex"/></l><r>wählen<s n="vblex"/></r></p></e>
+    <e><p><l>váruhit<s n="vblex"/></l><r>aufpassen<s n="vblex"/></r></p></e>
     <e><p><l>vásihit<s n="vblex"/></l><r>erfahren<s n="vblex"/></r></p></e>
     <e><p><l>vástidit<s n="vblex"/></l><r>antworten<s n="vblex"/></r></p></e>
     <e><p><l>vázzilit<s n="vblex"/></l><r>spazieren<s n="vblex"/></r></p></e>
