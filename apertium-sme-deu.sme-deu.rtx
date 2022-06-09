@@ -9,12 +9,13 @@ det_type = def ind dem itg pos qnt ;
 tense = pres fut pret pii imp ;
 person = p1 p2 p3 ;
 npclass = ant org al top geo;
-prntype = pers ind qnt itg dem;
+prntype = pers ind qnt itg dem pos;
 sep = sep ;
 fs = fs ;
 advtype = itg ;
 inf = inf actio ;
 pcp = pp pprs prfprc ;
+finity = (FIN fin) inf actio pp prs pprs prfprc fin ;
 conneg = conneg ;
 def = ind def ;
 adj_type = sint pred attr ;
@@ -31,13 +32,16 @@ depfunc = "@←SPRED" "@←OPRED" "@←N" "@HNOUN" ;
 n: _.gender.number.case;
 np: _.npclass.gender.number.case;
 adj: _.gender.number;
-vblex: _.sep.inf.pcp.fs.tense.person.number;
+vblex_fin: _.sep.fs.tense.person.number;
+vblex_inf: _.sep.inf;
+vblex_pp: _.sep.pcp;
 vbser: _.tense.person.number;
 vbmod: _.tense.person.number;
 cnjcoo: _;
 cnjsub: _;
 prn: _.prntype.person.gender.number.case;
 det: _.det_type.person.gender.number.case;
+det_pos: _.det_type.gender.number.case;
 adv: _.advtype;
 post: _;
 pr: _;
@@ -147,16 +151,29 @@ pro_undrop: (if (1.number = sg)
                  elif (1.person = p3) [sie@prn.pers.p3.mf.pl.nom _ beide@det.ind.mfn.pl.nom _]
                  else [$$expletive _])
              else [$$expletive _]) ;
+maybe_nicht: (if (1.negativity = neg) [nicht@adv _]
+              else []) ; 
+!! split pos generation fucntions
 adj: (if (1.depfunc = "@←SPRED") 1(adj_pred)[adj_type=pred]
       elif (1.depfunc = "@←OPRED") 1(adj_pred)[adj_type=pred]
       else 1(adj_agr)
      ) ;
-
+vblex: (if (1.finity = inf) 1(vblex_inf)
+        elif (1.finity = actio) 1(vblex_inf)[inf=inf]  ! probably not ideal
+        elif (1.pcp = pp) 1(vblex_pp)
+        elif (1.pcp = prfprc) 1(vblex_pp)  ! probably not ideal
+        elif (1.pcp = pprs) 1(vblex_pp)
+        else 1(vblex_fin) ) ;
 
 !!!!!!!!!!!!!!!
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
-S -> ADV VP NP { 2 _ 1 _
+S -> C PRN.loc leat@vblex NP { 1 _ 2 _ 
+            *(maybe_adp)[case=4.case]
+            *(maybe_art)[number=4.number,case=4.case,gender=4.gender,def=ind,negativity=3.negativity]
+            4 _ 
+            haben@vbhaver.pri.[2.person].[2.number] } |
+    ADV VP NP { 2 _ 1 _
         *(maybe_adp)[case=3.case]
         *(maybe_art)[number=3.number,case=3.case,gender=3.gender,def=ind,negativity=2.negativity]
         3 } |
@@ -166,8 +183,9 @@ S -> ADV VP NP { 2 _ 1 _
         2 } |
      VP DP { 1 _ 
         *(maybe_adp)[case=2.case]
+        *(maybe_nicht)[negativity=1.negativity]
         2 } |
-     VP { 1 } |  ! stray VP
+     VP { 1 _ *(maybe_nicht)[negativity=1.negativity] } |  ! stray VP
      NP {
         *(maybe_adp)[case=1.case]
         *(maybe_art)[number=1.number,case=1.case,gender=1.gender,def=def,negativity=aff]
@@ -245,16 +263,19 @@ PP -> NUMP post { 2 _ 1 } |
       prn.pers.*.gen.* mielas@post { 1 _ Meinung@n.f.sg.nom _ nach@pr.dat } |
       PRN post { 2 _ 1 } |
       NP post { 2 _ 1 } ;
-NUMP -> %num A n { 1[number=(if (1.lem/sl = "okta") sg else pl),
-                     gender=3.gender] _
-                 %2[number=(if (1.lem/sl = "okta") sg else pl),
-                   case=1.case] _
-                 %3[number=(if (1.lem/sl = "okta") sg else pl),
-                   case=1.case] } |
-        %num n { 1[number=(if (1.lem/sl = "okta") sg else pl),
-                   gender=2.gender] _
-                 %2[number=(if (1.lem/sl = "okta") sg else pl),
-                   case=1.case] }         ;
+NUMP -> ! if number is one: use indefinite article instead and singulars:
+        %num A n ?(1.lem/sl = "okta") { 
+            eine@det.ind.[3.gender].[3.number].[3.case] _
+                 %2[number=sg,case=1.case] _
+                 %3[number=sg,case=1.case] } |
+        %num A n { 1[number=pl,gender=3.gender] _
+                 %2[number=pl,case=1.case] _
+                 %3[number=pl,case=1.case] } |
+        %num n ?(1.lem/sl = "okta") { 
+            eine@det.ind.[2.gender].[2.number].[2.case] _
+            %2[number=sg,case=1.case] } | 
+        %num n { 1[number=pl,gender=2.gender] _
+                 %2[number=pl,case=1.case] } ;
 NP -> A %N ADV { 1[gender=2.gender,
                    number=2.number,case=2.case] _ %2 _ 3 } |
       A %N { 1[gender=2.gender,
@@ -295,10 +316,10 @@ N ->
 PROPN -> %np.* {%1} ;
 C -> cnjcoo {1} |
      cnjsub {1} ;
-DET -> %prn.pers.*.gen."@→N" { %1 } |  ! Obs: list from sme-nob
-       %prn.pers.*.gen."@→A" { %1 } |
-       %prn.pers.*.gen.*."@→N" { %1 } |
-       %prn.pers.*.gen.*."@→A" { %1 } |
+DET -> %prn.pers.*.gen."@→N" { %1(det_pos) } |  ! Obs: list from sme-nob
+       %prn.pers.*.gen."@→A" { %1(det_pos) } |
+       %prn.pers.*.gen.*."@→N" { %1(det_pos) } |
+       %prn.pers.*.gen.*."@→A" { %1(det_pos) } |
        %prn.ref.gen.*."@→N" { %1 } |
        %prn.ref.gen.*."@→A" { %1 } |
        %prn.ref.gen."@→N" { %1 } |
