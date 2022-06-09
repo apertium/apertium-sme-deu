@@ -46,11 +46,12 @@
     <sdef n="p3"      c="person 3"/>
     <sdef n="sep"     c="separable"/>
     <sdef n="itg"     c="interrogative"/>
-    <sdef n="subqst"     c="interrogative"/>
+    <sdef n="subqst"  c="interrogative"/>
     <sdef n="dem"     c="demonstrative"/>
     <sdef n="rel"     c="relative"/>
     <sdef n="ind"     c="indefinite"/>
     <sdef n="qnt"     c="quantor"/>
+    <sdef n="pasv"    c="passive"/>
 
     <sdef n="nom"     c="nominative"/>
     <sdef n="gen"     c="genitive"/>
@@ -58,13 +59,25 @@
     <sdef n="ito"     c="infinitiv marker"/>
 
     <sdef n="foc_bat"               c="Focus enclitic conversion bug"/>
-    <sdef n="ex_np"                 c="Proper Noun conversion bug"/>
-    <sdef n="ex_adj"                c="adj conversion bug"/>
+    <sdef n="ex_np"                 c="Proper Noun deriv stuff"/>
+    <sdef n="ex_adj"                c="adj deriv stuff"/>
+    <sdef n="ex_vblex"              c="verb deriv stuff"/>
+    <sdef n="ex_tv"                 c="verb deriv stuff"/>
+    <sdef n="ex_iv"                 c="verb deriv stuff"/>
+    <sdef n="der_passl"             c="passive l"/>
     <sdef n="sem_org_prod-vis"      c="Semantics conversion bug"/>
 
     <sdef n="GD"      c="undefined gender"/>
 
   </sdefs>
+  <pardefs>
+
+    <pardef n="vblex">
+      <e><i><s n="vblex"/></i></e>
+      <e><p><l><s n="ex_vblex"/><s n="ex_tv"/><s n="der_passl"/><s n="vblex"/></l>
+            <r><s n="vblex"/><s n="pasv"/></r></p></e>
+    </pardef>
+  </pardefs>
   <section id="main" type="standard">
 
     <!-- problematic stuff -->
@@ -2049,7 +2062,7 @@
     <e><p><l>doaivat<s n="vblex"/></l><r>treffen<s n="vblex"/></r></p></e>
     <e><p><l>doaivut<s n="vblex"/></l><r>wünschen<s n="vblex"/></r></p></e>
     <e><p><l>doalahit<s n="vblex"/></l><r>wiedersetzen<s n="vblex"/></r></p></e>
-    <e><p><l>doallat<s n="vblex"/></l><r>halten<s n="vblex"/></r></p></e>
+    <e><p><l>doallat</l><r>halten</r></p><par n="vblex"/></e>
     <e><p><l>doalvut<s n="vblex"/></l><r>nehmen<s n="vblex"/></r></p></e>
     <e><p><l>doarjut<s n="vblex"/></l><r>stützen<s n="vblex"/></r></p></e>
     <e><p><l>doarrut<s n="vblex"/></l><r>kampfen<s n="vblex"/></r></p></e>
