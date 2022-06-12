@@ -345,6 +345,8 @@ PRN -> %prn { 1[case=(if (1.case = loc) nom
 ADV -> adv {1} |
        ! idiomatics
        dáidit@vblex { vielleicht@adv } |
+       davvin@adv { in@pr.dat Nord@n.m.pl.dat } |
+       lulde@adv { in@pr.dat Süd@n.m.pl.dat } |
        pcle {1} ;
 ADP -> post {1} |
        pr {1} ;
