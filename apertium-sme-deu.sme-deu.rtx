@@ -21,6 +21,7 @@ def = ind def ;
 adj_type = sint pred attr ;
 negativity = (NEG aff) neg aff ;
 comparison = comp sup ;
+poss = px1sg px2sg px3sg px1du px2du px3du px1pl px2pl px3pl px3sp ;
 ! Giella specifics
 sem = (SEM sem_dummy) sem_time sem_plc sem_hum sem_ani sem_dummy ;
 depfunc = "@←SPRED" "@←OPRED" "@←N" "@HNOUN" ;
@@ -136,6 +137,13 @@ maybe_adp: (if (1.case = loc) [in@pr.dat _]
             elif (1.case = ess) [wie@pr.nom _]  !! als?
             elif (1.case = dat) [zu@pr.dat _]
             else []) ;
+maybe_possessive: (if (1.poss = px1sg) [mein@det.pos.m.sg.[1.case] _]
+                   elif (1.poss = px2sg) [dein@det.pos.m.sg.[1.case] _]
+                   elif (1.poss = px3sg) [sein@det.pos.m.sg.[1.case] _]
+                   elif (1.poss = px1du) [dein@det.pos.m.sg.[1.case] _]
+                   elif (1.poss = px2du) [dein@det.pos.m.sg.[1.case] _]
+                   elif (1.poss = px3du) [ihr@det.pos.m.sg.[1.case] _]
+                   else []) ;
 pro_undrop: (if (1.number = sg)
                 (if (1.person = p1) [ich@prn.pers.p1.mf.sg.nom _]
                  elif (1.person = p2) [du@prn.pers.p2.mf.sg.nom _]
@@ -291,6 +299,9 @@ NP -> A %N ADV { 1[gender=2.gender,
 DP -> DET %N { 1[gender=(if (2.number = pl) mfn else 2.gender),
                  number=2.number,
                  case=(if (2.case = loc) nom else 2.case)] _ 2 } |
+      n.*.[poss].* { 
+        *(maybe_possessive)[poss=1.poss,case=1.case]
+        1 } |
       ! idiomatic 1:n translations
       ollu@adj %N { viel@adj.sint.attr _ 2 } | 
       veahkki@n { zu@pr.dat _ Hilfe@n.f.sg.dat } |
