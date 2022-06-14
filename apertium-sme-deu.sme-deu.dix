@@ -423,7 +423,8 @@
     <e><p><l>dalle<s n="adv"/></l><r>dann<s n="adv"/></r></p></e>
     <e><p><l>dal<s n="adv"/></l><r>dann<s n="adv"/></r></p></e>
     <e><p><l>dál<s n="adv"/></l><r>jetzt<s n="adv"/></r></p></e>
-    <e><p><l>dálvit<s n="adv"/></l><r>am<b/>Winter<s n="adv"/></r></p></e>
+    <e><p><l>dálvit<s n="adv"/></l><r>im<b/>Winter<s n="adv"/></r></p></e>
+    <e><p><l>dálvet<s n="adv"/></l><r>im<b/>Winter<s n="adv"/></r></p></e>
     <e><p><l>dan<b/>dihte<s n="adv"/></l><r>deshalb<s n="adv"/></r></p></e>
     <e><p><l>danin<s n="adv"/></l><r>deshalb<s n="adv"/></r></p></e>
     <e><p><l>danne<s n="adv"/></l><r>deshalb<s n="adv"/></r></p></e>
@@ -2333,16 +2334,16 @@
     <e><p><l>čierastit</l><r>hinuntergehen</r></p><par n="vblex"/></e>
     <e><p><l>čievččastit</l><r>weitergeben</r></p><par n="vblex"/></e>
     <e><p><l>čilget</l><r>erklaren</r></p><par n="vblex"/></e>
-    <e><p><l>čiŋadit</l><r>anziehen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>čiŋadit</l><r>sich<b/>schmücken><s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>čoagganit</l><r>sammeln</r></p><par n="vblex"/></e>
-    <e><p><l>čoaggit</l><r>pflucken</r></p><par n="vblex"/></e>
+    <e><p><l>čoaggit</l><r>pflücken</r></p><par n="vblex"/></e>
     <e><p><l>čoagit</l><r>pflücken</r></p><par n="vblex"/></e>
     <e><p><l>čoahkkanit</l><r>sammeln</r></p><par n="vblex"/></e>
     <e><p><l>čoallut</l><r>ausweiden</r></p><par n="vblex"/></e>
     <e><p><l>čoavdit</l><r>freigeben</r></p><par n="vblex"/></e>
     <e><p><l>coggalit</l><r>stellen</r></p><par n="vblex"/></e>
     <e><p><l>coggat</l><r>stellen</r></p><par n="vblex"/></e>
-    <e><p><l>čohkánit</l><r>setzen</r></p><par n="vblex"/></e>
+    <e><p><l>čohkánit</l><r>sich<b/>setzen</r></p><par n="vblex"/></e>
     <e><p><l>čohkkát</l><r>sitzen</r></p><par n="vblex"/></e>
     <e><p><l>čohkket</l><r>einstellen</r></p><par n="vblex"/></e>
     <e><p><l>čorget</l><r>aufräumen</r></p><par n="vblex"/></e>
@@ -2365,7 +2366,7 @@
     <e><p><l>dárbbahit</l><r>brauchen</r></p><par n="vblex"/></e>
     <e><p><l>dárbbašit</l><r>brauchen</r></p><par n="vblex"/></e>
     <e><p><l>darvehit</l><r>fangen</r></p><par n="vblex"/></e>
-    <e><p><l>deaddit</l><r>wiegen</r></p><par n="vblex"/></e>
+    <e><p><l>deaddit</l><r>wiegen</r></p><pafxr n="vblex"/></e>
     <e><p><l>deaivat</l><r>antreffen</r></p><par n="vblex"/></e>
     <e><p><l>deaivvadit</l><r>treffen</r></p><par n="vblex"/></e>
     <e><p><l>dearpat</l><r>schlagen</r></p><par n="vblex"/></e>
@@ -2613,7 +2614,7 @@
     <e><p><l>rahčat</l><r>schuften</r></p><par n="vblex"/></e>
     <e><p><l>ráhkadit</l><r>machen</r></p><par n="vblex"/></e>
     <e><p><l>ráhkistit</l><r>lieben</r></p><par n="vblex"/></e>
-    <e><p><l>rahpasit</l><r>öffnen</r></p><par n="vblex"/></e>
+    <e><p><l>rahpasit</l><r>sich<b/>öffnen</r></p><par n="vblex"/></e>
     <e><p><l>rahpat</l><r>öffnen</r></p><par n="vblex"/></e>
     <e><p><l>rávkat</l><r>anfragen</r></p><par n="vblex"/></e>
     <e><p><l>rávvet</l><r>empfehlen</r></p><par n="vblex"/></e>
