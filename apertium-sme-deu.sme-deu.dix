@@ -1334,7 +1334,7 @@
     <e><p><l>girjerádju<s n="n"/></l><r>Bibliotek<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>girji<s n="n"/></l><r>Buch<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>girjjálašvuođabálkkašupmi<s n="n"/></l><r>Litteraturpreis<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>girjjálašvuohta<s n="n"/></l><r>Literatur<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>girjjálašvuohta<s n="n"/></l><r>Literatur<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>girkostallanmeassut<s n="n"/></l><r>Gottesdienst<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>girku<s n="n"/></l><r>Kirche<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>goansta<s n="n"/></l><r>Weise<s n="n"/><s n="m"/></r></p></e>
@@ -1343,18 +1343,18 @@
     <e><p><l>goaski<s n="n"/></l><r>Tante<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gohppu<s n="n"/></l><r>Becher<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>golggotmánnu<s n="n"/></l><r>Oktober<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>golleboagán<s n="n"/></l><r>Geldbelte<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>golleboagán<s n="n"/></l><r>Goldgürtel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>golli<s n="n"/></l><r>Gold<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>golmmas<s n="n"/></l><r>Dreier<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gonagas<s n="n"/></l><r>König<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>govvadáiddár<s n="n"/></l><r>Kunstmaler<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>govva<s n="n"/></l><r>Lichtbild<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>govva<s n="n"/></l><r>Bild<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>govven<s n="n"/></l><r>Fotografie<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>guhkká<s n="n"/></l><r>Blume<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>guksi<s n="n"/></l><r>Kuksa<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gulahallan<s n="n"/></l><r>Kommunikation<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gullan<s n="n"/></l><r>Hören<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>gullevašvuohta<s n="n"/></l><r>Zusammengehörigheit<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gullevašvuohta<s n="n"/></l><r>Zusammengehörigheit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gulli<s n="n"/></l><r>Guld<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gullugovva<s n="n"/></l><r>Hörspiel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gumpe<s n="n"/></l><r>Wolf<s n="n"/><s n="m"/></r></p></e>
@@ -1363,9 +1363,9 @@
     <e><p><l>guollebivdu<s n="n"/></l><r>Fischerei<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>guolli<s n="n"/></l><r>Fisch<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>guovddáš<s n="n"/></l><r>Zentrum<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>guovlu<s n="n"/></l><r>Gebiet<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>guovlu<s n="n"/></l><r>Bereich<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>guovlu<s n="n"/></l><r>Bereich<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>guovttis<s n="n"/></l><r>Paar<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>guovttis<s n="n"/></l><r>Paar<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>guovttos<s n="n"/></l><r>Paar<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>guovvamánnu<s n="n"/></l><r>Februar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>guovža<s n="n"/></l><r>Bär<s n="n"/><s n="m"/></r></p></e>
@@ -2195,6 +2195,44 @@
     <e><p><l>mánáidodju<s n="n"/></l><r>Kindergeld<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>mánnu<s n="n"/></l><r>Monat<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ruoktosiidu<s n="n"/></l><r>Homepage<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nuortalaš<s n="n"/></l><r>Skoltsaame<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>fuolahus<s n="n"/></l><r>Besorgnis<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>skovvi<s n="n"/></l><r>Schema<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>ođasmahttin<s n="n"/></l><r>Update<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>guolásteaddji<s n="n"/></l><r>Fischer<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sámeláhka<s n="n"/></l><r>Saamengesetz<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>suolu<s n="n"/></l><r>Insel<s n="n"/><s n="ft"/></r></p></e>
+    <e><p><l>speallu<s n="n"/></l><r>Spiel<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>minerála<s n="n"/></l><r>Mineral<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>leavga<s n="n"/></l><r>Flagge<s n="n"/><s n="d"/></r></p></e>
+    <e><p><l>tlf<s n="n"/></l><r>tlf<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sohkabealli<s n="n"/></l><r>Geschlecht<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>kulturárbi<s n="n"/></l><r>Kulturerbe<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>bággu<s n="n"/></l><r>Zwang<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>regiovdna<s n="n"/></l><r>Region<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pasieanta<s n="n"/></l><r>Patient<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nuoraidskuvla<s n="n"/></l><r>Grundschule<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>boađđu<s n="n"/></l><r>boađđu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>váikkuhangaskaoapmi<s n="n"/></l><r>Instrument<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>boazodoalloláhka<s n="n"/></l><r>Rentierhaltungsgesetz<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>ođastus<s n="n"/></l><r>Erneuerung<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>suopma<s n="n"/></l><r>finnisch<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ovdaolmmoš<s n="n"/></l><r>Anführer<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mannanvahkku<s n="n"/></l><r>letzte<b/>Woche<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sáhkavuorru<s n="n"/></l><r>Beitrag<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>heagga<s n="n"/></l><r>Körper<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>olgu<s n="n"/></l><r>Freiluft<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>oassálastin<s n="n"/></l><r>Teilnahme<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lávki<s n="n"/></l><r>Schritt<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>struktuvra<s n="n"/></l><r>Struktur<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>máhtolašvuohta<s n="n"/></l><r>Kompetenz<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gaskkusteapmi<s n="n"/></l><r>Vermittlung<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>veahka<s n="n"/></l><r>Dünger<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>álggaheapmi<s n="n"/></l><r>Anfang<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>olju<s n="n"/></l><r>Öl<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>lullisámegiella<s n="n"/></l><r>Südsaamisch<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>árbediehtu<s n="n"/></l><r>Traditionswissen<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>sámevuohta<s n="n"/></l><r>Saamischsein<s n="n"/><s n="nt"/></r></p></e>
 
     <e c="?"><p><l>nieidda<b/>guovttis<s n="n"/></l><r>nieidda<b/>guovttis<s n="n"/><s n="m"/></r></p></e>
     <e c="?"><p><l>ándde<b/>guovttos<s n="n"/></l><r>ándde<b/>guovttos<s n="n"/><s n="m"/></r></p></e>
