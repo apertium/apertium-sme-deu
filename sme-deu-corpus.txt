@@ -991,9 +991,9 @@ Nuorat ođđe buvrriin geasset, muhtumin dálvet maid.
 Gákti muitala iežáide ahte gávttehas lea sápmelaš, ja sápmelaččaide fas man guovllus son boahtá.
 Ovdal buorida son dálkkiidis go neavrres olmmoš dábiidis.
 Mun lean áhčistan ožžon vahkkoruđa.
-Eadni attii mánáidasas girjji.
-Nieida manai oktan beatnagiinnis.
-Mun lean eatnistan ožžon veahki.
+Eadni attii mánáidasas girjji.	Die Mutter gab ihren Kindern das Buch.
+Nieida manai oktan beatnagiinnis.	Das Mädchen ging zusammen mit seinem Hung.
+Mun lean eatnistan ožžon veahki.	Ich habe von meiner Mutter Hilfe bekommen.
 Leahppi go fárrolaga ádjáineatte?
 Leat go oaidnán oappát?
 Muhto mun oidnen siessán.
@@ -1152,9 +1152,9 @@ Olmmái válddii njoammila gahpiristtis ja luittii dan láhttái.
 Sii árvaledje iežaineaset árabuš ruoktot vuolgit.
 Nieida bođii ráhkkásis mielde.
 Mun lean ráhkkásisttán ožžon cummá.
-Bárdni attii beatnagasas bierggu.
-Soai attiiga beatnagasaska bierggu.
-Eadni attii mánnásis girjji.
+Bárdni attii beatnagasas bierggu.	Der Junge gab seinem Hund Fleisch.
+Soai attiiga beatnagasaska bierggu.	Sie haben ihrem Hund Fleisch.
+Eadni attii mánnásis girjji.	Die Mutter gab ihrem Kind ein Buch.
 Bárdni attii beatnagiiddásis bierggu.
 Soai attiiga mánnáseaskka vahkkoruđa.
 Sii adde mánáidasaset vahkkoruđa.
@@ -1182,9 +1182,9 @@ Son doalvu gusaidis návehii.
 Son doalvu beatnagiiddis návehii.
 Mii fitnat vánhemiiddámet luhtte.
 Vuolgibehtet go vánhemiiddádet lusa dál?
-Leaba go mannan áhkuska lusa?
-Ledje go mannan áhkuset lusa?
-Leat go mannan áhkot lusa?
+Leaba go mannan áhkuska lusa?	Sind sie zu ihrer Oma gegangen?
+Ledje go mannan áhkuset lusa?	Sind sie zu ihrer Oma gegangen?
+Leat go mannan áhkot lusa?	Bist du zu deiner Oma gegangen?
 Eat muital suohttasiiddámet earáide.
 In muital suohttasiiddán earáide.
 Eaba muital suohttasiiddiska earáide.
@@ -1295,7 +1295,7 @@ In mun gal dieđe sáhtežit go vuolgit dál.
 In mun gal dieđe sáhtežan go vuolgit dál.
 In mun gal dieđe sáhtežetne go vuolgit dál.
 Bođežehpet go dii nu fargga?
-Leažžá go eadnán gávppis dál?
+Leažžá go eadnán gávppis dál?	Ist meine Mutter jetzt etwa im Geschäft?
 Leažžá go Máhtes ođđa beana gal?
 Boraža go mánná mielas guoli?
 Boražit go mánát mielas guoli?
