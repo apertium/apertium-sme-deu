@@ -48,7 +48,7 @@ adv: _.advtype;
 post: _;
 pr: _;
 adj_agr: _.<sint>.comparison.gender.number.case.<st>;
-adj_pred: _.<sint>.adj_type;
+adj_pred: _.<sint>.comparison.adj_type;
 num: _.number;
 pcle: _;
 
@@ -152,7 +152,7 @@ pro_undrop: (if (1.number = sg)
              elif (1.number = pl)
                 (if (1.person = p1) [wir@prn.pers.p1.mf.pl.nom _]
                  elif (1.person = p2) [ihr@prn.pers.p2.mf.pl.nom _]
-                 elif (1.person = p3) [sie@prn.pers.p3.mf.pl.nom _]
+                 elif (1.person = p3) [] !! no undrop 3pl? [sie@prn.pers.p3.mf.pl.nom _]
                  else [$$expletive _])
              elif (1.number = du)
                 (if (1.person = p1) [wir@prn.pers.p1.mf.pl.nom _ beide@det.ind.mfn.pl.nom _]
@@ -249,6 +249,8 @@ VP -> NP.*.loc.sem_hum leat@vblex {
       DP V {
         *(maybe_adp)[case=1.case]
         1 _ 2 } |
+      PRN ii@vblex vblex vel@adv [$negativity=aff] { 1 _
+        3[person=2.person,number=2.number] _ 4 } |
       PRN ii@vblex vblex [$negativity=neg] { 1 _
         3[person=2.person,number=2.number] } |
       ii@vblex vblex [$negativity=neg] {
