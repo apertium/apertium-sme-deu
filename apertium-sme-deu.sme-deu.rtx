@@ -25,6 +25,7 @@ poss = px1sg px2sg px3sg px1du px2du px3du px1pl px2pl px3pl px3sp ;
 ! Giella specifics
 sem = (SEM sem_dummy) sem_time sem_plc sem_hum sem_ani sem_dummy ;
 depfunc = "@←SPRED" "@←OPRED" "@←N" "@HNOUN" ;
+strength = (STR sw) st sw mix ;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -47,7 +48,7 @@ det_pos: _.det_type.gender.number.case;
 adv: _.advtype;
 post: _;
 pr: _;
-adj_agr: _.<sint>.comparison.gender.number.case.<st>;
+adj_agr: _.<sint>.comparison.gender.number.case.strength;
 adj_pred: _.<sint>.comparison.adj_type;
 num: _.number;
 pcle: _;
