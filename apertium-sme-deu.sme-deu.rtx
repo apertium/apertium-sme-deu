@@ -62,7 +62,7 @@ PRN: _.case.number.person;
 DET: _.gender.case.number.person;
 ADV: _;
 ADP: _;
-A: _.comparison.gender.number.case ;
+A: _.comparison.gender.number.case.strength;
 NUM: _ ;
 VP: _.negativity ;
 NEG: _ ;
@@ -72,7 +72,7 @@ S: _ ;
 
 PP: _ ;
 NUMP: _.number.case ;
-NP: _.gender.number.case.sem;
+NP: _.gender.number.case.sem.strength; ! strength = def for adj
 DP: _.gender.number.case;
 
 
@@ -187,10 +187,10 @@ S -> C PRN.loc leat@vblex NP { 1 _ 2 _
         *(maybe_adp)[case=3.case]
         *(maybe_art)[number=3.number,case=3.case,gender=3.gender,def=ind,negativity=2.negativity]
         3 } |
-     VP NP { 1 _
+     %VP NP { 1 _
         *(maybe_adp)[case=2.case]
         *(maybe_art)[number=2.number,case=2.case,gender=2.gender,def=ind,negativity=1.negativity]
-        2 } |
+        %2[strength=mix] } |
      VP DP { 1 _ 
         *(maybe_adp)[case=2.case]
         *(maybe_nicht)[negativity=1.negativity]
@@ -237,7 +237,7 @@ VP -> NP.*.loc.sem_hum leat@vblex {
       NP V {
         *(maybe_adp)[case=1.case]
         *(maybe_art)[number=1.number, case=1.case, gender=1.gender,def=def,negativity=aff]
-        1 _ 2 } |
+        1[strength=sw] _ 2 } |
       PRN V {
         *(maybe_adp)[case=1.case]
         1 _ 2 } |
@@ -288,13 +288,13 @@ NUMP -> ! if number is one: use indefinite article instead and singulars:
             %2[number=sg,case=1.case] } | 
         %num n { 1[number=pl,gender=2.gender] _
                  %2[number=pl,case=1.case] } ;
-NP -> A %N ADV { 1[gender=2.gender,
+NP -> %A %N ADV { %1[gender=2.gender,
                    number=2.number,case=2.case] _ %2 _ 3 } |
-      A %N { 1[gender=2.gender,
+      %A %N { %1[gender=2.gender,
                  number=2.number,case=2.case] _ %2 } |
       %N ADV { %1 _ 2 } |
       N.*.gen N { %2 _ der@det.def.[1.gender].sg.gen _ 1 } |
-      N.*.gen A N { 2 _ %3 _
+      N.*.gen A N { 2[strength=sw] _ %3 _
                     der@det.def.[1.gender].sg.gen _ 1 } |
       ! idiomatic 1:n translations
       ! n
