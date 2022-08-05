@@ -1877,6 +1877,7 @@
     <e><p><l>bággu<s n="n"/></l><r>Zwang<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bahádahkki<s n="n"/></l><r>Teufel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bahágas<s n="n"/></l><r>Teufel<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bahta<s n="n"/></l><r>Po<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>báhčči<s n="n"/></l><r>Schütze<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>báhčin<s n="n"/></l><r>Schießen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>báhkki<s n="n"/></l><r>Auswuchs<s n="n"/><s n="m"/></r></p></e>
@@ -2376,6 +2377,7 @@
     <e><p><l>gaskavuohta<s n="n"/></l><r>Verhältnis<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>gaskkas<s n="n"/></l><r>Wacholder<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gaskkusteapmi<s n="n"/></l><r>Vermittlung<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gáđašvuohta<s n="n"/></l><r>Neid<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gássa<s n="n"/></l><r>Gas<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>gásta<s n="n"/></l><r>Taufe<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gávnnit<s n="n"/></l><r>Bettzeug<s n="n"/><s n="m"/></r></p></e>
@@ -2387,6 +2389,7 @@
     <e><p><l>gávppašeapmi<s n="n"/></l><r>Einkaufen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>gažaldat<s n="n"/></l><r>Frage<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gázzi<s n="n"/></l><r>Gruppe<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gazza<s n="n"/></l><r>Fingernagel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>geađgi<s n="n"/></l><r>Stein<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>geahččaleapmi<s n="n"/></l><r>Experiment<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>geahčči<s n="n"/></l><r>Ende<s n="n"/><s n="nt"/></r></p></e>
@@ -2911,14 +2914,14 @@
     <e><p><l>muorječoaggin<s n="n"/></l><r>Beerenpflücken<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>muorjemeastu<s n="n"/></l><r>Marmelade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>muorji<s n="n"/></l><r>Beere<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>muorragohppa<s n="n"/></l><r>Holztasse<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>muorragohppa<s n="n"/></l><r>Holztasse<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>muorra<s n="n"/></l><r>Baum<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>muortu<s n="n"/></l><r>Seelachs<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>muoŧŧa<s n="n"/></l><r>Tante<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>muoŧŧá<s n="n"/></l><r>Tante<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>murrejeaddji<s n="n"/></l><r>Holzschlager<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>musea<s n="n"/></l><r>Museum<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>musihkkačeahppi<s n="n"/></l><r>Expertmusiker<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>musihkkačeahppi<s n="n"/></l><r>Musiktalent<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>musihkkár<s n="n"/></l><r>Musiker<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>musihkka<s n="n"/></l><r>Musik<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>myhta<s n="n"/></l><r>Mythos<s n="n"/><s n="m"/></r></p></e>
@@ -2946,6 +2949,7 @@
     <e><p><l>niesti<s n="n"/></l><r>Essen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>niesti<s n="n"/></l><r>Mahl<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>niibi<s n="n"/></l><r>Messer<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>niski<s n="n"/></l><r>Nacken<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>nissonolmmoš<s n="n"/></l><r>Frau<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nisu<s n="n"/></l><r>Weizen<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>nisut<s n="n"/></l><r>Weizen<s n="n"/><s n="m"/></r></p></e>
@@ -3381,6 +3385,7 @@
     <e><p><l>suomagiella<s n="n"/></l><r>Finnisch<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>suopman<s n="n"/></l><r>Dialekt<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>suopma<s n="n"/></l><r>finnisch<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>suorbma<s n="n"/></l><r>Finger<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>suorggis<s n="n"/></l><r>Suffix<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>suorgi<s n="n"/></l><r>Zweig<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>suovasbiergu<s n="n"/></l><r>Räucherfleisch<s n="n"/><s n="nt"/></r></p></e>
@@ -4282,12 +4287,105 @@
     <e><p><l>seaguhit</l><r>verwechseln</r></p><par n="vblex"/></e>
     <e><p><l>šiehtadallat</l><r>einigen</r></p><par n="vblex"/></e>
     <e><p><l>jurdilit</l><r>denken</r></p><par n="vblex"/></e>
-    <e><p><l>veardidit</l><r>veregleichen</r></p><par n="vblex"/></e>
+    <e><p><l>veardidit</l><r>vergleichen</r></p><par n="vblex"/></e>
     <e><p><l>čiekŋudit</l><r>vertiefen</r></p><par n="vblex"/></e>
     <e><p><l>adopteret</l><r>adoptieren</r></p><par n="vblex"/></e>
 
 
-
+    <e><p><l>loktit</l><r>neigen</r></p><par n="vblex"/></e> HERE
+    <e><p><l>njeaidit</l><r>runtergehen</r></p><par n="vblex"/></e>
+    <e><p><l>loktat</l><r>erleichtern</r></p><par n="vblex"/></e>
+    <e><p><l>geahčestit</l><r>gucken</r></p><par n="vblex"/></e>
+    <e><p><l>goddot</l><r>getötet werden</r></p><par n="vblex"/></e>
+    <e><p><l>njoammut</l><r>anstecken</r></p><par n="vblex"/></e>
+    <e><p><l>bágget</l><r>zwingen</r></p><par n="vblex"/></e>
+    <e><p><l>almmustuvvat</l><r>herausgegeben werden</r></p><par n="vblex"/></e>
+    <e><p><l>muddet</l><r>korrigieren</r></p><par n="vblex"/></e>
+    <e><p><l>loktanit</l><r>sich<b/>heben</r></p><par n="vblex"/></e>
+    <e><p><l>gávppašit</l><r>einkaufen</r></p><par n="vblex"/></e>
+    <e><p><l>káret</l><r>jucken</r></p><par n="vblex"/></e>
+    <e><p><l>suddjet</l><r>beschützen</r></p><par n="vblex"/></e>
+    <e><p><l>jorggihit</l><r>sich<b/>umdrehen</r></p><par n="vblex"/></e>
+    <e><p><l>suorganit</l><r>sich<b/>erschrecken</r></p><par n="vblex"/></e>
+    <e><p><l>gánnáhit</l><r>sich<b/>lohnen</r></p><par n="vblex"/></e>
+    <e><p><l>muddet</l><r>korrigieren</r></p><par n="vblex"/></e>
+    <e><p><l>bastit</l><r>schaffen</r></p><par n="vblex"/></e>
+    <e><p><l>spiehkastit</l><r>abweichen</r></p><par n="vblex"/></e>
+    <e><p><l>ealáskahttit</l><r>revitalisieren</r></p><par n="vblex"/></e>
+    <e><p><l>darvánit</l><r>sich<b/>festsetzen</r></p><par n="vblex"/></e>
+    <e><p><l>skeŋket</l><r>schenken</r></p><par n="vblex"/></e>
+    <e><p><l>siskkildit</l><r>beinhalten</r></p><par n="vblex"/></e>
+    <e><p><l>neaktit</l><r>schauspielern</r></p><par n="vblex"/></e>
+    <e><p><l>ovdanbuktit</l><r>vortragen</r></p><par n="vblex"/></e>
+    <e><p><l>eaktudit</l><r>voraussetzen</r></p><par n="vblex"/></e>
+    <e><p><l>ráfáidahttit</l><r>beruhigen</r></p><par n="vblex"/></e>
+    <e><p><l>einnostit</l><r>vorhersehen</r></p><par n="vblex"/></e>
+    <e><p><l>áššáskuhttit</l><r>anklagen</r></p><par n="vblex"/></e>
+    <e><p><l>caggat</l><r>verhindern</r></p><par n="vblex"/></e>
+    <e><p><l>ráfáiduhttit</l><r>beruhigen</r></p><par n="vblex"/></e>
+    <e><p><l>áššut</l><r>???</r></p><par n="vblex"/></e>
+    <e><p><l>árvidit</l><r>annehmen</r></p><par n="vblex"/></e>
+    <e><p><l>nuppástuvvat</l><r>sich<b/>verändern</r></p><par n="vblex"/></e>
+    <e><p><l>guoimmuhit</l><r>unterhalten</r></p><par n="vblex"/></e>
+    <e><p><l>gánnáhit</l><r>sich<b/>lohnen</r></p><par n="vblex"/></e>
+    <e><p><l>geatnegahttit</l><r>verpflichten</r></p><par n="vblex"/></e>
+    <e><p><l>boagustit</l><r>lachen</r></p><par n="vblex"/></e>
+    <e><p><l>soahpat</l><r>vereinbaren</r></p><par n="vblex"/></e>
+    <e><p><l>soabadit</l><r>einen Vergleich schließen</r></p><par n="vblex"/></e>
+    <e><p><l>juohkásit</l><r>sich<b/>teilen</r></p><par n="vblex"/></e>
+    <e><p><l>čálihit</l><r>schreiben lassen</r></p><par n="vblex"/></e>
+    <e><p><l>golahit</l><r> </r></p><par n="vblex"/></e>
+    <e><p><l>Vallet</l><r> </r></p><par n="vblex"/></e>
+    <e><p><l>rekrutteret</l><r>rekrutieren</r></p><par n="vblex"/></e>
+    <e><p><l>lihkadit</l><r>sich<b/>bewegen</r></p><par n="vblex"/></e>
+    <e><p><l>analyseret</l><r>analysieren</r></p><par n="vblex"/></e>
+    <e><p><l>sárdnidit</l><r>predigen</r></p><par n="vblex"/></e>
+    <e><p><l>ságastit</l><r>reden</r></p><par n="vblex"/></e>
+    <e><p><l>máinnašit</l><r>erwähnen</r></p><par n="vblex"/></e>
+    <e><p><l>ráđđet</l><r>raten</r></p><par n="vblex"/></e>
+    <e><p><l>geardduhit</l><r>wiederholen</r></p><par n="vblex"/></e>
+    <e><p><l>deaividit</l><r>eintreffen</r></p><par n="vblex"/></e>
+    <e><p><l>váddut</l><r>erschweren</r></p><par n="vblex"/></e>
+    <e><p><l>bakket</l><r>???</r></p><par n="vblex"/></e>
+    <e><p><l>várjalit</l><r>bewahren</r></p><par n="vblex"/></e>
+    <e><p><l>sihkkut</l><r>löschen</r></p><par n="vblex"/></e>
+    <e><p><l>gárvvistit</l><r>absolvieren</r></p><par n="vblex"/></e>
+    <e><p><l>suoládit</l><r>stehlen</r></p><par n="vblex"/></e>
+    <e><p><l>rievddadit</l><r>verändern</r></p><par n="vblex"/></e>
+    <e><p><l>jearralit</l><r>fragen</r></p><par n="vblex"/></e>
+    <e><p><l>gárvánit</l><r>fertig werden</r></p><par n="vblex"/></e>
+    <e><p><l>maŋŋonit</l><r>sich<b/>verspäten</r></p><par n="vblex"/></e>
+    <e><p><l>čierrut</l><r>weinen</r></p><par n="vblex"/></e>
+    <e><p><l>dorvvastit</l><r>vertrauen</r></p><par n="vblex"/></e>
+    <e><p><l>čohkkedit</l><r>sich<b/>setzen</r></p><par n="vblex"/></e>
+    <e><p><l>ribahit</l><r>verlieren</r></p><par n="vblex"/></e>
+    <e><p><l>várret</l><r>reservieren</r></p><par n="vblex"/></e>
+    <e><p><l>navdit</l><r>annehmen</r></p><par n="vblex"/></e>
+    <e><p><l>unnidit</l><r>reduzieren</r></p><par n="vblex"/></e>
+    <e><p><l>arvat</l><r>wagen</r></p><par n="vblex"/></e>
+    <e><p><l>dánsut</l><r>tanzen</r></p><par n="vblex"/></e>
+    <e><p><l>sajáiduvvat</l><r>sich<b/>anpassen</r></p><par n="vblex"/></e>
+    <e><p><l>máhcahit</l><r>zurückführen</r></p><par n="vblex"/></e>
+    <e><p><l>vuoittáhallat</l><r>verlieren</r></p><par n="vblex"/></e>
+    <e><p><l>geassut</l><r>???</r></p><par n="vblex"/></e>
+    <e><p><l>gárvodit</l><r>sich<b/>ankleiden</r></p><par n="vblex"/></e>
+    <e><p><l>dolkat</l><r>es<b/>leid<b/>sein</r></p><par n="vblex"/></e>
+    <e><p><l>vádjolit</l><r>wandern</r></p><par n="vblex"/></e>
+    <e><p><l>manahit</l><r>verlieren</r></p><par n="vblex"/></e>
+    <e><p><l>geavvat</l><r>passieren</r></p><par n="vblex"/></e>
+    <e><p><l>bohciidit</l><r>entstehen</r></p><par n="vblex"/></e>
+    <e><p><l>guorrasit</l><r>zustimmen</r></p><par n="vblex"/></e>
+    <e><p><l>buvttadit</l><r>produzieren</r></p><par n="vblex"/></e>
+    <e><p><l>divodit</l><r>reparieren</r></p><par n="vblex"/></e>
+    <e><p><l>guolástit</l><r>fischen</r></p><par n="vblex"/></e>
+    <e><p><l>unnidit</l><r>einschrenken</r></p><par n="vblex"/></e>
+    <e><p><l>prentet</l><r>drucken</r></p><par n="vblex"/></e>
+    <e><p><l>geahppánit</l><r>lindern</r></p><par n="vblex"/></e>
+    <e><p><l>hirpmástuvvat</l><r>sich<b/>erschrecken</r></p><par n="vblex"/></e>
+    <e><p><l>govvidit</l><r>illustrieren</r></p><par n="vblex"/></e>
+    <e><p><l>badjelgeahččat</l><r>übersehen</r></p><par n="vblex"/></e>
+    <e><p><l>gáržžidit</l><r>einschränken</r></p><par n="vblex"/></e>
+    <e><p><l>dubmet</l><r>verurteilen</r></p><par n="vblex"/></e>
 
 
 
