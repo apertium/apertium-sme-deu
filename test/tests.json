@@ -6,5 +6,9 @@
     "deu-sme": {
         "input": "deu-sme-input.txt",
         "mode": "deu-sme"
+    },
+    "konvens2022": {
+        "input": "konvens-2022.txt",
+        "mode": "sme-deu"
     }
 }
