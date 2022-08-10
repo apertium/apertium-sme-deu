@@ -293,7 +293,7 @@ NP -> %A %N ADV { %1[gender=2.gender,
       %A %N { %1[gender=2.gender,
                  number=2.number,case=2.case] _ %2 } |
       %N ADV { %1 _ 2 } |
-      N.*.gen N { %2 _ der@det.def.[1.gender].sg.gen _ 1 } |
+      N.*.gen %N { %2 _ der@det.def.[1.gender].sg.gen _ 1 } |
       N.*.gen A N { 2[strength=sw] _ %3 _
                     der@det.def.[1.gender].sg.gen _ 1 } |
       ! idiomatic 1:n translations
@@ -361,6 +361,10 @@ ADV -> adv {1} |
        dáidit@vblex { vielleicht@adv } |
        davvin@adv { in@pr.dat Nord@n.m.pl.dat } |
        lulde@adv { in@pr.dat Süd@n.m.pl.dat } |
+       dát@prn.dem oktavhuohta@n { in@pr.dat _ 
+                                   dies@det.pos.m.sg.dat _
+                                   Zusammenhang@n.m.sg.dat } |
+       ! pcles handled as ADV in phrases
        pcle {1} ;
 ADP -> post {1} |
        pr {1} ;
