@@ -26,6 +26,7 @@ poss = px1sg px2sg px3sg px1du px2du px3du px1pl px2pl px3pl px3sp ;
 sem = (SEM sem_dummy) sem_time sem_plc sem_hum sem_ani sem_dummy ;
 depfunc = "@←SPRED" "@←OPRED" "@←N" "@HNOUN" ;
 strength = (STR sw) st sw mix ;
+derp = der_inchl der_passl ;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -262,7 +263,8 @@ VP -> NP.*.loc.sem_hum leat@vblex {
       V go@pcle {
       1 _ *(pro_undrop)[number=1.number,person=1.person] } |  ! stray V + qst
       V { *(pro_undrop)[number=1.number,person=1.person] 1 } ;  ! stray V
-V -> %vblex [$$expletive=(if (1.lem = "regnen") es@prn.pers.p3.nt.sg.nom),
+V -> %vblex.*.der_passl.* {1 _ werden@vaux.prs.[1.person].[1.number] } |
+     %vblex [$$expletive=(if (1.lem = "regnen") es@prn.pers.p3.nt.sg.nom),
              $person = (if (1.tense = imp) ""
                          elif (1.lem = "regnen") ""
                          else 1.person)]
@@ -297,6 +299,8 @@ NP -> %A %N ADV { %1[gender=2.gender,
       N.*.gen A N { 2[strength=sw] _ %3 _
                     der@det.def.[1.gender].sg.gen _ 1 } |
       ! idiomatic 1:n translations
+      sápmi@n.*.gen %N { saamisch@adj.[2.gender].[2.number].[2.case].sw _
+                         2 } |
       ! n
       %N { %1 } ;
 DP -> DET %N { 1[gender=(if (2.number = pl) mfn else 2.gender),

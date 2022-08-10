@@ -55,6 +55,7 @@
     <sdef n="ind"     c="indefinite"/>
     <sdef n="qnt"     c="quantor"/>
     <sdef n="pasv"    c="passive"/>
+    <sdef n="pp"      c="perfect participle"/>
     <sdef n="comp"    c="comparative"/>
     <sdef n="sup"     c="superlative"/>
     <sdef n="tv"      c="transit"/>
@@ -87,9 +88,9 @@
     <pardef n="vblex">
       <e><i><s n="vblex"/></i></e>
       <e><p><l><s n="ex_vblex"/><s n="ex_tv"/><s n="der_passl"/><s n="vblex"/></l>
-            <r><s n="vblex"/><s n="pasv"/></r></p></e>
+            <r><s n="vblex"/><s n="pp"/></r></p></e>
       <e><p><l><s n="vblex"/><s n="tv"/><s n="der_passl"/><s n="vblex"/></l>
-            <r><s n="vblex"/><s n="pasv"/></r></p></e>
+            <r><s n="vblex"/><s n="pp"/></r></p></e>
       <e><p><l><s n="ex_vblex"/><s n="ex_tv"/><s n="der_inchl"/><s n="vblex"/></l>
             <r><s n="vblex"/></r></p></e>
       <e><p><l><s n="vblex"/><s n="ex_tv"/><s n="der_inchl"/><s n="vblex"/></l>
@@ -100,9 +101,9 @@
     <pardef n="vblex_sep">
       <e><p><l><s n="vblex"/></l><r><s n="vblex"/><s n="sep"/><s n="fm"/></r></p></e>
       <e><p><l><s n="ex_vblex"/><s n="ex_tv"/><s n="der_passl"/><s n="vblex"/></l>
-            <r><s n="vblex"/><s n="sep"/><s n="pasv"/></r></p></e>
+            <r><s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
       <e><p><l><s n="vblex"/><s n="tv"/><s n="der_passl"/><s n="vblex"/></l>
-            <r><s n="vblex"/><s n="sep"/><s n="pasv"/></r></p></e>
+            <r><s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
       <e><p><l><s n="ex_vblex"/><s n="ex_tv"/><s n="der_inchl"/><s n="vblex"/></l>
             <r><s n="vblex"/><s n="sep"/></r></p></e>
       <e><p><l><s n="vblex"/><s n="ex_tv"/><s n="der_inchl"/><s n="vblex"/></l>
@@ -321,6 +322,7 @@
     <e><p><l>nu<b/>ahte<s n="cnjsub"/></l><r>sodaß<s n="cnjsub"/></r></p></e>
     <e><p><l>nugo<s n="cnjsub"/></l><r>als<s n="cnjsub"/></r></p></e>
     <e><p><l>nugo<s n="cnjsub"/></l><r>wie<s n="cnjsub"/></r></p></e>
+    <e><p><l>nugo<s n="cnjsub"/></l><r>so<b/>wie<s n="cnjsub"/></r></p></e>
     <e><p><l>ovdalgo<s n="cnjsub"/></l><r>bevor<s n="cnjsub"/></r></p></e>
     <e><p><l>vaikko<s n="cnjsub"/></l><r>obwohl<s n="cnjsub"/></r></p></e>
     <e><p><l>vai<s n="cnjsub"/></l><r>sodas<s n="cnjsub"/></r></p></e>
@@ -377,6 +379,8 @@
     <e><p><l>ovdii<s n="post"/></l><r>vor<s n="pr"/></r></p></e>
     <e><p><l>fárus<s n="post"/></l><r>mit<s n="pr"/></r></p></e>
     <e><p><l>váste<s n="post"/></l><r>für<s n="pr"/></r></p></e>
+    <e><p><l>várás<s n="post"/></l><r>für<s n="pr"/></r></p></e>
+    <e><p><l>vuollel<s n="post"/></l><r>unter<s n="pr"/></r></p></e>
 
     <e><p><l>maŋŋá<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
     <e><p><l>geažil<s n="pr"/></l><r>wegen<s n="pr"/></r></p></e>
@@ -399,6 +403,7 @@
          {{{ SECTION: Adverb adverbs -->
 
 
+    <e><p><l>álggogeahčen<s n="adv"/></l><r>am<b/>Anfang<s n="adv"/></r></p></e>
     <e><p><l>áibbas<s n="adv"/></l><r>komplett<s n="adv"/></r></p></e>
     <e><p><l>áibbas<s n="adv"/></l><r>völlig<s n="adv"/></r></p></e>
     <e><p><l>aiddo<s n="adv"/></l><r>genau<s n="adv"/></r></p></e>
@@ -495,7 +500,7 @@
     <e><p><l>fárrolaga<s n="adv"/></l><r>zusammen<s n="adv"/></r></p></e>
     <e><p><l>fárrui<s n="adv"/></l><r>mit<s n="adv"/></r></p></e>
     <e><p><l>fas<s n="adv"/></l><r>nochmal<s n="adv"/></r></p></e>
-    <e><p><l>fásta<s n="adv"/></l><r>fast<s n="adv"/></r></p></e>
+    <e><p><l>fásta<s n="adv"/></l><r>fest<s n="adv"/></r></p></e>
     <e><p><l>gahperahttá<s n="adv"/></l><r>barhäuptig<s n="adv"/></r></p></e>
     <e><p><l>galbmasit<s n="adv"/></l><r>kalt<s n="adv"/></r></p></e>
     <e><p><l>gallás<s n="adv"/></l><r>genug<s n="adv"/></r></p></e>
@@ -586,6 +591,7 @@
     <e><p><l>Norgga<b/>bealde<s n="adv"/></l><r>nach<b/>Norwegen<s n="adv"/></r></p></e>
     <e><p><l>nugo<s n="adv"/></l><r>als<s n="adv"/></r></p></e>
     <e><p><l>nugo<s n="adv"/></l><r>wie<s n="adv"/></r></p></e>
+    <e><p><l>nugo<s n="adv"/></l><r>so<b/>wie<s n="adv"/></r></p></e>
     <e><p><l>nuppes<s n="adv"/></l><r>nochmal<s n="adv"/></r></p></e>
     <e><p><l>nu<s n="adv"/></l><r>also<s n="adv"/></r></p></e>
     <e><p><l>nuvttá<s n="adv"/></l><r>umsonst<s n="adv"/></r></p></e>
@@ -665,7 +671,7 @@
     <e><p><l>han<s n="pcle"/></l><r>ja<s n="adv"/></r></p></e>
     <e><p><l>dat<s n="pcle"/></l><r>ja<s n="adv"/></r></p></e>
 
-    <e c="fixme"><p><l>ee<s n="adv"/></l><r>ee<s n="adv"/></r></p></e>
+    <e><p><l>ee<s n="adv"/></l><r>u.a.<s n="adv"/></r></p></e>
     <e c="fixme"><p><l>b<s n="adv"/></l><r>b<s n="adv"/></r></p></e>
     <e><p><l>máŋgga<b/>jahkái<s n="adv"/></l><r>in<b/>viele<b/>Jahre<s n="adv"/></r></p></e>
     <e c="???"><p><l>soggái<b/>čalmmiid<s n="adv"/></l><r>wandseitens<s n="adv"/></r></p></e>
@@ -1361,6 +1367,7 @@
     <e><p><l>muhtinlágan</l><r>irgendwelche</r></p><par n="adj"/></e>
     <e><p><l>muhtunlágan</l><r>irgendwelche</r></p><par n="adj"/></e>
     <e><p><l>muitil</l><r>???</r></p><par n="adj"/></e>
+    <e><p><l>multifunktionála</l><r>multifunktionell</r></p><par n="adj"/></e>
     <e><p><l>muoseheapme</l><r>unruhig</r></p><par n="adj"/></e>
     <e><p><l>museafágalaš</l><r>museumsfachlich</r></p><par n="adj"/></e>
     <e><p><l>musihkalaš</l><r>musikalisch</r></p><par n="adj"/></e>
@@ -1575,6 +1582,7 @@
     <e><p><l>šiega</l><r>lieb</r></p><par n="adj"/></e>
     <e><p><l>sieiva</l><r>gewöhnlich</r></p><par n="adj"/></e>
     <e><p><l>sierralágan</l><r>unterschiedlich</r></p><par n="adj"/></e>
+    <e><p><l>sierra</l><r>eigen</r></p><par n="adj"/></e>
     <e><p><l>sierranas</l><r>zurückgezogen</r></p><par n="adj"/></e>
     <e><p><l>sihkar</l><r>schriftlich</r></p><par n="adj"/></e>
     <e><p><l>sihkar</l><r>sicher</r></p><par n="adj"/></e>
@@ -1792,6 +1800,8 @@
     <e c="TODO"><p><l>namuhuvvon<s n="n"/></l><r>genannt<s n="n"/><s n="m"/></r></p></e>
     <e c="TODO"><p><l>oppal<s n="n"/></l><r>Eisspitze<s n="n"/><s n="m"/></r></p></e>
     <e c="TODO"><p><l>várá<s n="n"/></l><r>Gefahr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>guimmešvuohtasoahpamuš<s n="n"/></l><r>Lebensgefährtenvereinbarung<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>guimmešvuohta<s n="n"/></l><r>Lebensgefährte<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>1800-lohku<s n="n"/></l><r>18. Jahrhundert<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ađa<s n="n"/></l><r>Knöchelkern<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>áddejupmi<s n="n"/></l><r>Verständnis<s n="n"/><s n="m"/></r></p></e>
@@ -1965,7 +1975,7 @@
     <e><p><l>beavdi<s n="n"/></l><r>Tisch<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bellodat<s n="n"/></l><r>Partei<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>berošteaddji<s n="n"/></l><r>Interessent<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>beroštupmi<s n="n"/></l><r>Interesse<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>beroštupmi<s n="n"/></l><r>Interesse<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>beroštus<s n="n"/></l><r>Besorgnis<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bibliotehka<s n="n"/></l><r>Bibliothek<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bidjan<s n="n"/></l><r>Einstellung<s n="n"/><s n="m"/></r></p></e>
@@ -2762,7 +2772,8 @@
     <e><p><l>lávvardat<s n="n"/></l><r>Samstag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lávvordat<s n="n"/></l><r>Samstag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>leahttu<s n="n"/></l><r>Geschwindigkeit<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>leairaskuvlla<s n="n"/></l><r>Sommerlager<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>leairaskuvlla<s n="n"/></l><r>Schullandheim<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>leairaskuvla<s n="n"/></l><r>Schullandheim<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>leaksu<s n="n"/></l><r>Hausarbeit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>leaktu<s n="n"/></l><r>Geschwindigkeit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>leansmánni<s n="n"/></l><r>Lensmann<s n="n"/><s n="m"/></r></p></e>
@@ -2839,7 +2850,7 @@
     <e><p><l>málle<s n="n"/></l><r>Schema<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mánáidgárdi<s n="n"/></l><r>Kindergarten<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mánáidgirji<s n="n"/></l><r>Kinderbuch<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>mánáidodju<s n="n"/></l><r>Kindergeld<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>mánáidoadju<s n="n"/></l><r>Kindergeld<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>mánáidskuvla<s n="n"/></l><r>Grundschule<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mánáidsuodjalus<s n="n"/></l><r>Kinderfürsorge<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mánáid-tv<s n="n"/></l><r>Kinderfernsehen<s n="n"/><s n="m"/></r></p></e>
@@ -2850,8 +2861,8 @@
     <e><p><l>mánná<s n="n"/></l><r>Kind<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>mánnávuohta<s n="n"/></l><r>Kindheit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mánnodat<s n="n"/></l><r>Montag<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>mánnu<s n="n"/></l><r>Monat<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>mánnu<s n="n"/></l><r>Mond<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mánnu<s n="n"/></l><r>Monat<s n="n"/><s n="m"/></r></p></e>
+    <e w="2"><p><l>mánnu<s n="n"/></l><r>Mond<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mánoheahpi<s n="n"/></l><r>Mondschein<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>máŋggas<s n="n"/></l><r>Leute<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>maŋŋebárga<s n="n"/></l><r>Dienstag<s n="n"/><s n="m"/></r></p></e>
@@ -2956,6 +2967,7 @@
     <e><p><l>namahus<s n="n"/></l><r>Bezeichnung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nammadeapmi<s n="n"/></l><r>Nominierung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>namma<s n="n"/></l><r>Name<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nannen<s n="n"/></l><r>Bewahren<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>nanus<s n="n"/></l><r>nanus<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>násti<s n="n"/></l><r>Stern<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>našuvdna<s n="n"/></l><r>Nation<s n="n"/><s n="f"/></r></p></e>
@@ -3018,7 +3030,7 @@
     <e><p><l>oahpaheaddji<s n="n"/></l><r>Lehrerin<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>oahpaheaddji<s n="n"/></l><r>Lehrer<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>oahpaheapmi<s n="n"/></l><r>Einarbeitung<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>oahpahusdássi<s n="n"/></l><r>Lehrstuffe<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>oahpahusdássi<s n="n"/></l><r>Lehrstufe<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>oahpahusláhka<s n="n"/></l><r>Unterrichtsgesetz<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>oahpahus<s n="n"/></l><r>Lehre<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>oahpis<s n="n"/></l><r>Bekannter<s n="n"/><s n="m"/></r></p></e>
@@ -3065,6 +3077,7 @@
     <e><p><l>ohcanáigemearri<s n="n"/></l><r>Bewerbungsfrist<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ohcanskovvi<s n="n"/></l><r>Bewerbung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ohcan<s n="n"/></l><r>Suche<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ohcan<s n="n"/></l><r>Bewerbung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ohca<s n="n"/></l><r>Brustkorb<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ohcci<s n="n"/></l><r>Bewerber<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>oktavuohta<s n="n"/></l><r>Verbindung<s n="n"/><s n="f"/></r></p></e>
@@ -3119,7 +3132,7 @@
     <e><p><l>persovdna<s n="n"/></l><r>Person<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>perspektiiva<s n="n"/></l><r>Perspektive<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pistovla<s n="n"/></l><r>Pistole<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>plánaáigodat<s n="n"/></l><r>Planungzeitraum<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>plánaáigodat<s n="n"/></l><r>Planungszeitraum<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>plána<s n="n"/></l><r>Plan<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>poasta<s n="n"/></l><r>Post<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>politihkar<s n="n"/></l><r>Politiker<s n="n"/><s n="m"/></r></p></e>
@@ -3609,8 +3622,8 @@
     <e><p><l>áitit</l><r>bedrohen</r></p><par n="vblex"/></e>
     <e><p><l>ákkastallat</l><r>argumentieren</r></p><par n="vblex"/></e>
     <e><p><l>álbmut</l><r>schaufeln</r></p><par n="vblex"/></e>
-    <e><p><l>álggahit</l><r>anfangen</r></p><par n="vblex"/></e>
-    <e><p><l>álgit</l><r>anfangen</r></p><par n="vblex"/></e>
+    <e><p><l>álggahit</l><r>initiieren</r></p><par n="vblex"/></e>
+    <e><p><l>álgit</l><r>anfangen</r></p><par n="vblex_sep"/></e>
     <e><p><l>álkidit</l><r>erleichtern</r></p><par n="vblex"/></e>
     <e><p><l>almmuhit</l><r>veröffentlichen</r></p><par n="vblex"/></e>
     <e><p><l>almmustahttit</l><r>veröffentlichen</r></p><par n="vblex"/></e>
@@ -4068,7 +4081,7 @@
     <e><p><l>kártet</l><r>identifizieren</r></p><par n="vblex"/></e>
     <e><p><l>kommenteret</l><r>kommentieren</r></p><par n="vblex"/></e>
     <e><p><l>láddjet</l><r>sensen</r></p><par n="vblex"/></e>
-    <e><p><l>lágidit</l><r>liefern</r></p><par n="vblex"/></e>
+    <e><p><l>lágidit</l><r>organisieren</r></p><par n="vblex"/></e>
     <e><p><l>láhčit</l><r>Bett<b/>machen</r></p><par n="vblex"/></e>
     <e><p><l>láhppot</l><r>verloren<b/>gehen</r></p><par n="vblex"/></e>
     <e><p><l>láhttet</l><r>reagieren</r></p><par n="vblex"/></e>
@@ -4341,7 +4354,7 @@
     <e><p><l>váibat</l><r>ermüden</r></p><par n="vblex"/></e>
     <e><p><l>váidalit</l><r>klagen</r></p><par n="vblex"/></e>
     <e><p><l>váidit</l><r>klagen</r></p><par n="vblex"/></e>
-    <e><p><l>váikkuhit</l><r>betreffen</r></p><par n="vblex"/></e>
+    <e><p><l>váikkuhit</l><r>beeinflussen</r></p><par n="vblex"/></e>
     <e><p><l>váillahit</l><r>vermitteln</r></p><par n="vblex"/></e>
     <e><p><l>váilut</l><r>fehlen</r></p><par n="vblex"/></e>
     <e><p><l>váivvidit</l><r>stören</r></p><par n="vblex"/></e>
@@ -4628,7 +4641,7 @@
     <e><p><l>Davvi-Norga<s n="np"/></l><r>Nord-Norwegen<s n="np"/></r></p></e>
     <e><p><l>Davviriikkaid<b/>Ráđđi<s n="np"/></l><r>Nordischer<b/>Rat<s n="np"/></r></p></e>
     <e><p><l>Davvi-Romsa<s n="np"/></l><r>Nord-Tromsö<s n="np"/></r></p></e>
-    <e><p><l>Sámediggi<s n="np"/></l><r>Saamisches<b/>Parlament<s n="np"/></r></p></e>
+    <e><p><l>Sámediggi<s n="np"/></l><r>das<b/>Saamisches<b/>Parlament<s n="np"/></r></p></e>
     <e><p><l>Espánnja<s n="np"/></l><r>Spanien<s n="np"/></r></p></e>
     <e><p><l>Eurohpa<s n="np"/></l><r>Europa<s n="np"/></r></p></e>
     <e><p><l>Finnmárku<s n="np"/></l><r>Finnmark<s n="np"/></r></p></e>
