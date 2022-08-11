@@ -26,7 +26,10 @@ poss = px1sg px2sg px3sg px1du px2du px3du px1pl px2pl px3pl px3sp ;
 sem = (SEM sem_dummy) sem_time sem_plc sem_hum sem_ani sem_dummy ;
 depfunc = "@←SPRED" "@←OPRED" "@←N" "@HNOUN" ;
 strength = (STR sw) st sw mix ;
-derp = der_inchl der_passl ;
+derp = der_inchl der_passl der_passs ;
+
+
+months = miessemánu guovvamánu ;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -52,6 +55,7 @@ pr: _;
 adj_agr: _.<sint>.comparison.gender.number.case.strength;
 adj_pred: _.<sint>.comparison.adj_type;
 num: _.number;
+num_ord: _.<ord>;
 pcle: _;
 
 ! smaller phrases
@@ -368,10 +372,19 @@ ADV -> adv {1} |
        dát@prn.dem oktavhuohta@n { in@pr.dat _ 
                                    dies@det.pos.m.sg.dat _
                                    Zusammenhang@n.m.sg.dat } |
+       dát@prn.dem lassi@n.ess { zusätzlich@adj.sint.attr } |
+       [months]@n.sem_time.sg.gen adj.arab.ord
+       beaivi@n.sem_time.sg.gen num.sem_year { an@pr.dat der@det.def.m.sg.dat _
+            2 _ 1 _ 4 } |
+       [months]@n.sem_time.sg.gen adj.arab.ord
+       b@adv.sem_time.abbr num.sem_year { an@pr.dat der@det.def.m.sg.dat _
+            2 _ 1 _ 4 } |
        ! pcles handled as ADV in phrases
        pcle {1} ;
 ADP -> post {1} |
        pr {1} ;
+NUM -> num {1[number = (if (1.lem/sl = "okta") sg else pl)] } |
+       adj.arab.ord.* { 1(num_ord) } ;
 A -> %buorre@adj { %1[case=(if (1.case = loc) nom
                      elif (1.case = ill) dat
                      elif (1.case = ess) nom
@@ -381,7 +394,6 @@ A -> %buorre@adj { %1[case=(if (1.case = loc) nom
                      elif (1.case = gen) gen
                      else nom)] } |
     %adj { %1 } ;
-NUM -> num {1[number = (if (1.lem/sl = "okta") sg else pl)] } ;
 
     ! IE numerals have no morphological num so they assume semantic num
 

@@ -75,6 +75,7 @@
     <sdef n="ex_tv"                 c="verb deriv stuff"/>
     <sdef n="ex_iv"                 c="verb deriv stuff"/>
     <sdef n="der_passl"             c="passive l"/>
+    <sdef n="der_passs"             c="passive s"/>
     <sdef n="der_inchl"             c="inchoative l"/>
     <sdef n="der_comp"              c="comparative"/>
     <sdef n="der_superl"            c="superlative"/>
@@ -88,6 +89,8 @@
     <pardef n="vblex">
       <e><i><s n="vblex"/></i></e>
       <e><p><l><s n="ex_vblex"/><s n="ex_tv"/><s n="der_passl"/><s n="vblex"/></l>
+            <r><s n="vblex"/><s n="pp"/></r></p></e>
+      <e><p><l><s n="ex_vblex"/><s n="ex_tv"/><s n="der_passs"/><s n="vblex"/></l>
             <r><s n="vblex"/><s n="pp"/></r></p></e>
       <e><p><l><s n="vblex"/><s n="tv"/><s n="der_passl"/><s n="vblex"/></l>
             <r><s n="vblex"/><s n="pp"/></r></p></e>
@@ -196,6 +199,7 @@
     <e><p><l>ovccinuppelohkái<s n="num"/></l><r>neunzehn<s n="num"/></r></p></e>
     <e><p><l>duhát<s n="num"/></l><r>tausend<s n="num"/></r></p></e>
     <e><p><l>miljovdna<s n="num"/></l><r>million<s n="num"/></r></p></e>
+    <e><p><l>miljárdda<s n="num"/></l><r>milliarde<s n="n"/><s n="f"/></r></p></e>
 
     <!-- }}}
          {{{ SECTION: Pronouns pronouns -->
@@ -1869,7 +1873,7 @@
     <e><p><l>árvalus<s n="n"/></l><r>Vorschlag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>arvi<s n="n"/></l><r>Regen<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>árvu<s n="n"/></l><r>Wert<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>árvvoštallan<s n="n"/></l><r>Bedingung<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>árvvoštallan<s n="n"/></l><r>Bedingung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ásaheapmi<s n="n"/></l><r>Platzierung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ásahus<s n="n"/></l><r>Institut<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>aski<s n="n"/></l><r>Etage<s n="n"/><s n="f"/></r></p></e>
@@ -2283,7 +2287,7 @@
     <e><p><l>eahket<s n="n"/></l><r>Abend<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>eahki<s n="n"/></l><r>Onkel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>eaiggát<s n="n"/></l><r>Besitzer<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>eaktu<s n="n"/></l><r>Bedingung<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>eaktu<s n="n"/></l><r>Bedingung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ealáhuseallin<s n="n"/></l><r>Wirtschaft<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ealáhusovddideapmi<s n="n"/></l><r>Branchenentwicklung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ealáhus<s n="n"/></l><r>Lebensunterhalt<s n="n"/><s n="m"/></r></p></e>
@@ -2546,6 +2550,7 @@
     <e><p><l>hálddašanguovlu<s n="n"/></l><r>Jurisdiktion<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hálddašeaddji<s n="n"/></l><r>Verwalter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hálddašeapmi<s n="n"/></l><r>Verwaltung<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hálddašaneiseváldi<s n="n"/></l><r>Verwaltungsorgan<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>háldu<s n="n"/></l><r>Besitz<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hálla<s n="n"/></l><r>Halle<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hálli<s n="n"/></l><r>Sprecher<s n="n"/><s n="m"/></r></p></e>
@@ -2741,7 +2746,7 @@
     <e><p><l>lágideaddji<s n="n"/></l><r>Veranstalter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lágideapmi<s n="n"/></l><r>Veranstaltung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>láhkaásahus<s n="n"/></l><r>Vorschrift<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>láhka<s n="n"/></l><r>Gesetz<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>láhka<s n="n"/></l><r>Gesetz<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>láhki<s n="n"/></l><r>Art<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>láhtti<s n="n"/></l><r>Boden<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>láhttu<s n="n"/></l><r>Loipe<s n="n"/><s n="f"/></r></p></e>
@@ -2822,6 +2827,7 @@
     <e><p><l>luomi<s n="n"/></l><r>Moltebeere<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>luondduguovddáš<s n="n"/></l><r>Naturzentrum<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>luonddumeahcci<s n="n"/></l><r>Naturreservat<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>luonddugeavaheapmi<s n="n"/></l><r>Umweltnutzung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>luondu<s n="n"/></l><r>Umwelt<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>luopmu<s n="n"/></l><r>Urlaub<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>luossabivdu<s n="n"/></l><r>Lachsfang<s n="n"/><s n="m"/></r></p></e>
@@ -2917,6 +2923,7 @@
     <e><p><l>miila<s n="n"/></l><r>Meile<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>minerála<s n="n"/></l><r>Mineral<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ministtar<s n="n"/></l><r>Minister<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ministtarlávdegoddi<s n="n"/></l><r>Ministerkomite<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>minoriteahtta<s n="n"/></l><r>Minderheit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>minuhtta<s n="n"/></l><r>Minute<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>moallaolmmái<s n="n"/></l><r>Torwart<s n="n"/><s n="m"/></r></p></e>
@@ -3148,7 +3155,7 @@
     <e><p><l>professor<s n="n"/></l><r>Professor<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>prográmma<s n="n"/></l><r>Program<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>prošeaktajođiheaddji<s n="n"/></l><r>Projektleiter<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>prošeakta<s n="n"/></l><r>Projekt<s n="n"/><s n="n"/></r></p></e>
+    <e><p><l>prošeakta<s n="n"/></l><r>Projekt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>proseanta<s n="n"/></l><r>Prozent<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>proseassa<s n="n"/></l><r>Prozess<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>prostitušuvdna<s n="n"/></l><r>Prostitution<s n="n"/><s n="f"/></r></p></e>
@@ -4706,7 +4713,7 @@
     <!-- }}}
          {{{ digits regexes -->
 
-    <e><re>[\-0-9,.]*</re><i><s n="adj"/></i></e>
+    <e><re>[0-9]*</re><p><l><s n="adj"/></l><r><s n="num"/></r></p></e>
     <e><re>[\-0-9,.]*</re><i><s n="num"/></i></e>
     <e><re>[LCMXVI]*</re><i><s n="num"/></i></e>
 
