@@ -810,7 +810,7 @@
     <e><p><l>bivnnut</l><r>beliebt</r></p><par n="adj"/></e>
     <e><p><l>boahtteáigásaš</l><r>zukünftlich</r></p><par n="adj"/></e>
     <e><p><l>boahtte</l><r>nächste</r></p><par n="adj"/></e>
-    <e><p><l>boahttevaš</l><r>folgend</r></p><par n="adj"/></e>
+    <e><p><l>boahttevaš</l><r>zukünfig</r></p><par n="adj"/></e>
     <e><p><l>boaitto</l><r>abgelegen</r></p><par n="adj"/></e>
     <e><p><l>boaresáigásaš</l><r>altmodisch</r></p><par n="adj"/></e>
     <e><p><l>boaresvirot</l><r>???</r></p><par n="adj"/></e>
@@ -1898,13 +1898,13 @@
     <e><p><l>ávju<s n="n"/></l><r>Klinge<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ávki<s n="n"/></l><r>Wert<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ávnnas<s n="n"/></l><r>Stoff<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>avvi<s n="n"/></l><r>Belte<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>avvi<s n="n"/></l><r>Gürtel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ávvudeapmi<s n="n"/></l><r>Feiern<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>ávžžuhus<s n="n"/></l><r>Verschlag<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ávžžuhus<s n="n"/></l><r>V0rschlag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bábir<s n="n"/></l><r>Papier<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>báddi<s n="n"/></l><r>Schnur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>badjeolmmoš<s n="n"/></l><r>Rentierhalter<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>badjesápmi<s n="n"/></l><r>Rentiersame<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>badjesápmi<s n="n"/></l><r>Rentiersaame<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>badji<s n="n"/></l><r>Periode<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bagadallan<s n="n"/></l><r>Betreuung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bagadalli<s n="n"/></l><r>Betreuer<s n="n"/><s n="m"/></r></p></e>
@@ -2171,7 +2171,7 @@
     <e><p><l>dámmá<s n="n"/></l><r>Mähre<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dánsun<s n="n"/></l><r>Tanzen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>dárbbaš<s n="n"/></l><r>Notwendigkeit<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>dárbu<s n="n"/></l><r>Brauch<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dárbu<s n="n"/></l><r>Bedürfnis<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>darfegoahti<s n="n"/></l><r>Torfhaus<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>dárkkisteapmi<s n="n"/></l><r>Kontrolle<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dárogiella<s n="n"/></l><r>Norwegisch<s n="n"/><s n="nt"/></r></p></e>
@@ -2194,7 +2194,7 @@
     <e><p><l>deappu<s n="n"/></l><r>Alge<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dearvvašvuođabálvalus<s n="n"/></l><r>Gesundheitswesen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>dearvvasvuohta<s n="n"/></l><r>Gesundheit<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>dearvvašvuohta<s n="n"/></l><r>Gesundheit<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dearvvašvuohta<s n="n"/></l><r>Gesundheit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dearvvuohta<s n="n"/></l><r>Gesundheit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>demokratiija<s n="n"/></l><r>Demokratie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>departemeanta<s n="n"/></l><r>Ministerium<s n="n"/><s n="nt"/></r></p></e>
@@ -2204,19 +2204,19 @@
     <e><p><l>diehppi<s n="n"/></l><r>Bommel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>diehtojuohkin<s n="n"/></l><r>Information<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>diehtu<s n="n"/></l><r>Nachricht<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>dienas<s n="n"/></l><r>Einkommen<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>dievasčoahkkin<s n="n"/></l><r>Sitzung<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dienas<s n="n"/></l><r>Einkommen<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>dievasčoahkkin<s n="n"/></l><r>Sitzung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dievdoolmmoš<s n="n"/></l><r>Mann<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>dievdu<s n="n"/></l><r>Mann<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>dievvá<s n="n"/></l><r>Hügel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>digaštallan<s n="n"/></l><r>Streit<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>diggegoddi<s n="n"/></l><r>Amtsgericht<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>diggi<s n="n"/></l><r>Parlament<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>dihtormáilbmi<s n="n"/></l><r>Computerwelt<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>dihtorprográmma<s n="n"/></l><r>Computeranwendung<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dihtormáilbmi<s n="n"/></l><r>Computerwelt<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dihtorprográmma<s n="n"/></l><r>Computerprogram<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>dihtor<s n="n"/></l><r>Computer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>diibmu<s n="n"/></l><r>Uhr<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>dii<s n="n"/></l><r>Uhr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dii<s n="n"/></l><r>Stunde<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dikšun<s n="n"/></l><r>Pflege<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>diktačálli<s n="n"/></l><r>Dichter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>diktagirji<s n="n"/></l><r>Dichtbuch<s n="n"/><s n="m"/></r></p></e>
@@ -2454,7 +2454,7 @@
     <e><p><l>gielddus<s n="n"/></l><r>Verbot<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>gielká<s n="n"/></l><r>Schlitten<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>giellageavaheapmi<s n="n"/></l><r>Sprachgebrauch<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>giellaguovddáš<s n="n"/></l><r>Sprachzentrum<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>giellaguovddáš<s n="n"/></l><r>Sprachzentrum<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>giellaláhka<s n="n"/></l><r>Sprachgesetz<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>giellalávdegoddi<s n="n"/></l><r>Sprachauswahl<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>giellamáhttu<s n="n"/></l><r>Sprachkenntnis<s n="n"/><s n="f"/></r></p></e>
@@ -2531,7 +2531,7 @@
     <e><p><l>guolli<s n="n"/></l><r>Fisch<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>guorahallan<s n="n"/></l><r>Untersuchung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>guossi<s n="n"/></l><r>Gast<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>guovddáš<s n="n"/></l><r>Zentrum<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>guovddáš<s n="n"/></l><r>Zentrum<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>guovllustivra<s n="n"/></l><r>Gebietsvorstand<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>guovlu<s n="n"/></l><r>Bereich<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>guovlu<s n="n"/></l><r>Gebiet<s n="n"/><s n="nt"/></r></p></e>
@@ -2663,7 +2663,7 @@
     <e><p><l>juhkki<s n="n"/></l><r>Säufer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>julevsámegiella<s n="n"/></l><r>Lulesaamisch<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>julevsápmelaš<s n="n"/></l><r>Julevsaamisch<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>julevsápmi<s n="n"/></l><r>Lule-Ssame<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>julevsápmi<s n="n"/></l><r>Lule-Saame<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>julev<s n="n"/></l><r>Julev<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>julggaštus<s n="n"/></l><r>Erklärung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>juogadeapmi<s n="n"/></l><r>Verteilung<s n="n"/><s n="f"/></r></p></e>
@@ -3107,6 +3107,7 @@
     <e><p><l>ore<s n="n"/></l><r>Hengst<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>orgána<s n="n"/></l><r>Organ<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>organisašuvdna<s n="n"/></l><r>Organisation<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>organiseren<s n="n"/></l><r>Organisierung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>orohat<s n="n"/></l><r>Wohnort<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>orrungollu<s n="n"/></l><r>Mietausgabe<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>orrunsadji<s n="n"/></l><r>Wohnort<s n="n"/><s n="m"/></r></p></e>
@@ -3395,6 +3396,7 @@
     <e><p><l>stipeanda<s n="n"/></l><r>Stipendium<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stivra<s n="n"/></l><r>Vorstand<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stivrran<s n="n"/></l><r>Steuerrad<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>stivrenjoavku<s n="n"/></l><r>Vorstandsgruppe<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>stoagus<s n="n"/></l><r>Spiel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stoahkan<s n="n"/></l><r>Spiel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stoalpu<s n="n"/></l><r>Pillar<s n="n"/><s n="m"/></r></p></e>
