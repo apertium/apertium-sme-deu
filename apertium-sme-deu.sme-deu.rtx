@@ -243,6 +243,9 @@ VP -> NP.*.loc.sem_hum leat@vblex {
         *(maybe_adp)[case=1.case]
         *(maybe_art)[number=1.number, case=1.case, gender=1.gender,def=def,negativity=aff]
         1[strength=sw] _ 2 } |
+      NUMP V {
+        *(maybe_adp)[case=1.case]
+        1 _ 2 } |
       PRN V {
         *(maybe_adp)[case=1.case]
         1 _ 2 } |
@@ -282,6 +285,12 @@ PP -> NUMP post { 2 _ 1 } |
       PRN post { 2 _ 1 } |
       NP post { 2 _ 1 } ;
 NUMP -> ! if number is one: use indefinite article instead and singulars:
+        %num.*.nom n.*.gen num.*.loc n.*.loc {
+            1 _ 2[number=pl,case=nom] _ von@pr.dat _ 3 _ 4[number=pl,case=dat] 
+        } |
+        %num.*.nom n.*.nom num.*.loc n.*.loc {
+            1 _ 2[number=sg,case=nom] _ von@pr.dat _ 3 _ 4[number=pl,case=dat] 
+        } |
         %num A n ?(1.lem/sl = "okta") { 
             eine@det.ind.[3.gender].[3.number].[3.case] _
                  %2[number=sg,case=1.case] _
@@ -373,6 +382,7 @@ ADV -> adv {1} |
                                    dies@det.pos.m.sg.dat _
                                    Zusammenhang@n.m.sg.dat } |
        dát@prn.dem lassi@n.ess { zusätzlich@adj.sint.attr } |
+       dološ@adj rájes@post { seit@pr.dat Urzeit@n.f.pl.dat } |
        [months]@n.sem_time.sg.gen adj.arab.ord
        beaivi@n.sem_time.sg.gen num.sem_year { an@pr.dat der@det.def.m.sg.dat _
             2 _ 1 _ 4 } |
