@@ -1884,6 +1884,7 @@
     <e><p><l>ásahus<s n="n"/></l><r>Institut<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>aski<s n="n"/></l><r>Etage<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ássan<s n="n"/></l><r>Wohnen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ássanguovlu<s n="n"/></l><r>Wohngebiet<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>áššebábir<s n="n"/></l><r>Unterlage<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>áššedovdi<s n="n"/></l><r>Sachkundiger<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>áššejođiheaddji<s n="n"/></l><r>Leiter<s n="n"/><s n="m"/></r></p></e>
@@ -3061,7 +3062,7 @@
     <e><p><l>oahppogirji<s n="n"/></l><r>Lehrbuch<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>oahpponeavvu<s n="n"/></l><r>Lehrmaterial<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>oahppoplána<s n="n"/></l><r>Lehrplan<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>oahppoprgrámma<s n="n"/></l><r>Ausbildungsprogramme<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>oahppoprgrámma<s n="n"/></l><r>Ausbildungsprogramm<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>oahppu<s n="n"/></l><r>Ausbildung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>oaidni<s n="n"/></l><r>Seher<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>oaidnu<s n="n"/></l><r>Aussehen<s n="n"/><s n="nt"/></r></p></e>
