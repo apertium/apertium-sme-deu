@@ -308,6 +308,7 @@
     <e><p><l c="toktokens??">dan<b/>rájes<b/>go<s n="cnjsub"/></l><r>seit<s n="cnjsub"/></r></p></e>
     <e><p><l c="toktokens??">ja<b/>go<s n="cnjsub"/></l><r>als<s n="cnjsub"/></r></p></e>
     <e><p><l c="toktokens??">ovdal<b/>go<s n="cnjsub"/></l><r>bevor<s n="cnjsub"/></r></p></e>
+    <e><p><l c="toktokens??">seammás<b/>go<s n="cnjsub"/></l><r>zur<b/>gleichen<b/>Zeit<b/>wie<s n="cnjsub"/></r></p></e>
     <e><p><l>dalle<b/>go<s n="cnjsub"/></l><r>dann<s n="cnjsub"/></r></p></e>
     <e><p><l>danin<b/>go<s n="cnjsub"/></l><r>weil<s n="cnjsub"/></r></p></e>
     <e><p><l>danin<s n="cnjsub"/></l><r>deshalb<s n="cnjsub"/></r></p></e>
@@ -363,6 +364,7 @@
     <e><p><l>ovddas<s n="post"/></l><r>vor<s n="pr"/></r></p></e>
     <e><p><l>rádjai<s n="post"/></l><r>bis<s n="pr"/></r></p></e>
     <e><p><l>rájes<s n="post"/></l><r>von<s n="pr"/></r></p></e>
+    <e><p><l>rájes<s n="post"/></l><r>seit<s n="pr"/></r></p></e>
     <e><p><l>rastá<s n="post"/></l><r>durch<s n="pr"/></r></p></e>
     <e><p><l>sadjái<s n="post"/></l><r>anstatt<s n="pr"/></r></p></e>
     <e><p><l>sisa<s n="post"/></l><r>hinein<s n="pr"/></r></p></e>
@@ -434,6 +436,7 @@
     <e><p><l>beallemuddui<s n="adv"/></l><r>halbwegs<s n="adv"/></r></p></e>
     <e><p><l>beare<s n="adv"/></l><r>nur<s n="adv"/></r></p></e>
     <e><p><l>birra<s n="adv"/></l><r>herum<s n="adv"/></r></p></e>
+    <e><p><l>bieđgguid<s n="adv"/></l><r>verstreut<s n="adv"/></r></p></e>
     <e><p><l>boastut<s n="adv"/></l><r>falsch<s n="adv"/></r></p></e>
     <e><p><l>botnjut<s n="adv"/></l><r>schräg<s n="adv"/></r></p></e>
     <e><p><l>buorebut<s n="adv"/></l><r>besser<s n="adv"/></r></p></e>
@@ -632,6 +635,7 @@
     <e><p><l>ruovttus<s n="adv"/></l><r>zuhause<s n="adv"/></r></p></e>
     <e><p><l>sakka<s n="adv"/></l><r>ziemlich<s n="adv"/></r></p></e>
     <e><p><l>šat<s n="adv"/></l><r>noch<s n="adv"/></r></p></e>
+    <e><p><l>šavvamis<s n="adv"/></l><r>hoffentlich<s n="adv"/></r></p></e>
     <e><p><l>seammá<s n="adv"/></l><r>ebenso<s n="adv"/></r></p></e>
     <e><p><l>seammás<s n="adv"/></l><r>gleichzeitig<s n="adv"/></r></p></e>
     <e><p><l>sierra<s n="adv"/></l><r>getrennt<s n="adv"/></r></p></e>
@@ -1567,6 +1571,7 @@
     <e><p><l>samisk</l><r>sámisch</r></p><par n="adj"/></e>
     <e><p><l>sápmelaš</l><r>Saame</r></p><par n="adj"/></e>
     <e><p><l>šattolaš</l><r>fruchtbar</r></p><par n="adj"/></e>
+    <e><p><l>sávahahtti</l><r>wünschenwert</r></p><par n="adj"/></e>
     <e><p><l>sávakeahtes</l><r>unerwünscht</r></p><par n="adj"/></e>
     <e><p><l>sávri</l><r>gesund</r></p><par n="adj"/></e>
     <e><p><l>seaggi</l><r>dünn</r></p><par n="adj"/></e>
@@ -2292,6 +2297,7 @@
     <e><p><l>ealáhuseallin<s n="n"/></l><r>Wirtschaft<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ealáhusovddideapmi<s n="n"/></l><r>Branchenentwicklung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ealáhus<s n="n"/></l><r>Lebensunterhalt<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ealáhussearvi<s n="n"/></l><r>Wirtschaftsverbund<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ealáskahttin<s n="n"/></l><r>Vitalisierung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ealgabivdi<s n="n"/></l><r>Elchjäger<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ealgabivdu<s n="n"/></l><r>Elchjagd<s n="n"/><s n="f"/></r></p></e>
@@ -2626,6 +2632,7 @@
     <e><p><l>jahkečoahkkin<s n="n"/></l><r>Jahrestreffen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>jahkečuohti<s n="n"/></l><r>Jahrhundert<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>jahkedieđáhus<s n="n"/></l><r>Jahresbericht<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>jahkedlohku<s n="n"/></l><r>Jahreszahl<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>jahki<s n="n"/></l><r>Jahr<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>jáhkka<s n="n"/></l><r>Jacke<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>jáhkku<s n="n"/></l><r>Glaube<s n="n"/><s n="m"/></r></p></e>
@@ -2654,6 +2661,7 @@
     <e><p><l>jođiheapmi<s n="n"/></l><r>Leitung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>johka<s n="n"/></l><r>Fluss<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>johtin<s n="n"/></l><r>Reisen<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>oktasasjohtolat<s n="n"/></l><r>öffentlicher<b/>Verkehr<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>johtolat<s n="n"/></l><r>Verkehr<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>johtti<s n="n"/></l><r>Tourist<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>johtu<s n="n"/></l><r>Weg<s n="n"/><s n="m"/></r></p></e>
@@ -2688,6 +2696,7 @@
     <e><p><l>jurdda<s n="n"/></l><r>Idee<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>juridihka<s n="n"/></l><r>Rechtslage<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>juridihka<s n="n"/></l><r>Rechtssystem<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>jurya<s n="n"/></l><r>Jury<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>juss<s n="n"/></l><r>Fürze<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kabineahtta<s n="n"/></l><r>Kabinet<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kafea<s n="n"/></l><r>Kaffee<s n="n"/><s n="m"/></r></p></e>
@@ -2733,7 +2742,7 @@
     <e><p><l>kulturráđđi<s n="n"/></l><r>Kulturrat<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kulturskuvla<s n="n"/></l><r>Kulturschule<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kulturviessu<s n="n"/></l><r>Kulturhaus<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>kultuvra<s n="n"/></l><r>Kultur<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kultuvra<s n="n"/></l><r>Kultur<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kursa<s n="n"/></l><r>Kurs<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kvaliteahtta<s n="n"/></l><r>Qualität<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kvena<s n="n"/></l><r>Kven<s n="n"/><s n="m"/></r></p></e>
@@ -2807,6 +2816,7 @@
     <e><p><l>lođá<s n="n"/></l><r>Box<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>loddi<s n="n"/></l><r>Vogel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>logaldallan<s n="n"/></l><r>Vorlesung<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>logo<s n="n"/></l><r>Logo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lohkan<s n="n"/></l><r>Lesen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lohka<s n="n"/></l><r>Lesen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lohkka<s n="n"/></l><r>Schloss<s n="n"/><s n="nt"/></r></p></e>
@@ -2818,12 +2828,14 @@
     <e><p><l>luksushotealla<s n="n"/></l><r>Luxushotel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lullisámegiella<s n="n"/></l><r>Südsaamisch<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lullisápmelaš<s n="n"/></l><r>Südsaame<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>máttasápmelaš<s n="n"/></l><r>Südsaame<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lulli<s n="n"/></l><r>Süd<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lunta<s n="n"/></l><r>Junge<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>luodda<s n="n"/></l><r>Straße<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>luohkká<s n="n"/></l><r>Klasse<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>luohti<s n="n"/></l><r>Joik<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>luohttámuš<s n="n"/></l><r>Vertrauen<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>luoitin<s n="n"/></l><r>Emission<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>luoikkas<s n="n"/></l><r>Leihgabe<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>luomi<s n="n"/></l><r>Moltebeere<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>luondduguovddáš<s n="n"/></l><r>Naturzentrum<s n="n"/><s n="nt"/></r></p></e>
@@ -2934,6 +2946,7 @@
     <e><p><l>modealla<s n="n"/></l><r>Model<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>mohtorgielká<s n="n"/></l><r>Schneemobil<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>mohtor<s n="n"/></l><r>Motor<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mohtorboaldámušat<s n="n"/></l><r>Treibstoff<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>moivi<s n="n"/></l><r>Durcheinander<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>mokta<s n="n"/></l><r>Lust<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>molssaeaktu<s n="n"/></l><r>Alternative<s n="n"/><s n="f"/></r></p></e>
@@ -2968,7 +2981,7 @@
     <e><p><l>myhta<s n="n"/></l><r>Mythos<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>náhkkebivttas<s n="n"/></l><r>Pelz<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>náhkki<s n="n"/></l><r>Leder<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>náitaleapmi<s n="n"/></l><r>Ehe<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>náitaleapmi<s n="n"/></l><r>Eheschließung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>náittosbárra<s n="n"/></l><r>Ehepaar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>nákca<s n="n"/></l><r>Fähigkeit<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>nálli<s n="n"/></l><r>Bauchnabel<s n="n"/><s n="m"/></r></p></e>
@@ -3202,6 +3215,7 @@
     <e><p><l>registtar<s n="n"/></l><r>Register<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>rehketdoallu<s n="n"/></l><r>Buchführung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rehket<s n="n"/></l><r>Rechnung<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>religiovdna<s n="n"/></l><r>Religion<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>reive<s n="n"/></l><r>Brief<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rektor<s n="n"/></l><r>Rektor<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>replihkka<s n="n"/></l><r>Replik<s n="n"/><s n="f"/></r></p></e>
@@ -3371,6 +3385,7 @@
     <e><p><l>sohkanamma<s n="n"/></l><r>Nachname<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sohkar<s n="n"/></l><r>Zucker<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sohka<s n="n"/></l><r>Familie<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sohka<s n="n"/></l><r>Geschlecht<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sosiálabálvalus<s n="n"/></l><r>Sozialdienst<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sotnabeaivi<s n="n"/></l><r>Sonntag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>spábbačiekčan<s n="n"/></l><r>Fußball<s n="n"/><s n="m"/></r></p></e>
@@ -3576,6 +3591,7 @@
 
 
 
+    <e><p><l>CO2<s n="n"/></l><r>CO2<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>U<s n="n"/></l><r>U<s n="n"/><s n="m"/></r></p></e>
 
     <e><p><l>malphabet<s n="n"/></l><r>M<s n="n"/><s n="m"/></r></p></e>
@@ -3880,7 +3896,7 @@
     <e><p><l>eastadit</l><r>verhindern</r></p><par n="vblex"/></e>
     <e><p><l>einnostit</l><r>vorhersehen</r></p><par n="vblex"/></e>
     <e><p><l>evalueret</l><r>evaluieren</r></p><par n="vblex"/></e>
-    <e><p><l>evttohit</l><r>anbefalen</r></p><par n="vblex"/></e>
+    <e w="2"><p><l>evttohit</l><r>anbefalen</r></p><par n="vblex"/></e>
     <e><p><l>evttohit</l><r>vorschlagen</r></p><par n="vblex"/></e>
     <e><p><l>fággádallat</l><r>ringen</r></p><par n="vblex"/></e>
     <e><p><l>fállat</l><r>anbieten</r></p><par n="vblex"/></e>
@@ -4064,6 +4080,7 @@
     <e><p><l>jearahit</l><r>nachfragen</r></p><par n="vblex"/></e>
     <e><p><l>jearralit</l><r>fragen</r></p><par n="vblex"/></e>
     <e><p><l>jearrat</l><r>fragen</r></p><par n="vblex"/></e>
+    <e><p><l>jevdet</l><r>ausgleichen</r></p><par n="vblex"/></e>
     <e><p><l>jienastit</l><r>wählen</r></p><par n="vblex"/></e>
     <e><p><l>jienastit</l><r>wählen</r></p><par n="vblex"/></e>
     <e><p><l>joatkašuvvat</l><r>weiterführen</r></p><par n="vblex"/></e>
@@ -4420,6 +4437,7 @@
     <e><p><l>vuolgit</l><r>gehen</r></p><par n="vblex"/></e>
     <e><p><l>vuolláičállit</l><r>unterschreiben</r></p><par n="vblex"/></e>
     <e><p><l>vuollánit</l><r>aufgeben</r></p><par n="vblex"/></e>
+    <e><p><l>vuolidit</l><r>reduzieren</r></p><par n="vblex"/></e>
     <e><p><l>vuordit</l><r>erwarten</r></p><par n="vblex"/></e>
     <e><p><l>vuoruhit</l><r>priorisieren</r></p><par n="vblex"/></e>
     <e><p><l>vuosehit</l><r>schauen</r></p><par n="vblex"/></e>
@@ -4665,6 +4683,7 @@
     <e><p><l>Ruošša<s n="np"/></l><r>Russland<s n="np"/></r></p></e>
     <e><p><l>Ruoŧŧa<s n="np"/></l><r>Schweden<s n="np"/></r></p></e>
     <e><p><l>Suopma<s n="np"/></l><r>Finnland<s n="np"/></r></p></e>
+    <e><p><l>Čáhcesullo<s n="np"/></l><r>Vadsø<s n="np"/></r></p></e>
 
     <!-- }}}
     {{{ SECTION: Punctuation punctuation puncts -->
