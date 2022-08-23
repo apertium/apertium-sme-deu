@@ -267,6 +267,8 @@ VP -> NP.*.loc.sem_hum leat@vblex {
         2[person=1.person, number=1.number] } |
       ii@vblex prn vblex [$negativity=neg] {
         2 _ 3[person=1.person, number=1.number] } |
+      leat@vblex  NP { es@prn.pers.p3.nt.sg.nom _ geben@vblex.[1.tense].p3.sg _
+                       2 } | ! existential clause
       V go@pcle {
       1 _ *(pro_undrop)[number=1.number,person=1.person] } |  ! stray V + qst
       V { *(pro_undrop)[number=1.number,person=1.person] 1 } ;  ! stray V
@@ -331,6 +333,7 @@ DP -> DET %N { 1[gender=(if (2.number = pl) mfn else 2.gender),
 N ->
     ! idioms
     ruhtadilli@n { finanziell@adj.sint.f.sg.nom.sw _ Situation@n.f.sg.nom } |
+    n.*.cmp %n { 1 2 } |
     ! normal n
     %n {1[case=(if (1.case = loc) acc
                                          elif (1.case = ill) dat
