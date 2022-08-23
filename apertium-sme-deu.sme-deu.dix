@@ -259,7 +259,7 @@
     <e><p><l>gii<s n="prn"/><s n="ind"/></l><r>jemand<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
     <e><p><l>gii<s n="prn"/><s n="ind"/></l><r>jemand<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
     <e><p><l>gii<s n="prn"/><s n="itg"/></l><r>wer<s n="prn"/></r></p></e>
-    <e><p><l>gii<s n="prn"/><s n="rel"/></l><r>wer<s n="prn"/></r></p></e>
+    <e><p><l>gii<s n="prn"/><s n="rel"/></l><r>welcher<s n="prn"/></r></p></e>
     <e><p><l>goabbá<s n="prn"/></l><r>welcher<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>goabbat<s n="prn"/></l><r>beide<s n="prn"/></r></p></e>
     <e><p><l>goappašagat<s n="prn"/></l><r>beide<s n="det"/><s n="ind"/><s n="mfn"/></r></p></e>
@@ -274,6 +274,7 @@
     <e><p><l>juohkehaš<s n="prn"/></l><r>jede<s n="prn"/></r></p></e>
     <e><p><l>juohke<s n="prn"/></l><r>jede<s n="prn"/></r></p></e>
     <e><p><l>mii<s n="prn"/></l><r>was<s n="prn"/><s n="itg"/><s n="nt"/><s n="sp"/><s n="nom"/></r></p></e>
+    <e><p><l>mii<s n="prn"/></l><r>welcher<s n="prn"/><s n="rel"/><s n="sp"/><s n="nom"/></r></p></e>
     <e><p><l>muhtin<s n="prn"/></l><r>irgendjemand<s n="prn"/></r></p></e>
     <e><p><l>muhtun<s n="prn"/></l><r>irgendjemand<s n="prn"/></r></p></e>
     <e><p><l>nubbi<s n="prn"/></l><r>andere<s n="prn"/></r></p></e>
@@ -324,7 +325,7 @@
     <e><p><l>jus<s n="cnjsub"/></l><r>wenn<s n="cnjsub"/></r></p></e>
     <e><p><l>maŋŋel<b/>go<s n="cnjsub"/></l><r>nach<s n="cnjsub"/></r></p></e>
     <e><p><l>maŋŋelgo<s n="cnjsub"/></l><r>nach<s n="cnjsub"/></r></p></e>
-    <e><p><l>nu<b/>ahte<s n="cnjsub"/></l><r>sodaß<s n="cnjsub"/></r></p></e>
+    <e><p><l>nu<b/>ahte<s n="cnjsub"/></l><r>so<b/>dass<s n="cnjsub"/></r></p></e>
     <e><p><l>nugo<s n="cnjsub"/></l><r>als<s n="cnjsub"/></r></p></e>
     <e><p><l>nugo<s n="cnjsub"/></l><r>wie<s n="cnjsub"/></r></p></e>
     <e><p><l>nugo<s n="cnjsub"/></l><r>so<b/>wie<s n="cnjsub"/></r></p></e>
@@ -2966,7 +2967,7 @@
     <e><p><l>muohtaeŋgel<s n="n"/></l><r>Schneengel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>muohtaskohter<s n="n"/></l><r>Schneescooter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>muohta<s n="n"/></l><r>Schnee<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>muorječoaggin<s n="n"/></l><r>Beerenpflücken<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>muorječoaggin<s n="n"/></l><r>Beerenpflücken<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>muorjemeastu<s n="n"/></l><r>Marmelade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>muorji<s n="n"/></l><r>Beere<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>muorragohppa<s n="n"/></l><r>Holztasse<s n="n"/><s n="f"/></r></p></e>
