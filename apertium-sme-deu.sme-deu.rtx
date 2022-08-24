@@ -72,6 +72,7 @@ NUM: _ ;
 VP: _.negativity ;
 NEG: _ ;
 S: _ ;
+SFRAG: _ ;
 
 ! phrases
 
@@ -168,6 +169,9 @@ pro_undrop: (if (1.number = sg)
              else [$$expletive _]) ;
 maybe_nicht: (if (1.negativity = neg) [nicht@adv _]
               else []) ; 
+measr_time_to_adj: (if (1.lem/tl = Jahr) jährig@adj.sint.[1.gender].sg.nom.sw
+                    else [1(n) ig@adj]) ;
+
 !! split pos generation fucntions
 adj: (if (1.depfunc = "@←SPRED") 1(adj_pred)[adj_type=pred]
       elif (1.depfunc = "@←OPRED") 1(adj_pred)[adj_type=pred]
@@ -205,12 +209,21 @@ S -> C PRN.loc leat@vblex NP { 1 _ 2 _
         *(maybe_adp)[case=1.case]
         *(maybe_art)[number=1.number,case=1.case,gender=1.gender,def=def,negativity=aff]
         1 } |
-     DP {
+     DP { ! determined phrase (no more articles)
         *(maybe_adp)[case=1.case]
         1 } |
-     PROPN {
+     PROPN { ! stray PROPN (no article)
         *(maybe_adp)[case=1.case]
-        1 } ; ! stray PROPN (no article)
+        1 } |
+    SFRAG { 1 } |
+    SFRAG S { 1 _ 2 } |
+    S SFRAG { 1 _ 2 }
+    ; 
+
+SFRAG -> N {
+    *(maybe_adp)[case=1.case]
+    *(maybe_art)[number=1.number,case=1.case,gender=1.gender,def=def,negativity=aff]
+    1 } ;
 NEG -> ii@vblex { nicht@adv[lemcase=1.lemcase] } ; ! stray NEG
 VP -> NP.*.loc.sem_hum leat@vblex {
         *(maybe_adp)[case=nom]
@@ -287,12 +300,17 @@ PP -> NUMP post { 2 _ 1 } |
       PRN post { 2 _ 1 } |
       NP post { 2 _ 1 } ;
 NUMP -> ! if number is one: use indefinite article instead and singulars:
+        ! expressions
         %num.*.nom n.*.gen num.*.loc n.*.loc {
             1 _ 2[number=pl,case=nom] _ von@pr.dat _ 3 _ 4[number=pl,case=dat] 
         } |
         %num.*.nom n.*.nom num.*.loc n.*.loc {
             1 _ 2[number=sg,case=nom] _ von@pr.dat _ 3 _ 4[number=pl,case=dat] 
         } |
+        num.*.gen n.*.sem_measr_time.*.gen n.*.sem_time.* {
+            1 2(measr_time_to_adj)[gender=3.gender] _ 3
+        } |
+        ! counted stuff
         %num A n ?(1.lem/sl = "okta") { 
             eine@det.ind.[3.gender].[3.number].[3.case] _
                  %2[number=sg,case=1.case] _
@@ -333,7 +351,7 @@ DP -> DET %N { 1[gender=(if (2.number = pl) mfn else 2.gender),
 N ->
     ! idioms
     ruhtadilli@n { finanziell@adj.sint.f.sg.nom.sw _ Situation@n.f.sg.nom } |
-    n.*.cmp %n { 1 2 } |
+    n.*.cmp %n { 1 "-"@punct 2 } |
     ! normal n
     %n {1[case=(if (1.case = loc) acc
                                          elif (1.case = ill) dat
