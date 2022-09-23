@@ -1,0 +1,12 @@
+@inproceedings{pirinen-wiechetek-2022-building,
+    title = "Building an Extremely Low Resource Language to High Resource Language Machine Translation System from Scratch",
+    author = "Pirinen, Flammie  and
+      Wiechetek, Linda",
+    booktitle = "Proceedings of the 18th Conference on Natural Language Processing (KONVENS 2022)",
+    month = "12--15 " # sep,
+    year = "2022",
+    address = "Potsdam, Germany",
+    publisher = "KONVENS 2022 Organizers",
+    url = "https://aclanthology.org/2022.konvens-1.18",
+    pages = "150--155",
+}

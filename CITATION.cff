@@ -1,0 +1,33 @@
+authors:
+  - family-names: Pirinen
+    given-names: Flammie A
+    orcid: "https://orcid.org/0000-0003-1207-5395"
+  - family-names: Wiechetek
+    given-names: Linda
+    orcid: 
+cff-version: 1.2.0
+date-released: "2022-09-14"
+identifiers:
+  - description: ACL anthology
+    type: url
+    value: https://aclanthology.org/2022.konvens-1.18/
+keywords:
+  - Finnish
+  - German
+  - MT
+  - dictionary
+message: If you use this software, please cite it using these metadata.
+repository-code: "https://github.com/apertium/apertium-sme-deu"
+title: Apertium North Saami-German
+version: 0.1.0
+preferred-citation:
+  authors:
+    - family-names: Pirinen
+      given-names: Flammie A
+    - family-names: Wiechetek
+      given-names: Linda
+  title: "Building an Extremely Low Resource Language to High Resource Language Machine Translation System from Scratch"
+  type: article
+license: GPL-3.0
+url: https://github.com/apertium/apertium-sme-deu/
+

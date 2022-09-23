@@ -94,3 +94,30 @@ If you need help using this language pair or data, you can contact:
 * IRC: `#apertium` on irc.oftc.net <irc://irc.oftc.net/#apertium>
 
 See also the file [`AUTHORS`](AUTHORS), included in this distribution.
+
+## Citing
+
+If you use this in academic context please cite as:
+
+> Flammie Pirinen and Linda Wiechetek. 2022. [Building an Extremely Low Resource
+  Language to High Resource Language Machine Translation System from
+  Scratch.](https://aclanthology.org/2022.konvens-1.18) In *Proceedings of the
+  18th Conference on Natural Language Processing (KONVENS 2022)*, pages 150–155,
+  Potsdam, Germany. KONVENS 2022 Organizers.
+
+In TeX you can use the following bibtex:
+
+```bibtex
+@inproceedings{pirinen-wiechetek-2022-building,
+    title = "Building an Extremely Low Resource Language to High Resource Language Machine Translation System from Scratch",
+    author = "Pirinen, Flammie  and
+      Wiechetek, Linda",
+    booktitle = "Proceedings of the 18th Conference on Natural Language Processing (KONVENS 2022)",
+    month = "12--15 " # sep,
+    year = "2022",
+    address = "Potsdam, Germany",
+    publisher = "KONVENS 2022 Organizers",
+    url = "https://aclanthology.org/2022.konvens-1.18",
+    pages = "150--155",
+}
+```
