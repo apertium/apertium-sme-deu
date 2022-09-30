@@ -335,7 +335,13 @@ NP -> %A %N ADV { %1[gender=2.gender,
       sápmi@n.*.gen %N { saamisch@adj.[2.gender].[2.number].[2.case].sw _
                          2 } |
       ! n
-      %N { %1 } ;
+      %N { %1 } |
+    num n num n.*.loc [$number=(if (1.lem/sl incl one_lem) sg else pl),
+       $case=(if ((1.lem/sl not incl one_lem) and (1.case = nom)) nom
+              else 2.case)]
+      { 1 _ %2 _ von@pr _ 3 _
+        4[case=dat,number=(if (3.lem/sl incl one_lem) sg else pl)] 
+      } ;
 DP -> DET %N { 1[gender=(if (2.number = pl) mfn else 2.gender),
                  number=2.number,
                  case=(if (2.case = loc) nom else 2.case)] _ 2 } |
