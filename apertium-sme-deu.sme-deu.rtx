@@ -55,6 +55,7 @@ pr: _;
 adj_agr: _.<sint>.comparison.gender.number.case.strength;
 adj_pred: _.<sint>.comparison.adj_type;
 num: _.number;
+num_digit: _;
 num_ord: _.<ord>;
 pcle: _;
 
@@ -336,10 +337,10 @@ NP -> %A %N ADV { %1[gender=2.gender,
                          2 } |
       ! n
       %N { %1 } |
-    num n num n.*.loc [$number=(if (1.lem/sl incl one_lem) sg else pl),
+    num.arab n num.arab n.*.loc [$number=(if (1.lem/sl incl one_lem) sg else pl),
        $case=(if ((1.lem/sl not incl one_lem) and (1.case = nom)) nom
               else 2.case)]
-      { 1 _ %2 _ von@pr _ 3 _
+      { 1(num_digit) _ %2 _ von@pr _ 3(num_digit) _
         4[case=dat,number=(if (3.lem/sl incl one_lem) sg else pl)] 
       } ;
 DP -> DET %N { 1[gender=(if (2.number = pl) mfn else 2.gender),
@@ -420,7 +421,8 @@ ADV -> adv {1} |
        pcle {1} ;
 ADP -> post {1} |
        pr {1} ;
-NUM -> num {1[number = (if (1.lem/sl = "okta") sg else pl)] } |
+NUM -> num.arab { 1(num_digit) } |
+       num {1[number = (if (1.lem/sl = "okta") sg else pl)] } |
        adj.arab.ord.* { 1(num_ord) } ;
 A -> %buorre@adj { %1[case=(if (1.case = loc) nom
                      elif (1.case = ill) dat
