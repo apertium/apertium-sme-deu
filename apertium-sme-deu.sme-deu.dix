@@ -136,8 +136,8 @@
     <e><p><l>mielas<s n="post"/></l><r>Meinung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>moadde<s n="num"/></l><r>ein<b/>paar<s n="det"/></r></p></e>
     <e><p><l>ollugat<s n="prn"/></l><r>viele<s n="prn"/></r></p></e>
-    <e><p><l>unnán<s n="prn"/></l><r>bißchen<s n="adv"/></r></p></e>
-    <e><p><l>vaikko<b/>mii<s n="prn"/></l><r>wie<b/>auch<b/>immer<s n="adv"/></r></p></e>
+    <e><p><l>unnán<s n="prn"/></l><r>ein<b/>bißchen<s n="adv"/></r></p></e>
+    <e><p><l>vaikko<b/>mii<s n="prn"/></l><r>was<b/>auch<b/>immer<s n="adv"/></r></p></e>
 
     <e r="LR"><p><l>bat<s n="pcle"/></l><r/></p></e>
     <e r="LR"><p><l c="abbr">du<s n="n"/></l><r>du<s n="prn"/></r></p></e>
@@ -558,7 +558,7 @@
     <e><p><l>juo<s n="adv"/></l><r>noch<s n="adv"/></r></p></e>
     <e><p><l>justa<s n="adv"/></l><r>genau<s n="adv"/></r></p></e>
     <e><p><l>lagabui<s n="adv"/></l><r>näherhin<s n="adv"/></r></p></e>
-    <e><p><l>liikká<s n="adv"/></l><r>jedenfalls<s n="adv"/></r></p></e>
+    <e><p><l>liikká<s n="adv"/></l><r>trotzdem<s n="adv"/></r></p></e>
     <e><p><l>loahpas<s n="adv"/></l><r>endlich<s n="adv"/></r></p></e>
     <e><p><l>loahpas<s n="adv"/></l><r>endlich<s n="adv"/></r></p></e>
     <e><p><l>lulás<s n="adv"/></l><r>süd<s n="adv"/></r></p></e>
@@ -2629,7 +2629,7 @@
     <e><p><l>iskkadeapmi<s n="n"/></l><r>Untersuchung<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>iskkus<s n="n"/></l><r>Untersuchung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ivdni<s n="n"/></l><r>Farbe<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>ivgu<b/>gákti<s n="n"/></l><r>Ivgugakti<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ivgu<b/>gákti<s n="n"/></l><r>Lyngentracht<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>jahkebealli<s n="n"/></l><r>Halbjahr<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>jahkečoahkkin<s n="n"/></l><r>Jahrestreffen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>jahkečuohti<s n="n"/></l><r>Jahrhundert<s n="n"/><s n="m"/></r></p></e>
@@ -3096,7 +3096,7 @@
     <e><p><l>ođđajagemánnu<s n="n"/></l><r>Januar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ođđajahki<s n="n"/></l><r>Neujahr<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ofelaš<s n="n"/></l><r>Guide<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>ohcamuš<s n="n"/></l><r>Bewerbuung<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ohcamuš<s n="n"/></l><r>Bewerbung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ohcanáigemearri<s n="n"/></l><r>Bewerbungsfrist<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ohcanskovvi<s n="n"/></l><r>Bewerbung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ohcan<s n="n"/></l><r>Suche<s n="n"/><s n="m"/></r></p></e>
@@ -3106,7 +3106,7 @@
     <e><p><l>oktavuohta<s n="n"/></l><r>Verbindung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>oktavuohta<s n="n"/></l><r>Zusammenhang<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>olahusjoavku<s n="n"/></l><r>Kompetenzgruppe<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>olahusjoavku<s n="n"/></l><r>Spitzengruppe<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>olahusjoavku<s n="n"/></l><r>Spitzengruppe<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>olahus<s n="n"/></l><r>Höchstleistung<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>olahus<s n="n"/></l><r>Rekord<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>olgoriika<s n="n"/></l><r>Ausland<s n="n"/><s n="nt"/></r></p></e>
@@ -3173,7 +3173,7 @@
     <e><p><l>prográmma<s n="n"/></l><r>Program<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>prošeaktajođiheaddji<s n="n"/></l><r>Projektleiter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>prošeakta<s n="n"/></l><r>Projekt<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>proseanta<s n="n"/></l><r>Prozent<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>proseanta<s n="n"/></l><r>Prozent<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>proseassa<s n="n"/></l><r>Prozess<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>prostitušuvdna<s n="n"/></l><r>Prostitution<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ráđđádallan<s n="n"/></l><r>Verhandlung<s n="n"/><s n="f"/></r></p></e>
@@ -3296,9 +3296,9 @@
     <e><p><l>sáltemárfi<s n="n"/></l><r>Salami<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Sámeálbmot<s n="n"/></l><r>Saamenvolk<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>sámediggeáirras<s n="n"/></l><r>Saamenparlamentarier<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>sámediggejoavku<s n="n"/></l><r>Saamenparlamentsgruppe<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sámediggejoavku<s n="n"/></l><r>Saamenparlamentsgruppe<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sámediggeráđđi<s n="n"/></l><r>Saamenparlamentsrat<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>sámediggeválga<s n="n"/></l><r>Saamenparlamentswahl<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sámediggeválga<s n="n"/></l><r>Saamenparlamentswahl<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sámediggi<s n="n"/></l><r>Saamenparlament<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>sámegiella<s n="n"/></l><r>Saamisch<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>sámegieloahpahus<s n="n"/></l><r>Saamischunterricht<s n="n"/><s n="m"/></r></p></e>
