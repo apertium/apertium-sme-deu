@@ -19,6 +19,7 @@ finity = (FIN fin) inf actio pp prs pprs prfprc fin ;
 conneg = conneg ;
 def = ind def ;
 adj_type = sint pred attr ;
+numtype = ord card digit arab ;
 negativity = (NEG aff) neg aff ;
 comparison = comp sup ;
 poss = px1sg px2sg px3sg px1du px2du px3du px1pl px2pl px3pl px3sp ;
@@ -54,7 +55,7 @@ post: _;
 pr: _;
 adj_agr: _.<sint>.comparison.gender.number.case.strength;
 adj_pred: _.<sint>.comparison.adj_type;
-num: _.number;
+num_card: _.number;
 num_digit: _;
 num_ord: _.<ord>;
 pcle: _;
@@ -184,6 +185,9 @@ vblex: (if (1.finity = inf) 1(vblex_inf)
         elif (1.pcp = prfprc) 1(vblex_pp)  ! probably not ideal
         elif (1.pcp = pprs) 1(vblex_pp)
         else 1(vblex_fin) ) ;
+num: (if (1.numtype = arab) 1(num_digit)
+      elif (1.numtype = ord) 1(num_ord)
+      else 1(num_card) ) ;
 
 !!!!!!!!!!!!!!!
 !! REDUCTION RULES
@@ -193,10 +197,10 @@ S -> C PRN.loc leat@vblex NP { 1 _ 2 _
             *(maybe_art)[number=4.number,case=4.case,gender=4.gender,def=ind,negativity=3.negativity]
             4 _ 
             haben@vbhaver.pri.[2.person].[2.number] } |
-    ADV VP NP { 2 _ 1 _
-        *(maybe_adp)[case=3.case]
-        *(maybe_art)[number=3.number,case=3.case,gender=3.gender,def=ind,negativity=2.negativity]
-        3 } |
+!    ADV VP NP { 2 _ 1 _
+!        *(maybe_adp)[case=3.case]
+!        *(maybe_art)[number=3.number,case=3.case,gender=3.gender,def=ind,negativity=2.negativity]
+!        3 } |
      %VP NP { 1 _
         *(maybe_adp)[case=2.case]
         *(maybe_art)[number=2.number,case=2.case,gender=2.gender,def=ind,negativity=1.negativity]
@@ -224,7 +228,11 @@ S -> C PRN.loc leat@vblex NP { 1 _ 2 _
 SFRAG -> N {
     *(maybe_adp)[case=1.case]
     *(maybe_art)[number=1.number,case=1.case,gender=1.gender,def=def,negativity=aff]
-    1 } ;
+    1 } |
+    NUMP { 
+        *(maybe_adp)[case=1.case]
+        1
+    } ;
 NEG -> ii@vblex { nicht@adv[lemcase=1.lemcase] } ; ! stray NEG
 VP -> NP.*.loc.sem_hum leat@vblex {
         *(maybe_adp)[case=nom]
@@ -309,6 +317,8 @@ NUMP -> ! if number is one: use indefinite article instead and singulars:
             1 _ 2[number=sg,case=nom] _ von@pr.dat _ 3 _ 4[number=pl,case=dat] 
         } |
         ! counted stuff
+        %num.arab proseanta@n { 1(num_digit) _ 2[number=sg,case=nom] } |
+        %num proseanta@n { 1 _ 2[number=sg,case=nom] } |
         %num A n ?(1.lem/sl = "okta") { 
             eine@det.ind.[3.gender].[3.number].[3.case] _
                  %2[number=sg,case=1.case] _
@@ -320,7 +330,8 @@ NUMP -> ! if number is one: use indefinite article instead and singulars:
             eine@det.ind.[2.gender].[2.number].[2.case] _
             %2[number=sg,case=1.case] } | 
         %num n { 1[number=pl,gender=2.gender] _
-                 %2[number=pl,case=1.case] } |
+                 %2[number=pl,
+                   case=(if (2.case = loc) dat else nom)] } |
         num.arab n num.arab n.*.loc 
         [$number=(if (1.lem/sl incl one_lem) sg else pl),
          $case=(if ((1.lem/sl not incl one_lem) and (1.case = nom)) nom
@@ -336,7 +347,7 @@ NP -> %A %N ADV { %1[gender=2.gender,
       N.*.gen %N { %2 _ der@det.def.[1.gender].sg.gen _ 1 } |
       N.*.gen A N { 2[strength=sw] _ %3 _
                     der@det.def.[1.gender].sg.gen _ 1 } |
-      num.*.gen n.*.sem_measr_time.*.gen %n.*.sem_time.* {
+      num.*.gen n.*.sem_measr_time.*.gen %n {
             1[number=(if (1.lem/sl incl one_lem) sg else pl)]
             2(measr_time_to_adj)[gender=3.gender] _ 
             %3[case=acc]
