@@ -9,7 +9,8 @@ det_type = def ind dem itg pos qnt ;
 tense = pres fut pret pii imp ;
 person = p1 p2 p3 ;
 npclass = ant org al top geo;
-prntype = pers ind qnt itg dem pos;
+prntype = pers ind qnt itg dem pos rel;
+foobar = nn ;
 sep = sep ;  !! separable stuff
 fs = fs fm ; !! separable stuff
 advtype = itg ;
@@ -47,7 +48,7 @@ vbser: _.tense.person.number;
 vbmod: _.tense.person.number;
 cnjcoo: _;
 cnjsub: _;
-prn: _.prntype.person.gender.number.case;
+prn: _.prntype.foobar.person.gender.number.case;
 det: _.det_type.person.gender.number.case;
 det_pos: _.det_type.gender.number.case;
 adv: _.advtype;
@@ -125,8 +126,8 @@ maybe_art: (if (1.number = sg)
             else
                 (if (1.def = def) 
                     (if (1.case = com) [der@det.def.mfn.pl.dat _]
-                     elif (1.case = ill) [der@det.def.mfn.pl.dat _]
-                     elif (1.case = loc) [der@det.def.mfn.pl.acc _]
+                     elif (1.case = ill) [der@det.def.mfn.pl.acc _]
+                     elif (1.case = loc) [der@det.def.mfn.pl.dat _]
                      elif (1.case = ess) [der@det.def.mfn.pl.nom _]
                      else [der@det.def.mfn.pl.[1.case] _])
                 else 
@@ -169,6 +170,8 @@ pro_undrop: (if (1.number = sg)
                  elif (1.person = p3) [sie@prn.pers.p3.mf.pl.nom _ beide@det.ind.mfn.pl.nom _]
                  else [$$expletive _])
              else [$$expletive _]) ;
+pro3_undrop: (if (1.number = sg and 1.person = p3) [es@prn.pers.p3.nt.sg.nom _]
+              else []) ;
 maybe_nicht: (if (1.negativity = neg) [nicht@adv _]
               else []) ; 
 measr_time_to_adj: (if (1.lem/tl = Jahr) jährig@adj.sint.[1.gender].sg.nom.sw
@@ -286,6 +289,7 @@ VP -> NP.*.loc.sem_hum leat@vblex {
         3[person=2.person,number=2.number] } |
       ii@vblex vblex [$negativity=neg] {
         *(pro_undrop)[number=1.number,person=1.person]
+        *(pro3_undrop)[number=1.number,person=1.person]
         2[person=1.person, number=1.number] } |
       ii@vblex prn vblex [$negativity=neg] {
         2 _ 3[person=1.person, number=1.number] } |
@@ -408,14 +412,17 @@ DET -> %prn.pers.*.gen."@→N" { %1(det_pos) } |  ! Obs: list from sme-nob
        %prn.ind."@→N" { %1 } |
        %prn.ind."@→A" { %1 } |
        %det { %1 } ;
-PRN -> %prn { 1[case=(if (1.case = loc) nom
+PRN ->  %prn {  ! prn.itg.m.sg.dat 
+            1[case=(if (1.case = loc) nom  
                      elif (1.case = ill) dat
                      elif (1.case = ess) nom
                      elif (1.case = com) dat
                      elif (1.case = acc) acc
                      elif (1.case = dat) dat
                      elif (1.case = gen) gen
-                     else nom)] } ;
+                     else nom),
+               gender=(if (1.number = pl) mfn
+                       else 1.gender)] } ;
 ADV -> adv {1} |
        ! idiomatics
        dáidit@vblex { vielleicht@adv } |

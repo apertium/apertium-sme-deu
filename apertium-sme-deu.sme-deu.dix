@@ -35,6 +35,7 @@
     <sdef n="mf"      c="Man-Woman"/>
     <sdef n="nt"      c="Neuter"/>
     <sdef n="mfn"     c="Man-Woman-Neuter"/>
+    <sdef n="nn"      c="???"/>
 
 
     <sdef n="sg"      c="singular"/>
@@ -269,7 +270,7 @@
     <e><p><l>áidna<s n="prn"/></l><r>einige<s n="prn"/></r></p></e>
     <e><p><l>buohkat<s n="prn"/></l><r>alle<s n="prn"/></r></p></e>
     <e><p><l>buot<s n="prn"/></l><r>alle<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>dát<s n="prn"/></l><r>dies<s n="prn"/><s n="dem"/><s n="GD"/></r></p></e>
+    <e><p><l>dát<s n="prn"/></l><r>diese<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>dat<s n="prn"/></l><r>es<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/></r></p></e>
     <e><p><l>diet<s n="prn"/></l><r>das<s n="prn"/></r></p></e>
     <e><p><l>dot<s n="prn"/></l><r>das<s n="prn"/></r></p></e>
@@ -280,8 +281,8 @@
     <e><p><l>gait<s n="prn"/></l><r>alle<s n="prn"/></r></p></e>
     <e><p><l>gii<s n="prn"/><s n="ind"/></l><r>jemand<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
     <e><p><l>gii<s n="prn"/><s n="ind"/></l><r>jemand<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
-    <e><p><l>gii<s n="prn"/><s n="itg"/></l><r>wer<s n="prn"/></r></p></e>
-    <e><p><l>gii<s n="prn"/><s n="rel"/></l><r>welcher<s n="prn"/></r></p></e>
+    <e><p><l>gii<s n="prn"/><s n="itg"/></l><r>wer<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>gii<s n="prn"/><s n="rel"/></l><r>welche<s n="prn"/><s n="rel"/></r></p></e>
     <e><p><l>goabbá<s n="prn"/></l><r>welcher<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>goabbat<s n="prn"/></l><r>beide<s n="prn"/></r></p></e>
     <e><p><l>goappašagat<s n="prn"/></l><r>beide<s n="det"/><s n="ind"/><s n="mfn"/></r></p></e>
