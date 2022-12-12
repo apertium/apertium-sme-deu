@@ -1,0 +1,8 @@
+[1uIShmIahYb3#0] ^house/*house$
+[/1uIShmIahYb3]
+[UPTbBcaNL7Li#0] ^Mun/Mun<prn><pers><p1><sg><nom><←sme→>$ ^oainnán/oaidnit<vblex><tv><indic><pres><p1><sg><←sme→><@+FMAINV>$ ^du/don<prn><pers><p2><sg><gen><←sme→>$ ^beatnaga/beana<n><sem_ani><sg><acc><←sme→>$.
+[/UPTbBcaNL7Li]
+[ePbmoTTGprfb#0] ^Mun/Mun<prn><pers><p1><sg><nom><←sme→>$ ^oainnán/oaidnit<vblex><tv><indic><pres><p1><sg><←sme→><@+FMAINV>$ ^girjji/girji<n><sem_txt><sg><acc><←sme→>$.
+[/ePbmoTTGprfb]
+[l24cC00G04Bj#0] , . ?
+[/l24cC00G04Bj]

@@ -1,0 +1,8 @@
+[1uIShmIahYb3#0] ^*house/*house$
+[/1uIShmIahYb3]
+[UPTbBcaNL7Li#0] ^Mun<prn><pers><p1><sg><nom><@SUBJ→>/Ich<prn><pers><p1><mf><nom><@SUBJ→>$ ^oaidnit<vblex><tv><indic><pres><p1><sg><@+FMAINV>/sehen<vblex><tv><indic><pres><p1><sg><@+FMAINV>$ ^don<prn><pers><p2><sg><gen><@→N>/du<prn><pers><p2><mf><sg><gen><@→N>$ ^beana<n><sem_ani><sg><acc><@←OBJ>/Hund<n><m><sem_ani><sg><acc><@←OBJ>$.
+[/UPTbBcaNL7Li]
+[ePbmoTTGprfb#0] ^Mun<prn><pers><p1><sg><nom><@SUBJ→>/Ich<prn><pers><p1><mf><nom><@SUBJ→>$ ^oaidnit<vblex><tv><indic><pres><p1><sg><@+FMAINV>/sehen<vblex><tv><indic><pres><p1><sg><@+FMAINV>$ ^girji<n><sem_txt><sg><acc><@←OBJ>/Buch<n><nt><sem_txt><sg><acc><@←OBJ>$.
+[/ePbmoTTGprfb]
+[l24cC00G04Bj#0] , . ?
+[/l24cC00G04Bj]

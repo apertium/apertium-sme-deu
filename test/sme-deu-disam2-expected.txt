@@ -1,0 +1,8 @@
+[1uIShmIahYb3#0] ^*house$
+[/1uIShmIahYb3]
+[UPTbBcaNL7Li#0] ^Mun<prn><pers><p1><sg><nom><@SUBJ→>$ ^oaidnit<vblex><tv><indic><pres><p1><sg><@+FMAINV>$ ^don<prn><pers><p2><sg><gen><@→N>$ ^beana<n><sem_ani><sg><acc><@←OBJ>$.
+[/UPTbBcaNL7Li]
+[ePbmoTTGprfb#0] ^Mun<prn><pers><p1><sg><nom><@SUBJ→>$ ^oaidnit<vblex><tv><indic><pres><p1><sg><@+FMAINV>$ ^girji<n><sem_txt><sg><acc><@←OBJ>$.
+[/ePbmoTTGprfb]
+[l24cC00G04Bj#0] , . ?
+[/l24cC00G04Bj]

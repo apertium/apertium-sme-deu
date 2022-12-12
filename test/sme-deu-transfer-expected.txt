@@ -1,0 +1,8 @@
+[1uIShmIahYb3#0] ^*house$
+[/1uIShmIahYb3]
+[UPTbBcaNL7Li#0] ^Ich<prn><pers><p1><mf><sg><nom>$ ^sehen<vblex><pri><p1><sg>$ ^du<prn><m><sg><acc>$ ^Hund<n><m><sg><acc>$.
+[/UPTbBcaNL7Li]
+[ePbmoTTGprfb#0] ^Ich<prn><pers><p1><mf><sg><nom>$ ^sehen<vblex><pri><p1><sg>$  ^der<det><def><nt><sg><acc>$ ^Buch<n><nt><sg><acc>$.
+[/ePbmoTTGprfb]
+[l24cC00G04Bj#0] , . ?
+[/l24cC00G04Bj]

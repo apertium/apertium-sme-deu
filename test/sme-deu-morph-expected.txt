@@ -1,0 +1,8 @@
+[1uIShmIahYb3#0] ^house/*house$
+[/1uIShmIahYb3]
+[UPTbBcaNL7Li#0] ^Mun/mun<prn><pers><p1><sg><nom>$ ^oainnán/oaidnit<vblex><tv><indic><pres><p1><sg>$ ^du/don<prn><pers><p2><sg><acc>/don<prn><pers><p2><sg><gen>/du<n><abbr><gram_iabbr><attr>/du<n><abbr><gram_iabbr><sg><acc>/du<n><abbr><gram_iabbr><sg><gen>/du<n><abbr><gram_iabbr><sg><nom>/du<n><sem_time><abbr><gram_iabbr><attr>/du<n><sem_time><abbr><gram_iabbr><sg><acc>/du<n><sem_time><abbr><gram_iabbr><sg><gen>/du<n><sem_time><abbr><gram_iabbr><sg><nom>$ ^beatnaga/beana<n><sem_ani><sg><acc>/beana<n><sem_ani><sg><gen>/beana<n><sg><acc>/beana<n><sg><gen>$.
+[/UPTbBcaNL7Li]
+[ePbmoTTGprfb#0] ^Mun/mun<prn><pers><p1><sg><nom>$ ^oainnán/oaidnit<vblex><tv><indic><pres><p1><sg>$ ^girjji/girji<n><sem_txt><sg><acc>/girji<n><sem_txt><sg><gen>/girji<n><sg><acc>/girji<n><sg><gen>$.
+[/ePbmoTTGprfb]
+[l24cC00G04Bj#0] , . ?
+[/l24cC00G04Bj]
