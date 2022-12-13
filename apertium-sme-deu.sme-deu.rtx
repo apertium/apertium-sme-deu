@@ -345,6 +345,7 @@ NP -> %A %N ADV { %1[gender=2.gender,
                  number=2.number,case=2.case] _ %2 } |
       %N ADV { %1 _ 2 } |
       N.*.gen %N { %2 _ der@det.def.[1.gender].sg.gen _ 1 } |
+      PROPN.*.gen %N { %2 _ der@det.def.[1.gender].sg.gen _ 1 } |
       N.*.gen A N { 2[strength=sw] _ %3 _
                     der@det.def.[1.gender].sg.gen _ 1 } |
       num.*.gen n.*.sem_measr_time.*.gen %n {
