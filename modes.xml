@@ -38,6 +38,38 @@
       </program>
     </pipeline>
   </mode>
+  
+  <!-- tree mode -->
+
+  <mode name="sme-deu-tree" install="no" >
+    <pipeline>
+
+      <program name="hfst-proc --weight-classes 1 -w -e">
+	<file name="sme-deu.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="sme-deu.mor.rlx.bin"/>
+      </program>
+      <program name="cg-proc -n -1 -w">
+        <file name="sme-deu.syn.rlx.bin"/>
+      </program>
+
+
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="sme-deu.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="sme-deu.autolex.bin"/>
+      </program>
+
+
+      <program name="rtx-proc -T">
+        <file name="sme-deu.rtx.bin"/>
+      </program>
+
+    </pipeline>
+  </mode>
 
   <!-- deu → sme -->
 
