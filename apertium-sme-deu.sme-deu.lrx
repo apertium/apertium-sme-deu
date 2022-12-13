@@ -11,6 +11,12 @@
       <select lemma="energía" tags="n.*"/>
     </match>
   </rule>
+
+  <rule>
+    <match lemma="don" tags="prn.*.sg.gen.@→N">
+      <select lemma="dein" tags="det.pos.*"/>
+    </match>
+  </rule>
 </rules>
 
 <!--
