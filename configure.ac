@@ -12,10 +12,8 @@ PKG_CHECK_MODULES(HFST, hfst >= 3.15.1)
 
 PKG_CHECK_MODULES(CG3, cg3 >= 1.3.1)
 PKG_CHECK_MODULES(APERTIUM_LEX_TOOLS, apertium-lex-tools >= 0.2.3)
-
-
-
 PKG_CHECK_MODULES(APERTIUM_RECURSIVE, apertium-recursive >= 0.0.1)
+PKG_CHECK_MODULES(APERTIUM_SEPARABLE, apertium-separable >= 0.5.0)
 
 AC_PATH_PROGS(ZCAT, [gzcat zcat], [false])
 AS_IF([test x$ZCAT = xfalse], [AC_MSG_ERROR([You don't have zcat nor gzcat installed])])

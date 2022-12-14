@@ -26,7 +26,11 @@ TARGETS_COMMON =		\
 	$(PREFIX2).autobil.bin	\
 	$(PREFIX2).autolex.bin	\
 	$(PREFIX2).autogen.hfst	\
-	$(PREFIX2).rtx.bin
+	$(PREFIX2).rtx.bin		\
+	$(PREFIX1).autoseq.bin	\
+	$(PREFIX1).revautoseq.bin	\
+	$(PREFIX2).autoseq.bin	\
+	$(PREFIX2).revautoseq.bin
 
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
 @ap_include@
