@@ -30,6 +30,7 @@ depfunc = "@←SPRED" "@←OPRED" "@←N" "@HNOUN" ;
 strength = (STR sw) st sw mix ;
 derp = der_inchl der_passl der_passs ;
 pass = pass ;
+inch = inch ;
 
 months = miessemánu guovvamánu ;
 
@@ -190,6 +191,8 @@ vblex_simple: (if (1.finity = inf) 1(vblex_inf)
         else 1(vblex_fin) ) ;
 vblex: (if (1.pass = pass)
           [ 1(vblex_simple)[pos_tag=vaux,lem=werden] _ 1(vblex_pp)[pcp=pp] ]
+        elif (1.inch = inch)
+          [ 1(vblex_simple)[lem=anfangen] _ zu@pr _ 1(vblex_simple)[finity=inf,inf=inf] ]
         else 1(vblex_simple)) ;
 num: (if (1.numtype = arab) 1(num_digit)
       elif (1.numtype = ord) 1(num_ord)

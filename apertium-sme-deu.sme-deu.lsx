@@ -27,7 +27,8 @@
     <sdef n="pass"/>
     <sdef n="der_passl"/>
     <sdef n="der_passs"/>
-
+    <sdef n="der_inchl"/>
+    <sdef n="inch"/>
   </sdefs>
 
   <pardefs>
@@ -72,6 +73,12 @@
     <e r="LR"><!-- PASSIVE VERBS -->
       <i><w/></i>	  
       <p><l><s n="vblex"/><s n="tv"/><s n="der_passl"/><s n="vblex"/><s n="iv"/></l><r><s n="vblex"/><s n="tv"/><s n="pass"/></r></p>
+      <i><t/><d/></i>
+    </e>
+
+    <e r="LR"><!-- INCHOATIVE VERBS -->
+      <i><w/></i>	  
+      <p><l><s n="vblex"/><s n="tv"/><s n="der_inchl"/><s n="vblex"/></l><r><s n="vblex"/><s n="tv"/><s n="inch"/></r></p>
       <i><t/><d/></i>
     </e>
     
