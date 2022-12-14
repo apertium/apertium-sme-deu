@@ -3624,6 +3624,8 @@
     <e><p><l>malphabet<s n="n"/></l><r>M<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>aalphabet<s n="n"/></l><r>A<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>jalphabet<s n="n"/></l><r>J<s n="n"/><s n="m"/></r></p></e>
+    
+    <e r="RL"><p><l></l><r>Betracht<s n="n"/><s n="m"/></r></p></e>    
 
     <!-- }}}
          {{{ SECTION: Verbs verbs -->
@@ -4445,7 +4447,7 @@
     <e><p><l>viggat</l><r>versuchen</r></p><par n="vblex"/></e>
     <e><p><l>viiddidit</l><r>ausweiten</r></p><par n="vblex"/></e>
     <e><p><l>vrd</l><r>vgl</r></p><par n="vblex"/></e>
-    <e><p><l>vuhtiiváldit</l><r>berücksichtigen</r></p><par n="vblex"/></e>
+    <!--e><p><l>vuhtiiváldit</l><r>berücksichtigen</r></p><par n="vblex"/></e-->
     <e><p><l>vuhtiiváldit</l><r>in<b/>Betracht<b/>ziehen</r></p><par n="vblex"/></e>
     <e><p><l>vuhttot</l><r>scheinen</r></p><par n="vblex"/></e>
     <e><p><l>vuoddját</l><r>abfahren</r></p><par n="vblex"/></e>
