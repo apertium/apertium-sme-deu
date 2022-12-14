@@ -12,6 +12,10 @@
 	<sdef n="det"/>
     <sdef n="dat"/>
     <sdef n="prn"/>
+    <sdef n="pp"/>
+    <sdef n="sint"/>
+    <sdef n="pred"/>
+    <sdef n="attr"/>
   </sdefs>
 
   <pardefs>
@@ -41,13 +45,21 @@
       <e><i><w/><s n="det"/><t/><d/></i></e>
       <e><i><w/><s n="n"/><t/><d/></i></e>
       <e><i><w/><s n="adj"/><t/><d/></i></e>
-      <e><i><w/><s n="adv"/><t/><d/></i></e>
+      <e><i><w/><s n="adv"/><d/></i></e>
       <e><i><w/><s n="pr"/><t/><d/></i></e>
       <e><i><w/><s n="prn"/><t/><d/></i></e>
       <e></e>
     </pardef>
     <pardef n="words">
       <e><par n="word"/><par n="word"/><par n="word"/></e>
+    </pardef>
+    <pardef n="Sprache_sprechen">
+    <e>
+      <p><l>sprechen</l><r><b/>sprechen</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+    </e>
+
     </pardef>
   </pardefs>
   
@@ -91,8 +103,62 @@
       <par n="words"/>
       <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
     </e>
+    
+    <e><!-- Mun vuoddján. Ich fahre ab -->
+      <p><l>fahren</l><r>abfahren</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>ab<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e>
 
-    <!--     <e><p><l>váldot</l><r>genommen<b/>werden</r></p><par n="vblex"/></e>-->
+    <e><!-- váldojedje odne. Sie wurde genommen-->
+      <p><l>werden</l><r>genommen<b/>werden</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>nehmen<s n="vblex"/><s n="pp"/><d/></l><r></r></p>
+    </e>
 
+    <e><!-- suomastit</l><r>Finnisch<b/>sprechen</r>-->
+      <p><l></l><r>finnisch</r></p>
+      <par n="Sprache_sprechen"/>
+      <p><l>finnisch<s n="adj"/><s n="sint"/><s n="pred"/><d/></l><r></r></p>
+    </e>
+
+    <e><!-- samastit</l><r>saamisch<b/>sprechen</r>-->
+      <p><l></l><r>saamisch</r></p>
+      <par n="Sprache_sprechen"/>
+      <p><l>saamisch<s n="adj"/><s n="sint"/><s n="pred"/><d/></l><r></r></p>
+    </e>
+    
+    <e><!-- darostan</r>-->
+      <p><l></l><r>norwegisch</r></p>
+      <par n="Sprache_sprechen"/>
+      <p><l>norwegisch<s n="adj"/><s n="sint"/><s n="pred"/><d/></l><r></r></p>
+    </e>
+    
+    <e><!-- váldojedje odne. Sie wurde genommen-->
+      <p><l>werden</l><r>genommen<b/>werden</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>nehmen<s n="vblex"/><s n="pp"/><d/></l><r></r></p>
+    </e>
+
+    <e><!-- váldojedje odne. Sie wurde genommen-->
+      <p><l>werden</l><r>genommen<b/>werden</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>nehmen<s n="vblex"/><s n="pp"/><d/></l><r></r></p>
+    </e>
+
+    <e><!-- váldojedje odne. Sie wurde genommen-->
+      <p><l>werden</l><r>genommen<b/>werden</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>nehmen<s n="vblex"/><s n="pp"/><d/></l><r></r></p>
+    </e>
+    
+        <!--<e><p><l>vuhtiiváldit</l><r>in<b/>Betracht<b/>ziehen</r></p><par n="vblex"/></e>-->
+
+    
   </section>
 </dictionary>
