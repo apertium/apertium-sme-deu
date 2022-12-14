@@ -29,7 +29,7 @@ sem = (SEM sem_dummy) sem_time sem_plc sem_hum sem_ani sem_dummy ;
 depfunc = "@←SPRED" "@←OPRED" "@←N" "@HNOUN" ;
 strength = (STR sw) st sw mix ;
 derp = der_inchl der_passl der_passs ;
-
+pass = pass ;
 
 months = miessemánu guovvamánu ;
 
@@ -182,12 +182,15 @@ adj: (if (1.depfunc = "@←SPRED") 1(adj_pred)[adj_type=pred]
       elif (1.depfunc = "@←OPRED") 1(adj_pred)[adj_type=pred]
       else 1(adj_agr)
      ) ;
-vblex: (if (1.finity = inf) 1(vblex_inf)
+vblex_simple: (if (1.finity = inf) 1(vblex_inf)
         elif (1.finity = actio) 1(vblex_inf)[inf=inf]  ! probably not ideal
         elif (1.pcp = pp) 1(vblex_pp)
         elif (1.pcp = prfprc) 1(vblex_pp)  ! probably not ideal
         elif (1.pcp = pprs) 1(vblex_pp)
         else 1(vblex_fin) ) ;
+vblex: (if (1.pass = pass)
+          [ 1(vblex_simple)[pos_tag=vaux,lem=werden] _ 1(vblex_pp)[pcp=pp] ]
+        else 1(vblex_simple)) ;
 num: (if (1.numtype = arab) 1(num_digit)
       elif (1.numtype = ord) 1(num_ord)
       else 1(num_card) ) ;
