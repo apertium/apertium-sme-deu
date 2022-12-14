@@ -11,11 +11,17 @@
 	<sdef n="vbser"/>
 	<sdef n="det"/>
     <sdef n="dat"/>
+    <sdef n="acc"/>
     <sdef n="prn"/>
     <sdef n="pp"/>
     <sdef n="sint"/>
     <sdef n="pred"/>
     <sdef n="attr"/>
+    <sdef n="m"/>
+    <sdef n="f"/>
+    <sdef n="nt"/>
+    <sdef n="sg"/>
+    <sdef n="pl"/>
   </sdefs>
 
   <pardefs>
@@ -143,20 +149,14 @@
       <p><l>nehmen<s n="vblex"/><s n="pp"/><d/></l><r></r></p>
     </e>
 
-    <e><!-- váldojedje odne. Sie wurde genommen-->
-      <p><l>werden</l><r>genommen<b/>werden</r></p>
-      <i><s n="vblex"/><t/><d/></i>
-      <par n="words"/>
-      <p><l>nehmen<s n="vblex"/><s n="pp"/><d/></l><r></r></p>
-    </e>
 
-    <e><!-- váldojedje odne. Sie wurde genommen-->
-      <p><l>werden</l><r>genommen<b/>werden</r></p>
+    <e><!-- vuhtiiváldit - Sie zieht es in Betracht-->
+      <p><l>ziehen</l><r>in<b/>Betracht<b/>ziehen</r></p>
       <i><s n="vblex"/><t/><d/></i>
       <par n="words"/>
-      <p><l>nehmen<s n="vblex"/><s n="pp"/><d/></l><r></r></p>
-    </e>
-    
+      <p><l>in<s n="pr"/><s n="acc"/><d/></l><r></r></p>
+      <p><l>Betracht<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/><d/></l><r></r></p>
+    </e>    
         <!--<e><p><l>vuhtiiváldit</l><r>in<b/>Betracht<b/>ziehen</r></p><par n="vblex"/></e>-->
 
     
