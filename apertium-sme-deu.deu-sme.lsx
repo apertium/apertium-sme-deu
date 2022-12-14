@@ -11,6 +11,7 @@
 	<sdef n="vbser"/>
 	<sdef n="det"/>
     <sdef n="dat"/>
+    <sdef n="prn"/>
   </sdefs>
 
   <pardefs>
@@ -37,7 +38,12 @@
 	  <e><par n="det"/><par n="adj"/><par n="adj"/><par n="n"/></e>
 	</pardef>
     <pardef n="word">
-      <e><i><w/><t/><d/></i></e>
+      <e><i><w/><s n="det"/><t/><d/></i></e>
+      <e><i><w/><s n="n"/><t/><d/></i></e>
+      <e><i><w/><s n="adj"/><t/><d/></i></e>
+      <e><i><w/><s n="adv"/><t/><d/></i></e>
+      <e><i><w/><s n="pr"/><t/><d/></i></e>
+      <e><i><w/><s n="prn"/><t/><d/></i></e>
       <e></e>
     </pardef>
     <pardef n="words">
@@ -56,5 +62,37 @@
       <par n="words"/>
       <p><l>an<s n="pr"/><s n="dat"/><d/></l><r></r></p>
     </e>
+
+    <e><!-- Mun vuollánan. Ich gebe auf.-->
+      <p><l>geben</l><r>aufgeben</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e>
+
+
+    <e><!-- Mun vuoiŋŋastan. Ich ruhe aus.-->
+      <p><l>ruhen</l><r>ausruhen</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>aus<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e>
+
+    <e><!-- Mun viiddidan dan. Ich weite es aus.-->
+      <p><l>weiten</l><r>ausweiten</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>aus<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e>
+
+    <e><!-- Mun váruhan su. Ich passe auf ihn auf. aufpassen + auf + Acc -->
+      <p><l>passen</l><r>aufpassen</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e>
+
+    <!--     <e><p><l>váldot</l><r>genommen<b/>werden</r></p><par n="vblex"/></e>-->
+
   </section>
 </dictionary>
