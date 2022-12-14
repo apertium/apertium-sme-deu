@@ -4394,7 +4394,9 @@
     <e><p><l>suohpput</l><r>werfen</r></p><par n="vblex"/></e>
     <e><p><l>suohtastallat</l><r>genießen</r></p><par n="vblex"/></e>
     <e><p><l>suoládit</l><r>stehlen</r></p><par n="vblex"/></e>
-    <e><p><l>suomastit</l><r>Finnish<b/>sprehcen</r></p><par n="vblex"/></e>
+    <e><p><l>suomastit</l><r>finnisch<b/>sprechen</r></p><par n="vblex"/></e>
+    <e><p><l>sámástit</l><r>saamisch<b/>sprechen</r></p><par n="vblex"/></e>
+    <e><p><l>dárostit</l><r>norwegisch<b/>sprechen</r></p><par n="vblex"/></e>
     <e><p><l>suorganit</l><r>sich<b/>erschrecken</r></p><par n="vblex"/></e>
     <e><p><l>suotnjat</l><r>kriechen</r></p><par n="vblex"/></e>
     <e><p><l>suovvat</l><r>kasseb</r></p><par n="vblex"/></e>
@@ -4441,7 +4443,6 @@
     <e><p><l>viehkat</l><r>laufen</r></p><par n="vblex"/></e>
     <e><p><l>viežžat</l><r>holen</r></p><par n="vblex"/></e>
     <e><p><l>viggat</l><r>versuchen</r></p><par n="vblex"/></e>
-    <e><p><l>viiddidit</l><r>ausweiten</r></p><par n="vblex"/></e>
     <e><p><l>viiddidit</l><r>ausweiten</r></p><par n="vblex"/></e>
     <e><p><l>vrd</l><r>vgl</r></p><par n="vblex"/></e>
     <e><p><l>vuhtiiváldit</l><r>berücksichtigen</r></p><par n="vblex"/></e>
@@ -4696,7 +4697,7 @@
     <e><p><l>Davvi-Norga<s n="np"/></l><r>Nord-Norwegen<s n="np"/></r></p></e>
     <e><p><l>Davviriikkaid<b/>Ráđđi<s n="np"/></l><r>Nordischer<b/>Rat<s n="np"/></r></p></e>
     <e><p><l>Davvi-Romsa<s n="np"/></l><r>Nord-Tromsö<s n="np"/></r></p></e>
-    <e><p><l>Sámediggi<s n="np"/></l><r>das<b/>Saamisches<b/>Parlament<s n="np"/></r></p></e>
+    <e><p><l>Sámediggi<s n="np"/></l><r>Saamisches<b/>Parlament<s n="np"/></r></p></e>
     <e><p><l>Espánnja<s n="np"/></l><r>Spanien<s n="np"/></r></p></e>
     <e><p><l>Eurohpa<s n="np"/></l><r>Europa<s n="np"/></r></p></e>
     <e><p><l>Finnmárku<s n="np"/></l><r>Finnmark<s n="np"/></r></p></e>
@@ -4752,7 +4753,7 @@
     {{{ SECTIPN: INTERJECTIONS interjections -->
 
     <e><p><l>bures<s n="ij"/></l><r>hallo<s n="ij"/></r></p></e>
-    <e><p><l>gea<s n="ij"/></l><r>guck<b/>mal<s n="ij"/></r></p></e>
+    <e><p><l>gea<s n="ij"/></l><r>kuck<b/>mal<s n="ij"/></r></p></e>
     <e><p><l>hei<s n="ij"/></l><r>hallo<s n="ij"/></r></p></e>
     <e><p><l>jo<s n="ij"/></l><r>ja<s n="ij"/></r></p></e>
     <e><p><l>juo<s n="ij"/></l><r>ja<s n="ij"/></r></p></e>
