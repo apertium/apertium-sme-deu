@@ -92,7 +92,7 @@ VP: _.negativity ;
 
 tense > tense : pret pii, pres pri, fti fut;
 ! case > case : ill dat, loc dat, com dat, ess nom;
-! number > number : du pl ;
+number > number : du pl ;
 inf > inf : actio inf ;
 pcp > pcp : prfprc pp ;
 conneg > person : conneg p3 ;
@@ -289,6 +289,7 @@ VP -> NP.*.loc.sem_hum leat@vblex {
       DP V {
         *(maybe_adp)[case=1.case]
         1 _ 2 } |
+	  PRN ii@vblex vblex vblex.*.inf { 1 _ 3[person=2.person,number=2.number] _ nicht@adv _ 4 }|
       PRN ii@vblex vblex vel@adv [$negativity=aff] { 1 _
         3[person=2.person,number=2.number] _ 4 } |
       PRN ii@vblex vblex [$negativity=neg] { 1 _
