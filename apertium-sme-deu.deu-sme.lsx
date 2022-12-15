@@ -8,6 +8,7 @@
 	<sdef n="n"/>
 	<sdef n="v"/>
 	<sdef n="vblex"/>
+	<sdef n="vbmod"/>
 	<sdef n="vbser"/>
 	<sdef n="det"/>
     <sdef n="dat"/>
@@ -22,6 +23,17 @@
     <sdef n="nt"/>
     <sdef n="sg"/>
     <sdef n="pl"/>
+    <sdef n="du"/>
+    <sdef n="ref"/>
+    <sdef n="pers"/>
+    <sdef n="mf"/>
+    <sdef n="sp"/>
+    <sdef n="nom"/>
+    <sdef n="p1"/>
+    <sdef n="p2"/>
+    <sdef n="p3"/>
+    <sdef n="inf"/>
+
   </sdefs>
 
   <pardefs>
@@ -65,12 +77,122 @@
       <i><s n="vblex"/><t/><d/></i>
       <par n="words"/>
     </e>
-
     </pardef>
+    
+    <pardef n="neg_or_not">
+      <e><i>nicht<s n="adv"/><d/></i></e>
+      <e><i></i></e> 
+    </pardef>
+    
+    <pardef n="reflexive_verbs">
+      <e><i>erschrecken</i></e>
+      <e><i>freuen</i></e> <!-- illudit -->
+      <e><i>setzen</i></e>
+      <e><i>wundern</i></e>
+    </pardef>
+    
   </pardefs>
   
   <section id="main" type="standard">
 
+    <e><!-- 1SG REFLEXIVE Illudan. Ich freue mich. Ich will mich nicht freuen.-->
+      <p><l></l><r>sich<b/></r></p>
+      <par n="reflexive_verbs"/>
+      <i><s n="vblex"/><t/><s n="p1"/><s n="sg"/><d/></i>
+      <p><l>ich<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/><d/></l><r></r></p>
+    </e>
+    
+    <e><!-- 2SG REFLEXIVE -->
+      <p><l></l><r>sich<b/></r></p>
+      <par n="reflexive_verbs"/>
+      <i><s n="vblex"/><t/><s n="p2"/><s n="sg"/><d/></i>
+      <p><l>du<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/><d/></l><r></r></p>
+    </e>
+
+    <e><!-- 3SG REFLEXIVE -->
+      <p><l></l><r>sich<b/></r></p>
+      <par n="reflexive_verbs"/>
+      <i><s n="vblex"/><t/><s n="p3"/><s n="sg"/><d/></i>
+      <p><l>sich<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><s n="nom"/><d/></l><r></r></p>
+    </e>
+    
+    <e><!-- 1PL REFLEXIVE -->
+      <p><l></l><r>sich<b/></r></p>
+      <par n="reflexive_verbs"/>
+      <i><s n="vblex"/><t/><s n="p1"/><s n="pl"/><d/></i>
+      <p><l>wir<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="acc"/><d/></l><r></r></p>
+    </e>
+    
+    <e><!-- 2PL REFLEXIVE -->
+      <p><l></l><r>sich<b/></r></p>
+      <par n="reflexive_verbs"/>
+      <i><s n="vblex"/><t/><s n="p2"/><s n="pl"/><d/></i>
+      <p><l>ihr<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="acc"/><d/></l><r></r></p>
+    </e>
+    
+    <e><!-- 3PL REFLEXIVE Sii illudit. Sie freuen sich. -->
+      <p><l></l><r>sich<b/></r></p>
+      <par n="reflexive_verbs"/>
+      <i><s n="vblex"/><t/><s n="p3"/><s n="pl"/><d/></i>
+      <p><l>sich<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><s n="nom"/><d/></l><r></r></p>
+    </e>
+
+
+    <e><!-- 1SG REFLEXIVE Mun ferten illudit. Ich will mich freuen. Mun in ferte illudit. Ich muss mich nicht freuen.-->
+      <i><w/><s n="vbmod"/><t/><s n="p1"/><s n="sg"/><d/></i>
+      <p><l>ich<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/><d/></l><r></r></p>
+      <par n="neg_or_not"/>
+      <p><l></l><r>sich<b/></r></p>
+      <par n="reflexive_verbs"/>
+      <i><s n="vblex"/><s n="inf"/><d/></i>
+    </e>
+    
+    <e><!-- 2SG REFLEXIVE -->
+      <i><w/><s n="vbmod"/><t/><s n="p2"/><s n="sg"/><d/></i>
+      <p><l>du<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/><d/></l><r></r></p>
+      <par n="neg_or_not"/>
+      <p><l></l><r>sich<b/></r></p>
+      <par n="reflexive_verbs"/>
+      <i><s n="vblex"/><s n="inf"/><d/></i>
+    </e>
+
+    <e><!-- 3SG REFLEXIVE -->
+      <i><w/><s n="vbmod"/><t/><s n="p3"/><s n="sg"/><d/></i>
+      <p><l>sich<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><s n="nom"/><d/></l><r></r></p>
+      <par n="neg_or_not"/>
+      <p><l></l><r>sich<b/></r></p>
+      <par n="reflexive_verbs"/>
+      <i><s n="vblex"/><s n="inf"/><d/></i>
+    </e>
+    
+    <e><!-- 1PL REFLEXIVE -->
+      <i><w/><s n="vbmod"/><t/><s n="p1"/><s n="pl"/><d/></i>
+      <p><l>wir<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="acc"/><d/></l><r></r></p>
+      <par n="neg_or_not"/>
+      <p><l></l><r>sich<b/></r></p>
+      <par n="reflexive_verbs"/>
+      <i><s n="vblex"/><s n="inf"/><d/></i>
+    </e>
+    
+    <e><!-- 2PL REFLEXIVE -->
+      <i><w/><s n="vbmod"/><t/><s n="p2"/><s n="pl"/><d/></i>
+      <p><l>ihr<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="acc"/><d/></l><r></r></p>
+      <par n="neg_or_not"/>
+      <p><l></l><r>sich<b/></r></p>
+      <par n="reflexive_verbs"/>
+      <i><s n="vblex"/><s n="inf"/><d/></i>
+    </e>
+    
+    <e><!-- 3PL REFLEXIVE -->
+      <i><w/><s n="vbmod"/><t/><s n="p3"/><s n="pl"/><d/></i>
+      <p><l>sich<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><s n="nom"/><d/></l><r></r></p>
+      <par n="neg_or_not"/>
+      <p><l></l><r>sich<b/></r></p>
+      <par n="reflexive_verbs"/>
+      <i><s n="vblex"/><s n="inf"/><d/></i>
+    </e>
+    
+        
     <!--
 ^fange/fangen<vblex><pri><p1><sg>/fangen<vblex><prs><p1><sg>/fangen<vblex><prs><p3><sg>$ ^x/*x$ ^an/an<pr><dat>/an<pr><acc>$^./.<sent>$ -->
 
@@ -157,7 +279,7 @@
       <p><l>in<s n="pr"/><s n="acc"/><d/></l><r></r></p>
       <p><l>Betracht<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/><d/></l><r></r></p>
     </e>    
-        <!--<e><p><l>vuhtiiváldit</l><r>in<b/>Betracht<b/>ziehen</r></p><par n="vblex"/></e>-->
+
 
     
   </section>
