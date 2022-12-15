@@ -222,6 +222,64 @@
       <par n="words"/>
       <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
     </e>
+    
+    
+    <e><!-- -->
+      <p><l>stehen</l><r>aufstehen</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e>
+    
+    <e><!-- -->
+      <p><l>wachsen</l><r>aufwachsen</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e>
+    
+    <e><!-- -->
+      <p><l>erhalten</l><r>aufrechterhalten</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>aufrecht<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e>
+    
+    <e><!-- -->
+      <p><l>räumen</l><r>aufräumen</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e>
+
+    <e><!-- -->
+      <p><l>rufen</l><r>aufrufen</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e>
+
+    <e><!-- -->
+      <p><l>bewahren</l><r>aufbewahren</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e>
+
+    <e><!-- -->
+      <p><l>passen</l><r>aufpassen</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e>
+
+    <e><!-- -->
+      <p><l>geben</l><r>aufgeben</r></p>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e>
+
 
 
     <e><!-- Mun vuoiŋŋastan. Ich ruhe aus.-->
