@@ -3682,7 +3682,7 @@
     <e><p><l>álkidit</l><r>erleichtern</r></p><par n="vblex"/></e>
     <e><p><l>almmuhit</l><r>veröffentlichen</r></p><par n="vblex"/></e>
     <e><p><l>almmustahttit</l><r>veröffentlichen</r></p><par n="vblex"/></e>
-    <e><p><l>almmustuvvat</l><r>herausgegeben werden</r></p><par n="vblex"/></e>
+    <e><p><l>almmustuvvat</l><r>herausgegeben<b/>werden</r></p><par n="vblex"/></e>
     <e><p><l>analyseret</l><r>analysieren</r></p><par n="vblex"/></e>
     <e><p><l>ánssášit</l><r>verdienen</r></p><par n="vblex"/></e>
     <e><p><l>áŋgiruššat</l><r>eifern</r></p><par n="vblex"/></e>
@@ -3700,8 +3700,6 @@
     <e><p><l>ástat</l><r>welken</r></p><par n="vblex"/></e>
     <e><p><l>atnit</l><r>nutzen</r></p><par n="vblex"/></e>
     <e><p><l>attestit</l><r>geben</r></p><par n="vblex"/></e>
-    <e><p><l>ávkkástallat</l><r>ausnutzen</r></p><par n="vblex"/></e>
-    <e><p><l>ávkkástallat</l><r>ausnutzen</r></p><par n="vblex"/></e>
     <e><p><l>ávkkástallat</l><r>ausnutzen</r></p><par n="vblex"/></e>
     <e><p><l>ávnnastit</l><r>formen</r></p><par n="vblex"/></e>
     <e><p><l>ávvudit</l><r>freuen</r></p><par n="vblex"/></e>
@@ -3727,7 +3725,7 @@
     <e><p><l>barggahit</l><r>anstellen</r></p><par n="vblex"/></e>
     <e><p><l>barggahit</l><r>arbeitgeben</r></p><par n="vblex"/></e>
     <e><p><l>bassalit</l><r>wäschen</r></p><par n="vblex"/></e>
-    <e><p><l>bassat</l><r>waschen<g><b/>sich</g></r></p><par n="vblex"/></e>
+    <e><p><l>bassat</l><r>sich<b/>waschen</r></p><par n="vblex"/></e>
     <e><p><l>bastit</l><r>schaffen</r></p><par n="vblex"/></e>
     <e><p><l>bázahallat</l><r>vernachlässigen</r></p><par n="vblex"/></e>
     <e><p><l>beaggit</l><r>berichtet<b/>werden</r></p><par n="vblex"/></e>
@@ -3810,7 +3808,7 @@
     <e><p><l>čierrut</l><r>weinen</r></p><par n="vblex"/></e>
     <e><p><l>čievččastit</l><r>weitergeben</r></p><par n="vblex"/></e>
     <e><p><l>čilget</l><r>erklaren</r></p><par n="vblex"/></e>
-    <e><p><l>čiŋadit</l><r>sich<b/>schmücken></r></p><par n="vblex_sep"/></e>
+    <e><p><l>čiŋadit</l><r>sich<b/>fein<b/>machen</r></p><par n="vblex_sep"/></e>
     <e><p><l>čoagganit</l><r>sammeln</r></p><par n="vblex"/></e>
     <e><p><l>čoaggit</l><r>pflücken</r></p><par n="vblex"/></e>
     <e><p><l>čoagit</l><r>pflücken</r></p><par n="vblex"/></e>
@@ -3925,7 +3923,7 @@
     <e><p><l>eastadit</l><r>verhindern</r></p><par n="vblex"/></e>
     <e><p><l>einnostit</l><r>vorhersehen</r></p><par n="vblex"/></e>
     <e><p><l>evalueret</l><r>evaluieren</r></p><par n="vblex"/></e>
-    <e w="2"><p><l>evttohit</l><r>anbefalen</r></p><par n="vblex"/></e>
+    <e w="2"><p><l>evttohit</l><r>empfehlen</r></p><par n="vblex"/></e>
     <e><p><l>evttohit</l><r>vorschlagen</r></p><par n="vblex"/></e>
     <e><p><l>fággádallat</l><r>ringen</r></p><par n="vblex"/></e>
     <e><p><l>fállat</l><r>anbieten</r></p><par n="vblex"/></e>
@@ -3957,10 +3955,9 @@
     <e><p><l>gallet</l><r>besuchen</r></p><par n="vblex"/></e>
     <e><p><l>ganjaldallat</l><r>tränen</r></p><par n="vblex"/></e>
     <e><p><l>gánnáhit</l><r>sich<b/>lohnen</r></p><par n="vblex"/></e>
-    <e><p><l>gánnáhit</l><r>sich<b/>lohnen</r></p><par n="vblex"/></e>
-    <e><p><l>gárvánit</l><r>fertig werden</r></p><par n="vblex"/></e>
+    <e><p><l>gárvánit</l><r>fertig<b/>werden</r></p><par n="vblex"/></e>
     <e><p><l>garvit</l><r>vermeiden</r></p><par n="vblex"/></e>
-    <e><p><l>gárvodit</l><r>sich<b/>ankleiden</r></p><par n="vblex"/></e>
+    <e><p><l>gárvodit</l><r>sich<b/>anziehen</r></p><par n="vblex"/></e>
     <e><p><l>gárvvistit</l><r>absolvieren</r></p><par n="vblex"/></e>
     <e><p><l>gárvvistit</l><r>vollenden</r></p><par n="vblex"/></e>
     <e><p><l>gáržžidit</l><r>einschränken</r></p><par n="vblex"/></e>
@@ -4118,6 +4115,7 @@
     <e><p><l>johtit</l><r>gehen</r></p><par n="vblex"/></e>
     <e><p><l>joksat</l><r>einholen</r></p><par n="vblex"/></e>
     <e><p><l>jorgalit</l><r>übersetzen</r></p><par n="vblex"/></e>
+    <e><p><l>jorgalit</l><r>sich<b/>umdrehen</r></p><par n="vblex"/></e>
     <e><p><l>jorggihit</l><r>sich<b/>umdrehen</r></p><par n="vblex"/></e>
     <e><p><l>jorrat</l><r>rotieren</r></p><par n="vblex"/></e>
     <e><p><l>juhkat</l><r>trinken</r></p><par n="vblex"/></e>
@@ -4376,8 +4374,7 @@
     <e><p><l>skeŋket</l><r>schenken</r></p><par n="vblex"/></e>
     <e><p><l>skuvlet</l><r>lehren</r></p><par n="vblex"/></e>
     <e><p><l>smiehttat</l><r>denken</r></p><par n="vblex"/></e>
-    <e><p><l>soabadit</l><r>einen Vergleich schließen</r></p><par n="vblex"/></e>
-    <e><p><l>soahpat</l><r>vereinbaren</r></p><par n="vblex"/></e>
+    <e><p><l>soabadit</l><r>einen<b/>Vergleich<b/>schließen</r></p><par n="vblex"/></e>
     <e><p><l>soahpat</l><r>vereinbaren</r></p><par n="vblex"/></e>
     <e><p><l>sojahit</l><r>beugen</r></p><par n="vblex"/></e>
     <e><p><l>sojahit</l><r>beugen</r></p><par n="vblex"/></e>
