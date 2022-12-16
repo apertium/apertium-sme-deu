@@ -127,6 +127,15 @@
       <e><i>fangen</i></e>
     </pardef>
     
+    
+    <pardef n="vor_verb">
+      <e><i>werfen</i></e>
+    </pardef>
+
+    <pardef n="frei_verb">
+      <e><i>geben</i></e>
+    </pardef>    
+    
   </pardefs>
   
   <section id="main" type="standard">
@@ -274,6 +283,22 @@
       <p><l>ab<s n="pr"/><s n="dat"/><d/></l><r></r></p>
     </e>
 
+    <e><!-- vorwerfen -->
+      <p><l></l><r>vor</r></p>
+      <par n="vor_verb"/>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>vor<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e>
+    
+    <e><!-- freigeben -->
+      <p><l></l><r>frei</r></p>
+      <par n="frei_verb"/>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>frei<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e>
+    
     <e><!-- váldojedje odne. Sie wurde genommen-->
       <p><l>werden</l><r>genommen<b/>werden</r></p>
       <i><s n="vblex"/><t/><d/></i>
