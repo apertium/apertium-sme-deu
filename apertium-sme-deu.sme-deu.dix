@@ -3736,7 +3736,7 @@
     <e><p><l>bearráigeahččat</l><r>kontrollieren</r></p><par n="vblex"/></e>
     <e><p><l>bearrat</l><r>fordern</r></p><par n="vblex"/></e>
     <e><p><l>beaškkehit</l><r>kollidieren</r></p><par n="vblex"/></e>
-    <e><p><l>beroštit</l><r>kümmern</r></p><par n="vblex"/></e>
+    <e><p><l>beroštit</l><r>kümmern<b/>um</r></p><par n="vblex"/></e>
     <e><p><l>besset</l><r>nisten</r></p><par n="vblex"/></e>
     <e><p><l>bidjalit</l><r>stellen</r></p><par n="vblex"/></e>
     <e><p><l>bidjat</l><r>stellen</r></p><par n="vblex"/></e>
@@ -4013,12 +4013,12 @@
     <e><p><l>goastat</l><r>schaffen</r></p><par n="vblex"/></e>
     <e><p><l>gođđit</l><r>stricken</r></p><par n="vblex"/></e>
     <e><p><l>goddit</l><r>töten</r></p><par n="vblex"/></e>
-    <e><p><l>goddot</l><r>getötet werden</r></p><par n="vblex"/></e>
+    <e><p><l>goddot</l><r>getötet<b/>werden</r></p><par n="vblex"/></e>
     <e><p><l>gohččut</l><r>aufrufen</r></p><par n="vblex"/></e>
     <e><p><l>goikadit</l><r>braten</r></p><par n="vblex"/></e>
     <e><p><l>goivet</l><r>schaufeln</r></p><par n="vblex"/></e>
     <e><p><l>gokčat</l><r>zumachen</r></p><par n="vblex_sep"/></e>
-    <e><p><l>golahit</l><r></r></p><par n="vblex"/></e>
+    <e><p><l>golahit</l><r>vergehen</r></p><par n="vblex"/></e>
     <e><p><l>golgat</l><r>fließen</r></p><par n="vblex"/></e>
     <e><p><l>gollat</l><r>vergehen</r></p><par n="vblex"/></e>
     <e><p><l>gossat</l><r>husten</r></p><par n="vblex"/></e>
@@ -4047,8 +4047,6 @@
     <e><p><l>guoskkahit</l><r>berühren</r></p><par n="vblex"/></e>
     <e><p><l>guovlat</l><r>gucken</r></p><par n="vblex"/></e>
     <e><p><l>gustot</l><r>berühren</r></p><par n="vblex"/></e>
-    <e><p><l>hábmet</l><r>formen</r></p><par n="vblex"/></e>
-    <e><p><l>hábmet</l><r>formen</r></p><par n="vblex"/></e>
     <e><p><l>hábmet</l><r>formen</r></p><par n="vblex"/></e>
     <e><p><l>háhkat</l><r>schaffen</r></p><par n="vblex"/></e>
     <e><p><l>hálddašit</l><r>beherrschen</r></p><par n="vblex"/></e>

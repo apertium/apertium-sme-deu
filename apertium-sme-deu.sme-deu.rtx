@@ -4,7 +4,7 @@
 
 number = (ND sg) sg pl sp du ND ;
 gender = (GD m) m f mf nt mfn GD ;
-case = (CD nom) nom acc dat gen ill loc com ess CD ;
+case = (CD nom) nom acc dat gen ill loc com ess CD pr_auf_acc pr_auf_dat ;
 det_type = def ind dem itg pos qnt ;
 tense = pres fut pret pii imp ;
 person = p1 p2 p3 ;
@@ -314,6 +314,15 @@ V -> %vblex.*.der_passl.* {1 _ werden@vaux.prs.[1.person].[1.number] } |
                number = (if (1.number = du) pl else 1.number)] } |
      %vbser {1} |
      %vbmod {1} ;
+
+NP -> %n (if ($case = pr_auf_acc) { auf@pr.acc _ %1[case=acc] }
+          else { %1 }) ;
+verb_loc_to_auf = váruhit ;     
+VP -> %VP NP.*.loc { %1 _ 2[case=(if (1.lem in_caseless verb_loc_to_auf) pr_auf_acc
+                                  else 2.case)] } ;
+
+
+    
 PP -> NUMP post { 2 _ 1 } |
       ! idioms
       prn.pers.*.gen.* mielas@post { 1 _ Meinung@n.f.sg.nom _ nach@pr.dat } |
