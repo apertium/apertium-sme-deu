@@ -103,6 +103,29 @@
       <e><i>öffnen</i></e>
       <e><i>anpassen</i></e>
     </pardef>
+
+    <pardef n="aus_verb">
+      <e><i>ruhen</i></e>
+      <e><i>weiten</i></e>
+    </pardef>
+
+    <pardef n="auf_verb">
+      <e><i>passen</i></e>
+      <e><i>geben</i></e> <!-- Mun vuollánan. Ich gebe auf.-->
+      <e><i>bewahren</i></e>
+      <e><i>rufen</i></e>
+      <e><i>räumen</i></e>
+      <e><i>wachsen</i></e>
+      <e><i>stehen</i></e>
+    </pardef>
+
+    <pardef n="ab_verb">
+      <e><i>fahren</i></e>
+    </pardef>
+
+    <pardef n="an_verb">
+      <e><i>fangen</i></e>
+    </pardef>
     
   </pardefs>
   
@@ -210,32 +233,11 @@
 ^fange/fangen<vblex><pri><p1><sg>/fangen<vblex><prs><p1><sg>/fangen<vblex><prs><p3><sg>$ ^x/*x$ ^an/an<pr><dat>/an<pr><acc>$^./.<sent>$ -->
 
     <e>
-      <p><l>fangen</l><r>anfangen</r></p>
+      <p><l></l><r>an</r></p>
+  	  <par n="an_verb"/>
       <i><s n="vblex"/><t/><d/></i>
       <par n="words"/>
       <p><l>an<s n="pr"/><s n="dat"/><d/></l><r></r></p>
-    </e>
-
-    <e><!-- Mun vuollánan. Ich gebe auf.-->
-      <p><l>geben</l><r>aufgeben</r></p>
-      <i><s n="vblex"/><t/><d/></i>
-      <par n="words"/>
-      <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
-    </e>
-    
-    
-    <e><!-- -->
-      <p><l>stehen</l><r>aufstehen</r></p>
-      <i><s n="vblex"/><t/><d/></i>
-      <par n="words"/>
-      <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
-    </e>
-    
-    <e><!-- -->
-      <p><l>wachsen</l><r>aufwachsen</r></p>
-      <i><s n="vblex"/><t/><d/></i>
-      <par n="words"/>
-      <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
     </e>
     
     <e><!-- -->
@@ -245,66 +247,28 @@
       <p><l>aufrecht<s n="pr"/><s n="dat"/><d/></l><r></r></p>
     </e>
     
-    <e><!-- -->
-      <p><l>räumen</l><r>aufräumen</r></p>
-      <i><s n="vblex"/><t/><d/></i>
-      <par n="words"/>
-      <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
-    </e>
-
-    <e><!-- -->
-      <p><l>rufen</l><r>aufrufen</r></p>
-      <i><s n="vblex"/><t/><d/></i>
-      <par n="words"/>
-      <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
-    </e>
-
-    <e><!-- -->
-      <p><l>bewahren</l><r>aufbewahren</r></p>
-      <i><s n="vblex"/><t/><d/></i>
-      <par n="words"/>
-      <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
-    </e>
-
-    <e><!-- -->
-      <p><l>passen</l><r>aufpassen</r></p>
-      <i><s n="vblex"/><t/><d/></i>
-      <par n="words"/>
-      <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
-    </e>
-
-    <e><!-- -->
-      <p><l>geben</l><r>aufgeben</r></p>
-      <i><s n="vblex"/><t/><d/></i>
-      <par n="words"/>
-      <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
-    </e>
-
-
+    
 
     <e><!-- Mun vuoiŋŋastan. Ich ruhe aus.-->
-      <p><l>ruhen</l><r>ausruhen</r></p>
-      <i><s n="vblex"/><t/><d/></i>
-      <par n="words"/>
-      <p><l>aus<s n="pr"/><s n="dat"/><d/></l><r></r></p>
-    </e>
-
-    <e><!-- Mun viiddidan dan. Ich weite es aus.-->
-      <p><l>weiten</l><r>ausweiten</r></p>
+	    <!-- Mun viiddidan dan. Ich weite es aus.-->
+      <p><l></l><r>aus</r></p>
+	  <par n="aus_verb"/>
       <i><s n="vblex"/><t/><d/></i>
       <par n="words"/>
       <p><l>aus<s n="pr"/><s n="dat"/><d/></l><r></r></p>
     </e>
 
     <e><!-- Mun váruhan su. Ich passe auf ihn auf. aufpassen + auf + Acc -->
-      <p><l>passen</l><r>aufpassen</r></p>
+      <p><l></l><r>auf</r></p>
+      <par n="auf_verb"/>
       <i><s n="vblex"/><t/><d/></i>
       <par n="words"/>
       <p><l>auf<s n="pr"/><s n="dat"/><d/></l><r></r></p>
     </e>
     
     <e><!-- Mun vuoddján. Ich fahre ab -->
-      <p><l>fahren</l><r>abfahren</r></p>
+      <p><l></l><r>ab</r></p>
+      <par n="ab_verb"/>
       <i><s n="vblex"/><t/><d/></i>
       <par n="words"/>
       <p><l>ab<s n="pr"/><s n="dat"/><d/></l><r></r></p>
