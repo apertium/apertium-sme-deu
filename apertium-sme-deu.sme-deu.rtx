@@ -4,7 +4,7 @@
 
 number = (ND sg) sg pl sp du ND ;
 gender = (GD m) m f mf nt mfn GD ;
-case = (CD nom) nom acc dat gen ill loc com ess CD pr_auf_acc pr_auf_dat ;
+case = (CD nom) nom acc dat gen ill loc com ess CD pr_auf_acc pr_auf_dat pr_an_acc ;
 det_type = def ind dem itg pos qnt ;
 tense = pres fut pret pii imp ;
 person = p1 p2 p3 ;
@@ -243,6 +243,9 @@ SFRAG -> N {
         1
     } ;
 NEG -> ii@vblex { nicht@adv[lemcase=1.lemcase] } ; ! stray NEG
+
+verb_ill_to_an = "sich gewöhnen" ;
+
 VP -> NP.*.loc.sem_hum leat@vblex {
         *(maybe_adp)[case=nom]
         *(maybe_art)[number=1.number, case=nom, gender=1.gender,def=def,negativity=aff] 
@@ -277,7 +280,7 @@ VP -> NP.*.loc.sem_hum leat@vblex {
       NUMP V {
         *(maybe_adp)[case=1.case]
         1 _ 2 } |
-      PRN V {
+      PRN V.$lem/tl {
         *(maybe_adp)[case=1.case]
         1 _ 2 } |
       PRN ADV V {
@@ -304,7 +307,8 @@ VP -> NP.*.loc.sem_hum leat@vblex {
                        2 } | ! existential clause
       V go@pcle {
       1 _ *(pro_undrop)[number=1.number,person=1.person] } |  ! stray V + qst
-      V { *(pro_undrop)[number=1.number,person=1.person] 1 } ;  ! stray V
+      V { *(pro_undrop)[number=1.number,person=1.person] 1 } |  ! stray V
+      2: %VP NP.*.ill { 1 _ 2[case=(if (1.lem in_cl verb_ill_to_an) pr_an_acc else 2.case)] } ;
 V -> %vblex.*.der_passl.* {1 _ werden@vaux.prs.[1.person].[1.number] } |
      %vblex [$$expletive=(if (1.lem = "regnen") es@prn.pers.p3.nt.sg.nom),
              $person = (if (1.tense = imp) ""
@@ -315,8 +319,10 @@ V -> %vblex.*.der_passl.* {1 _ werden@vaux.prs.[1.person].[1.number] } |
      %vbser {1} |
      %vbmod {1} ;
 
-NP -> %n (if ($case = pr_auf_acc) { auf@pr.acc _ %1[case=acc] }
-          else { %1 }) ;
+NP -> 2: %N (if ($case = pr_auf_acc) { auf@pr.acc _ %1[case=acc] }
+             ! assume that we came from a PP and should thus be definite
+             if ($case = pr_an_acc) { an@pr _ 1(maybe_art)[def=def] %1[case=acc] }
+             else { %1 }) ;
 verb_loc_to_auf = váruhit ;     
 VP -> %VP NP.*.loc { %1 _ 2[case=(if (1.lem in_caseless verb_loc_to_auf) pr_auf_acc
                                   else 2.case)] } ;
