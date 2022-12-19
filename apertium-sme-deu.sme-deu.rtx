@@ -4,7 +4,7 @@
 
 number = (ND sg) sg pl sp du ND ;
 gender = (GD m) m f mf nt mfn GD ;
-case = (CD nom) nom acc dat gen ill loc com ess CD pr_auf_acc pr_auf_dat pr_an_acc ;
+case = (CD nom) nom acc dat gen ill loc com ess CD pr_auf_acc pr_auf_dat pr_an_acc pr_an_dat pr_über_acc pr_über_dat pr_mit_dat pr_für_acc pr_von_dat pr_gegen_acc;
 det_type = def ind dem itg pos qnt ;
 tense = pres fut pret pii imp ;
 person = p1 p2 p3 ;
@@ -322,8 +322,17 @@ V -> %vblex.*.der_passl.* {1 _ werden@vaux.prs.[1.person].[1.number] } |
 NP -> 2: %N (if ($case = pr_auf_acc) { auf@pr.acc _ %1[case=acc] }
              ! assume that we came from a PP and should thus be definite
              if ($case = pr_an_acc) { an@pr _ 1(maybe_art)[def=def] %1[case=acc] }
+             if ($case = pr_über_acc) { über@pr _ 1(maybe_art)[def=def] %1[case=acc] }
+             if ($case = pr_mit_dat) { mit@pr _ 1(maybe_art)[def=def] %1[case=dat] }
+             if ($case = pr_für_acc) { für@pr _ 1(maybe_art)[def=def] %1[case=acc] }
+             if ($case = pr_an_dat) { an@pr _ 1(maybe_art)[def=def] %1[case=dat] }
+             if ($case = pr_von_dat) { von@pr _ 1(maybe_art)[def=def] %1[case=dat] }
+             if ($case = pr_gegen_acc) { gegen@pr _ 1(maybe_art)[def=def] %1[case=acc] }
              else { %1 }) ;
-verb_loc_to_auf = váruhit ;     
+verb_loc_to_auf = váruhit ; 
+verb_ill_to_zu = lasihit ;
+verb_loc_to_an = oassálastit ;
+verb_com_to_mit = ságastallat ráđđádallat ovttasbargat ;
 VP -> %VP NP.*.loc { %1 _ 2[case=(if (1.lem in_caseless verb_loc_to_auf) pr_auf_acc
                                   else 2.case)] } ;
 
