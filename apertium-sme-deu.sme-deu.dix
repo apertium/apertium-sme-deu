@@ -637,6 +637,7 @@
     <e><p><l>okto<s n="adv"/></l><r>alleine<s n="adv"/></r></p></e>
     <e><p><l>olggobealde<s n="adv"/></l><r>draußen<s n="adv"/></r></p></e>
     <e><p><l>olggos<s n="adv"/></l><r>raus<s n="adv"/></r></p></e>
+    <e><p><l>olggos<s n="adv"/></l><r>heraus<s n="adv"/></r></p></e>
     <e><p><l>olgun<s n="adv"/></l><r>draußen<s n="adv"/></r></p></e>
     <e><p><l>ollu<s n="adv"/></l><r>viel<s n="adv"/></r></p></e>
     <e><p><l>omd<s n="adv"/></l><r>z.B.<s n="adv"/></r></p></e>
@@ -3877,7 +3878,7 @@
     <e><p><l>doadjit</l><r>brechen</r></p><par n="vblex"/></e>
     <e><p><l>doahttalit</l><r>gehorchen</r></p><par n="vblex"/></e>
     <e><p><l>doaibmat</l><r>funktionieren</r></p><par n="vblex"/></e>
-    <e><p><l>doaimmahit</l><r>ausfordern</r></p><par n="vblex"/></e>
+    <e><p><l>doaimmahit</l><r>herausfordern</r></p><par n="vblex"/></e>
     <e><p><l>doaivat</l><r>treffen</r></p><par n="vblex"/></e>
     <e><p><l>doaivut</l><r>wünschen</r></p><par n="vblex"/></e>
     <e><p><l>doalahit</l><r>wiedersetzen</r></p><par n="vblex"/></e>
@@ -3966,7 +3967,7 @@
     <e><p><l>gaskkustit</l><r>vermitteln</r></p><par n="vblex"/></e>
     <e><p><l>gasttihit</l><r>niesen</r></p><par n="vblex"/></e>
     <e><p><l>gávdnat</l><r>finden</r></p><par n="vblex"/></e>
-    <e><p><l>gávdnot</l><r>ausfinden</r></p><par n="vblex"/></e>
+    <e><p><l>gávdnot</l><r>herausfinden</r></p><par n="vblex"/></e>
     <e><p><l>gávnnadit</l><r>treffen</r></p><par n="vblex"/></e>
     <e><p><l>gávnnahit</l><r>herausfinden</r></p><par n="vblex"/></e>
     <e><p><l>gávppašit</l><r>einkaufen</r></p><par n="vblex"/></e>
@@ -4072,7 +4073,7 @@
     <e><p><l>hedjonit</l><r>schlechter<b/>werden</r></p><par n="vblex"/></e>
     <e><p><l>hedjonit</l><r>verschlechtern</r></p><par n="vblex"/></e>
     <e><p><l>hehttet</l><r>verhindern</r></p><par n="vblex"/></e>
-    <e><p><l>heivehit</l><r>anpassen</r></p><par n="vblex"/></e>
+    <e><p><l>heivehit</l><r>sich<b/>anpassen</r></p><par n="vblex"/></e>
     <e><p><l>heivet</l><r>passieren</r></p><par n="vblex"/></e>
     <e><p><l>hervet</l><r>dekorieren</r></p><par n="vblex"/></e>
     <e><p><l>hilgut</l><r>ignorieren</r></p><par n="vblex"/></e>
@@ -4097,8 +4098,7 @@
     <e><p><l>jápmit</l><r>sterben</r></p><par n="vblex"/></e>
     <e><p><l>jaskkodit</l><r>schweigen</r></p><par n="vblex"/></e>
     <e><p><l>jávkadit</l><r>verschwinden</r></p><par n="vblex"/></e>
-    <e><p><l>jávkat</l><r>verschwinnen</r></p><par n="vblex"/></e>
-    <e><p><l>jávkat</l><r>verschwinnen</r></p><par n="vblex"/></e>
+    <e><p><l>jávkat</l><r>verschwinden</r></p><par n="vblex"/></e>
     <e><p><l>jeahkit</l><r>aushalten</r></p><par n="vblex"/></e>
     <e><p><l>jearahallat</l><r>interviewen</r></p><par n="vblex"/></e>
     <e><p><l>jearahit</l><r>nachfragen</r></p><par n="vblex"/></e>
@@ -4125,7 +4125,7 @@
     <e><p><l>juohkit</l><r>verteilen</r></p><par n="vblex"/></e>
     <e><p><l>juoigat</l><r>joiken</r></p><par n="vblex"/></e>
     <e><p><l>juolludit</l><r>bewilligen</r></p><par n="vblex"/></e>
-    <e><p><l>jurddašit</l><r>denken</r></p><par n="vblex"/></e>
+    <e><p><l>jurddašit</l><r>nachdenken</r></p><par n="vblex"/></e>
     <e><p><l>jurdilit</l><r>denken</r></p><par n="vblex"/></e>
     <e><p><l>jurdit</l><r>überlegen</r></p><par n="vblex"/></e>
     <e><p><l>káret</l><r>jucken</r></p><par n="vblex"/></e>
@@ -4166,7 +4166,7 @@
     <e><p><l>lonuhit</l><r>wechseln</r></p><par n="vblex"/></e>
     <e><p><l>lotnut</l><r>auswechseln</r></p><par n="vblex"/></e>
     <e><p><l>luohttit</l><r>vertrauen</r></p><par n="vblex"/></e>
-    <e><p><l>luoikat</l><r>lehnen</r></p><par n="vblex"/></e>
+    <e><p><l>luoikat</l><r>ausleihen</r></p><par n="vblex"/></e>
     <e><p><l>luoitádit</l><r>untergehen</r></p><par n="vblex"/></e>
     <e><p><l>luoitit</l><r>loslassen</r></p><par n="vblex"/></e>
     <e><p><l>máhcahit</l><r>zurückführen</r></p><par n="vblex"/></e>
@@ -4197,9 +4197,8 @@
     <e><p><l>molsut</l><r>wechseln</r></p><par n="vblex"/></e>
     <e><p><l>movttiidahttit</l><r>motivieren</r></p><par n="vblex"/></e>
     <e><p><l>muddet</l><r>korrigieren</r></p><par n="vblex"/></e>
-    <e><p><l>muddet</l><r>korrigieren</r></p><par n="vblex"/></e>
     <e><p><l>muddit</l><r>reparieren</r></p><par n="vblex"/></e>
-    <e><p><l>muitalit</l><r>sagen</r></p><par n="vblex"/></e>
+    <e><p><l>muitalit</l><r>erzählen</r></p><par n="vblex"/></e>
     <e><p><l>muitit</l><r>erinnern</r></p><par n="vblex"/></e>
     <e><p><l>muittašit</l><r>erinnern</r></p><par n="vblex"/></e>
     <e><p><l>muittuhit</l><r>erinnern</r></p><par n="vblex"/></e>
@@ -4217,7 +4216,6 @@
     <e><p><l>namuhit</l><r>nennen</r></p><par n="vblex"/></e>
     <e><p><l>nannet</l><r>feststellen</r></p><par n="vblex"/></e>
     <e><p><l>návddašit</l><r>genießen</r></p><par n="vblex"/></e>
-    <e><p><l>navdit</l><r>annehmen</r></p><par n="vblex"/></e>
     <e><p><l>navdit</l><r>annehmen</r></p><par n="vblex"/></e>
     <e><p><l>neaktit</l><r>schauspielern</r></p><par n="vblex"/></e>
     <e><p><l>neavvut</l><r>empfehlen</r></p><par n="vblex"/></e>
@@ -4242,11 +4240,11 @@
     <e><p><l>nuppástuvvat</l><r>sich<b/>verändern</r></p><par n="vblex"/></e>
     <e><p><l>oađđit</l><r>schlafen</r></p><par n="vblex"/></e>
     <e><p><l>oaggut</l><r>angeln</r></p><par n="vblex"/></e>
-    <e><p><l>oahcut</l><r>entspannen</r></p><par n="vblex"/></e>
+    <e><p><l>oahcut</l><r>sich<b/>entspannen</r></p><par n="vblex"/></e>
     <e><p><l>oahpahit</l><r>lehren</r></p><par n="vblex"/></e>
     <e><p><l>oahpásmuvvat</l><r>kennenlernen</r></p><par n="vblex"/></e>
     <e><p><l>oahppat</l><r>lernen</r></p><par n="vblex"/></e>
-    <e><p><l>oaidnalit</l><r>treffen</r></p><par n="vblex"/></e>
+    <e><p><l>oaidnalit</l><r>sich<b/>treffen</r></p><par n="vblex"/></e>
     <e><p><l>oaidnit</l><r>sehen</r></p><par n="vblex"/></e>
     <e><p><l>oaivvildit</l><r>meinen</r></p><par n="vblex"/></e>
     <e><p><l>oaivvildit</l><r>meinen</r></p><par n="vblex"/></e>
@@ -4269,8 +4267,6 @@
     <e><p><l>ollit</l><r>erreichen</r></p><par n="vblex"/></e>
     <e><p><l>ordnet</l><r>organisieren</r></p><par n="vblex"/></e>
     <e><p><l>organiseret</l><r>organisieren</r></p><par n="vblex"/></e>
-    <e><p><l>organiseret</l><r>organisieren</r></p><par n="vblex"/></e>
-    <e><p><l>organiseret</l><r>organisiern</r></p><par n="vblex"/></e>
     <e><p><l>orrot</l><r>wohnen</r></p><par n="vblex"/></e>
     <e><p><l>orrut</l><r>bleiben</r></p><par n="vblex"/></e>
     <e><p><l>orrut</l><r>scheinen</r></p><par n="vblex"/></e>
@@ -4315,8 +4311,6 @@
     <e><p><l>registreret</l><r>registrieren</r></p><par n="vblex"/></e>
     <e><p><l>reguleret</l><r>regulieren</r></p><par n="vblex"/></e>
     <e><p><l>rehkenastit</l><r>rechnen</r></p><par n="vblex"/></e>
-    <e><p><l>rehkenastit</l><r>rechnen</r></p><par n="vblex"/></e>
-    <e><p><l>rekrutteret</l><r>rekrutieren</r></p><par n="vblex"/></e>
     <e><p><l>rekrutteret</l><r>rekrutieren</r></p><par n="vblex"/></e>
     <e><p><l>revideret</l><r>revidieren</r></p><par n="vblex"/></e>
     <e><p><l>ribahit</l><r>verlieren</r></p><par n="vblex"/></e>
@@ -4362,7 +4356,7 @@
     <e><p><l>searvat</l><r>nützen</r></p><par n="vblex"/></e>
     <e><p><l>seastit</l><r>sparen</r></p><par n="vblex"/></e>
     <e><p><l>sevnnjodit</l><r>dunkel<b/>werden</r></p><par n="vblex"/></e>
-    <e><p><l>šiehtadallat</l><r>einigen</r></p><par n="vblex"/></e>
+    <e><p><l>šiehtadallat</l><r>sich<b/>einigen</r></p><par n="vblex"/></e>
     <e><p><l>sihkkarastit</l><r>sicherstellen</r></p><par n="vblex"/></e>
     <e><p><l>sihkkut</l><r>löschen</r></p><par n="vblex"/></e>
     <e><p><l>sihkkut</l><r>löschen</r></p><par n="vblex"/></e>
@@ -4397,7 +4391,7 @@
     <e><p><l>suorganit</l><r>sich<b/>erschrecken</r></p><par n="vblex"/></e>
     <e><p><l>suotnjat</l><r>kriechen</r></p><par n="vblex"/></e>
     <e><p><l>suovvat</l><r>kasseb</r></p><par n="vblex"/></e>
-    <e><p><l>unnidit</l><r>einschrenken</r></p><par n="vblex"/></e>
+    <e><p><l>unnidit</l><r>einschränken</r></p><par n="vblex"/></e>
     <e><p><l>unnidit</l><r>reduzieren</r></p><par n="vblex"/></e>
     <e><p><l>unnidit</l><r>verkleinern</r></p><par n="vblex"/></e>
     <e><p><l>unnut</l><r>abnehmen</r></p><par n="vblex"/></e>
@@ -4436,7 +4430,7 @@
     <e><p><l>veahkehit</l><r>helfen</r></p><par n="vblex"/></e>
     <e><p><l>veallát</l><r>liegen</r></p><par n="vblex"/></e>
     <e><p><l>veardidit</l><r>vergleichen</r></p><par n="vblex"/></e>
-    <e><p><l>viehkalit</l><r>springen</r></p><par n="vblex"/></e>
+    <e><p><l>viehkalit</l><r>laufen</r></p><par n="vblex"/></e>
     <e><p><l>viehkat</l><r>laufen</r></p><par n="vblex"/></e>
     <e><p><l>viežžat</l><r>holen</r></p><par n="vblex"/></e>
     <e><p><l>viggat</l><r>versuchen</r></p><par n="vblex"/></e>
