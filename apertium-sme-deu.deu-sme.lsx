@@ -120,6 +120,7 @@
       <e><i>wechslen</i></e>
       <e><i>laufen</i></e>
       <e><i>sehen</i></e>
+      <e><i>leihen</i></e>
     </pardef>
 
     <pardef n="heraus_verb">
@@ -152,6 +153,7 @@
 
     <pardef n="an_verb">
       <e><i>fangen</i></e>
+      <e><i>passen</i></e>
     </pardef>
 
 
@@ -187,6 +189,15 @@
       <e><i>bereiten</i></e>
     </pardef>
 
+    <pardef n="wohl_verb">
+      <e><i>fühlen</i></e>
+    </pardef>
+    
+    <pardef n="um_verb">
+      <e><i>drehen</i></e>
+      <e><i>schauen</i></e>
+    </pardef>
+    
     <pardef n="voraus_verb">
       <e><i>setzen</i></e>
       <e><i>sehen</i></e>
@@ -203,7 +214,41 @@
       <e><i>setzen</i></e>
       <e><i>legen</i></e>
     </pardef>    
-    
+
+    <pardef n="fest_verb">
+      <e><i>stellen</i></e>
+      <e><i>machen</i></e>
+      <e><i>setzen</i></e>
+      <e><i>legen</i></e>
+    </pardef>    
+
+    <pardef n="kennen_verb">
+      <e><i>lernen</i></e>
+    </pardef>    
+        
+    <pardef n="los_verb">
+      <e><i>lassen</i></e>
+      <e><i>gehen</i></e>
+      <e><i>machen</i></e>
+      <e><i>legen</i></e>
+    </pardef>    
+
+    <pardef n="teil_verb">
+      <e><i>nehmen</i></e>
+      <e><i>haben</i></e>
+    </pardef>    
+
+    <pardef n="durch_verb">
+      <e><i>führen</i></e>
+      <e><i>drehen</i></e>
+    </pardef>    
+
+    <pardef n="ein_verb">
+      <e><i>schränken</i></e>
+      <e><i>machen</i></e>
+    </pardef>    
+
+        
   </pardefs>
   
   <section id="main" type="standard">
@@ -324,13 +369,36 @@
       <par n="words"/>
       <p><l>zu<s n="pr"/><s n="dat"/><d/></l><r></r></p>
     </e>
-    
-        
+
+    <e>
+      <p><l></l><r>zurück</r></p>
+  	  <par n="zurück_verb"/>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>zurück<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e>    
+
+    <e>
+      <p><l></l><r>wohl</r></p>
+  	  <par n="wohl_verb"/>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>wohl<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e>
+
+    <e>
+      <p><l></l><r>fest</r></p>
+  	  <par n="fest_verb"/>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>fest<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e> 
+                
     <e><!-- -->
       <p><l>erhalten</l><r>aufrechterhalten</r></p>
       <i><s n="vblex"/><t/><d/></i>
       <par n="words"/>
-      <p><l>aufrecht<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+      <p><l>aufrecht<s n="pr"/><s n="acc"/><d/></l><r></r></p>
     </e>
     
     
@@ -349,7 +417,7 @@
 	  <par n="heraus_verb"/>
       <i><s n="vblex"/><t/><d/></i>
       <par n="words"/>
-      <p><l>heraus<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+      <p><l>heraus<s n="pr"/><s n="acc"/><d/></l><r></r></p>
     </e>
 
     <e><!-- Mun váruhan su. Ich passe auf ihn auf. aufpassen + auf + Acc -->
