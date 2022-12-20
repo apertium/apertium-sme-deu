@@ -393,7 +393,15 @@
       <par n="words"/>
       <p><l>fest<s n="pr"/><s n="dat"/><d/></l><r></r></p>
     </e> 
-                
+
+    <e>
+      <p><l></l><r>teil</r></p>
+  	  <par n="teil_verb"/>
+      <i><s n="vblex"/><t/><d/></i>
+      <par n="words"/>
+      <p><l>teil<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+    </e> 
+                    
     <e><!-- -->
       <p><l>erhalten</l><r>aufrechterhalten</r></p>
       <i><s n="vblex"/><t/><d/></i>
