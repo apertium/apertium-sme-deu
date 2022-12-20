@@ -333,11 +333,11 @@ verb_loc_to_auf = váruhit ;
 verb_ill_to_zu = lasihit ;
 verb_loc_to_an = oassálastit ;
 verb_com_to_mit = ságastallat ráđđádallat ovttasbargat ;
-VP -> %VP NP.*.loc { %1 _ 2[case=(if (1.lem in_caseless verb_loc_to_auf) pr_auf_acc
+VP -> 2: %VP NP.*.loc { %1 _ 2[case=(if (1.lem in_caseless verb_loc_to_auf) pr_auf_acc
 								  elif (1.lem in_caseless verb_loc_to_an) pr_an_dat
                                   else 2.case)]} ;
                                   
-VP -> %VP NP.*.ill { %1 _ 2[case=(if (1.lem in_caseless verb_ill_to_zu) pr_zu_acc                               
+VP -> 2: %VP NP.*.ill { %1 _ 2[case=(if (1.lem in_caseless verb_ill_to_zu) pr_zu_acc                               
                                   else 2.case)]} ;
     
 PP -> NUMP post { 2 _ 1 } |
