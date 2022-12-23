@@ -5,6 +5,7 @@
 	<sdef n="adj"/>
 	<sdef n="adv"/>
 	<sdef n="pr"/>
+	<sdef n="atp"/>
 	<sdef n="n"/>
 	<sdef n="v"/>
 	<sdef n="vblex"/>
@@ -399,7 +400,7 @@
   	  <par n="teil_verb"/>
       <i><s n="vblex"/><t/><d/></i>
       <par n="words"/>
-      <p><l>teil<s n="pr"/><s n="dat"/><d/></l><r></r></p>
+      <p><l>#<b/>teil<s n="atp"/><d/></l><r></r></p>
     </e> 
                     
     <e><!-- -->
