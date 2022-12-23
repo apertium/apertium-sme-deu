@@ -318,27 +318,29 @@ V -> %vblex.*.der_passl.* {1 _ werden@vaux.prs.[1.person].[1.number] } |
                number = (if (1.number = du) pl else 1.number)] } |
      %vbser {1} |
      %vbmod {1} ;
-
-NP -> 2: %N (if ($case = pr_auf_acc) { auf@pr.acc _ %1[case=acc] }
-             ! assume that we came from a PP and should thus be definite
-             if ($case = pr_an_acc) { an@pr.acc _ 1(maybe_art)[def=def] %1[case=acc] }
-             if ($case = pr_über_acc) { über@pr.acc _ 1(maybe_art)[def=def] %1[case=acc] }
-             if ($case = pr_mit_dat) { mit@pr.dat _ 1(maybe_art)[def=def] %1[case=dat] }
-             if ($case = pr_für_acc) { für@pr.acc _ 1(maybe_art)[def=def] %1[case=acc] }
-             if ($case = pr_an_dat) { an@pr.dat _ 1(maybe_art)[def=def] %1[case=dat] }
-             if ($case = pr_von_dat) { von@pr.dat _ 1(maybe_art)[def=def] %1[case=dat] }
-             if ($case = pr_gegen_acc) { gegen@pr.acc _ 1(maybe_art)[def=def] %1[case=acc] }
-             else { %1 }) ;
-verb_loc_to_auf = váruhit ; 
+             
+verb_loc_to_auf = aufpassen ; 
 verb_ill_to_zu = lasihit ;
-verb_loc_to_an = oassálastit ;
-verb_com_to_mit = ságastallat ráđđádallat ovttasbargat ;
+verb_loc_to_an = teilnehmen ;
+verb_com_to_mit = sprechen zusammenarbeiten ;
 VP -> 2: %VP NP.*.loc { %1 _ 2[case=(if (1.lem in_caseless verb_loc_to_auf) pr_auf_acc
 								  elif (1.lem in_caseless verb_loc_to_an) pr_an_dat
                                   else 2.case)]} ;
                                   
 VP -> 2: %VP NP.*.ill { %1 _ 2[case=(if (1.lem in_caseless verb_ill_to_zu) pr_zu_acc                               
                                   else 2.case)]} ;
+                                  
+NP -> 2: %N (if ($case = pr_auf_acc) { auf@pr.acc _ 1(maybe_art)[def=def,case=acc] %1[case=acc] }
+             ! assume that we came from a PP and should thus be definite
+             if ($case = pr_an_acc) { an@pr.acc _ 1(maybe_art)[def=def,case=acc] %1[case=acc] }
+             if ($case = pr_über_acc) { über@pr.acc _ 1(maybe_art)[def=def,case=acc] %1[case=acc] }
+             if ($case = pr_mit_dat) { mit@pr.dat _ 1(maybe_art)[def=def,case=dat] %1[case=dat] }
+             if ($case = pr_für_acc) { für@pr.acc _ 1(maybe_art)[def=def,case=acc] %1[case=acc] }
+             if ($case = pr_an_dat) { an@pr.dat _ 1(maybe_art)[def=def,case=dat] %1[case=dat] }
+             if ($case = pr_von_dat) { von@pr.dat _ 1(maybe_art)[def=def,case=dat] %1[case=dat] }
+             if ($case = pr_gegen_acc) { gegen@pr.acc _ 1(maybe_art)[def=def,case=acc] %1[case=acc] }
+             else { %1 }) ;
+
     
 PP -> NUMP post { 2 _ 1 } |
       ! idioms
