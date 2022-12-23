@@ -68,6 +68,7 @@
     <sdef n="px3sg"   c="possessive third singular (sme)"/>
     <sdef n="pos"     c="possessive (deu)"/>
     <sdef n="ito"     c="infinitiv marker"/>
+    <sdef n="atp"     c="Attachable prefix"/>
 
     <sdef n="foc_bat"               c="Focus enclitic conversion bug"/>
     <sdef n="ex_np"                 c="Proper Noun deriv stuff"/>
@@ -152,6 +153,10 @@
     <e r="RL"><p><l/><r>ein<s n="det"/></r></p></e>
     <e r="RL"><p><l/><r>zu<s n="ito"/></r></p></e>
     <e r="RL"><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="gen"/></l><r>prpers<s n="det"/><s n="pos"/><s n="p3"/><s n="m"/></r></p></e>
+    
+    <!-- parts of seperable verbs that cannot be translated -->
+    
+    <e r="RL"><p><l/><r>teil<s n="atp"/></r></p></e>
 
     <!-- conversion bugs -->
 
@@ -2506,7 +2511,7 @@
     <e><p><l>gilli<s n="n"/></l><r>Dorf<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>gilvaleaddji<s n="n"/></l><r>Mitstreiter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gilvovuodjin<s n="n"/></l><r>Rennen<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>gilvu<s n="n"/></l><r>Rennkampf<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gilvu<s n="n"/></l><r>Wettkampf<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gilvvohallan<s n="n"/></l><r>Wettkampf<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ginttal<s n="n"/></l><r>Kerze<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>girdišillju<s n="n"/></l><r>Flugplatz<s n="n"/><s n="m"/></r></p></e>
