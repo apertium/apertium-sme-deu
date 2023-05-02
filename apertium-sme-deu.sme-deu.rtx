@@ -378,9 +378,9 @@ NUMP -> ! if number is one: use indefinite article instead and singulars:
         { 1(num_digit) _ %2 _ von@pr _ 3(num_digit) _
             4[case=dat,number=(if (3.lem/sl incl one_lem) sg else pl)] 
         } ;
-NP -> %A %N ADV { %1[gender=2.gender,
+NP -> A %N ADV { %1[gender=2.gender,
                    number=2.number,case=2.case] _ %2 _ 3 } |
-      %A %N { %1[gender=2.gender,
+      A %N { %1[gender=2.gender,
                  number=2.number,case=2.case] _ %2 } |
       %N ADV { %1 _ 2 } |
       N.*.gen %N { %2 _ der@det.def.[1.gender].sg.gen _ 1 } |
