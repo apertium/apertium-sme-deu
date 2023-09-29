@@ -412,7 +412,8 @@ DP -> DET %N { 1[gender=(if (2.number = pl) mfn else 2.gender),
 N ->
     ! idioms
     ruhtadilli@n { finanziell@adj.sint.f.sg.nom.sw _ Situation@n.f.sg.nom } |
-    n.*.cmp %n { 1 "-"@punct 2 } |
+    ! dynamix compounding
+    n.*.cmp %n { 1 2 } |
     ! normal n
     %n {1[case=(if (1.case = loc) acc
                                          elif (1.case = ill) dat
