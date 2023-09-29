@@ -153,9 +153,9 @@
     <e r="RL"><p><l/><r>ein<s n="det"/></r></p></e>
     <e r="RL"><p><l/><r>zu<s n="ito"/></r></p></e>
     <e r="RL"><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="gen"/></l><r>prpers<s n="det"/><s n="pos"/><s n="p3"/><s n="m"/></r></p></e>
-    
+
     <!-- parts of seperable verbs that cannot be translated -->
-    
+
     <e r="RL"><p><l/><r>teil<s n="atp"/></r></p></e>
 
     <!-- conversion bugs -->
@@ -235,9 +235,9 @@
         <r>sie<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
     <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l>
-        <r>mein<s n="det"/><s n="pos"/><s n="p1"/><s n="mf"/></r></p></e>        
+        <r>mein<s n="det"/><s n="pos"/><s n="p1"/><s n="mf"/></r></p></e>
     <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l>
-        <r>dein<s n="det"/><s n="pos"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>        
+        <r>dein<s n="det"/><s n="pos"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l>
         <r>sein<s n="det"/><s n="pos"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l>
@@ -1842,8 +1842,6 @@
     <e c="TODO"><p><l>namuhuvvon<s n="n"/></l><r>genannt<s n="n"/><s n="m"/></r></p></e>
     <e c="TODO"><p><l>oppal<s n="n"/></l><r>Eisspitze<s n="n"/><s n="m"/></r></p></e>
     <e c="TODO"><p><l>várá<s n="n"/></l><r>Gefahr<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>guimmešvuohtasoahpamuš<s n="n"/></l><r>Lebensgefährtenvereinbarung<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>guimmešvuohta<s n="n"/></l><r>Lebensgefährte<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>1800-lohku<s n="n"/></l><r>18. Jahrhundert<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ađa<s n="n"/></l><r>Knöchelkern<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>áddejupmi<s n="n"/></l><r>Verständnis<s n="n"/><s n="m"/></r></p></e>
@@ -1915,8 +1913,8 @@
     <e><p><l>ásaheapmi<s n="n"/></l><r>Platzierung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ásahus<s n="n"/></l><r>Institut<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>aski<s n="n"/></l><r>Etage<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>ássan<s n="n"/></l><r>Wohnen<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ássanguovlu<s n="n"/></l><r>Wohngebiet<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>ássan<s n="n"/></l><r>Wohnen<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>áššebábir<s n="n"/></l><r>Unterlage<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>áššedovdi<s n="n"/></l><r>Sachkundiger<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>áššejođiheaddji<s n="n"/></l><r>Leiter<s n="n"/><s n="m"/></r></p></e>
@@ -2329,8 +2327,8 @@
     <e><p><l>eaktu<s n="n"/></l><r>Bedingung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ealáhuseallin<s n="n"/></l><r>Wirtschaft<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ealáhusovddideapmi<s n="n"/></l><r>Branchenentwicklung<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>ealáhus<s n="n"/></l><r>Lebensunterhalt<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ealáhussearvi<s n="n"/></l><r>Wirtschaftsverbund<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ealáhus<s n="n"/></l><r>Lebensunterhalt<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ealáskahttin<s n="n"/></l><r>Vitalisierung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ealgabivdi<s n="n"/></l><r>Elchjäger<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ealgabivdu<s n="n"/></l><r>Elchjagd<s n="n"/><s n="f"/></r></p></e>
@@ -2547,6 +2545,8 @@
     <e><p><l>govven<s n="n"/></l><r>Fotografie<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gudni<s n="n"/></l><r>Ehre<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>guhkká<s n="n"/></l><r>Blume<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>guimmešvuohta<s n="n"/></l><r>Lebensgefährte<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>guimmešvuohtasoahpamuš<s n="n"/></l><r>Lebensgefährtenvereinbarung<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>guksi<s n="n"/></l><r>Kuksa<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gulahallan<s n="n"/></l><r>Kommunikation<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gulaskuddancealkámuš<s n="n"/></l><r>Konsultationserklärung<s n="n"/><s n="f"/></r></p></e>
@@ -2587,10 +2587,10 @@
     <e><p><l>haddi<s n="n"/></l><r>Preis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>háhkan<s n="n"/></l><r>Investition<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hálddahus<s n="n"/></l><r>Verwaltung<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>hálddašaneiseváldi<s n="n"/></l><r>Verwaltungsorgan<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hálddašanguovlu<s n="n"/></l><r>Jurisdiktion<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hálddašeaddji<s n="n"/></l><r>Verwalter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hálddašeapmi<s n="n"/></l><r>Verwaltung<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>hálddašaneiseváldi<s n="n"/></l><r>Verwaltungsorgan<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>háldu<s n="n"/></l><r>Besitz<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hálla<s n="n"/></l><r>Halle<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hálli<s n="n"/></l><r>Sprecher<s n="n"/><s n="m"/></r></p></e>
@@ -2695,7 +2695,6 @@
     <e><p><l>jođiheapmi<s n="n"/></l><r>Leitung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>johka<s n="n"/></l><r>Fluss<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>johtin<s n="n"/></l><r>Reisen<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>oktasasjohtolat<s n="n"/></l><r>öffentlicher<b/>Verkehr<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>johtolat<s n="n"/></l><r>Verkehr<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>johtti<s n="n"/></l><r>Tourist<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>johtu<s n="n"/></l><r>Weg<s n="n"/><s n="m"/></r></p></e>
@@ -2821,8 +2820,8 @@
     <e><p><l>lávvardat<s n="n"/></l><r>Samstag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lávvordat<s n="n"/></l><r>Samstag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>leahttu<s n="n"/></l><r>Geschwindigkeit<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>leairaskuvlla<s n="n"/></l><r>Schullandheim<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>leairaskuvla<s n="n"/></l><r>Schullandheim<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>leairaskuvlla<s n="n"/></l><r>Schullandheim<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>leaksu<s n="n"/></l><r>Hausarbeit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>leaktu<s n="n"/></l><r>Geschwindigkeit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>leansmánni<s n="n"/></l><r>Lensmann<s n="n"/><s n="m"/></r></p></e>
@@ -2862,19 +2861,18 @@
     <e><p><l>luksushotealla<s n="n"/></l><r>Luxushotel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lullisámegiella<s n="n"/></l><r>Südsaamisch<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lullisápmelaš<s n="n"/></l><r>Südsaame<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>máttasápmelaš<s n="n"/></l><r>Südsaame<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lulli<s n="n"/></l><r>Süd<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lunta<s n="n"/></l><r>Junge<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>luodda<s n="n"/></l><r>Straße<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>luohkká<s n="n"/></l><r>Klasse<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>luohti<s n="n"/></l><r>Joik<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>luohttámuš<s n="n"/></l><r>Vertrauen<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>luoitin<s n="n"/></l><r>Emission<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>luoikkas<s n="n"/></l><r>Leihgabe<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>luoitin<s n="n"/></l><r>Emission<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>luomi<s n="n"/></l><r>Moltebeere<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>luonddugeavaheapmi<s n="n"/></l><r>Umweltnutzung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>luondduguovddáš<s n="n"/></l><r>Naturzentrum<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>luonddumeahcci<s n="n"/></l><r>Naturreservat<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>luonddugeavaheapmi<s n="n"/></l><r>Umweltnutzung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>luondu<s n="n"/></l><r>Umwelt<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>luopmu<s n="n"/></l><r>Urlaub<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>luossabivdu<s n="n"/></l><r>Lachsfang<s n="n"/><s n="m"/></r></p></e>
@@ -2915,7 +2913,6 @@
     <e><p><l>mánnávuohta<s n="n"/></l><r>Kindheit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mánnodat<s n="n"/></l><r>Montag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mánnu<s n="n"/></l><r>Monat<s n="n"/><s n="m"/></r></p></e>
-    <e w="2"><p><l>mánnu<s n="n"/></l><r>Mond<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mánoheahpi<s n="n"/></l><r>Mondschein<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>máŋggas<s n="n"/></l><r>Leute<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>maŋŋebárga<s n="n"/></l><r>Dienstag<s n="n"/><s n="m"/></r></p></e>
@@ -2929,6 +2926,7 @@
     <e><p><l>mátkeealáhus<s n="n"/></l><r>Tourismusbranche<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mátki<s n="n"/></l><r>Reise<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>máttasámegiella<s n="n"/></l><r>Südsaamisch<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>máttasápmelaš<s n="n"/></l><r>Südsaame<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mátta<s n="n"/></l><r>Wurzel<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>meađđen<s n="n"/></l><r>Fischei<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>meahcásteapmi<s n="n"/></l><r>Jagd<s n="n"/><s n="f"/></r></p></e>
@@ -2969,8 +2967,8 @@
     <e><p><l>mihttu<s n="n"/></l><r>Ziel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>miila<s n="n"/></l><r>Meile<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>minerála<s n="n"/></l><r>Mineral<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>ministtar<s n="n"/></l><r>Minister<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ministtarlávdegoddi<s n="n"/></l><r>Ministerkomite<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>ministtar<s n="n"/></l><r>Minister<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>minoriteahtta<s n="n"/></l><r>Minderheit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>minuhtta<s n="n"/></l><r>Minute<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>moallaolmmái<s n="n"/></l><r>Torwart<s n="n"/><s n="m"/></r></p></e>
@@ -2978,9 +2976,9 @@
     <e><p><l>moarsi<s n="n"/></l><r>Braut<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>moattis<s n="n"/></l><r>Paar<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>modealla<s n="n"/></l><r>Model<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>mohtorboaldámušat<s n="n"/></l><r>Treibstoff<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mohtorgielká<s n="n"/></l><r>Schneemobil<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>mohtor<s n="n"/></l><r>Motor<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>mohtorboaldámušat<s n="n"/></l><r>Treibstoff<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>moivi<s n="n"/></l><r>Durcheinander<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>mokta<s n="n"/></l><r>Lust<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>molssaeaktu<s n="n"/></l><r>Alternative<s n="n"/><s n="f"/></r></p></e>
@@ -3131,10 +3129,11 @@
     <e><p><l>ohcamuš<s n="n"/></l><r>Bewerbung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ohcanáigemearri<s n="n"/></l><r>Bewerbungsfrist<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ohcanskovvi<s n="n"/></l><r>Bewerbung<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>ohcan<s n="n"/></l><r>Suche<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ohcan<s n="n"/></l><r>Bewerbung<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ohcan<s n="n"/></l><r>Suche<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ohca<s n="n"/></l><r>Brustkorb<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ohcci<s n="n"/></l><r>Bewerber<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>oktasasjohtolat<s n="n"/></l><r>öffentlicher<b/>Verkehr<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>oktavuohta<s n="n"/></l><r>Verbindung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>oktavuohta<s n="n"/></l><r>Zusammenhang<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>olahusjoavku<s n="n"/></l><r>Kompetenzgruppe<s n="n"/><s n="f"/></r></p></e>
@@ -3249,9 +3248,9 @@
     <e><p><l>registtar<s n="n"/></l><r>Register<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>rehketdoallu<s n="n"/></l><r>Buchführung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rehket<s n="n"/></l><r>Rechnung<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>religiovdna<s n="n"/></l><r>Religion<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>reive<s n="n"/></l><r>Brief<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rektor<s n="n"/></l><r>Rektor<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>religiovdna<s n="n"/></l><r>Religion<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>replihkka<s n="n"/></l><r>Replik<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>resursa<s n="n"/></l><r>Ressource<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>riddu<s n="n"/></l><r>Küste<s n="n"/><s n="f"/></r></p></e>
@@ -3445,8 +3444,8 @@
     <e><p><l>st.dieđ<s n="n"/></l><r>Staatsmeldung<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stipeanda<s n="n"/></l><r>Stipendium<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stivra<s n="n"/></l><r>Vorstand<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>stivrran<s n="n"/></l><r>Steuerrad<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stivrenjoavku<s n="n"/></l><r>Vorstandsgruppe<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>stivrran<s n="n"/></l><r>Steuerrad<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stoagus<s n="n"/></l><r>Spiel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stoahkan<s n="n"/></l><r>Spiel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stoalpu<s n="n"/></l><r>Pillar<s n="n"/><s n="m"/></r></p></e>
@@ -3617,6 +3616,7 @@
     <e><p><l>vuotta<s n="n"/></l><r>Schuhband<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vuovdin<s n="n"/></l><r>Verkauf<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vuovdi<s n="n"/></l><r>Wald<s n="n"/><s n="m"/></r></p></e>
+    <e w="2"><p><l>mánnu<s n="n"/></l><r>Mond<s n="n"/><s n="m"/></r></p></e>
 
 
     <e c="?"><p><l>nieidda<b/>guovttis<s n="n"/></l><r>nieidda<b/>guovttis<s n="n"/><s n="m"/></r></p></e>
@@ -3631,8 +3631,8 @@
     <e><p><l>malphabet<s n="n"/></l><r>M<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>aalphabet<s n="n"/></l><r>A<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>jalphabet<s n="n"/></l><r>J<s n="n"/><s n="m"/></r></p></e>
-    
-    <e r="RL"><p><l></l><r>Betracht<s n="n"/><s n="m"/></r></p></e>    
+
+    <e r="RL"><p><l></l><r>Betracht<s n="n"/><s n="m"/></r></p></e>
 
     <!-- }}}
          {{{ SECTION: Verbs verbs -->
