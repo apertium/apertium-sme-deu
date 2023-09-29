@@ -62,6 +62,7 @@
     <sdef n="tv"      c="transit"/>
     <sdef n="iv"      c="in transit"/>
 
+    <sdef n="loc"     c="locinative"/>
     <sdef n="nom"     c="nominative"/>
     <sdef n="gen"     c="genitive"/>
     <sdef n="acc"     c="accusative"/>
