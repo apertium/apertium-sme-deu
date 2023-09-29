@@ -2024,6 +2024,9 @@
     <e><p><l>biebmobázahusat<s n="n"/></l><r>Essensreste<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>biebmu<s n="n"/></l><r>Essen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>biegga<s n="n"/></l><r>Wind<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bieggamillu<s n="n"/></l><r>Windmühle<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bieggafápmu<s n="n"/></l><r>Windkraft<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bieggafápmorusttet<s n="n"/></l><r>Windmühle<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bierggas<s n="n"/></l><r>Gegenstand<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>biergu<s n="n"/></l><r>Fleisch<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bihttá<s n="n"/></l><r>Hausarbeit<s n="n"/><s n="f"/></r></p></e>
@@ -2064,6 +2067,7 @@
     <e><p><l>boazodoallošiehtadus<s n="n"/></l><r>Rentierzuchtabmachung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>boazodoallostivra<s n="n"/></l><r>Rentierzuchtvorstand<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>boazodoallu<s n="n"/></l><r>Rentierhaltung<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>boazoeaiggát<s n="n"/></l><r>Rentierbesitzer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>boazolohku<s n="n"/></l><r>Rentierzahl<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>boazosápmelaš<s n="n"/></l><r>Rentiersaame<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>boazosápmi<s n="n"/></l><r>Rentiersaame<s n="n"/><s n="m"/></r></p></e>
@@ -3149,6 +3153,7 @@
     <e><p><l>olmmošlohku<s n="n"/></l><r>Bevölkerung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>olmmoš<s n="n"/></l><r>Mensch<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>olmmošvuoigatvuohta<s n="n"/></l><r>Menschenrecht<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>olmmošvuoigatvuođarihkkun<s n="n"/></l><r>Menschenrechtsverletzung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>opmodat<s n="n"/></l><r>Vermögen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>opposišuvdna<s n="n"/></l><r>Opposition<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ore<s n="n"/></l><r>Hengst<s n="n"/><s n="m"/></r></p></e>
