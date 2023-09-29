@@ -17,9 +17,6 @@
       <select tags="det.pos.*"/>
     </match>
   </rule>
-</rules>
-
-
   <rule>
     <match lemma="dovdat"/>
     <match lemma="ahte" tags="cmjsub.*">
@@ -41,6 +38,10 @@
       <select lemma="sagen" tags="v.*"/>
     </match>
   </rule>
+
+</rules>
+
+
 
 
 <!--
