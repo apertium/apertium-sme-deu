@@ -298,6 +298,7 @@
     <e r="LR"><p><l>iešguhte<s n="prn"/></l><r>jeder<s n="prn"/></r></p></e>
     <e><p><l>ieš<s n="prn"/></l><r>selbe<s n="prn"/></r></p></e>
     <e><p><l>iežá<s n="prn"/></l><r>andere<s n="prn"/></r></p></e>
+    <e><p><l>ii<b/>mihkkege<s n="prn"/></l><r>nichts<s n="adv"/></r></p></e>
     <e><p><l>juoga<s n="prn"/></l><r>irgendetwas<s n="prn"/><s n="ind"/><s n="p3"/><s n="nt"/><s n="nom"/></r></p></e>
     <e><p><l>juohkehaš<s n="prn"/></l><r>jede<s n="prn"/></r></p></e>
     <e><p><l>juohke<s n="prn"/></l><r>jede<s n="prn"/></r></p></e>
@@ -1715,6 +1716,8 @@
     <e><p><l>váilevaš</l><r>mangelnd</r></p><par n="adj"/></e>
     <e><p><l>váilevaš</l><r>unvollständig</r></p><par n="adj"/></e>
     <e><p><l>váimmolaš</l><r>herzlich</r></p><par n="adj"/></e>
+    <e><p><l>váivi</l><r>schade</r></p><par n="adj"/></e>
+    <e><p><l>váivi</l><r>traurig</r></p><par n="adj"/></e>
     <e><p><l>válddálaš</l><r>mächtig</r></p><par n="adj"/></e>
     <e><p><l>valljugas</l><r>reichlich</r></p><par n="adj"/></e>
     <e><p><l>válmmas</l><r>fertig</r></p><par n="adj"/></e>
@@ -2703,6 +2706,7 @@
     <e><p><l>johtti<s n="n"/></l><r>Tourist<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>johtu<s n="n"/></l><r>Weg<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>johtu<s n="n"/><s n="sg"/><s n="loc"/></l><r>auf<b/>dem<b/>Weg<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>johtu<s n="n"/><s n="sg"/><s n="loc"/></l><r>in<b/>Bewegung<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>jokŋa<s n="n"/></l><r>Preiselbeere<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>jorgaleaddji<s n="n"/></l><r>Übersetzung<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>jorgaleapmi<s n="n"/></l><r>Übersetzung<s n="n"/><s n="f"/></r></p></e>
@@ -3532,7 +3536,7 @@
     <e><p><l>váikkuhangaskaoapmi<s n="n"/></l><r>Instrument<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>váikkuheapmi<s n="n"/></l><r>Einfluß<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>váikkuhus<s n="n"/></l><r>Konsekvenz<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>váivi<s n="n"/></l><r>Ursache<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>váivi<s n="n"/></l><r>Mühe<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>valáštallamat<s n="n"/></l><r>Spiel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>valáštallan<s n="n"/></l><r>Sport<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>váldi<s n="n"/></l><r>Vollmacht<s n="n"/><s n="f"/></r></p></e>
@@ -3693,6 +3697,7 @@
     <e><p><l>álggahit</l><r>initiieren</r></p><par n="vblex"/></e>
     <e><p><l>álgit</l><r>anfangen</r></p><par n="vblex_sep"/></e>
     <e><p><l>álkidit</l><r>erleichtern</r></p><par n="vblex"/></e>
+    <e><p><l>akšuneret</l><r>aktiv<b/>werden</r></p><par n="vblex"/></e>
     <e><p><l>almmuhit</l><r>veröffentlichen</r></p><par n="vblex"/></e>
     <e><p><l>almmustahttit</l><r>veröffentlichen</r></p><par n="vblex"/></e>
     <e><p><l>almmustuvvat</l><r>herausgegeben<b/>werden</r></p><par n="vblex"/></e>
@@ -3908,6 +3913,7 @@
     <e><p><l>dorvvastit</l><r>vertrauen</r></p><par n="vblex"/></e>
     <e><p><l>dorvvastit</l><r>vertrauen</r></p><par n="vblex"/></e>
     <e><p><l>dovdat</l><r>kennen</r></p><par n="vblex"/></e>
+    <e><p><l>dovdat</l><r>fühlen</r></p><par n="vblex"/></e>
     <e><p><l>dovddahit</l><r>ausdrücken</r></p><par n="vblex"/></e>
     <e><p><l>dovddastit</l><r>bekennen</r></p><par n="vblex"/></e>
     <e><p><l>dovdot</l><r>anfühlen</r></p><par n="vblex"/></e>
@@ -4171,6 +4177,7 @@
     <e><p><l>lohkat</l><r>lesen</r></p><par n="vblex"/></e>
     <e><p><l>lohkat</l><r>zählen</r></p><par n="vblex"/></e>
     <e><p><l>lohkat</l><r>erzählen</r></p><par n="vblex"/></e>
+    <e><p><l>lohkat</l><r>sagen</r></p><par n="vblex"/></e>
     <e><p><l>lohpidit</l><r>versprechen</r></p><par n="vblex"/></e>
     <e><p><l>loktanit</l><r>sich<b/>heben</r></p><par n="vblex"/></e>
     <e><p><l>loktat</l><r>erleichtern</r></p><par n="vblex"/></e>

@@ -21,9 +21,24 @@
 
 
   <rule>
+    <match lemma="dovdat"/>
+    <match lemma="ahte" tags="cmjsub.*">
+      <select lemma="fühlen" tags="v.*"/>
+    </match>
+  </rule>
+
+  <rule>
     <match lemma="lohkat"/>
     <match tags="n.*.ess.*">
       <select lemma="erzählen" tags="v.*"/>
+    </match>
+  </rule>
+  
+  <rule>
+    <match lemma="comma"/>
+    <match lemma="lohkat"/>
+    <match tags="pron.*.nom.*">
+      <select lemma="sagen" tags="v.*"/>
     </match>
   </rule>
 
