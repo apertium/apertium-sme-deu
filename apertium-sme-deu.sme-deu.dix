@@ -217,10 +217,12 @@
         <r>ich<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/></r></p></e>
     <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l>
         <r>du<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l>
+    <e r="RL"><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l>
         <r>er<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l>
+    <e r="RL"><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l>
         <r>sie<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l>
+        <r>er/sie<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="du"/></l>
         <r>wir<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l>
@@ -352,8 +354,8 @@
     <e><p><l>juos<s n="cnjsub"/></l><r>wenn<s n="cnjsub"/></r></p></e>
     <e><p><l>jus<s n="cnjsub"/></l><r>ob<s n="cnjsub"/></r></p></e>
     <e><p><l>jus<s n="cnjsub"/></l><r>wenn<s n="cnjsub"/></r></p></e>
-    <e><p><l>maŋŋel<b/>go<s n="cnjsub"/></l><r>nach<s n="cnjsub"/></r></p></e>
-    <e><p><l>maŋŋelgo<s n="cnjsub"/></l><r>nach<s n="cnjsub"/></r></p></e>
+    <e><p><l>maŋŋel<b/>go<s n="cnjsub"/></l><r>nachdem<s n="cnjsub"/></r></p></e>
+    <e><p><l>maŋŋelgo<s n="cnjsub"/></l><r>nachdem<s n="cnjsub"/></r></p></e>
     <e><p><l>nu<b/>ahte<s n="cnjsub"/></l><r>so<b/>dass<s n="cnjsub"/></r></p></e>
     <e><p><l>nugo<s n="cnjsub"/></l><r>so<b/>wie<s n="cnjsub"/></r></p></e>
     <e><p><l>nugo<s n="cnjsub"/></l><r>wie<s n="cnjsub"/></r></p></e>
