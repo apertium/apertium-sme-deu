@@ -22,6 +22,7 @@
     <sdef n="cnjcoo"  c="conjuncting coordination"/>
     <sdef n="cnjsub"  c="conjuncting subordination"/>
     <sdef n="cnjadv"  c="conjuncting adverb"/>
+    <sdef n="preadv"  c="prejuncting adverb"/>
     <sdef n="sent"    c="Sentence"/>
     <sdef n="punct"   c="Punction"/>
     <sdef n="quot"    c="Quotation"/>
@@ -285,7 +286,7 @@
     <e><p><l>dát<s n="prn"/></l><r>diese<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>dat<s n="prn"/></l><r>es<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/></r></p></e>
     <e><p><l>dat<s n="prn"/></l><r>der<s n="prn"/><s n="dem"/></r></p></e>
-    <e><p><l>dat<s n="prn"/><s n="com"/></l><r>damit<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>dat<s n="prn"/><s n="dem"/><s n="sg"/><s n="com"/></l><r>damit<s n="preadv"/></r></p></e>
     <e><p><l>diet<s n="prn"/></l><r>das<s n="prn"/></r></p></e>
     <e><p><l>diet<s n="prn"/></l><r>dieser<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>dot<s n="prn"/></l><r>das<s n="prn"/></r></p></e>
