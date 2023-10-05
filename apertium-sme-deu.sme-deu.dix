@@ -62,10 +62,14 @@
     <sdef n="tv"      c="transit"/>
     <sdef n="iv"      c="in transit"/>
 
-    <sdef n="loc"     c="locinative"/>
+    <sdef n="loc"     c="locative"/>
     <sdef n="nom"     c="nominative"/>
     <sdef n="gen"     c="genitive"/>
     <sdef n="acc"     c="accusative"/>
+    <sdef n="com"     c="comitative"/>
+    <sdef n="ill"     c="illative"/>
+    <sdef n="ess"     c="essive"/>
+    <sdef n="abe"     c="abessive"/>
     <sdef n="px3sg"   c="possessive third singular (sme)"/>
     <sdef n="pos"     c="possessive (deu)"/>
     <sdef n="ito"     c="infinitiv marker"/>
@@ -281,6 +285,7 @@
     <e><p><l>dát<s n="prn"/></l><r>diese<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>dat<s n="prn"/></l><r>es<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/></r></p></e>
     <e><p><l>dat<s n="prn"/></l><r>der<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>dat<s n="prn"/><s n="com"/></l><r>damit<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>diet<s n="prn"/></l><r>das<s n="prn"/></r></p></e>
     <e><p><l>diet<s n="prn"/></l><r>dieser<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>dot<s n="prn"/></l><r>das<s n="prn"/></r></p></e>
