@@ -62,6 +62,7 @@ num_card: _.number;
 num_digit: _;
 num_ord: _.<ord>;
 pcle: _;
+guio: _;
 
 ! smaller phrases
 PROPN: _.case ;
@@ -347,7 +348,9 @@ PP -> NUMP post { 2 _ 1 } |
       ! idioms
       prn.pers.*.gen.* mielas@post { 1 _ Meinung@n.f.sg.nom _ nach@pr.dat } |
       PRN post { 2 _ 1 } |
-      NP post { 2 _ 1 } ;
+      NP post { 2 _ 1 } |
+      NP maŋŋá@pr { 2 _ 1 } |
+      * "-"@guio NP maŋŋá@pr { 4 _ 1 2 3 } ;
 NUMP -> ! if number is one: use indefinite article instead and singulars:
         ! expressions
         %num.sg.nom n.*.gen num.sg.loc n.*.loc {
