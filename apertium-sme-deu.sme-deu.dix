@@ -280,9 +280,13 @@
     <e><p><l>buot<s n="prn"/></l><r>alle<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>dát<s n="prn"/></l><r>diese<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>dat<s n="prn"/></l><r>es<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/></r></p></e>
+    <e><p><l>dat<s n="prn"/></l><r>der<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>diet<s n="prn"/></l><r>das<s n="prn"/></r></p></e>
+    <e><p><l>diet<s n="prn"/></l><r>dieser<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>dot<s n="prn"/></l><r>das<s n="prn"/></r></p></e>
+    <e><p><l>dot<s n="prn"/></l><r>dieser<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>duot<s n="prn"/></l><r>das<s n="prn"/></r></p></e>
+    <e><p><l>duot<s n="prn"/></l><r>dieser<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>eanaš<s n="prn"/></l><r>meist<s n="prn"/></r></p></e>
     <e><p><l>eanáš<s n="prn"/></l><r>meist<s n="prn"/></r></p></e>
     <e><p><l>eará<s n="prn"/></l><r>andere<s n="prn"/></r></p></e>
@@ -499,6 +503,7 @@
     <e><p><l>dasa<b/>lassin<s n="adv"/></l><r>zusätzlich<s n="adv"/></r></p></e>
     <e><p><l>dá<s n="adv"/></l><r>hier<s n="adv"/></r></p></e>
     <e><p><l>dás<s n="adv"/></l><r>hier<s n="adv"/></r></p></e>
+    <e><p><l>dássážii<s n="adv"/></l><r>bis<s n="adv"/></r></p></e>
     <e><p><l>dasto<s n="adv"/></l><r>da<s n="adv"/></r></p></e>
     <e><p><l>dattetge<s n="adv"/></l><r>jedenfalls<s n="adv"/></r></p></e>
     <e><p><l>dávjá<s n="adv"/></l><r>häufig<s n="adv"/></r></p></e>
