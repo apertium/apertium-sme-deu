@@ -23,18 +23,18 @@
       <select lemma="fühlen" tags="v.*"/>
     </match>
   </rule>
-  
+
   <rule>
-    <match lemma="cealkit"/>
-    <match lemma="duopmu" tags="n.*.acc.*">
-      <select lemma="verkünden" tags="v.*"/>
+    <match lemma="cealkit">
+      <select lemma="verkünden" tags="vblex.*"/>
     </match>
+    <match lemma="duopmu" tags="n.*.acc.*"/>
   </rule>
-  
+
   <rule>
     <match lemma="duopmu" tags="n.*.acc.*"/>
     <match lemma="cealkit">
-      <select lemma="verkünden" tags="v.*"/>
+      <select lemma="verkünden" tags="vblex.*"/>
     </match>
   </rule>
 
@@ -44,7 +44,7 @@
       <select lemma="erzählen" tags="v.*"/>
     </match>
   </rule>
-  
+
   <rule>
     <match lemma="comma"/>
     <match lemma="lohkat"/>
