@@ -23,6 +23,20 @@
       <select lemma="fühlen" tags="v.*"/>
     </match>
   </rule>
+  
+  <rule>
+    <match lemma="cealkit"/>
+    <match lemma="duopmu" tags="n.*.acc.*">
+      <select lemma="verkünden" tags="v.*"/>
+    </match>
+  </rule>
+  
+  <rule>
+    <match lemma="duopmu" tags="n.*.acc.*"/>
+    <match lemma="cealkit">
+      <select lemma="verkünden" tags="v.*"/>
+    </match>
+  </rule>
 
   <rule>
     <match lemma="lohkat"/>
