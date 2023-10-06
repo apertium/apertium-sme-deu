@@ -32,7 +32,7 @@ derp = der_inchl der_passl der_passs ;
 pass = pass ;
 inch = inch ;
 
-months = miessemánu guovvamánu ;
+months = miessemánu guovvamánu golggotmánnu Miessemánnu Guovvamánnu Golggotmánnu ;
 qu_adverbs_de = mehr wenig viel ;
 
 !!!!!!!!!!!!!!!
@@ -482,12 +482,21 @@ ADV -> adv {1} |
                                    Zusammenhang@n.m.sg.dat } |
        dát@prn.dem lassi@n.ess { zusätzlich@adj.sint.attr } |
        dološ@adj rájes@post { seit@pr.dat Urzeit@n.f.pl.dat } |
+       ! date formats:
+       ! month's ordinal. "day" year -> "am" ordinal month year
        [months]@n.sem_time.sg.gen adj.arab.ord
-       beaivi@n.sem_time.sg.gen num.sem_year { an@pr.dat der@det.def.m.sg.dat _
+       beaivi@n.sem_time.sg.gen num.sem_year { an@pr.dat _ der@det.def.m.sg.dat _
             2 _ 1 _ 4 } |
+       ! month's ordinal. "d." year -> "am" ordinal month year
        [months]@n.sem_time.sg.gen adj.arab.ord
-       b@adv.sem_time.abbr num.sem_year { an@pr.dat der@det.def.m.sg.dat _
+       b@adv.sem_time.abbr num.sem_year { an@pr.dat _ der@det.def.m.sg.dat _
             2 _ 1 _ 4 } |
+       ! month's ordinal. "day" -> ordinal month
+       [months]@n.sem_time.sg.gen adj.arab.ord
+       beaivi@n.sem_time.sg.gen { 2(num_ord) _ 1[case=nom] } |
+       ! month's ordinal. "d." -> ordinal month
+       [months]@n.sem_time.sg.gen adj.arab.ord
+       b@adv.sem_time.abbr { 2(num_ord) _ 1[case=nom]  } |
        ! pcles handled as ADV in phrases
        pcle {1} ;
 ADP -> post {1} |
