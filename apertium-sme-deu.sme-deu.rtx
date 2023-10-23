@@ -33,7 +33,10 @@ pass = pass ;
 inch = inch ;
 
 months = miessemánu guovvamánu golggotmánnu Miessemánnu Guovvamánnu Golggotmánnu ;
-qu_adverbs_de = mehr wenig viel ;
+qu_adverbs_de = mehr wenig viel sehr ziemlich  ganz  völlig  vollends größtenteils  kaum  beinahe  fast äußerst höchst zusehends ;
+
+
+
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -410,8 +413,8 @@ DP -> DET %N { 1[gender=(if (2.number = pl) mfn else 2.gender),
       DP A %NP { 1[gender=(if (3.number = pl) mfn else 3.gender),
                  number=3.number,
                  case=(if (3.case = loc) nom else 3.case)] _ 2 _ 3} |
-      adv NP ?(1.lem/tl incl qu_adverbs_de) { 1 _ 2 } |
-      adv adj n ?(1.lem/tl incl qu_adverbs_de) { 1 _ 2 _ 3 }|
+      adv NP ?(1.lem/tl incl qu_adverbs_de) { 1 _ 2[strength=mix] } |
+      adv adj n ?(1.lem/tl incl qu_adverbs_de) { 1 _ 2[strength=mix] _ 3 }|
       adv n ?(1.lem/tl incl qu_adverbs_de) { 1 _ 2 } |
       n.*.[poss].* { 
         *(maybe_possessive)[poss=1.poss,case=1.case]
