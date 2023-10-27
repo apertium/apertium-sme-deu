@@ -407,7 +407,9 @@ NP -> A %N ADV { %1[gender=2.gender,
 DP -> DET %N { 1[gender=(if (2.number = pl) mfn else 2.gender),
                  number=2.number,
                  case=(if (2.case = loc) nom else 2.case)] _ 2 } |
-      DET NP { 1 _ 2 } |
+      DET NP { 1[gender=(if (2.number = pl) mfn else 2.gender),
+                 number=2.number,
+                 case=(if (2.case = loc) nom else 2.case)]_ 2 } |
       DET A %NP { 1[gender=(if (3.number = pl) mfn else 3.gender),
                  number=3.number,
                  case=(if (3.case = loc) nom else 3.case)] _ 2 _ 3} |
