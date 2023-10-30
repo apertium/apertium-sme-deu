@@ -486,6 +486,7 @@ ADV -> adv {1} |
        dáidit@vblex { vielleicht@adv } |
        davvin@adv { in@pr.dat Nord@n.m.pl.dat } |
        lulde@adv { in@pr.dat Süd@n.m.pl.dat } |
+       ii@vblex mihkke@prn.*.foc_neg-ge { nichts@adv } |
        dát@prn.dem oktavhuohta@n { in@pr.dat _ 
                                    dies@det.pos.m.sg.dat _
                                    Zusammenhang@n.m.sg.dat } |
