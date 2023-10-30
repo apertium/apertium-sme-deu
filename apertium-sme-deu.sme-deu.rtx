@@ -477,7 +477,7 @@ PRN ->  %prn {  ! prn.itg.m.sg.dat
                      elif (1.case = dat) dat
                      elif (1.case = gen) gen
                      else nom),
-               gender=(if (1.number = pl) mfn
+               gender=(if ((1.number = pl) and (1.prntype not = pers)) mfn
                        else 1.gender)] } ;
 ADV -> adv {1} |
        ! idiomatics

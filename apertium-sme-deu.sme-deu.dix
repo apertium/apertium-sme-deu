@@ -243,26 +243,26 @@
     <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l>
         <r>sie<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
-    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l>
-        <r>mein<s n="det"/><s n="pos"/><s n="p1"/><s n="mf"/></r></p></e>
-    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l>
-        <r>dein<s n="det"/><s n="pos"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l>
-        <r>sein<s n="det"/><s n="pos"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l>
-        <r>ihr<s n="det"/><s n="pos"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="du"/></l>
-        <r>unser<s n="det"/><s n="pos"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l>
-        <r>unser<s n="det"/><s n="pos"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e r="LR" c="dual-plural"><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="du"/></l>
+    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l>
+          <r>mein<s n="det"/><s n="pos"/><s n="p1"/><s n="mf"/></r></p></e>
+    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></l>
+          <r>dein<s n="det"/><s n="pos"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="gen"/></l>
+          <r>sein<s n="det"/><s n="pos"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="gen"/></l>
+          <r>ihr<s n="det"/><s n="pos"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="du"/><s n="gen"/></l>
+          <r>unser<s n="det"/><s n="pos"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="gen"/></l>
+          <r>unser<s n="det"/><s n="pos"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR" c="dual-plural"><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="du"/><s n="gen"/></l>
         <r>ihr<s n="det"/><s n="pos"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l>
-        <r>ihr<s n="det"/><s n="pos"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e r="LR" c="dual to plural"><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/></l>
+    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="gen"/></l>
+          <r>ihr<s n="det"/><s n="pos"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR" c="dual to plural"><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/><s n="gen"/></l>
         <r>ihr<s n="det"/><s n="pos"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l>
-        <r>ihr<s n="det"/><s n="pos"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="gen"/></l>
+          <r>ihr<s n="det"/><s n="pos"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
 
     <!-- genitive fallbacks -->
