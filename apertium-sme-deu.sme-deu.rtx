@@ -313,7 +313,8 @@ VP -> NP.*.loc.sem_hum leat@vblex {
       V go@pcle {
       1 _ *(pro_undrop)[number=1.number,person=1.person] } |  ! stray V + qst
       V { *(pro_undrop)[number=1.number,person=1.person] 1 } |  ! stray V
-      2: %VP NP.*.ill { 1 _ 2[case=(if (1.lem in_cl verb_ill_to_an) pr_an_acc else 2.case)] } ;
+      2: %VP NP.*.ill { 1 _ 2[case=(if (1.lem in_cl verb_ill_to_an) pr_an_acc else 2.case)] } |
+      ADV V { 1 _ 2 } ;
 V -> %vblex.*.der_passl.* {1 _ werden@vaux.prs.[1.person].[1.number] } |
      %vblex [$$expletive=(if (1.lem = "regnen") es@prn.pers.p3.nt.sg.nom),
              $person = (if (1.tense = imp) ""
