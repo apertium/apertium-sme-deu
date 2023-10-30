@@ -316,7 +316,9 @@ VP -> NP.*.loc.sem_hum leat@vblex {
       2: %VP NP.*.ill { 1 _ 2[case=(if (1.lem in_cl verb_ill_to_an) pr_an_acc else 2.case)] } |
       ADV V { 1 _ 2 } ;
 V -> %vblex.*.der_passl.* {1 _ werden@vaux.prs.[1.person].[1.number] } |
-     %vblex [$$expletive=(if (1.lem = "regnen") es@prn.pers.p3.nt.sg.nom),
+     %vblex.*.p3.sg.sentinit { es@prn.pers.p3.nt.sg.nom[lemcase=1.lemcase] _ 1[lemcase=aa] } |
+     %vblex [$$expletive=(if (1.lem = "regnen") es@prn.pers.p3.nt.sg.nom
+                          elif (1.lem = "Leat") es@prn.pers.p3.nt.sg.nom),
              $person = (if (1.tense = imp) ""
                          elif (1.lem = "regnen") ""
                          else 1.person)]
