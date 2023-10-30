@@ -46,12 +46,13 @@
   </rule>
 
   <rule>
-    <match lemma="comma"/>
+    <match tags="cm"/>
     <match lemma="lohkat"/>
     <match tags="pron.*.nom.*">
       <select lemma="sagen" tags="v.*"/>
     </match>
   </rule>
+  <!-- – Lea hirbmat váivi ja hástaleaddji go mii dovdat ahte mii fertet ođđasit akšuneret. Lea jáhkehahtti ahte ii mihkkege leat dáhpáhuvvan dan rájes go mii maŋimuš háve akšuneriimet, {lohká} son. -->
 
 </rules>
 
