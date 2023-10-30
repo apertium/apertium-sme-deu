@@ -16,6 +16,7 @@
     <sdef n="pers"    c="Personal"/>
     <sdef n="np"      c="Proper Noun"/>
     <sdef n="vblex"   c="Verb lexeme"/>
+    <sdef n="prfprc"  c="Past participle"/>
     <sdef n="vbser"   c="Verb serial"/>
     <sdef n="vbmod"   c="Verb modal"/>
     <sdef n="vbhaver" c="Verb haver"/>
@@ -1364,6 +1365,7 @@
     <e><p><l>máilmmiviidosaš</l><r>weltweit</r></p><par n="adj"/></e>
     <e><p><l>makkáraš</l><r>welche</r></p><par n="adj"/></e>
     <e><p><l>mangelágan</l><r>???</r></p><par n="adj"/></e>
+    <e><p><l>mannat<s n="vblex"/><s n="prfprc"/></l><r>letzte<s n="adj"/></r></p></e>
     <e><p><l>mánnosaš</l><r>einmonatig</r></p><par n="adj"/></e>
     <e><p><l>mannosaš</l><r>monatlich</r></p><par n="adj"/></e>
     <e><p><l>mánnosaš</l><r>monatlich</r></p><par n="adj"/></e>
