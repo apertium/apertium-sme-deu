@@ -47,10 +47,10 @@
 
   <rule>
     <match tags="cm"/>
-    <match lemma="lohkat"/>
-    <match tags="pron.*.nom.*">
-      <select lemma="sagen" tags="v.*"/>
+    <match lemma="lohkat" tags="vblex.*">
+      <select lemma="sagen" tags="vblex.*"/>
     </match>
+    <match tags="prn.*.nom.*"/>
   </rule>
   <!-- – Lea hirbmat váivi ja hástaleaddji go mii dovdat ahte mii fertet ođđasit akšuneret. Lea jáhkehahtti ahte ii mihkkege leat dáhpáhuvvan dan rájes go mii maŋimuš háve akšuneriimet, {lohká} son. -->
 
