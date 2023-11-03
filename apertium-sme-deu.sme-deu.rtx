@@ -306,6 +306,10 @@ VP -> NP.*.loc.sem_hum leat@vblex {
         *(pro_undrop)[number=1.number,person=1.person]
         *(pro3_undrop)[number=1.number,person=1.person]
         2[person=1.person, number=1.number] } |
+      10: ii@vblex mihkke@prn.*.foc_neg-ge [$negativity=neg] { nichts@adv } |
+      ii@vblex mihkke@prn.*.foc_neg-ge vblex [$negativity=neg] {
+            nichts@adv _ 3[person=1.person,number=1.number,tense=pri]
+                    } |
       ii@vblex prn vblex [$negativity=neg] {
         2 _ 3[person=1.person, number=1.number] } |
       leat@vblex  NP { es@prn.pers.p3.nt.sg.nom _ geben@vblex.[1.tense].p3.sg _
@@ -486,7 +490,6 @@ ADV -> adv {1} |
        dáidit@vblex { vielleicht@adv } |
        davvin@adv { in@pr.dat Nord@n.m.pl.dat } |
        lulde@adv { in@pr.dat Süd@n.m.pl.dat } |
-       10: ii@vblex mihkke@prn.*.foc_neg-ge { nichts@adv } |
        dát@prn.dem oktavhuohta@n { in@pr.dat _ 
                                    dies@det.pos.m.sg.dat _
                                    Zusammenhang@n.m.sg.dat } |
