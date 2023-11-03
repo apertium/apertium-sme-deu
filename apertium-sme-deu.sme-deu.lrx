@@ -4,7 +4,18 @@
     This rule chooses "energía" as the translation of "power" when it is preceded by "wind".
     Add your own rules within <rule> here, using the resources below as a guide
   -->
-
+  
+  <!-- function words -->
+  
+  <rule>
+    <match tags="adj.*der_comp.*"/>
+    <match lemma="go" tags="cnjsub.*">
+      <select lemma="als" tags="cnjsub.*"/>
+    </match>
+  </rule>
+  
+  
+<!-- content words -->
   <rule>
     <match lemma="wind"/>
     <match lemma="power" tags="n.*">
@@ -19,7 +30,7 @@
   </rule>
   <rule>
     <match lemma="dovdat"/>
-    <match lemma="ahte" tags="cmjsub.*">
+    <match lemma="ahte" tags="cnjsub.*">
       <select lemma="fühlen" tags="v.*"/>
     </match>
   </rule>
