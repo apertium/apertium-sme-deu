@@ -72,6 +72,7 @@
     <sdef n="ill"     c="illative"/>
     <sdef n="ess"     c="essive"/>
     <sdef n="abe"     c="abessive"/>
+    <sdef n="allegro" c="allegro"/>
     <sdef n="px3sg"   c="possessive third singular (sme)"/>
     <sdef n="pos"     c="possessive (deu)"/>
     <sdef n="ito"     c="infinitiv marker"/>
@@ -2627,9 +2628,10 @@
     <e><p><l>hárjeheaddji<s n="n"/></l><r>Trainer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hárri<s n="n"/></l><r>Äsche<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hástalus<s n="n"/></l><r>Herausforderung<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>hávdi<s n="n"/></l><r>Grab<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>hávvi<s n="n"/></l><r>Mal<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>hávdi<s n="n"/></l><r>Grab<s n="n"/><s n="nt"/></r></p></e>    
+    <e><p><l>hávvi<s n="n"/><s n="sg"/><s n="gen"/><s n="allegro"/></l><r>Mal<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>hávvi<s n="n"/></l><r>Wunde<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>hávvi<s n="n"/></l><r>Mal<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>headjaguossi<s n="n"/></l><r>Hochzeitbesucher<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>headjaskeaŋka<s n="n"/></l><r>Hochzeitgeschenk<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>headjaviessu<s n="n"/></l><r>Hochzeitslokale<s n="n"/><s n="m"/></r></p></e>
