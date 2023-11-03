@@ -522,7 +522,8 @@ A -> %buorre@adj { %1[case=(if (1.case = loc) nom
                      elif (1.case = dat) dat
                      elif (1.case = gen) gen
                      else nom)] } |
-    %adj { %1 } ;
+    %adj.attr { %1[strength=sw] } |
+    %adj.nom { %1[strength=st]} ;
 
     ! IE numerals have no morphological num so they assume semantic num
 
