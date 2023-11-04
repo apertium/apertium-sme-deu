@@ -5,7 +5,7 @@
 
   <mode name="sme-deu" install="yes" gendebug="yes">
     <pipeline>
-      <program name="hfst-proc --weight-classes 1 -w -e">
+      <program name="hfst-proc -w -e">
 	    <file name="sme-deu.automorf.hfst"/>
       </program>
       <!-- <program name="cg-proc -w" debug-suff="valency">
@@ -46,7 +46,7 @@
 
   <mode name="sme-deu-tree" install="no" >
     <pipeline>
-      <program name="hfst-proc --weight-classes 1 -w -e">
+      <program name="hfst-proc -w -e">
 	    <file name="sme-deu.automorf.hfst"/>
       </program>
       <!--<program name="cg-proc -w">
