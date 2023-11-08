@@ -477,7 +477,8 @@ DET -> %prn.pers.*.gen."@→N" { %1(det_pos) } |  ! Obs: list from sme-nob
        %prn.ind."@→N" { %1 } |
        %prn.ind."@→A" { %1 } |
        %det { %1 } ;
-PRN ->  %prn {  ! prn.itg.m.sg.dat 
+PRN -> %prn.dem.sg.com ?(1.lem/sl = "dat") { damit@preadv } |
+        %prn {  ! prn.itg.m.sg.dat 
             1[case=(if (1.case = loc) nom  
                      elif (1.case = ill) dat
                      elif (1.case = ess) nom
