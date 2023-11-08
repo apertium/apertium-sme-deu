@@ -90,6 +90,7 @@
     <sdef n="der_comp"              c="comparative"/>
     <sdef n="der_superl"            c="superlative"/>
     <sdef n="sem_org_prod-vis"      c="Semantics conversion bug"/>
+    <sdef n="sem_process"           c="Semantics conversion bug"/>
 
     <sdef n="GD"      c="undefined gender"/>
 
@@ -2628,7 +2629,7 @@
     <e><p><l>hárjeheaddji<s n="n"/></l><r>Trainer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hárri<s n="n"/></l><r>Äsche<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hástalus<s n="n"/></l><r>Herausforderung<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>hávdi<s n="n"/></l><r>Grab<s n="n"/><s n="nt"/></r></p></e>    
+    <e><p><l>hávdi<s n="n"/></l><r>Grab<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hávvi<s n="n"/><s n="sg"/><s n="gen"/><s n="allegro"/></l><r>Mal<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>hávvi<s n="n"/></l><r>Wunde<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hávvi<s n="n"/></l><r>Mal<s n="n"/><s n="nt"/></r></p></e>
@@ -2726,8 +2727,8 @@
     <e><p><l>johtin<s n="n"/></l><r>Reisen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>johtolat<s n="n"/></l><r>Verkehr<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>johtti<s n="n"/></l><r>Tourist<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>johtu<s n="n"/><s n="sg"/><s n="loc"/></l><r>auf<b/>dem<b/>Weg<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>johtu<s n="n"/><s n="sg"/><s n="loc"/></l><r>in<b/>Betrieb<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>johtu<s n="n"/><s n="sem_process"/><s n="sg"/><s n="loc"/></l><r>auf<b/>dem<b/>Weg<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>johtu<s n="n"/><s n="sem_process"/><s n="sg"/><s n="loc"/></l><r>in<b/>Betrieb<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>johtu<s n="n"/></l><r>Weg<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>jokŋa<s n="n"/></l><r>Preiselbeere<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>jorgaleaddji<s n="n"/></l><r>Übersetzung<s n="n"/><s n="f"/></r></p></e>
