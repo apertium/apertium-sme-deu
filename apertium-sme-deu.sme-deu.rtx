@@ -506,10 +506,10 @@ ADV -> adv {1} |
             2 _ 1 _ 4 } |
        ! month's ordinal. "day" -> ordinal month
        [months]@n.sem_time.sg.gen adj.arab.ord
-       beaivi@n.sem_time.sg.gen { am@pr _ 2(num_ord) _ 1[case=nom] } |
+       beaivi@n.sem_time.sg.gen { an@pr.dat _ der@det.def.nt.sg.dat _ 2(num_ord) _ 1[case=nom] } |
        ! month's ordinal. "d." -> "am" ordinal month
        [months]@n.sem_time.sg.gen adj.arab.ord
-       b@adv.sem_time.abbr { am@pr _ 2(num_ord) _ 1[case=nom]  } |
+       b@adv.sem_time.abbr { an@pr.dat _ der@det.def.nt.sg.dat _ 2(num_ord) _ 1[case=nom]  } |
        ! pcles handled as ADV in phrases
        pcle {1} ;
 ADP -> post {1} |
