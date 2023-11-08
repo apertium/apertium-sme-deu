@@ -246,7 +246,9 @@ SFRAG -> N {
     NUMP { 
         *(maybe_adp)[case=1.case]
         1
-    } ;
+    } |
+    ADV { 1 } ;
+
 NEG -> ii@vblex { nicht@adv[lemcase=1.lemcase] } ; ! stray NEG
 
 verb_ill_to_an = "sich gewöhnen" ;
