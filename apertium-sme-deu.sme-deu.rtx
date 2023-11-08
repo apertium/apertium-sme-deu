@@ -499,6 +499,7 @@ ADV -> adv {1} |
                                    Zusammenhang@n.m.sg.dat } |
        dát@prn.dem lassi@n.ess { zusätzlich@adj.sint.attr } |
        dološ@adj rájes@post { seit@pr.dat Urzeit@n.f.pl.dat } |
+       1: johtu@n.sem_process.sg.loc { in@pr.dat _ Betrieb@n.m.sg.nom } |
        ! date formats:
        ! month's ordinal. "day" year -> "am" ordinal month year
        [months]@n.sem_time.sg.gen adj.arab.ord
