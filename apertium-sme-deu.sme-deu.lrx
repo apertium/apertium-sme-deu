@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rules>
+	
   <!--
     This rule chooses "energía" as the translation of "power" when it is preceded by "wind".
     Add your own rules within <rule> here, using the resources below as a guide
@@ -53,6 +54,21 @@
     <match lemma="lohkat"/>
     <match tags="n.*.ess.*">
       <select lemma="erzählen" tags="v.*"/>
+    </match>
+  </rule>
+  
+  <def-seqs>
+    <def-seq n="ob-verben"><or>
+      <match lemma="jearrat" tags="vblex.*"/>
+      <match lemma="eahpidit" tags="vblex.*"/>
+      <match lemma="diehtit" tags="vblex.*"/>
+    </or></def-seq>
+  </def-seqs>
+  
+   <rule>
+    <seq n="ob-verben"/>
+    <match lemma="jus">
+      <select lemma="ob" tags="cnjsub.*"/>
     </match>
   </rule>
 
