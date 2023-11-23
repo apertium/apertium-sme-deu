@@ -4,7 +4,7 @@
 
 number = (ND sg) sg pl sp du ND ;
 gender = (GD m) m f mf nt mfn GD ;
-case = (CD nom) nom acc dat gen ill loc com ess CD pr_auf_acc pr_auf_dat pr_an_acc pr_an_dat pr_über_acc pr_über_dat pr_mit_dat pr_für_acc pr_von_dat pr_gegen_acc ;
+case = (CD nom) nom acc dat gen ill loc com ess CD pr_auf_acc pr_auf_dat pr_an_acc pr_an_dat pr_über_acc pr_über_dat pr_mit_dat pr_für_acc pr_von_dat pr_gegen_acc pr_nach_dat ;
 det_type = def ind dem itg pos qnt ;
 tense = pres fut pret pii imp ;
 person = p1 p2 p3 ;
@@ -354,6 +354,7 @@ NP -> 2: %N (if ($case = pr_auf_acc) { auf@pr.acc _ 1(maybe_art)[def=def,case=ac
              if ($case = pr_an_dat) { an@pr.dat _ 1(maybe_art)[def=def,case=dat] %1[case=dat] }
              if ($case = pr_von_dat) { von@pr.dat _ 1(maybe_art)[def=def,case=dat] %1[case=dat] }
              if ($case = pr_gegen_acc) { gegen@pr.acc _ 1(maybe_art)[def=def,case=acc] %1[case=acc] }
+             if ($case = pr_nach_dat) { nach@pr.dat _ 1(maybe_art)[def=def,case=dat] %1[case=dat] }
              else { %1 }) ;
 
     
@@ -362,7 +363,7 @@ PP -> NUMP post { 2 _ 1 } |
       prn.pers.*.gen.* mielas@post { 1 _ Meinung@n.f.sg.nom _ nach@pr.dat } |
       PRN post { 2 _ 1 } |
       NP post { 2 _ 1 } |
-      NP maŋŋá@pr { 2 _ 1 } |
+      NP maŋŋá@pr { 2[case=dat] _ 1 } |
       * "-"@guio NP maŋŋá@pr { 4 _ 1 2 3 } ;
 NUMP -> ! if number is one: use indefinite article instead and singulars:
         ! expressions
