@@ -397,8 +397,8 @@ PP -> NUMP post { 2 _ 1 } |
       ! idioms
       prn.pers.*.gen.* mielas@post { 1 _ Meinung@n.f.sg.nom _ nach@pr.dat } |
       PRN post { 2 _ 1 } |
-      NP post { 2 _ 1 } |
-      NP maŋŋá@pr { 2[case=dat] _ 1 } |
+      NP post { 2 _ 1[case=pr_nach_dat] } |
+      NP maŋŋá@pr { 2 _ 1[case=pr_nach_dat] } |
       * "-"@guio NP maŋŋá@pr { 4 _ 1 2 3 } ;
 NUMP -> ! if number is one: use indefinite article instead and singulars:
         ! expressions
@@ -482,7 +482,7 @@ N ->
     ! dynamix compounding
     n.*.cmp %n { 1 2 } |
     ! normal n
-    %n {1[case=(if (1.case = loc) acc
+    %n { 1[case=(if (1.case = loc) acc
                                          elif (1.case = ill) dat
                                          elif (1.case = ess) nom
                                          elif (1.case = com) dat
