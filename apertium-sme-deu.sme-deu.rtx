@@ -371,27 +371,28 @@ NP -> 2: %N (if ($case = pr_auf_acc) { auf@pr.acc _ 1(maybe_art)[def=def,case=ac
              if ($case = pr_innerhalb_gen) { innerhalb@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
              if ($case = pr_längs_gen) { längs@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
              if ($case = pr_seitlich_gen) { seitlich@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
-             if ($case = pr_links_gen) { links@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
-             if ($case = pr_rechts_gen) { rechts@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
-             if ($case = pr_nördlich_gen) { nördlich@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
-             if ($case = pr_östlich_gen) { östlich@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
-             if ($case = pr_südlich_gen) { südlich@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
-             if ($case = pr_westlich_gen) { westlich@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
-             if ($case = pr_unweit_gen) { unweit@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
-             if ($case = pr_weitab_gen) { weitab@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
-             if ($case = pr_während_gen) { während@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
-             if ($case = pr_anlässlich_gen) { anlässlich@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
-             if ($case = pr_angesichts_gen) { angesichts@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
-             if ($case = pr_infolge_gen) { infolge@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
-             if ($case = pr_abzüglich_gen) { abzüglich@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
-             if ($case = pr_zuzüglich_gen) { zuzüglich@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
-             if ($case = pr_anhand_gen) { anhand@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
-             if ($case = pr_aufseiten_gen) { aufseiten@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
-             if ($case = pr_mithilfe_gen) { mithilfe@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
-             if ($case = pr_dank_gen) { dank@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
-             if ($case = pr_zugunsten_gen) { zugunsten@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
-             if ($case = pr_zuungunsten_gen) { zuungunsten@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
-             if ($case = pr_zulasten_gen) { zulasten@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
+!!             if ($case = pr_links_gen) { links@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
+!!             if ($case = pr_rechts_gen) { rechts@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
+!!             if ($case = pr_nördlich_gen) { nördlich@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
+!!             if ($case = pr_östlich_gen) { östlich@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
+!!             if ($case = pr_südlich_gen) { südlich@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
+!!             if ($case = pr_westlich_gen) { westlich@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
+!!             if ($case = pr_unweit_gen) { unweit@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
+!!             if ($case = pr_weitab_gen) { weitab@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
+!!             if ($case = pr_während_gen) { während@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
+!!             if ($case = pr_anlässlich_gen) { anlässlich@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
+!!             if ($case = pr_angesichts_gen) { angesichts@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
+!!             if ($case = pr_infolge_gen) { infolge@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
+!!             if ($case = pr_abzüglich_gen) { abzüglich@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
+!!             if ($case = pr_zuzüglich_gen) { zuzüglich@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
+!!             if ($case = pr_anhand_gen) { anhand@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
+!!             if ($case = pr_aufseiten_gen) { aufseiten@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
+!!             if ($case = pr_mithilfe_gen) { mithilfe@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
+!!             if ($case = pr_dank_gen) { dank@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] }
+!!             if ($case = pr_zugunsten_gen) { zugunsten@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
+!!             if ($case = pr_zuungunsten_gen) { zuungunsten@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
+!!             if ($case = pr_zulasten_gen) { zulasten@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
+             else { %1 } 
     ) ;
 
 PP -> NUMP post { 2 _ 1 } |
