@@ -45,7 +45,6 @@ qu_adverbs_de = mehr wenig viel sehr ziemlich  ganz  völlig  vollends größten
 ! single words
 n: _.gender.number.case;
 np: _.npclass.gender.number.case;
-adj: _.gender.number;
 vblex_fin: _.sep.fs.tense.person.number;
 vblex_inf: _.sep.inf;
 vblex_pp: _.sep.pcp;
@@ -570,8 +569,9 @@ A -> %buorre@adj { %1[case=(if (1.case = loc) nom
                      elif (1.case = dat) dat
                      elif (1.case = gen) gen
                      else nom)] } |
-    %adj.<attr> { %1[strength=sw] } |
-    %adj ?(case not = "") { %1(adj_pred) } ;
+    %adj.<attr> { %1(adj_agr)[strength=sw] } |
+!    %adj ?(case not = "") { %1(adj_pred) } |
+    %adj { %1 } ;
 
     ! IE numerals have no morphological num so they assume semantic num
 
