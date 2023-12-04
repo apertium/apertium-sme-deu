@@ -3971,8 +3971,8 @@
     <e w="2"><p><l>evttohit</l><r>empfehlen</r></p><par n="vblex"/></e>
     <e><p><l>evttohit</l><r>vorschlagen</r></p><par n="vblex"/></e>
     <e><p><l>fággádallat</l><r>ringen</r></p><par n="vblex"/></e>
-    <e><p><l>fállat</l><r>anbieten</r></p><par n="vblex"/></e>
-    <e><p><l>fallehit</l><r>angreifen</r></p><par n="vblex"/></e>
+    <e><p><l>fállat</l><r>anbieten</r></p><par n="vblex_sep"/></e>
+    <e><p><l>fallehit</l><r>angreifen</r></p><par n="vblex_sep"/></e>
     <e><p><l>fápmudit</l><r>ermächtigen</r></p><par n="vblex"/></e>
     <e><p><l>fárret</l><r>umziehen</r></p><par n="vblex"/></e>
     <e><p><l>fátmmastit</l><r>umarmen</r></p><par n="vblex"/></e>
@@ -3995,15 +3995,16 @@
     <e><p><l>gahččat</l><r>fallen</r></p><par n="vblex"/></e>
     <e><p><l>gáhttet</l><r>beachten</r></p><par n="vblex"/></e>
     <e><p><l>gáibidit</l><r>nachfragen</r></p><par n="vblex"/></e>
+    <e><p><l>gaikut</l><r>abreißen</r></p><par n="vblex_sep"/></e>
     <e><p><l>gaikkodit</l><r>zerstören</r></p><par n="vblex"/></e>
-    <e><p><l>gaikkodit</l><r>abreißen</r></p><par n="vblex"/></e>
+    <e><p><l>gaikkodit</l><r>abreißen</r></p><par n="vblex_sep"/></e>
     <e><p><l>galledit</l><r>besuchen</r></p><par n="vblex"/></e>
     <e><p><l>gallet</l><r>besuchen</r></p><par n="vblex"/></e>
     <e><p><l>ganjaldallat</l><r>tränen</r></p><par n="vblex"/></e>
     <e><p><l>gánnáhit</l><r>sich<b/>lohnen</r></p><par n="vblex"/></e>
     <e><p><l>gárvánit</l><r>fertig<b/>werden</r></p><par n="vblex"/></e>
     <e><p><l>garvit</l><r>vermeiden</r></p><par n="vblex"/></e>
-    <e><p><l>gárvodit</l><r>sich<b/>anziehen</r></p><par n="vblex"/></e>
+    <e><p><l>gárvodit</l><r>sich<b/>anziehen</r></p><par n="vblex_sep"/></e>
     <e><p><l>gárvvistit</l><r>absolvieren</r></p><par n="vblex"/></e>
     <e><p><l>gárvvistit</l><r>vollenden</r></p><par n="vblex"/></e>
     <e><p><l>gáržžidit</l><r>einschränken</r></p><par n="vblex"/></e>
