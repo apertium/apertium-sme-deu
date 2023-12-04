@@ -425,6 +425,8 @@ NUMP -> ! if number is one: use indefinite article instead and singulars:
         %num n { 1[number=pl,gender=2.gender] _
                  %2[number=pl,
                    case=(if (2.case = loc) dat else nom)] } |
+        %NUM N { 1[number=pl,gender=2.gender] _ 
+                   %2[number=pl,case=(if (2.case=loc) dat else nom)] } |
         num.arab n num.arab n.*.loc 
         [$number=(if (1.lem/sl incl one_lem) sg else pl),
          $case=(if ((1.lem/sl not incl one_lem) and (1.case = nom)) nom
