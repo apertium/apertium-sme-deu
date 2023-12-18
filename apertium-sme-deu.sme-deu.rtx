@@ -149,7 +149,7 @@ maybe_art: (if (1.number = sg)
 maybe_adp: (if (1.case = loc) [in@pr.dat _]
             elif (1.case = ill) [in@pr.acc _]
             elif (1.case = com) [mit@pr.dat _]
-            elif (1.case = ess) [wie@pr.nom _]  !! als?
+            elif (1.case = ess) [für@pr.acc _]  !! alsf 
             elif (1.case = dat) [zu@pr.dat _]
             else []) ;
 maybe_possessive: (if (1.poss = px1sg) [mein@det.pos.m.sg.[1.case] _]
@@ -233,6 +233,7 @@ S -> C PRN.loc leat@vblex NP { 1 _ 2 _
      PROPN { ! stray PROPN (no article)
         *(maybe_adp)[case=1.case]
         1 } |
+    S PP { 1 _ 2 } |
     SFRAG { 1 } |
     SFRAG S { 1 _ 2 } |
     S SFRAG { 1 _ 2 }
@@ -399,6 +400,7 @@ PP -> NUMP post { 2 _ 1 } |
       prn.pers.*.gen.* mielas@post { 1 _ Meinung@n.f.sg.nom _ nach@pr.dat } |
       PRN post { 2 _ 1 } |
       NP post { 2 _ 1[case=pr_nach_dat] } |
+      pr %NP { 1 _ 2(maybe_art)[case=dat,def=def] %2[case=dat] } |
       NP maŋŋá@pr { 2 _ 1[case=pr_nach_dat] } |
       * "-"@guio NP maŋŋá@pr { 4 _ 1 2 3 } ;
 NUMP -> ! if number is one: use indefinite article instead and singulars:
@@ -487,7 +489,7 @@ N ->
     ! normal n
     %n { 1[case=(if (1.case = loc) acc
                                          elif (1.case = ill) dat
-                                         elif (1.case = ess) nom
+                                         elif (1.case = ess) dat
                                          elif (1.case = com) dat
                                          elif (1.case = acc) acc
                                          elif (1.case = dat) dat
