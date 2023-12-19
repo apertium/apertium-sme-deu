@@ -11,7 +11,7 @@
       <!-- <program name="cg-proc -w" debug-suff="valency">
         <file name="sme-deu.val.rlx.bin"/>
       </program>-->
-      <program name="cg-proc -w">
+      <program name="cg-proc -w" debug-suff="disam">
         <file name="sme-deu.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -n -1 -w" debug-suff="syntax">
@@ -24,8 +24,14 @@
       <program name="lt-proc -b">
         <file name="sme-deu.autobil.bin"/>
       </program>
+      <program name="cg-proc" debug-suff="lex">
+        <file name="sme-deu.lex.bin"/>
+      </program>
       <program name="lrx-proc -m">
         <file name="sme-deu.autolex.bin"/>
+      </program>
+      <program name="apertium-anaphora">
+        <file name="apertium-sme-deu.sme-deu.arx"/>
       </program>
       <program name="rtx-proc">
         <file name="sme-deu.rtx.bin"/>

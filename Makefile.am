@@ -15,6 +15,7 @@ TARGETS_COMMON =		\
 	$(PREFIX1).mor.rlx.bin  \
 	$(PREFIX1).syn.rlx.bin  \
 	$(PREFIX1).val.rlx.bin  \
+	$(PREFIX1).lex.bin  \
 	$(PREFIX1).autobil.bin	\
 	$(PREFIX1).autolex.bin	\
 	$(PREFIX1).autogen.bin \
@@ -32,6 +33,15 @@ TARGETS_COMMON =		\
 	$(PREFIX1).revautoseq.bin	\
 	$(PREFIX2).autoseq.bin	\
 	$(PREFIX2).revautoseq.bin
+
+SOURCES= \
+		 $(BASENAME).$(PREFIX1).arx \
+		 $(BASENAME).$(PREFIX2).arx \
+		 $(BASENAME).$(PREFIX1).rtx \
+		 $(BASENAME).$(PREFIX2).rtx \
+		 $(BASENAME).$(PREFIX1).dix \
+		 $(BASENAME).$(PREFIX1).lrx \
+		 $(BASENAME).$(PREFIX2).lrx
 
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
 @ap_include@
@@ -110,7 +120,7 @@ $(PREFIX1).mor.rlx.bin: $(AP_SRC1)/$(LANG1).mor.rlx.bin gt2apertium.cg3r
 $(PREFIX1).syn.rlx.bin: $(AP_SRC1)/$(LANG1).syn.rlx.bin gt2apertium.cg3r
 	cg-relabel $^ $@
 
-$(PREFIX1).val.rlx.bin: $(AP_SRC1)/$(LANG1).val.rlx.bin gt2apertium.cg3r
+$(PREFIX1).val.rlx.bin: $(AP_SRC1)/valency.bin gt2apertium.cg3r
 	cg-relabel $^ $@
 
 
@@ -132,6 +142,9 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ###############################################################################
 ## Lexical selection rules
 ###############################################################################
+
+$(PREFIX1).lex.bin: $(BASENAME).$(PREFIX1).lex
+	cg-comp $< $@
 
 $(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
 	lrx-comp $< $@
