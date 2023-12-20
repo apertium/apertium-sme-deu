@@ -841,55 +841,63 @@ SELECT:fallback ("avhengig av"i) (0 ("<duohken>"i)) ;
 SELECT ("om"i) (0 ("<alde>"i) OR ("<nalde>"i) LINK *-2 ("<nággu>"i) OR ("<gilvu>"i) OR ("<gilvalit>"i) OR ("<nágget>"i) OR ("<riidu>"i) OR ("<riidalit>"i) BARRIER SV-BOUNDARY) ;
 SELECT:fallback ("på"i) (0 ("<alde>"i) OR ("<nalde>"i)) ;
 
-# go (default)=> når
-# go:1 => at, go:2 => enn, go:3 => som, go:4 => da, go:5 => fordi
 
-SELECT:når ("når"i) (0 ("<go>"i)) (-1 ("<rápmi>"i) + loc) ;
 
-SELECT:så-langt-som ("som"i) (0 ("<go>"i)) (-2 ("så" "<nu>")) (-1 adj OR adv OR ind) (0 cnjsub) ;
-SELECT:som ("som"i) (0 ("<go>"i)) (*-1 ("<seammá>"i) OR ("<liikka>"i) BARRIER SV-BOUNDARY) ;
-SELECT:som ("som"i) (0 ("<go>"i)) (1 ("<eará>"i) OR ("<navdit>") OR ("<jáhkkit>")) ;
-SELECT:som ("som"i) (0 ("<go>"i)) (-1 comp LINK -1 ("<beali>"i)) ;
+#sme-deu go (default)=> als
+# go:1 => weil, go:2 => wie, go:3 => dass
 
-SELECT ("at"i) (0 ("<go>"i)) (0 cnjsub) (-1 ("<maŋŋel>"i) OR ("<ovdal>"i) OR ("<dan dihte>"i) LINK 0 adv) ;
-SELECT ("at"i) (0 ("<go>"i)) (0 cnjsub) (-1 COPULAS LINK -1 (adj nom)) ;
-#SELECT ("at"i) (0 ("<go>"i)) (0 cnjsub) (-1 adj - comp) ;
+# Alimusriekti cealká maiddái ahte Fovse boazoeaiggádiid olmmošvuoigatvuođat leat rihkkojuvvon, go bieggafápmorusttet lea biddjon sin guohtuneatnamiidda, ja muosehuhttá bohccuid. > weil
+# – Mis leat seamma gáibádusat dál go mannan dálvvi akšuvnnain ledje, dadjá Elle Nystad. > wie
+# – Lea hirbmat váivi ja hástaleaddji go mii dovdat ahte mii fertet ođđasit akšuneret. > weil
+# Lea jáhkehahtti ahte ii mihkkege leat dáhpáhuvvan dan rájes go mii maŋimuš háve akšuneriimet, lohká son. "dan rájes go" = seit
+# 500 beaivvi maŋŋel go Alimusriekti celkkii duomu, de álggahuvvui dássážii dat stuorámus akšuvdna mii bealušta sámi vuoigatvuođaid. "maŋŋel go" nachdem
+
+SELECT:als ("als"i) (0 ("<go>"i)) (-1 ("<rápmi>"i) + loc) ;
+
+SELECT:så-langt-som ("so"i) (0 ("<go>"i)) (-2 ("so" "<nu>")) (-1 adj OR adv OR ind) (0 cnjsub) ;
+SELECT:wie ("wie"i) (0 ("<go>"i)) (*-1 ("<seammá>"i) OR ("<liikka>"i) BARRIER SV-BOUNDARY) ;
+SELECT:wie ("wie"i) (0 ("<go>"i)) (1 ("<eará>"i) OR ("<navdit>") OR ("<jáhkkit>")) ;
+SELECT:wie ("wie"i) (0 ("<go>"i)) (-1 comp LINK -1 ("<beali>"i)) ;
+
+SELECT ("dass"i) (0 ("<go>"i)) (0 cnjsub) (-1 ("<maŋŋel>"i) OR ("<ovdal>"i) OR ("<dan dihte>"i) LINK 0 adv) ;
+SELECT ("dass"i) (0 ("<go>"i)) (0 cnjsub) (-1 COPULAS LINK -1 (adj nom)) ;
+#SELECT ("dass"i) (0 ("<go>"i)) (0 cnjsub) (-1 adj - comp) ;
 ## Son bijai vuosttaš spáppa mollii 22 minuvtta maŋŋel go čiekčamat ledje álgán.
 ## Buorre lei go bohtet.
 ## Gummá go ii boahtán.
 
-SELECT ("enn"i) (0 ("<go>"i)) (0 cnjsub LINK 1 ("<vejolaš>"i)) ;
-SELECT ("enn"i) (0 ("<go>"i)) (0 cnjsub LINK 1 (@COMP-CS←)) ;
-SELECT ("enn"i) (0 ("<go>"i)) (0 cnjsub LINK -1 (@COMP-CS←)) ;
-SELECT ("enn"i) (0 ("<go>"i)) (0 cnjsub) (-1 ("<veara>"i) OR ("<eará>"i)) ;
-SELECT ("enn"i) (0 ("<go>"i)) (-1 ("<veara>"i) OR ("<eará>"i)) ;
-SELECT ("enn"i) (0 ("<go>"i)) (1 ("<dušše>"i) OR ("<goassege>"i)) ;
-SELECT ("enn"i) (0 ("<go>"i)) (-1 conneg LINK -1 neg)(NEGATE 1 VFIN) ;
-SELECT ("enn"i) (0 ("<go>"i)) (0 cnjsub) (*-1 ("<ovdal>"i) OR ("<eará>"i) BARRIER S-BOUNDARY) ;
-SELECT ("enn"i) (0 ("<go>"i)) (0 cnjsub) (*-1 comp BARRIER VFIN OR S-BOUNDARY) ;
+SELECT ("als"i) (0 ("<go>"i)) (0 cnjsub LINK 1 ("<vejolaš>"i)) ;
+SELECT ("als"i) (0 ("<go>"i)) (0 cnjsub LINK 1 (@COMP-CS←)) ;
+SELECT ("als"i) (0 ("<go>"i)) (0 cnjsub LINK -1 (@COMP-CS←)) ;
+SELECT ("als"i) (0 ("<go>"i)) (0 cnjsub) (-1 ("<veara>"i) OR ("<eará>"i)) ;
+SELECT ("als"i) (0 ("<go>"i)) (-1 ("<veara>"i) OR ("<eará>"i)) ;
+SELECT ("als"i) (0 ("<go>"i)) (1 ("<dušše>"i) OR ("<goassege>"i)) ;
+SELECT ("als"i) (0 ("<go>"i)) (-1 conneg LINK -1 neg)(NEGATE 1 VFIN) ;
+SELECT ("als"i) (0 ("<go>"i)) (0 cnjsub) (*-1 ("<ovdal>"i) OR ("<eará>"i) BARRIER S-BOUNDARY) ;
+SELECT ("als"i) (0 ("<go>"i)) (0 cnjsub) (*-1 comp BARRIER VFIN OR S-BOUNDARY) ;
 ## Son lea viššaleabbo go mun.
 ## Dat dáidá riggát go mii jáhkkit.
 ## Dii han lehpet eanet veara go ollu cizážat.
 ## Viššalat ohppet eanet go láikkit.
 ## Ovdal buorida son dálkkiidis go neavrres olmmoš dábiidis.
 
-SELECT ("som"i) (0 ("<go>"i)) (0 cnjsub) ((-1 ("<nu>"i) OR ("<seammá>"i) OR ("<seammás>"i) LINK 0 adv) OR (-1 adv OR adj LINK -1 ("<nu>"i))) ;
+SELECT ("wie"i) (0 ("<go>"i)) (0 cnjsub) ((-1 ("<nu>"i) OR ("<seammá>"i) OR ("<seammás>"i) LINK 0 adv) OR (-1 adv OR adj LINK -1 ("<nu>"i))) ;
 ## Elvenes oaččui Niehkostipeandda nu go lei sávvan.
 
-SELECT ("da"i) (0 ("<go>"i)) (0 cnjsub) (*1 (vblex pret) BARRIER (←hab→) OR (@ADVL→)) ;
+SELECT ("als"i) (0 ("<go>"i)) (0 cnjsub) (*1 (vblex pret) BARRIER (←hab→) OR (@ADVL→)) ;
 
-SELECT ("fordi"i) (0 ("<go>"i)) (0 cnjsub) (1 (@ADVL→) OR (←hab→) LINK 1 COPULAS) ;
+SELECT ("weil"i) (0 ("<go>"i)) (0 cnjsub) (1 (@ADVL→) OR (←hab→) LINK 1 COPULAS) ;
 ## Olbmot leat čoagganan Kárášjoga márkanii, go márkanis leat beassášdoalut.
 
-SELECT ("fordi"i) (0 ("<go>"i)) (-1 adj + nom) ;
+SELECT ("weil"i) (0 ("<go>"i)) (-1 adj + nom) ;
 
 
-SELECT ("når"i) (0 ("<go>"i) LINK *1 indic) ;
-SELECT:fallback ("når"i) (0 ("<go>"i) + cnjsub) ;
+SELECT ("als"i) (0 ("<go>"i) LINK *1 indic) ;
+SELECT:fallback ("als"i) (0 ("<go>"i) + cnjsub) ;
 
 #SELECT ("i"i) (0 ("<otná>"i) LINK 1 (sem_time)) ;
-SELECT ("i dag"i) (0 ("<otná>"i) LINK 1 post) ;
-SELECT:fallback ("dagens"i) (0 ("<otná>"i)) ;
+SELECT ("heute"i) (0 ("<otná>"i) LINK 1 post) ;
+SELECT:fallback ("heutiger"i) (0 ("<otná>"i)) ;
 
 SELECT:fallback ("hvilken av de to"i) (0 ("<goabbá>"i)) ;
 
