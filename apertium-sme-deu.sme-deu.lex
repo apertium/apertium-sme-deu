@@ -885,12 +885,12 @@ SELECT ("wie"i) (0 ("<go>"i)) (0 cnjsub) ((-1 ("<nu>"i) OR ("<seammá>"i) OR ("<
 ## Elvenes oaččui Niehkostipeandda nu go lei sávvan.
 
 SELECT ("weil"i) (0 ("<go>"i)) (0 cnjsub) (1 (@ADVL→) OR (←hab→) LINK 1 COPULAS) ;
-# – Lea hirbmat váivi ja hástaleaddji go mii dovdat ahte mii fertet ođđasit akšuneret. > weil
-# Olbmot leat čoagganan Kárášjoga márkanii, go márkanis leat beassášdoalut.
-# Alimusriekti cealká maiddái ahte Fovse boazoeaiggádiid olmmošvuoigatvuođat leat rihkkojuvvon, go bieggafápmorusttet lea biddjon sin guohtuneatnamiidda, ja muosehuhttá bohccuid. > weil
 
 SELECT ("weil"i) (0 ("<go>"i)) (-1 adj + nom OR pass + prfprc) ;
 SELECT ("weil"i) (0 ("<go>"i)) (-1 cm LINK -1 adj + nom OR prfprc + pass) ;
+# – Lea hirbmat váivi ja hástaleaddji go mii dovdat ahte mii fertet ođđasit akšuneret. > weil
+# Olbmot leat čoagganan Kárášjoga márkanii, go márkanis leat beassášdoalut.
+# Alimusriekti cealká maiddái ahte Fovse boazoeaiggádiid olmmošvuoigatvuođat leat rihkkojuvvon, go bieggafápmorusttet lea biddjon sin guohtuneatnamiidda, ja muosehuhttá bohccuid. > weil
 
 SELECT ("als"i) (0 ("<go>"i)) (0 cnjsub) (*1 (vblex pret) BARRIER (←hab→) OR (@ADVL→)) ;
 
@@ -1395,31 +1395,31 @@ SELECT ("arrangere"i) (0 ("<lágidit>"i)) ; # passar i fleire kontekstar enn «o
 LIST CURRENCY = "<denara>" "<dollár>" "<euro>" "<kruvdnu>" "<kr>" "<ru>" "<rubel>" "<ruvdno>" "<ruvdnu>" "<¢>" "<€>" "<$>" ;
 
 
-# lohkat 0 = lese, 1 = si, 2 = telle
+#sme-deu lohkat 0 = lesen, 1 = sagen, 2 = rechnen 3 halten es für
 
-SELECT ("si"i) (0 ("<lohkat>"i)) (0 (←vdic→)) ;
-SELECT ("si"i) (0 ("<lohkat>"i)) (1 ("<:>")) ;
-SELECT ("si"i) (0 ("<lohkat>"i)) (-1 ("<,>") OR dem + acc) ;
+SELECT ("sagen"i) (0 ("<lohkat>"i)) (0 (←vdic→)) ;
+SELECT ("sagen"i) (0 ("<lohkat>"i)) (1 ("<:>")) ;
+SELECT ("sagen"i) (0 ("<lohkat>"i)) (-1 ("<,>") OR dem + acc) ;
 
-SELECT ("lese"i) (0 ("<lohkat>"i)) (-1 BOS)(1 ("<eambbo>"i) OR ("<eanet>"i) LINK 1 EOS) ;
-SELECT ("telle"i) (0 ("<lohkat>"i)) (*0 ("<giehta>"i) + pl + com BARRIER SV-BOUNDARY) ;
-SELECT ("telle"i) (0 ("<lohkat>"i)) (*0 sem_ani + pl + acc BARRIER SV-BOUNDARY) ;
+SELECT ("lesen"i) (0 ("<lohkat>"i)) (-1 BOS)(1 ("<eambbo>"i) OR ("<eanet>"i) LINK 1 EOS) ;
+SELECT ("rechnen"i) (0 ("<lohkat>"i)) (*0 ("<giehta>"i) + pl + com BARRIER SV-BOUNDARY) ;
+SELECT ("rechnen"i) (0 ("<lohkat>"i)) (*0 sem_ani + pl + acc BARRIER SV-BOUNDARY) ;
 
 
-SELECT ("lese"i) (0 ("<lohkat>"i)) ((1 sem_txt OR sem_domain OR ("<cealkámuš>"i) OR ("<Ávvir>") LINK 0 acc) OR (-1 sem_txt OR sem_domain LINK 0 acc )  OR (1 ("<eksámen>"i))) ;
+SELECT ("lesen"i) (0 ("<lohkat>"i)) ((1 sem_txt OR sem_domain OR ("<cealkámuš>"i) OR ("<Ávvir>") LINK 0 acc) OR (-1 sem_txt OR sem_domain LINK 0 acc )  OR (1 ("<eksámen>"i))) ;
 # Son lohká ahte lea buorre doppe.
 
-SELECT:lese-samisk ("lese"i) (0 ("<lohkat>"i)) (1 LANGUAGE LINK 0 acc OR loc) ;
-SELECT:lese ("lese"i) (0 ("<lohkat>"i)) (*1 sem_edu LINK 0 loc) ;
-SELECT:lese ("lese"i) (0 ("<lohkat>"i)) (1 sem_lang) ;
+SELECT:lese-samisk ("lesen"i) (0 ("<lohkat>"i)) (1 LANGUAGE LINK 0 acc OR loc) ;
+SELECT:lese ("lesen"i) (0 ("<lohkat>"i)) (*1 sem_edu LINK 0 loc) ;
+SELECT:lese ("lesen"i) (0 ("<lohkat>"i)) (1 sem_lang) ;
 # Ruth Larsena mielas dát vuoseha ahte lea vejolaš lohkagoahtit sámegiela easkka joatkkaskuvllas
-SELECT:lese ("lese"i) (0 ("<lohkat>"i) LINK 0 der_inchl) ;
+SELECT:lese ("lesen"i) (0 ("<lohkat>"i) LINK 0 der_inchl) ;
 
-SELECT ("si"i) (0 ("<lohkat>"i))(-1 HUMAN) (*1 ill BARRIER NOT-NPMOD) ;
-SELECT ("si"i) (0 ("<lohkat>"i)) (1 ("<ahte>"i) OR ref + acc OR ref + loc OR prfprc OR adj - attr) ;
-SELECT ("si"i) (0 ("<lohkat>"i)) (*1 ess) ;
+SELECT ("sagen"i) (0 ("<lohkat>"i))(-1 HUMAN) (*1 ill BARRIER NOT-NPMOD) ;
+SELECT ("sagen"i) (0 ("<lohkat>"i)) (1 ("<ahte>"i) OR ref + acc OR ref + loc OR prfprc OR adj - attr) ;
+SELECT ("sagen"i) (0 ("<lohkat>"i)) (*1 ess) ;
 
-SELECT ("si"i) (0 ("<lohkat>"i)) (*1 FMAINV OR actio OR prfprc OR inf BARRIER S-BOUNDARY OR ("<galle>"i) OR ("<man>"i)) (NEGATE *0 acc + sem_txt BARRIER S-BOUNDARY)   ;
+SELECT ("sagen"i) (0 ("<lohkat>"i)) (*1 FMAINV OR actio OR prfprc OR inf BARRIER S-BOUNDARY OR ("<galle>"i) OR ("<man>"i)) (NEGATE *0 acc + sem_txt BARRIER S-BOUNDARY)   ;
 ## Ovddeš bargi Yle Sámi Radios, Ánne Risten Juuso, lohká ahte Gárasavvonis livčče eará latnja leamaš Yle Sámi radio doaimmahussii. -  Den tidligere arbeideren Yle på Samelands Radio, Ánne Risten Juuso, hun sier at ...
 ## Son lohká máddin Sámis lea sámit garrasabbot deddon dahje vealahuvvon go davvin. - Han sier sørfra har Sameland samer hardere trykt eller berøvd nordpå.
 ## Lars Anders Baer ii eahpit ii veahášge go lohká dákkáraš álbmotsirren lea lága ja álbmotrievtti vuostá. - Lars Anders Baer tviler ikke ikke *veahášge når han sier *dákkáraš en folkeisolering er loven og folkeretten mot.
@@ -1427,20 +1427,23 @@ SELECT ("si"i) (0 ("<lohkat>"i)) (*1 FMAINV OR actio OR prfprc OR inf BARRIER S-
 ## Soai siđaiga dávjá Liná lohkat jitnosit go sis lei lohkan-hárjehallan.
 
 
-#SELECT ("si"i) (0 ("<lohkat>"i)) (-1 COMMA) (*1 (@←SUBJ) BARRIER VFIN);
-#SELECT ("si"i) (0 ("<lohkat>"i)) (-1 (@SUBJ→) LINK -1 COMMA);
-#SELECT ("si"i) (0 ("<lohkat>"i)) (1 sem_hum + nom OR np + nom) ;
+#SELECT ("sagen"i) (0 ("<lohkat>"i)) (-1 COMMA) (*1 (@←SUBJ) BARRIER VFIN);
+#SELECT ("sagen"i) (0 ("<lohkat>"i)) (-1 (@SUBJ→) LINK -1 COMMA);
+#SELECT ("sagen"i) (0 ("<lohkat>"i)) (1 sem_hum + nom OR np + nom) ;
 ## Dat lea duohta, lohká Trond.
 
-SELECT ("si"i) (0 ("<lohkat>"i)) (-1 ("<nu>"i));
-SELECT:fallback ("lese"i) (0 ("<lohkat>"i)) ;
+SELECT ("sagen"i) (0 ("<lohkat>"i)) (-1 ("<nu>"i));
+SELECT:fallback ("lesen"i) (0 ("<lohkat>"i)) ;
+
+SELECT ("halten es für"i) (0 ("<lohkat>"i)) (1 ess);
+## Son lohká gáibádussan bissehit olmmošvuoigatvuođarihkkumiid, gaikut bieggamilluid ja ahte boazoeaiggádat ožžot ruovttoluotta iežaset guovlluid.
 
 
-SELECT ("telle"i) (0 ("<lohkat>"i))
+SELECT ("rechnen"i) (0 ("<lohkat>"i))
 	(1 ("<galle>"i) OR ("<man>"i) LINK NOT 0 sem_txt + nom);
 ## Son lohká ruđaid.
 ## Son lohká galle girjji mis leat.
-SELECT:fallback ("si"i) (0 ("<lohkat>"i));
+SELECT:fallback ("sagen"i) (0 ("<lohkat>"i));
 
 SELECT:fallback ("høve"i) (0 ("<soahpat>"i) LINK 1 ill);
 
