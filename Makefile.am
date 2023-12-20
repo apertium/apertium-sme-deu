@@ -14,7 +14,6 @@ TARGETS_COMMON =		\
 	$(PREFIX1).automorf-untrimmed.hfst \
 	$(PREFIX1).mor.rlx.bin  \
 	$(PREFIX1).syn.rlx.bin  \
-	$(PREFIX1).val.rlx.bin  \
 	$(PREFIX1).lex.bin  \
 	$(PREFIX1).autobil.bin	\
 	$(PREFIX1).autolex.bin	\
@@ -120,8 +119,8 @@ $(PREFIX1).mor.rlx.bin: $(AP_SRC1)/$(LANG1).mor.rlx.bin gt2apertium.cg3r
 $(PREFIX1).syn.rlx.bin: $(AP_SRC1)/$(LANG1).syn.rlx.bin gt2apertium.cg3r
 	cg-relabel $^ $@
 
-$(PREFIX1).val.rlx.bin: $(AP_SRC1)/valency.bin gt2apertium.cg3r
-	cg-relabel $^ $@
+#$(PREFIX1).val.rlx.bin: $(AP_SRC1)/valency.bin gt2apertium.cg3r
+#	cg-relabel $^ $@
 
 
 $(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
