@@ -392,16 +392,16 @@ NP -> 2: %N (if ($case = pr_auf_acc) { auf@pr.acc _ 1(maybe_art)[def=def,case=ac
 !!             if ($case = pr_zugunsten_gen) { zugunsten@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
 !!             if ($case = pr_zuungunsten_gen) { zuungunsten@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
 !!             if ($case = pr_zulasten_gen) { zulasten@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
-             else { %1 } 
+             else { 1(maybe_art)[case=1.case] %1[case=1.case] } 
     ) ;
 
 PP -> NUMP post { 2 _ 1 } |
       ! idioms
       prn.pers.*.gen.* mielas@post { 1 _ Meinung@n.f.sg.nom _ nach@pr.dat } |
       PRN post { 2 _ 1 } |
-      NP post { 2 _ 1[case=pr_nach_dat] } |
+      NP post { 2 _ 1[case=dat] } |
       pr %NP { 1 _ 2(maybe_art)[case=dat,def=def] %2[case=dat] } |
-      NP maŋŋá@pr { 2 _ 1[case=pr_nach_dat] } |
+      NP maŋŋá@pr { 2 _ 1[case=dat] } |
       * "-"@guio NP maŋŋá@pr { 4 _ 1 2 3 } ;
 NUMP -> ! if number is one: use indefinite article instead and singulars:
         ! expressions
@@ -440,8 +440,9 @@ NP -> A %N ADV { %1[gender=2.gender,
                    number=2.number,case=2.case] _ %2 _ 3 } |
       A %N { %1[gender=2.gender,
                  number=2.number,case=2.case] _ %2 } |
-      1: vblex.*."@→N" N { 1 _ 2 } |
-      1: vblex.*."@→N" NP { 1 _ 2 } |
+      1: vblex.*."@→N" N { 1(adj) _ 2 } |
+      1: vblex.*."@→N" N.*.gen %N { 3 _ der@det.def.[1.gender].sg.gen _ 1(adj)[case=gen] _ 2[case=gen] } |
+      1: vblex.*."@→N" NP { 1(adj) _ 2 } |
       %N ADV { %1 _ 2 } |
       N.*.gen %N { %2 _ der@det.def.[1.gender].sg.gen _ 1 } |
       PROPN.*.gen %N { %2 _ der@det.def.[1.gender].sg.gen _ 1 } |
