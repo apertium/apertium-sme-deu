@@ -42,6 +42,7 @@ LIST acr = acr ;
 LIST arab = arab ;
 
 LIST clb = clb sent cm ;
+LIST cm = cm ;
 LIST left = left lquot ;
 LIST right = right rquot ;
 LIST web = web ;
@@ -846,16 +847,14 @@ SELECT:fallback ("på"i) (0 ("<alde>"i) OR ("<nalde>"i)) ;
 #sme-deu go (default)=> als
 # go:1 => weil, go:2 => wie, go:3 => dass
 
-# Alimusriekti cealká maiddái ahte Fovse boazoeaiggádiid olmmošvuoigatvuođat leat rihkkojuvvon, go bieggafápmorusttet lea biddjon sin guohtuneatnamiidda, ja muosehuhttá bohccuid. > weil
-# – Mis leat seamma gáibádusat dál go mannan dálvvi akšuvnnain ledje, dadjá Elle Nystad. > wie
-# – Lea hirbmat váivi ja hástaleaddji go mii dovdat ahte mii fertet ođđasit akšuneret. > weil
 # Lea jáhkehahtti ahte ii mihkkege leat dáhpáhuvvan dan rájes go mii maŋimuš háve akšuneriimet, lohká son. "dan rájes go" = seit
 # 500 beaivvi maŋŋel go Alimusriekti celkkii duomu, de álggahuvvui dássážii dat stuorámus akšuvdna mii bealušta sámi vuoigatvuođaid. "maŋŋel go" nachdem
 
 SELECT:als ("als"i) (0 ("<go>"i)) (-1 ("<rápmi>"i) + loc) ;
 
 SELECT:så-langt-som ("so"i) (0 ("<go>"i)) (-2 ("so" "<nu>")) (-1 adj OR adv OR ind) (0 cnjsub) ;
-SELECT:wie ("wie"i) (0 ("<go>"i)) (*-1 ("<seammá>"i) OR ("<liikka>"i) BARRIER SV-BOUNDARY) ;
+SELECT:wie ("wie"i) (0 ("<go>"i)) (*-1 ("<seammá>"i) OR ("<seamma>"i) OR ("<liikka>"i) BARRIER SV-BOUNDARY) ;
+	# – Mis leat seamma gáibádusat dál go mannan dálvvi akšuvnnain ledje, dadjá Elle Nystad. > wie
 SELECT:wie ("wie"i) (0 ("<go>"i)) (1 ("<eará>"i) OR ("<navdit>") OR ("<jáhkkit>")) ;
 SELECT:wie ("wie"i) (0 ("<go>"i)) (-1 comp LINK -1 ("<beali>"i)) ;
 
@@ -884,12 +883,17 @@ SELECT ("als"i) (0 ("<go>"i)) (0 cnjsub) (*-1 comp BARRIER VFIN OR S-BOUNDARY) ;
 SELECT ("wie"i) (0 ("<go>"i)) (0 cnjsub) ((-1 ("<nu>"i) OR ("<seammá>"i) OR ("<seammás>"i) LINK 0 adv) OR (-1 adv OR adj LINK -1 ("<nu>"i))) ;
 ## Elvenes oaččui Niehkostipeandda nu go lei sávvan.
 
+SELECT ("weil"i) (0 ("<go>"i)) (0 cnjsub) (1 (@ADVL→) OR (←hab→) LINK 1 COPULAS) ;
+# – Lea hirbmat váivi ja hástaleaddji go mii dovdat ahte mii fertet ođđasit akšuneret. > weil
+# Olbmot leat čoagganan Kárášjoga márkanii, go márkanis leat beassášdoalut.
+# Alimusriekti cealká maiddái ahte Fovse boazoeaiggádiid olmmošvuoigatvuođat leat rihkkojuvvon, go bieggafápmorusttet lea biddjon sin guohtuneatnamiidda, ja muosehuhttá bohccuid. > weil
+
+SELECT ("weil"i) (0 ("<go>"i)) (-1 adj + nom OR der_passl + prfprc) ;
+SELECT ("weil"i) (0 ("<go>"i)) (-1 cm LINK -1 adj + nom OR prfprc + der_pass) ;
+
 SELECT ("als"i) (0 ("<go>"i)) (0 cnjsub) (*1 (vblex pret) BARRIER (←hab→) OR (@ADVL→)) ;
 
-SELECT ("weil"i) (0 ("<go>"i)) (0 cnjsub) (1 (@ADVL→) OR (←hab→) LINK 1 COPULAS) ;
-## Olbmot leat čoagganan Kárášjoga márkanii, go márkanis leat beassášdoalut.
 
-SELECT ("weil"i) (0 ("<go>"i)) (-1 adj + nom) ;
 
 
 SELECT ("als"i) (0 ("<go>"i) LINK *1 indic) ;
