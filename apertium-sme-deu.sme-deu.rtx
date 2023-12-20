@@ -345,7 +345,7 @@ VP -> 2: %VP NP.*.loc { %1 _ 2[case=(if (1.lem in_caseless verb_loc_to_auf) pr_a
 VP -> 2: %VP NP.*.ill { %1 _ 2[case=(if (1.lem in_caseless verb_ill_to_zu) pr_zu_acc                               
                                   else 2.case)]} ;
                                   
-NP -> 2: %N (if ($case = pr_auf_acc) { auf@pr.acc _ 1(maybe_art)[def=def,case=acc] %1[case=acc] }
+DP -> 2: %N (if ($case = pr_auf_acc) { auf@pr.acc _ 1(maybe_art)[def=def,case=acc] %1[case=acc] }
              ! assume that we came from a PP and should thus be definite
              if ($case = pr_an_acc) { an@pr.acc _ 1(maybe_art)[def=def,case=acc] %1[case=acc] }
              if ($case = pr_über_acc) { über@pr.acc _ 1(maybe_art)[def=def,case=acc] %1[case=acc] }
@@ -392,7 +392,7 @@ NP -> 2: %N (if ($case = pr_auf_acc) { auf@pr.acc _ 1(maybe_art)[def=def,case=ac
 !!             if ($case = pr_zugunsten_gen) { zugunsten@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
 !!             if ($case = pr_zuungunsten_gen) { zuungunsten@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
 !!             if ($case = pr_zulasten_gen) { zulasten@pr.gen _ 1(maybe_art)[def=def,case=gen] %1[case=gen] } 
-             else { 1(maybe_art)[case=1.case] %1[case=1.case] } 
+             else { 1(maybe_art) %1[case=1.case] } 
     ) ;
 
 PP -> NUMP post { 2 _ 1 } |
