@@ -174,6 +174,7 @@ LIST tv = tv ;
 
 LIST pasv = pasv ;              # bidix-added
 LIST der_pass = der_passl der_passs ;
+LIST pass = pass ;
 
 LIST pret = pret;
 LIST pres = pres ;
@@ -888,8 +889,8 @@ SELECT ("weil"i) (0 ("<go>"i)) (0 cnjsub) (1 (@ADVL→) OR (←hab→) LINK 1 CO
 # Olbmot leat čoagganan Kárášjoga márkanii, go márkanis leat beassášdoalut.
 # Alimusriekti cealká maiddái ahte Fovse boazoeaiggádiid olmmošvuoigatvuođat leat rihkkojuvvon, go bieggafápmorusttet lea biddjon sin guohtuneatnamiidda, ja muosehuhttá bohccuid. > weil
 
-SELECT ("weil"i) (0 ("<go>"i)) (-1 adj + nom OR der_passl + prfprc) ;
-SELECT ("weil"i) (0 ("<go>"i)) (-1 cm LINK -1 adj + nom OR prfprc + der_pass) ;
+SELECT ("weil"i) (0 ("<go>"i)) (-1 adj + nom OR pass + prfprc) ;
+SELECT ("weil"i) (0 ("<go>"i)) (-1 cm LINK -1 adj + nom OR prfprc + pass) ;
 
 SELECT ("als"i) (0 ("<go>"i)) (0 cnjsub) (*1 (vblex pret) BARRIER (←hab→) OR (@ADVL→)) ;
 
