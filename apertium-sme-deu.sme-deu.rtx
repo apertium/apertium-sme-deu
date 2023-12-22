@@ -193,7 +193,9 @@ vblex_simple: (if (1.finity = inf) 1(vblex_inf)
         elif (1.pcp = prfprc) 1(vblex_pp)  ! probably not ideal
         elif (1.pcp = pprs) 1(vblex_pp)
         else 1(vblex_fin) ) ;
-vblex: (if (1.pass = pass)
+vblex: (if (1.pass = pass and 1.pcp = prfprc)
+          [ 1(vblex_pp)[pcp=pp] _ 1(vblex_simple)[pos_tag=vaux,lem=werden] ]
+        elif (1.pass = pass)
           [ 1(vblex_simple)[pos_tag=vaux,lem=werden] _ 1(vblex_pp)[pcp=pp] ]
         elif (1.inch = inch)
           [ 1(vblex_simple)[lem=anfangen] _ zu@pr _ 1(vblex_simple)[finity=inf,inf=inf] ]
@@ -321,7 +323,8 @@ VP -> NP.*.loc.sem_hum leat@vblex {
       V { *(pro_undrop)[number=1.number,person=1.person] 1 } |  ! stray V
       2: %VP NP.*.ill { 1 _ 2[case=(if (1.lem in_cl verb_ill_to_an) pr_an_acc else 2.case)] } |
       ADV V { 1 _ 2 } ;
-V -> %vblex.*.der_passl.* {1 _ werden@vaux.prs.[1.person].[1.number] } |
+V -> %vblex.*.der_passl.*.prfprc {werden@vaux.prs.[1.person].[1.number] _ 1 } |
+     %vblex.*.der_passl.* {1 _ werden@vaux.prs.[1.person].[1.number] } |
 	 %vblex.*.inf.*."@←ADVL" {zu@ito _ 1} |
      %vblex.*.p3.sg.sentinit { es@prn.pers.p3.nt.sg.nom[lemcase=1.lemcase] _ 1[lemcase=aa] } |
      %vblex [$$expletive=(if (1.lem = "regnen") es@prn.pers.p3.nt.sg.nom
