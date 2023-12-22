@@ -14,9 +14,13 @@
       <program name="cg-proc -w" debug-suff="disam">
         <file name="sme-deu.mor.rlx.bin"/>
       </program>
-      <program name="cg-proc -n -1 -w" debug-suff="syntax">
+      <program name="cg-proc -w" debug-suff="syntax">
         <file name="sme-deu.syn.rlx.bin"/>
       </program>
+      <program name="cg-proc -n -1 -w" debug-suff="deps">
+        <file name="sme-deu.dep.rlx.bin"/>
+      </program>
+      <program name="sed -e 's/&lt;#[^&gt;]*&gt;//g'"/>
       <program name="apertium-pretransfer"/>
       <program name="lsx-proc">
         <file name="sme-deu.autoseq.bin"/>
@@ -24,7 +28,7 @@
       <program name="lt-proc -b">
         <file name="sme-deu.autobil.bin"/>
       </program>
-      <program name="cg-proc" debug-suff="lex">
+      <program name="cg-proc" debug-suff="cglex">
         <file name="sme-deu.lex.bin"/>
       </program>
       <program name="lrx-proc -m">

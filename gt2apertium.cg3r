@@ -166,6 +166,9 @@ MAP (<smj>) (←smj→);
 MAP (<ext>) (←ext→);
 MAP (<vdic>) (←vdic→);
 
+MAP (<mv>) (←mv→);
+MAP (<aux>) (←aux→);
+
 # DEFAULTs The rest are simply lowercasing and s/>/→/;s/</←/;s/\//_/
 MAP (@>A) (@→A);
 MAP (@A<) (@A←);
@@ -185,6 +188,8 @@ MAP (@COMP-CS<) (@COMP-CS←);
 MAP (@>CS) (@→CS);
 MAP (@-F<ADVL) (@-F←ADVL);
 MAP (@-FADVL>) (@-FADVL→);
+MAP (@FS-ADVL>) (@FS-ADVL→);
+MAP (@FS-<ADVL) (@FS-←ADVL);
 MAP (@-F<OBJ) (@-F←OBJ);
 MAP (@-FOBJ>) (@-FOBJ→);
 MAP (@-F<OPRED) (@-F←OPRED);
